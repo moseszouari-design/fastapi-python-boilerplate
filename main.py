@@ -53,7 +53,7 @@ def read_root():
         a { text-decoration: none; }
 
         nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; justify-content: space-between;
-              padding: 18px 5vw; background: rgba(5,5,5,0.8); backdrop-filter: blur(12px); border-bottom: 1px solid #161b22; }
+              padding: 18px 5vw; background: rgba(5,5,5,0.96); border-bottom: 1px solid #161b22; }
         .logo { font-weight: 800; font-size: 1.05rem; color: #fff; letter-spacing: 0.5px; }
         .logo span { color: #58a6ff; }
         .nav-cta { background: #58a6ff; color: #000; padding: 10px 22px; border-radius: 8px; font-weight: 700; font-size: 0.9rem; }
@@ -73,7 +73,7 @@ def read_root():
         .cta-row { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
         .btn { background: #58a6ff; color: #000; padding: 15px 30px; border-radius: 8px; font-weight: 700; display: inline-block;
                transition: transform 0.15s ease, box-shadow 0.15s ease; }
-        .btn:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(88,166,255,0.35); }
+        .btn:hover { transform: translateY(-2px); }
         .btn.ghost { background: transparent; color: #fff; border: 1px solid #30363d; }
         .btn.ghost:hover { border-color: #58a6ff; box-shadow: none; }
 
