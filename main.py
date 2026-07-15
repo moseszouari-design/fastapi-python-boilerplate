@@ -58,11 +58,8 @@ HOMEPAGE_HTML = """
         .logo span { color: #58a6ff; }
         .nav-cta { background: #58a6ff; color: #000; padding: 10px 22px; border-radius: 8px; font-weight: 700; font-size: 0.9rem; }
 
-        .hero { position: relative; text-align: center; padding: 110px 20px 80px; overflow: hidden; }
-        .hero::before { content: ''; position: absolute; top: -220px; left: 50%; transform: translateX(-50%);
-                        width: 900px; height: 500px; background: radial-gradient(ellipse at center, rgba(88,166,255,0.22), transparent 65%);
-                        pointer-events: none; }
-        .hero > * { position: relative; }
+        .hero { text-align: center; padding: 110px 20px 80px;
+                background: radial-gradient(ellipse 900px 500px at 50% -220px, rgba(88,166,255,0.18), transparent 65%); }
         .pill { display: inline-block; font-size: 0.75rem; font-weight: 700; letter-spacing: 2px; color: #58a6ff;
                 border: 1px solid rgba(88,166,255,0.4); background: rgba(88,166,255,0.08); padding: 6px 16px; border-radius: 20px; margin-bottom: 28px; }
         .hero h1 { font-size: clamp(2.4rem, 6vw, 4.2rem); font-weight: 800; line-height: 1.1; margin-bottom: 22px;
@@ -71,11 +68,10 @@ HOMEPAGE_HTML = """
         .hero p.sub { color: #8b949e; font-size: 1.15rem; max-width: 620px; margin: 0 auto 14px; line-height: 1.6; }
         .hero p.note { color: #d29922; font-size: 0.9rem; margin-bottom: 38px; }
         .cta-row { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
-        .btn { background: #58a6ff; color: #000; padding: 15px 30px; border-radius: 8px; font-weight: 700; display: inline-block;
-               transition: transform 0.15s ease, box-shadow 0.15s ease; }
-        .btn:hover { transform: translateY(-2px); }
+        .btn { background: #58a6ff; color: #000; padding: 15px 30px; border-radius: 8px; font-weight: 700; display: inline-block; }
+        .btn:hover { background: #79b8ff; }
         .btn.ghost { background: transparent; color: #fff; border: 1px solid #30363d; }
-        .btn.ghost:hover { border-color: #58a6ff; box-shadow: none; }
+        .btn.ghost:hover { border-color: #58a6ff; background: transparent; }
 
         .stats { display: flex; justify-content: center; gap: 0; flex-wrap: wrap; border-top: 1px solid #161b22; border-bottom: 1px solid #161b22; }
         .stat { padding: 28px 40px; text-align: center; flex: 1 1 200px; border-right: 1px solid #161b22; }
@@ -89,7 +85,7 @@ HOMEPAGE_HTML = """
         .section-head p { color: #8b949e; max-width: 560px; margin: 0 auto; }
 
         .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
-        .feature { background: #0d1117; border: 1px solid #21262d; border-radius: 14px; padding: 32px; transition: border-color 0.2s ease; }
+        .feature { background: #0d1117; border: 1px solid #21262d; border-radius: 14px; padding: 32px; }
         .feature:hover { border-color: rgba(88,166,255,0.5); }
         .feature .icon { font-size: 1.6rem; margin-bottom: 16px; }
         .feature h3 { font-size: 1.1rem; margin-bottom: 10px; }
@@ -97,9 +93,9 @@ HOMEPAGE_HTML = """
 
         .pricing { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
         .card { background: #0d1117; padding: 40px 28px; border-radius: 14px; border: 1px solid #21262d; text-align: center;
-                width: 252px; display: flex; flex-direction: column; transition: transform 0.15s ease, border-color 0.2s ease; }
-        .card:hover { transform: translateY(-4px); border-color: #30363d; }
-        .card.featured { border: 1px solid #58a6ff; box-shadow: 0 0 40px rgba(88,166,255,0.12); }
+                width: 252px; display: flex; flex-direction: column; }
+        .card:hover { border-color: #30363d; }
+        .card.featured { border: 1px solid #58a6ff; }
         .card .price { font-size: 2.1rem; font-weight: 800; margin: 18px 0 4px; }
         .card .per { color: #8b949e; font-size: 0.8rem; margin-bottom: 14px; }
         .card p.desc { color: #8b949e; font-size: 0.9rem; line-height: 1.55; flex: 1; }
