@@ -174,7 +174,7 @@ def read_root():
             <div class="card">
                 <span class="badge live">AVAILABLE NOW</span>
                 <h3>Prototype</h3>
-                <div class="price">$29.99</div>
+                <div class="price">$79.99</div>
                 <div class="per">one-time</div>
                 <p class="desc">Instant access to the live prototype engine. Test-drive the strategy today.</p>
                 <a href="YOUR_STRIPE_LINK_4" class="btn">Try Prototype</a>
