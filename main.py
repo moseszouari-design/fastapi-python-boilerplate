@@ -54,17 +54,31 @@ def read_root():
         .card { background: #111; padding: 40px; border-radius: 12px; border: 1px solid #222; text-align: center; width: 300px; }
         .card.featured { border: 1px solid #58a6ff; }
         .btn { background: #58a6ff; color: #000; padding: 15px 30px; border-radius: 6px; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 20px; }
+        .badge { display: inline-block; font-size: 0.7rem; font-weight: bold; letter-spacing: 1px; padding: 4px 12px; border-radius: 20px; margin-bottom: 15px; }
+        .badge.preorder { color: #d29922; border: 1px solid #d29922; }
+        .badge.live { color: #3fb950; border: 1px solid #3fb950; }
     </style>
 </head>
 <body>
     <div class="hero">
         <h1>Institutional Income, Automated.</h1>
         <p>Run professional-grade Z-score quant strategies without watching charts. High-frequency algorithmic precision, delivered passively.</p>
+        <p style="font-size: 0.95rem;">The Prototype is live today &mdash; full-engine tiers are pre-orders and unlock at launch.</p>
     </div>
 
     <div class="pricing">
+        <!-- Tier 0: Prototype (available now) -->
+        <div class="card">
+            <span class="badge live">AVAILABLE NOW</span>
+            <h3>Prototype</h3>
+            <div style="font-size: 2rem; margin: 20px 0;">$29.99</div>
+            <p>Instant access to the live prototype engine. One-time.</p>
+            <a href="YOUR_STRIPE_LINK_4" class="btn">Try Prototype</a>
+        </div>
+
         <!-- Tier 1: Lifetime -->
         <div class="card">
+            <span class="badge preorder">PRE-ORDER</span>
             <h3>Founding Alpha</h3>
             <div style="font-size: 2rem; margin: 20px 0;">$199.99</div>
             <p>Lifetime access. No monthly fees.</p>
@@ -73,6 +87,7 @@ def read_root():
 
         <!-- Tier 2: Monthly -->
         <div class="card">
+            <span class="badge preorder">PRE-ORDER</span>
             <h3>Early Access Pass</h3>
             <div style="font-size: 2rem; margin: 20px 0;">$49.99</div>
             <p>Full engine utility. Billed monthly.</p>
@@ -81,6 +96,7 @@ def read_root():
 
         <!-- Tier 3: Annual -->
         <div class="card featured">
+            <span class="badge preorder">PRE-ORDER</span>
             <h3>VIP Annual Pass</h3>
             <div style="font-size: 2rem; margin: 20px 0;">$499.99</div>
             <p>Priority execution + Full API access.</p>
