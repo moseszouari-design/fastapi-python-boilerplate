@@ -34,9 +34,9 @@ def get_item(item_id: int):
     }
 
 
-@app.get("/", response_class=HTMLResponse)
-def read_root():
-    return """
+# Rendered once at import time; served from Vercel's edge cache via the
+# Cache-Control headers below, so traffic spikes never hit the function.
+HOMEPAGE_HTML = """
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -220,3 +220,16 @@ def read_root():
 </body>
 </html>
 """
+
+
+@app.get("/", response_class=HTMLResponse)
+def read_root():
+    # s-maxage lets Vercel's global CDN serve the page without invoking this
+    # function; the edge cache is purged automatically on every deploy, and
+    # stale-while-revalidate keeps responses instant while refreshing.
+    return HTMLResponse(
+        content=HOMEPAGE_HTML,
+        headers={
+            "Cache-Control": "public, max-age=300, s-maxage=86400, stale-while-revalidate=604800"
+        },
+    )
