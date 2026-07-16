@@ -42,175 +42,451 @@ HOMEPAGE_HTML = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ai PassiveAutotrades | Institutional Alpha</title>
+    <title>ai PassiveAutotrades | Automated Z-Score Quant Engine</title>
+    <meta name="description" content="Pre-order access to an automated Z-score mean-reversion trading engine. Institutional-grade methodology, fully hands-free execution.">
+    <meta property="og:title" content="ai PassiveAutotrades — Institutional Income, Automated.">
+    <meta property="og:description" content="Automated Z-score quant strategies without watching charts. Pre-order at founding prices.">
+    <meta property="og:type" content="website">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --bg: #050608; --panel: #0c0f14; --panel-2: #10141b; --line: #1c2230; --line-soft: #141924;
+            --text: #eef2f8; --muted: #97a1b3; --faint: #5b6474;
+            --accent: #4f8ff7; --accent-soft: rgba(79,143,247,0.12); --amber: #d9a13b; --green: #46b876;
+        }
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { background: #050505; color: #fff; font-family: 'Inter', sans-serif; }
-        a { text-decoration: none; }
+        html { scroll-padding-top: 84px; }
+        body { background: var(--bg); color: var(--text); font-family: 'Inter', -apple-system, sans-serif;
+               -webkit-font-smoothing: antialiased; line-height: 1.6; }
+        a { text-decoration: none; color: inherit; }
+        .mono { font-family: 'JetBrains Mono', monospace; }
+        .wrap { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
 
-        nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; justify-content: space-between;
-              padding: 18px 5vw; background: rgba(5,5,5,0.96); border-bottom: 1px solid #161b22; }
-        .logo { font-weight: 800; font-size: 1.05rem; color: #fff; letter-spacing: 0.5px; }
-        .logo span { color: #58a6ff; }
-        .nav-cta { background: #58a6ff; color: #000; padding: 10px 22px; border-radius: 8px; font-weight: 700; font-size: 0.9rem; }
+        /* ---------- nav ---------- */
+        nav { position: sticky; top: 0; z-index: 20; background: rgba(5,6,8,0.97); border-bottom: 1px solid var(--line-soft); }
+        .nav-inner { max-width: 1160px; margin: 0 auto; padding: 0 24px; height: 68px; display: flex; align-items: center; gap: 36px; }
+        .logo { font-weight: 800; font-size: 1rem; letter-spacing: 0.2px; white-space: nowrap; }
+        .logo em { font-style: normal; color: var(--accent); }
+        .nav-links { display: flex; gap: 28px; font-size: 0.88rem; color: var(--muted); font-weight: 500; }
+        .nav-links a:hover { color: var(--text); }
+        .nav-cta { margin-left: auto; background: var(--accent); color: #04070d; padding: 10px 20px; border-radius: 8px;
+                   font-weight: 700; font-size: 0.86rem; white-space: nowrap; }
+        .nav-cta:hover { background: #6ba1f8; }
 
-        .hero { text-align: center; padding: 110px 20px 80px;
-                background: radial-gradient(ellipse 900px 500px at 50% -220px, rgba(88,166,255,0.18), transparent 65%); }
-        .pill { display: inline-block; font-size: 0.75rem; font-weight: 700; letter-spacing: 2px; color: #58a6ff;
-                border: 1px solid rgba(88,166,255,0.4); background: rgba(88,166,255,0.08); padding: 6px 16px; border-radius: 20px; margin-bottom: 28px; }
-        .hero h1 { font-size: clamp(2.4rem, 6vw, 4.2rem); font-weight: 800; line-height: 1.1; margin-bottom: 22px;
-                   background: linear-gradient(180deg, #ffffff 30%, #8b949e); -webkit-background-clip: text; background-clip: text;
-                   -webkit-text-fill-color: transparent; }
-        .hero p.sub { color: #8b949e; font-size: 1.15rem; max-width: 620px; margin: 0 auto 14px; line-height: 1.6; }
-        .hero p.note { color: #d29922; font-size: 0.9rem; margin-bottom: 38px; }
-        .cta-row { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
-        .btn { background: #58a6ff; color: #000; padding: 15px 30px; border-radius: 8px; font-weight: 700; display: inline-block; }
-        .btn:hover { background: #79b8ff; }
-        .btn.ghost { background: transparent; color: #fff; border: 1px solid #30363d; }
-        .btn.ghost:hover { border-color: #58a6ff; background: transparent; }
+        /* ---------- hero ---------- */
+        .hero { border-bottom: 1px solid var(--line-soft);
+                background: radial-gradient(ellipse 1000px 480px at 70% -120px, rgba(79,143,247,0.13), transparent 65%); }
+        .hero-grid { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 60px; align-items: center; padding: 96px 0 88px; }
+        .eyebrow { display: inline-flex; align-items: center; gap: 8px; font-size: 0.72rem; font-weight: 700; letter-spacing: 2.2px;
+                   color: var(--accent); border: 1px solid rgba(79,143,247,0.35); background: var(--accent-soft);
+                   padding: 6px 14px; border-radius: 999px; margin-bottom: 26px; }
+        .eyebrow .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+        h1 { font-size: clamp(2.3rem, 4.6vw, 3.6rem); font-weight: 800; line-height: 1.08; letter-spacing: -0.02em; margin-bottom: 20px; }
+        h1 .grad { background: linear-gradient(90deg, #7db0ff, #4f8ff7); -webkit-background-clip: text;
+                   background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero-sub { color: var(--muted); font-size: 1.08rem; max-width: 480px; margin-bottom: 18px; }
+        .hero-note { display: inline-block; font-size: 0.8rem; font-weight: 600; color: var(--amber);
+                     border: 1px solid rgba(217,161,59,0.35); background: rgba(217,161,59,0.07);
+                     padding: 7px 14px; border-radius: 8px; margin-bottom: 30px; }
+        .cta-row { display: flex; gap: 12px; flex-wrap: wrap; }
+        .btn { display: inline-block; padding: 14px 28px; border-radius: 9px; font-weight: 700; font-size: 0.95rem; }
+        .btn.primary { background: var(--accent); color: #04070d; }
+        .btn.primary:hover { background: #6ba1f8; }
+        .btn.ghost { color: var(--text); border: 1px solid var(--line); }
+        .btn.ghost:hover { border-color: var(--accent); }
+        .hero-foot { display: flex; gap: 22px; margin-top: 26px; color: var(--faint); font-size: 0.78rem; flex-wrap: wrap; }
+        .hero-foot span::before { content: '✓'; color: var(--green); margin-right: 6px; font-weight: 700; }
 
-        .stats { display: flex; justify-content: center; gap: 0; flex-wrap: wrap; border-top: 1px solid #161b22; border-bottom: 1px solid #161b22; }
-        .stat { padding: 28px 40px; text-align: center; flex: 1 1 200px; border-right: 1px solid #161b22; }
-        .stat:last-child { border-right: none; }
-        .stat b { display: block; font-size: 1.15rem; margin-bottom: 4px; }
-        .stat span { color: #8b949e; font-size: 0.85rem; }
+        /* console panel */
+        .console { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden;
+                   font-size: 0.78rem; box-shadow: 0 24px 60px rgba(0,0,0,0.45); }
+        .console-bar { display: flex; align-items: center; gap: 8px; padding: 12px 16px; border-bottom: 1px solid var(--line-soft);
+                       background: var(--panel-2); }
+        .console-bar .dots { display: flex; gap: 6px; }
+        .console-bar .dots i { width: 10px; height: 10px; border-radius: 50%; background: #2a3242; display: block; }
+        .console-bar .title { margin-left: 8px; color: var(--faint); font-size: 0.72rem; letter-spacing: 1px; }
+        .console-body { padding: 18px 20px; display: grid; gap: 10px; }
+        .crow { display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+                border-bottom: 1px dashed var(--line-soft); padding-bottom: 10px; }
+        .crow:last-child { border-bottom: none; padding-bottom: 0; }
+        .crow .pair { color: var(--text); font-weight: 600; }
+        .crow .z { color: var(--muted); }
+        .crow .sig { font-weight: 600; font-size: 0.72rem; letter-spacing: 0.5px; padding: 3px 10px; border-radius: 999px; }
+        .sig.armed { color: var(--accent); background: var(--accent-soft); border: 1px solid rgba(79,143,247,0.3); }
+        .sig.idle { color: var(--faint); background: rgba(92,100,117,0.1); border: 1px solid var(--line-soft); }
+        .console-foot { padding: 12px 20px; border-top: 1px solid var(--line-soft); background: var(--panel-2);
+                        color: var(--faint); font-size: 0.7rem; display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+        .console-caption { text-align: center; color: var(--faint); font-size: 0.7rem; margin-top: 12px; letter-spacing: 0.4px; }
 
-        section { padding: 90px 5vw; max-width: 1240px; margin: 0 auto; }
-        .section-head { text-align: center; margin-bottom: 55px; }
-        .section-head h2 { font-size: 2.2rem; font-weight: 800; margin-bottom: 12px; }
-        .section-head p { color: #8b949e; max-width: 560px; margin: 0 auto; }
+        /* ---------- stats strip ---------- */
+        .strip { border-bottom: 1px solid var(--line-soft); }
+        .strip-inner { max-width: 1160px; margin: 0 auto; padding: 0 24px; display: grid; grid-template-columns: repeat(4, 1fr); }
+        .stat { padding: 26px 18px; text-align: center; border-left: 1px solid var(--line-soft); }
+        .stat:first-child { border-left: none; }
+        .stat b { display: block; font-size: 1.25rem; font-weight: 800; letter-spacing: -0.01em; }
+        .stat span { color: var(--faint); font-size: 0.78rem; }
 
-        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
-        .feature { background: #0d1117; border: 1px solid #21262d; border-radius: 14px; padding: 32px; }
-        .feature:hover { border-color: rgba(88,166,255,0.5); }
-        .feature .icon { font-size: 1.6rem; margin-bottom: 16px; }
-        .feature h3 { font-size: 1.1rem; margin-bottom: 10px; }
-        .feature p { color: #8b949e; font-size: 0.92rem; line-height: 1.6; }
+        /* ---------- sections ---------- */
+        section { padding: 96px 0; }
+        section.alt { background: #07090d; border-top: 1px solid var(--line-soft); border-bottom: 1px solid var(--line-soft); }
+        .sec-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 2.4px; color: var(--accent); margin-bottom: 14px; }
+        .sec-head { max-width: 640px; margin-bottom: 56px; }
+        .sec-head.center { margin-left: auto; margin-right: auto; text-align: center; }
+        h2 { font-size: clamp(1.7rem, 3vw, 2.3rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; margin-bottom: 14px; }
+        .sec-head p { color: var(--muted); font-size: 1rem; }
 
-        .pricing { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
-        .card { background: #0d1117; padding: 40px 28px; border-radius: 14px; border: 1px solid #21262d; text-align: center;
-                width: 252px; display: flex; flex-direction: column; }
-        .card:hover { border-color: #30363d; }
-        .card.featured { border: 1px solid #58a6ff; }
-        .card .price { font-size: 2.1rem; font-weight: 800; margin: 18px 0 4px; }
-        .card .per { color: #8b949e; font-size: 0.8rem; margin-bottom: 14px; }
-        .card p.desc { color: #8b949e; font-size: 0.9rem; line-height: 1.55; flex: 1; }
-        .card .btn { margin-top: 22px; }
-        .badge { display: inline-block; font-size: 0.68rem; font-weight: 700; letter-spacing: 1.5px; padding: 5px 14px;
-                 border-radius: 20px; margin-bottom: 16px; align-self: center; }
-        .badge.preorder { color: #d29922; border: 1px solid #d29922; background: rgba(210,153,34,0.08); }
+        .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+        .step { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 30px; }
+        .step .num { font-family: 'JetBrains Mono', monospace; color: var(--accent); font-size: 0.8rem; font-weight: 600;
+                     display: block; margin-bottom: 16px; }
+        .step h3 { font-size: 1.05rem; margin-bottom: 10px; }
+        .step p { color: var(--muted); font-size: 0.9rem; }
 
-        footer { border-top: 1px solid #161b22; padding: 50px 5vw; text-align: center; }
-        footer .brand { font-weight: 800; margin-bottom: 14px; }
-        footer .brand span { color: #58a6ff; }
-        footer p.disclaimer { color: #484f58; font-size: 0.75rem; max-width: 720px; margin: 0 auto 18px; line-height: 1.6; }
-        footer p.copy { color: #8b949e; font-size: 0.8rem; }
+        .split { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
+        .split .sec-head { margin-bottom: 0; }
+        .checklist { display: grid; gap: 14px; margin-top: 26px; }
+        .checklist li { list-style: none; display: flex; gap: 12px; color: var(--muted); font-size: 0.93rem; }
+        .checklist li::before { content: '✓'; color: var(--green); font-weight: 700; flex-shrink: 0; }
+        .quote-box { background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--accent);
+                     border-radius: 12px; padding: 28px 30px; }
+        .quote-box .big { font-size: 1.15rem; font-weight: 600; line-height: 1.5; margin-bottom: 14px; }
+        .quote-box .src { color: var(--faint); font-size: 0.8rem; }
+
+        .grid-6 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+        .cell { background: var(--panel); border: 1px solid var(--line); border-radius: 13px; padding: 26px; }
+        .cell:hover { border-color: #2a3450; }
+        .cell h3 { font-size: 0.98rem; margin-bottom: 8px; }
+        .cell p { color: var(--muted); font-size: 0.87rem; }
+        .cell .ic { display: inline-flex; width: 38px; height: 38px; align-items: center; justify-content: center;
+                    background: var(--accent-soft); border: 1px solid rgba(79,143,247,0.25); border-radius: 9px;
+                    margin-bottom: 16px; font-size: 1rem; }
+
+        /* ---------- pricing ---------- */
+        .tiers { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; align-items: stretch; }
+        .tier { background: var(--panel); border: 1px solid var(--line); border-radius: 15px; padding: 30px 26px;
+                display: flex; flex-direction: column; }
+        .tier:hover { border-color: #2a3450; }
+        .tier.featured { border-color: var(--accent); position: relative; }
+        .tier.featured .flag { position: absolute; top: -11px; left: 50%; transform: translateX(-50%);
+                               background: var(--accent); color: #04070d; font-size: 0.66rem; font-weight: 800;
+                               letter-spacing: 1.2px; padding: 4px 12px; border-radius: 999px; white-space: nowrap; }
+        .badge { align-self: flex-start; font-size: 0.64rem; font-weight: 700; letter-spacing: 1.4px; padding: 5px 12px;
+                 border-radius: 999px; margin-bottom: 18px; color: var(--amber); border: 1px solid rgba(217,161,59,0.45);
+                 background: rgba(217,161,59,0.07); }
+        .tier h3 { font-size: 1.02rem; margin-bottom: 4px; }
+        .tier .who { color: var(--faint); font-size: 0.78rem; margin-bottom: 18px; }
+        .tier .price { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; }
+        .tier .per { color: var(--faint); font-size: 0.78rem; margin-bottom: 20px; }
+        .tier ul { list-style: none; display: grid; gap: 10px; margin-bottom: 26px; flex: 1; }
+        .tier ul li { display: flex; gap: 10px; color: var(--muted); font-size: 0.84rem; line-height: 1.45; }
+        .tier ul li::before { content: '✓'; color: var(--green); font-weight: 700; flex-shrink: 0; }
+        .tier .btn { text-align: center; width: 100%; padding: 13px 0; }
+        .pricing-note { text-align: center; color: var(--faint); font-size: 0.8rem; margin-top: 26px; }
+
+        /* ---------- faq ---------- */
+        .faq { max-width: 760px; margin: 0 auto; display: grid; gap: 12px; }
+        details { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 0 24px; }
+        details[open] { border-color: #2a3450; }
+        summary { cursor: pointer; list-style: none; font-weight: 600; font-size: 0.96rem; padding: 20px 0;
+                  display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+        summary::-webkit-details-marker { display: none; }
+        summary::after { content: '+'; color: var(--accent); font-size: 1.3rem; font-weight: 400; flex-shrink: 0; }
+        details[open] summary::after { content: '\\2212'; }
+        details .a { color: var(--muted); font-size: 0.9rem; padding-bottom: 22px; }
+
+        /* ---------- final cta ---------- */
+        .final { text-align: center; border-top: 1px solid var(--line-soft);
+                 background: radial-gradient(ellipse 800px 400px at 50% 120%, rgba(79,143,247,0.12), transparent 65%); }
+        .final h2 { margin-bottom: 12px; }
+        .final p { color: var(--muted); max-width: 480px; margin: 0 auto 32px; }
+
+        /* ---------- footer ---------- */
+        footer { border-top: 1px solid var(--line-soft); padding: 56px 0 44px; }
+        .foot-top { display: flex; justify-content: space-between; gap: 30px; flex-wrap: wrap; margin-bottom: 36px; }
+        .foot-links { display: flex; gap: 26px; color: var(--muted); font-size: 0.85rem; }
+        .foot-links a:hover { color: var(--text); }
+        .disclaimer { color: #4a5261; font-size: 0.73rem; line-height: 1.7; border-top: 1px solid var(--line-soft);
+                      padding-top: 26px; max-width: 900px; }
+        .copyright { color: var(--faint); font-size: 0.78rem; margin-top: 18px; }
+
+        /* ---------- responsive ---------- */
+        @media (max-width: 960px) {
+            .hero-grid { grid-template-columns: 1fr; gap: 48px; padding: 64px 0; }
+            .split { grid-template-columns: 1fr; gap: 40px; }
+            .steps, .grid-6 { grid-template-columns: 1fr 1fr; }
+            .tiers { grid-template-columns: 1fr 1fr; }
+            .strip-inner { grid-template-columns: 1fr 1fr; }
+            .stat:nth-child(3) { border-left: none; }
+            .stat { border-top: 1px solid var(--line-soft); }
+            .stat:nth-child(-n+2) { border-top: none; }
+            .nav-links { display: none; }
+        }
+        @media (max-width: 620px) {
+            .steps, .grid-6, .tiers { grid-template-columns: 1fr; }
+            section { padding: 68px 0; }
+        }
     </style>
 </head>
 <body>
     <nav>
-        <a href="/" class="logo">ai <span>PassiveAutotrades</span></a>
-        <a href="#pricing" class="nav-cta">Get Access</a>
+        <div class="nav-inner">
+            <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+            <div class="nav-links">
+                <a href="#how">How It Works</a>
+                <a href="#strategy">Strategy</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#faq">FAQ</a>
+            </div>
+            <a href="#pricing" class="nav-cta">Pre-Order Access</a>
+        </div>
     </nav>
 
-    <div class="hero">
-        <div class="pill">AI-POWERED QUANT ENGINE</div>
-        <h1>Institutional Income,<br>Automated.</h1>
-        <p class="sub">Run professional-grade Z-score quant strategies without watching charts. High-frequency algorithmic precision, delivered passively.</p>
-        <p class="note">All tiers are pre-orders &mdash; lock in founding pricing before launch.</p>
-        <div class="cta-row">
-            <a href="#pricing" class="btn">Pre-Order Now</a>
-            <a href="#features" class="btn ghost">How It Works</a>
+    <header class="hero">
+        <div class="wrap">
+            <div class="hero-grid">
+                <div>
+                    <div class="eyebrow"><span class="dot"></span>AUTOMATED Z-SCORE QUANT ENGINE</div>
+                    <h1>Institutional Income,<br><span class="grad">Automated.</span></h1>
+                    <p class="hero-sub">A fully automated trading engine built on Z-score mean reversion &mdash; the same statistical methodology quant desks run &mdash; executing around the clock so you never watch a chart.</p>
+                    <div class="hero-note">Founding pre-order &mdash; lock lifetime pricing before public launch</div>
+                    <div class="cta-row">
+                        <a href="#pricing" class="btn primary">View Pre-Order Tiers</a>
+                        <a href="#how" class="btn ghost">See How It Works</a>
+                    </div>
+                    <div class="hero-foot">
+                        <span>Hands-free execution</span>
+                        <span>Built-in risk controls</span>
+                        <span>Cancel-anytime option</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="console mono">
+                        <div class="console-bar">
+                            <div class="dots"><i></i><i></i><i></i></div>
+                            <span class="title">ENGINE &mdash; SIGNAL MONITOR</span>
+                        </div>
+                        <div class="console-body">
+                            <div class="crow"><span class="pair">BTC&ndash;USD</span><span class="z">z&nbsp;=&nbsp;+2.31</span><span class="sig armed">REVERT &middot; ARMED</span></div>
+                            <div class="crow"><span class="pair">ETH&ndash;USD</span><span class="z">z&nbsp;=&nbsp;&minus;0.42</span><span class="sig idle">IN BAND</span></div>
+                            <div class="crow"><span class="pair">SOL&ndash;USD</span><span class="z">z&nbsp;=&nbsp;&minus;2.87</span><span class="sig armed">REVERT &middot; ARMED</span></div>
+                            <div class="crow"><span class="pair">XRP&ndash;USD</span><span class="z">z&nbsp;=&nbsp;+0.96</span><span class="sig idle">IN BAND</span></div>
+                        </div>
+                        <div class="console-foot">
+                            <span>risk check &#10003; &nbsp; sizing &#10003; &nbsp; exposure limits &#10003;</span>
+                            <span>24/7</span>
+                        </div>
+                    </div>
+                    <div class="console-caption">Illustrative signal feed &mdash; how the engine reads the market</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="strip">
+        <div class="strip-inner">
+            <div class="stat"><b>24/7</b><span>autonomous market coverage</span></div>
+            <div class="stat"><b>ms</b><span>algorithmic execution speed</span></div>
+            <div class="stat"><b>0</b><span>charts you need to watch</span></div>
+            <div class="stat"><b>100%</b><span>rule-based &mdash; zero emotion</span></div>
         </div>
     </div>
 
-    <div class="stats">
-        <div class="stat"><b>24/7</b><span>Market coverage, no screens</span></div>
-        <div class="stat"><b>Z-Score</b><span>Statistical quant core</span></div>
-        <div class="stat"><b>Hands-Free</b><span>Fully automated execution</span></div>
-        <div class="stat"><b>API</b><span>Full access on VIP tier</span></div>
-    </div>
-
-    <section id="features">
-        <div class="section-head">
-            <h2>Built Like a Trading Desk. Runs Like an App.</h2>
-            <p>The engine watches the market so you don't have to &mdash; every signal, entry, and exit handled algorithmically.</p>
-        </div>
-        <div class="features">
-            <div class="feature">
-                <div class="icon">&#128202;</div>
-                <h3>Z-Score Signal Engine</h3>
-                <p>Mean-reversion signals derived from statistical deviation, the same class of strategy used on institutional desks &mdash; not gut-feel indicators.</p>
+    <section id="how">
+        <div class="wrap">
+            <div class="sec-label">HOW IT WORKS</div>
+            <div class="sec-head">
+                <h2>Three steps. Then the engine takes over.</h2>
+                <p>No signal groups, no screen time, no discretionary decisions. Once configured, every entry and exit is systematic.</p>
             </div>
-            <div class="feature">
-                <div class="icon">&#9889;</div>
-                <h3>High-Frequency Precision</h3>
-                <p>Entries and exits execute algorithmically in milliseconds, around the clock. No hesitation, no emotion, no missed setups while you sleep.</p>
-            </div>
-            <div class="feature">
-                <div class="icon">&#128737;&#65039;</div>
-                <h3>Automated Risk Controls</h3>
-                <p>Position sizing and exit logic are enforced by the engine on every trade, so a single position never runs unmanaged.</p>
+            <div class="steps">
+                <div class="step">
+                    <span class="num">01</span>
+                    <h3>Secure Your Tier</h3>
+                    <p>Pre-order the tier that fits you. Founding pricing is locked permanently to your account &mdash; it will never be offered again after launch.</p>
+                </div>
+                <div class="step">
+                    <span class="num">02</span>
+                    <h3>Connect &amp; Configure</h3>
+                    <p>At launch, link the engine to your exchange account and set your risk parameters once. Your funds stay in your own account at all times.</p>
+                </div>
+                <div class="step">
+                    <span class="num">03</span>
+                    <h3>The Engine Executes</h3>
+                    <p>The Z-score core monitors statistical deviation around the clock and executes entries, exits, and position sizing automatically.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="pricing">
-        <div class="section-head">
-            <h2>Choose Your Tier</h2>
-            <p>Pre-order at founding prices before launch &mdash; from the entry Prototype to the full engine.</p>
+    <section id="strategy" class="alt">
+        <div class="wrap">
+            <div class="split">
+                <div class="sec-head">
+                    <div class="sec-label">THE STRATEGY</div>
+                    <h2>Why Z-score mean reversion?</h2>
+                    <p>Markets overreact. Prices stretch away from their statistical average, and stretched prices tend to snap back. A Z-score measures exactly how stretched a price is &mdash; in standard deviations &mdash; turning &ldquo;this looks overextended&rdquo; into a precise, testable number.</p>
+                    <ul class="checklist">
+                        <li>Trades a defined statistical edge &mdash; not indicators, hunches, or hype</li>
+                        <li>Every position is entered and exited by rule, with risk sized before the trade is placed</li>
+                        <li>The same methodology class used on institutional stat-arb desks for decades</li>
+                        <li>Emotionless by construction: the engine cannot revenge-trade, FOMO, or hesitate</li>
+                    </ul>
+                </div>
+                <div class="quote-box">
+                    <div class="big">&ldquo;When price deviates beyond &plusmn;2 standard deviations from its rolling mean, the engine arms a reversion position &mdash; and manages it to completion without human input.&rdquo;</div>
+                    <div class="src">&mdash; The core rule inside ai PassiveAutotrades, stated plainly. No black box, no mystery signals.</div>
+                </div>
+            </div>
         </div>
-        <div class="pricing">
-            <!-- Tier 0: Prototype -->
-            <div class="card">
-                <span class="badge preorder">PRE-ORDER</span>
-                <h3>Prototype</h3>
-                <div class="price">$79.99</div>
-                <div class="per">one-time</div>
-                <p class="desc">Entry access to the prototype engine. Test-drive the strategy first.</p>
-                <a href="YOUR_STRIPE_LINK_4" class="btn">Get Prototype</a>
-            </div>
+    </section>
 
-            <!-- Tier 1: Lifetime -->
-            <div class="card">
-                <span class="badge preorder">PRE-ORDER</span>
-                <h3>Founding Alpha</h3>
-                <div class="price">$199.99</div>
-                <div class="per">one-time</div>
-                <p class="desc">Lifetime access. No monthly fees, ever.</p>
-                <a href="YOUR_STRIPE_LINK_1" class="btn">Get Started</a>
+    <section>
+        <div class="wrap">
+            <div class="sec-label">WHAT YOU GET</div>
+            <div class="sec-head">
+                <h2>Engineered like a desk. Delivered like a product.</h2>
             </div>
+            <div class="grid-6">
+                <div class="cell"><span class="ic">&#128202;</span><h3>Z-Score Signal Core</h3><p>Rolling-window statistical deviation drives every signal &mdash; transparent, testable, and consistent.</p></div>
+                <div class="cell"><span class="ic">&#9889;</span><h3>Millisecond Execution</h3><p>Signals fire algorithmically the moment thresholds are crossed &mdash; day, night, weekends.</p></div>
+                <div class="cell"><span class="ic">&#128737;&#65039;</span><h3>Hard Risk Limits</h3><p>Per-trade sizing, exposure caps, and automated exits are enforced on every single position.</p></div>
+                <div class="cell"><span class="ic">&#128273;</span><h3>Your Funds, Your Account</h3><p>The engine connects to your own exchange account. Capital never moves to us.</p></div>
+                <div class="cell"><span class="ic">&#128295;</span><h3>Set-Once Configuration</h3><p>Choose risk level and markets a single time. No ongoing maintenance or babysitting.</p></div>
+                <div class="cell"><span class="ic">&#128225;</span><h3>API Access <span style="color:var(--faint);font-weight:400;font-size:0.75rem">(VIP)</span></h3><p>Full programmatic access to the engine for custom integrations and monitoring.</p></div>
+            </div>
+        </div>
+    </section>
 
-            <!-- Tier 2: Monthly -->
-            <div class="card">
-                <span class="badge preorder">PRE-ORDER</span>
-                <h3>Early Access Pass</h3>
-                <div class="price">$49.99</div>
-                <div class="per">per month</div>
-                <p class="desc">Full engine utility. Billed monthly, cancel anytime.</p>
-                <a href="YOUR_STRIPE_LINK_2" class="btn">Claim Monthly</a>
+    <section id="pricing" class="alt">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">FOUNDING PRE-ORDER</div>
+                <h2>Lock your tier before launch</h2>
+                <p>Every tier is a pre-order at founding pricing. When the engine launches, founding members onboard first &mdash; and these prices are permanently retired.</p>
             </div>
+            <div class="tiers">
+                <div class="tier">
+                    <span class="badge">PRE-ORDER</span>
+                    <h3>Prototype</h3>
+                    <div class="who">For first-time algo users</div>
+                    <div class="price">$79.99</div>
+                    <div class="per">one-time</div>
+                    <ul>
+                        <li>Entry access to the prototype engine</li>
+                        <li>Core Z-score strategy, one market</li>
+                        <li>Standard risk controls</li>
+                        <li>Email support</li>
+                    </ul>
+                    <a href="YOUR_STRIPE_LINK_4" class="btn primary">Get Prototype</a>
+                </div>
+                <div class="tier">
+                    <span class="badge">PRE-ORDER</span>
+                    <h3>Founding Alpha</h3>
+                    <div class="who">For long-term believers</div>
+                    <div class="price">$199.99</div>
+                    <div class="per">one-time &middot; lifetime</div>
+                    <ul>
+                        <li>Lifetime full-engine access</li>
+                        <li>All markets &amp; strategy updates, forever</li>
+                        <li>No recurring fees, ever</li>
+                        <li>Priority onboarding at launch</li>
+                    </ul>
+                    <a href="YOUR_STRIPE_LINK_1" class="btn primary">Claim Lifetime</a>
+                </div>
+                <div class="tier">
+                    <span class="badge">PRE-ORDER</span>
+                    <h3>Early Access Pass</h3>
+                    <div class="who">For flexible starters</div>
+                    <div class="price">$49.99</div>
+                    <div class="per">per month</div>
+                    <ul>
+                        <li>Full engine utility</li>
+                        <li>All markets included</li>
+                        <li>Cancel anytime</li>
+                        <li>Standard support</li>
+                    </ul>
+                    <a href="YOUR_STRIPE_LINK_2" class="btn ghost">Claim Monthly</a>
+                </div>
+                <div class="tier featured">
+                    <span class="flag">BEST VALUE</span>
+                    <span class="badge">PRE-ORDER</span>
+                    <h3>VIP Annual Pass</h3>
+                    <div class="who">For serious operators</div>
+                    <div class="price">$499.99</div>
+                    <div class="per">per year</div>
+                    <ul>
+                        <li>Everything in Early Access</li>
+                        <li>Priority execution queue</li>
+                        <li>Full API access</li>
+                        <li>Priority support channel</li>
+                    </ul>
+                    <a href="YOUR_STRIPE_LINK_3" class="btn primary">Claim Annual</a>
+                </div>
+            </div>
+            <p class="pricing-note">Secure checkout via Stripe &middot; Founding prices retire permanently at public launch</p>
+        </div>
+    </section>
 
-            <!-- Tier 3: Annual -->
-            <div class="card featured">
-                <span class="badge preorder">PRE-ORDER</span>
-                <h3>VIP Annual Pass</h3>
-                <div class="price">$499.99</div>
-                <div class="per">per year</div>
-                <p class="desc">Priority execution + full API access.</p>
-                <a href="YOUR_STRIPE_LINK_3" class="btn">Claim Annual</a>
+    <section id="faq">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">QUESTIONS</div>
+                <h2>Asked before buying</h2>
             </div>
+            <div class="faq">
+                <details>
+                    <summary>What exactly am I buying with a pre-order?</summary>
+                    <div class="a">You're reserving access to the engine at founding pricing before public launch. Your tier and price are locked to your account permanently. Founding members are onboarded first when the engine goes live, and launch updates are sent to the email you use at checkout.</div>
+                </details>
+                <details>
+                    <summary>Do my funds ever leave my control?</summary>
+                    <div class="a">No. The engine connects to your own exchange account via API keys that you control and can revoke at any time. We never take custody of your capital, and withdrawal permissions are never required.</div>
+                </details>
+                <details>
+                    <summary>Do I need trading experience?</summary>
+                    <div class="a">No chart-reading or trading skill is required to operate the engine &mdash; configuration is a one-time setup. You should, however, understand that all trading carries real risk of loss before committing any capital.</div>
+                </details>
+                <details>
+                    <summary>Can the engine lose money?</summary>
+                    <div class="a">Yes. Any honest answer to this question is yes &mdash; no strategy wins every trade, and mean reversion carries risk in strongly trending markets. That's precisely why the engine enforces position sizing and exposure limits on every trade. Never trade capital you can't afford to lose.</div>
+                </details>
+                <details>
+                    <summary>What's the difference between the tiers?</summary>
+                    <div class="a">Prototype is single-market entry access to the prototype engine. Founding Alpha is full lifetime access with no recurring fees. Early Access is the same full engine billed monthly with cancel-anytime flexibility. VIP Annual adds priority execution, full API access, and priority support.</div>
+                </details>
+                <details>
+                    <summary>What happens after I pre-order?</summary>
+                    <div class="a">You'll receive your order confirmation immediately, followed by launch timeline updates and onboarding instructions by email. Founding members onboard before public availability opens.</div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section class="final">
+        <div class="wrap">
+            <h2>Founding pricing ends at launch.</h2>
+            <p>Reserve your tier now &mdash; when the engine goes public, these prices are permanently retired.</p>
+            <a href="#pricing" class="btn primary">Pre-Order Your Tier</a>
         </div>
     </section>
 
     <footer>
-        <div class="brand">ai <span>PassiveAutotrades</span></div>
-        <p class="disclaimer">Trading involves substantial risk of loss and is not suitable for every investor. Algorithmic strategies can lose money, and past or simulated performance does not guarantee future results. Nothing on this site is financial advice. Only trade with capital you can afford to lose.</p>
-        <p class="copy">&copy; 2026 ai PassiveAutotrades. All rights reserved.</p>
+        <div class="wrap">
+            <div class="foot-top">
+                <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+                <div class="foot-links">
+                    <a href="#how">How It Works</a>
+                    <a href="#strategy">Strategy</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#faq">FAQ</a>
+                </div>
+            </div>
+            <p class="disclaimer">Risk disclosure: Trading involves substantial risk of loss and is not suitable for every investor. Algorithmic and automated strategies can and do lose money; past or simulated performance does not guarantee future results. ai PassiveAutotrades is a software tool &mdash; it is not an investment adviser, broker-dealer, or fiduciary, and nothing on this site constitutes financial advice or a solicitation to trade. Pre-order purchases grant software access at launch as described above. Only trade with capital you can afford to lose.</p>
+            <p class="copyright">&copy; 2026 ai PassiveAutotrades. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
