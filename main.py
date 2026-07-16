@@ -458,7 +458,7 @@ HOMEPAGE_HTML = """
                         <li>Standard risk controls</li>
                         <li>Email support</li>
                     </ul>
-                    <a href="YOUR_STRIPE_LINK_4" class="btn primary">Get Prototype</a>
+                    <a href="https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00" class="btn primary">Get Prototype</a>
                 </div>
                 <div class="tier">
                     <span class="badge">PRE-ORDER</span>
@@ -472,7 +472,7 @@ HOMEPAGE_HTML = """
                         <li>No recurring fees, ever</li>
                         <li>Priority onboarding at launch</li>
                     </ul>
-                    <a href="YOUR_STRIPE_LINK_1" class="btn primary">Claim Lifetime</a>
+                    <a href="https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01" class="btn primary">Claim Lifetime</a>
                 </div>
                 <div class="tier">
                     <span class="badge">PRE-ORDER</span>
@@ -486,7 +486,7 @@ HOMEPAGE_HTML = """
                         <li>Cancel anytime</li>
                         <li>Standard support</li>
                     </ul>
-                    <a href="YOUR_STRIPE_LINK_2" class="btn ghost">Claim Monthly</a>
+                    <a href="https://buy.stripe.com/00wcN4di180geXP9VEd3i02" class="btn ghost">Claim Monthly</a>
                 </div>
                 <div class="tier featured">
                     <span class="flag">BEST VALUE</span>
@@ -501,7 +501,7 @@ HOMEPAGE_HTML = """
                         <li>Full API access</li>
                         <li>Priority support channel</li>
                     </ul>
-                    <a href="YOUR_STRIPE_LINK_3" class="btn primary">Claim Annual</a>
+                    <a href="https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03" class="btn primary">Claim Annual</a>
                 </div>
             </div>
             <p class="pricing-note">Secure checkout via Stripe &middot; Founding prices retire permanently at public launch</p>
