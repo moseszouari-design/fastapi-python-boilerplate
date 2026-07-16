@@ -103,7 +103,6 @@ HOMEPAGE_HTML = """
         .badge { display: inline-block; font-size: 0.68rem; font-weight: 700; letter-spacing: 1.5px; padding: 5px 14px;
                  border-radius: 20px; margin-bottom: 16px; align-self: center; }
         .badge.preorder { color: #d29922; border: 1px solid #d29922; background: rgba(210,153,34,0.08); }
-        .badge.live { color: #3fb950; border: 1px solid #3fb950; background: rgba(63,185,80,0.08); }
 
         footer { border-top: 1px solid #161b22; padding: 50px 5vw; text-align: center; }
         footer .brand { font-weight: 800; margin-bottom: 14px; }
@@ -122,9 +121,9 @@ HOMEPAGE_HTML = """
         <div class="pill">AI-POWERED QUANT ENGINE</div>
         <h1>Institutional Income,<br>Automated.</h1>
         <p class="sub">Run professional-grade Z-score quant strategies without watching charts. High-frequency algorithmic precision, delivered passively.</p>
-        <p class="note">The Prototype is live today &mdash; full-engine tiers are pre-orders and unlock at launch.</p>
+        <p class="note">All tiers are pre-orders &mdash; lock in founding pricing before launch.</p>
         <div class="cta-row">
-            <a href="#pricing" class="btn">Try the Prototype</a>
+            <a href="#pricing" class="btn">Pre-Order Now</a>
             <a href="#features" class="btn ghost">How It Works</a>
         </div>
     </div>
@@ -163,17 +162,17 @@ HOMEPAGE_HTML = """
     <section id="pricing">
         <div class="section-head">
             <h2>Choose Your Tier</h2>
-            <p>Start with the live Prototype today, or pre-order the full engine at founding prices before launch.</p>
+            <p>Pre-order at founding prices before launch &mdash; from the entry Prototype to the full engine.</p>
         </div>
         <div class="pricing">
-            <!-- Tier 0: Prototype (available now) -->
+            <!-- Tier 0: Prototype -->
             <div class="card">
-                <span class="badge live">AVAILABLE NOW</span>
+                <span class="badge preorder">PRE-ORDER</span>
                 <h3>Prototype</h3>
                 <div class="price">$79.99</div>
                 <div class="per">one-time</div>
-                <p class="desc">Instant access to the live prototype engine. Test-drive the strategy today.</p>
-                <a href="YOUR_STRIPE_LINK_4" class="btn">Try Prototype</a>
+                <p class="desc">Entry access to the prototype engine. Test-drive the strategy first.</p>
+                <a href="YOUR_STRIPE_LINK_4" class="btn">Get Prototype</a>
             </div>
 
             <!-- Tier 1: Lifetime -->
