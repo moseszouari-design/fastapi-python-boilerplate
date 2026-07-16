@@ -119,6 +119,11 @@ HOMEPAGE_HTML = """
               "@type": "Question",
               "name": "What happens after I pre-order?",
               "acceptedAnswer": { "@type": "Answer", "text": "You'll receive your order confirmation immediately, followed by launch timeline updates and onboarding instructions by email. Founding members onboard before public availability opens." }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I get a refund?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Yes — pre-orders are fully refundable at any time before launch. Contact support (details are on your purchase receipt) and the refund will be processed. After launch, the monthly and annual passes can be cancelled anytime to stop future billing." }
             }
           ]
         }
@@ -539,6 +544,10 @@ HOMEPAGE_HTML = """
                     <summary>What happens after I pre-order?</summary>
                     <div class="a">You'll receive your order confirmation immediately, followed by launch timeline updates and onboarding instructions by email. Founding members onboard before public availability opens.</div>
                 </details>
+                <details>
+                    <summary>Can I get a refund?</summary>
+                    <div class="a">Yes &mdash; pre-orders are fully refundable at any time before launch. Contact support (details are on your purchase receipt) and the refund will be processed. After launch, the monthly and annual passes can be cancelled anytime to stop future billing. Full details in our <a href="/terms" style="color:var(--accent)">Terms of Service</a>.</div>
+                </details>
             </div>
         </div>
     </section>
@@ -560,6 +569,8 @@ HOMEPAGE_HTML = """
                     <a href="#strategy">Strategy</a>
                     <a href="#pricing">Pricing</a>
                     <a href="#faq">FAQ</a>
+                    <a href="/terms">Terms</a>
+                    <a href="/privacy">Privacy</a>
                 </div>
             </div>
             <p class="disclaimer">Risk disclosure: Trading involves substantial risk of loss and is not suitable for every investor. Algorithmic and automated strategies can and do lose money; past or simulated performance does not guarantee future results. ai PassiveAutotrades is a software tool &mdash; it is not an investment adviser, broker-dealer, or fiduciary, and nothing on this site constitutes financial advice or a solicitation to trade. Pre-order purchases grant software access at launch as described above. Only trade with capital you can afford to lose.</p>
@@ -570,6 +581,118 @@ HOMEPAGE_HTML = """
 </html>
 """
 
+
+LEGAL_STYLE = """
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #050608; color: #eef2f8; font-family: 'Inter', -apple-system, sans-serif; line-height: 1.7; }
+    a { color: #4f8ff7; text-decoration: none; }
+    .page { max-width: 760px; margin: 0 auto; padding: 64px 24px 96px; }
+    .back { display: inline-block; color: #97a1b3; font-size: 0.85rem; margin-bottom: 40px; }
+    h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 8px; }
+    .updated { color: #5b6474; font-size: 0.8rem; margin-bottom: 40px; }
+    h2 { font-size: 1.15rem; font-weight: 700; margin: 36px 0 10px; }
+    p, li { color: #97a1b3; font-size: 0.95rem; margin-bottom: 12px; }
+    ul { padding-left: 22px; }
+</style>
+"""
+
+TERMS_HTML = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service | ai PassiveAutotrades</title>
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="canonical" href="https://aipassiveautotrades.vercel.app/terms">
+""" + LEGAL_STYLE + """
+</head>
+<body>
+    <div class="page">
+        <a href="/" class="back">&larr; Back to ai PassiveAutotrades</a>
+        <h1>Terms of Service</h1>
+        <p class="updated">Last updated: July 16, 2026</p>
+
+        <h2>1. What we provide</h2>
+        <p>ai PassiveAutotrades ("the Service") sells pre-order access to automated trading software (the "Engine"). A pre-order reserves your access tier at founding pricing; the Engine itself is delivered when it launches. The Service is a software tool only &mdash; it is not an investment adviser, broker-dealer, or fiduciary, and nothing on this site is financial advice.</p>
+
+        <h2>2. Pre-orders and delivery</h2>
+        <p>Purchasing a pre-order tier grants you the access described on the pricing page, delivered at launch. Founding members are onboarded before public availability. Launch timing will be communicated by email to the address used at checkout.</p>
+
+        <h2>3. Payments, subscriptions, and cancellation</h2>
+        <p>Payments are processed by Stripe. One-time tiers (Prototype, Founding Alpha) are charged once. Subscription tiers (Early Access monthly, VIP Annual yearly) renew automatically until cancelled; you can cancel at any time to stop future billing, and cancellation takes effect at the end of the paid period.</p>
+
+        <h2>4. Refunds</h2>
+        <p>Pre-orders are fully refundable at any time before the Engine launches &mdash; contact support and the refund will be processed. After launch, subscription tiers may be cancelled anytime to prevent future charges; charges for periods already delivered are non-refundable except where required by law.</p>
+
+        <h2>5. Trading risk</h2>
+        <p>Trading involves substantial risk of loss and is not suitable for every investor. Algorithmic strategies can and do lose money. Past or simulated performance does not guarantee future results. You are solely responsible for your trading decisions, exchange accounts, and capital. Never trade money you cannot afford to lose.</p>
+
+        <h2>6. Your account and conduct</h2>
+        <p>You are responsible for the security of your exchange API keys and accounts. You agree not to reverse-engineer, resell, or share access to the Engine without permission.</p>
+
+        <h2>7. Limitation of liability</h2>
+        <p>To the maximum extent permitted by law, the Service and its operators are not liable for trading losses, lost profits, or indirect, incidental, or consequential damages arising from use of the Engine. Total liability is limited to the amount you paid for the Service.</p>
+
+        <h2>8. Changes</h2>
+        <p>These terms may be updated; material changes will be posted on this page with a new date. Continued use after changes constitutes acceptance.</p>
+
+        <h2>9. Contact</h2>
+        <p>Support contact details are provided on your purchase receipt and in launch communications.</p>
+    </div>
+</body>
+</html>
+"""
+
+PRIVACY_HTML = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | ai PassiveAutotrades</title>
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="canonical" href="https://aipassiveautotrades.vercel.app/privacy">
+""" + LEGAL_STYLE + """
+</head>
+<body>
+    <div class="page">
+        <a href="/" class="back">&larr; Back to ai PassiveAutotrades</a>
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last updated: July 16, 2026</p>
+
+        <h2>1. What we collect</h2>
+        <p>When you purchase, checkout is handled entirely by Stripe: your name, email, and payment details are collected and stored by Stripe under its own privacy policy. We never see or store your card details. If you sign up for launch updates, we store the email address you provide.</p>
+
+        <h2>2. How we use it</h2>
+        <ul>
+            <li>To deliver what you purchased: order confirmation, launch updates, and onboarding instructions.</li>
+            <li>To provide support when you contact us.</li>
+            <li>To send launch-related email you signed up for. Every email includes an unsubscribe link.</li>
+        </ul>
+
+        <h2>3. What we don't do</h2>
+        <p>We do not sell your personal data. We do not share it with third parties except the processors below, and we do not use it for unrelated advertising.</p>
+
+        <h2>4. Processors we rely on</h2>
+        <ul>
+            <li><strong>Stripe</strong> &mdash; payment processing (stripe.com/privacy)</li>
+            <li><strong>Vercel</strong> &mdash; website hosting (vercel.com/legal/privacy-policy)</li>
+            <li><strong>MailerLite</strong> &mdash; email updates, if you subscribe (mailerlite.com/legal/privacy-policy)</li>
+        </ul>
+
+        <h2>5. Your rights</h2>
+        <p>You can request a copy or deletion of your personal data, or unsubscribe from emails at any time, by contacting support (details on your purchase receipt) or using the unsubscribe link in any email.</p>
+
+        <h2>6. Changes</h2>
+        <p>Updates to this policy will be posted on this page with a new date.</p>
+    </div>
+</body>
+</html>
+"""
 
 ROBOTS_TXT = """User-agent: *
 Allow: /
@@ -583,6 +706,16 @@ SITEMAP_XML = """<?xml version="1.0" encoding="UTF-8"?>
     <loc>https://aipassiveautotrades.vercel.app/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://aipassiveautotrades.vercel.app/terms</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://aipassiveautotrades.vercel.app/privacy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>
 """
@@ -598,6 +731,16 @@ def read_root():
     # function; the edge cache is purged automatically on every deploy, and
     # stale-while-revalidate keeps responses instant while refreshing.
     return HTMLResponse(content=HOMEPAGE_HTML, headers=CACHE_HEADERS)
+
+
+@app.get("/terms", response_class=HTMLResponse)
+def terms():
+    return HTMLResponse(content=TERMS_HTML, headers=CACHE_HEADERS)
+
+
+@app.get("/privacy", response_class=HTMLResponse)
+def privacy():
+    return HTMLResponse(content=PRIVACY_HTML, headers=CACHE_HEADERS)
 
 
 @app.get("/robots.txt", response_class=PlainTextResponse)
