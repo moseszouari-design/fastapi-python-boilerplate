@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, PlainTextResponse, Response
 
 
 app = FastAPI(
@@ -42,11 +42,89 @@ HOMEPAGE_HTML = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ai PassiveAutotrades | Automated Z-Score Quant Engine</title>
-    <meta name="description" content="Pre-order access to an automated Z-score mean-reversion trading engine. Institutional-grade methodology, fully hands-free execution.">
-    <meta property="og:title" content="ai PassiveAutotrades — Institutional Income, Automated.">
-    <meta property="og:description" content="Automated Z-score quant strategies without watching charts. Pre-order at founding prices.">
+    <title>ai PassiveAutotrades — Automated Z-Score Quant Trading Engine</title>
+    <meta name="description" content="Fully automated Z-score mean-reversion trading engine. Hands-free execution, built-in risk controls, and your funds never leave your own exchange account. Pre-order founding access.">
+    <link rel="canonical" href="https://aipassiveautotrades.vercel.app/">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#050608">
     <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aipassiveautotrades.vercel.app/">
+    <meta property="og:site_name" content="ai PassiveAutotrades">
+    <meta property="og:title" content="ai PassiveAutotrades — Institutional Income, Automated.">
+    <meta property="og:description" content="Automated Z-score quant strategies without watching charts. Pre-order founding access before launch.">
+    <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ai PassiveAutotrades — Institutional Income, Automated.">
+    <meta name="twitter:description" content="Automated Z-score quant strategies without watching charts. Pre-order founding access before launch.">
+    <meta name="twitter:image" content="https://aipassiveautotrades.vercel.app/og.png">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://aipassiveautotrades.vercel.app/#website",
+          "url": "https://aipassiveautotrades.vercel.app/",
+          "name": "ai PassiveAutotrades",
+          "description": "Automated Z-score mean-reversion trading engine with hands-free execution and built-in risk controls."
+        },
+        {
+          "@type": "Product",
+          "@id": "https://aipassiveautotrades.vercel.app/#product",
+          "name": "ai PassiveAutotrades",
+          "description": "A fully automated trading engine built on Z-score mean reversion, executing around the clock with enforced position sizing and exposure limits. All tiers are founding pre-orders; access is delivered at launch.",
+          "brand": { "@type": "Brand", "name": "ai PassiveAutotrades" },
+          "image": "https://aipassiveautotrades.vercel.app/og.png",
+          "url": "https://aipassiveautotrades.vercel.app/",
+          "offers": [
+            { "@type": "Offer", "name": "Prototype (Pre-Order)", "price": "79.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder", "url": "https://aipassiveautotrades.vercel.app/#pricing" },
+            { "@type": "Offer", "name": "Founding Alpha — Lifetime (Pre-Order)", "price": "199.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder", "url": "https://aipassiveautotrades.vercel.app/#pricing" },
+            { "@type": "Offer", "name": "Early Access Pass — Monthly (Pre-Order)", "price": "49.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder", "url": "https://aipassiveautotrades.vercel.app/#pricing" },
+            { "@type": "Offer", "name": "VIP Annual Pass (Pre-Order)", "price": "499.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder", "url": "https://aipassiveautotrades.vercel.app/#pricing" }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://aipassiveautotrades.vercel.app/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What exactly am I buying with a pre-order?",
+              "acceptedAnswer": { "@type": "Answer", "text": "You're reserving access to the engine at founding pricing before public launch. Your tier and price are locked to your account permanently. Founding members are onboarded first when the engine goes live, and launch updates are sent to the email you use at checkout." }
+            },
+            {
+              "@type": "Question",
+              "name": "Do my funds ever leave my control?",
+              "acceptedAnswer": { "@type": "Answer", "text": "No. The engine connects to your own exchange account via API keys that you control and can revoke at any time. We never take custody of your capital, and withdrawal permissions are never required." }
+            },
+            {
+              "@type": "Question",
+              "name": "Do I need trading experience?",
+              "acceptedAnswer": { "@type": "Answer", "text": "No chart-reading or trading skill is required to operate the engine — configuration is a one-time setup. You should, however, understand that all trading carries real risk of loss before committing any capital." }
+            },
+            {
+              "@type": "Question",
+              "name": "Can the engine lose money?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Yes. No strategy wins every trade, and mean reversion carries risk in strongly trending markets. That is why the engine enforces position sizing and exposure limits on every trade. Never trade capital you can't afford to lose." }
+            },
+            {
+              "@type": "Question",
+              "name": "What's the difference between the tiers?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Prototype is single-market entry access to the prototype engine. Founding Alpha is full lifetime access with no recurring fees. Early Access is the same full engine billed monthly with cancel-anytime flexibility. VIP Annual adds priority execution, full API access, and priority support." }
+            },
+            {
+              "@type": "Question",
+              "name": "What happens after I pre-order?",
+              "acceptedAnswer": { "@type": "Answer", "text": "You'll receive your order confirmation immediately, followed by launch timeline updates and onboarding instructions by email. Founding members onboard before public availability opens." }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -493,14 +571,40 @@ HOMEPAGE_HTML = """
 """
 
 
+ROBOTS_TXT = """User-agent: *
+Allow: /
+
+Sitemap: https://aipassiveautotrades.vercel.app/sitemap.xml
+"""
+
+SITEMAP_XML = """<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://aipassiveautotrades.vercel.app/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
+"""
+
+CACHE_HEADERS = {
+    "Cache-Control": "public, max-age=300, s-maxage=86400, stale-while-revalidate=604800"
+}
+
+
 @app.get("/", response_class=HTMLResponse)
 def read_root():
     # s-maxage lets Vercel's global CDN serve the page without invoking this
     # function; the edge cache is purged automatically on every deploy, and
     # stale-while-revalidate keeps responses instant while refreshing.
-    return HTMLResponse(
-        content=HOMEPAGE_HTML,
-        headers={
-            "Cache-Control": "public, max-age=300, s-maxage=86400, stale-while-revalidate=604800"
-        },
-    )
+    return HTMLResponse(content=HOMEPAGE_HTML, headers=CACHE_HEADERS)
+
+
+@app.get("/robots.txt", response_class=PlainTextResponse)
+def robots():
+    return PlainTextResponse(content=ROBOTS_TXT, headers=CACHE_HEADERS)
+
+
+@app.get("/sitemap.xml")
+def sitemap():
+    return Response(content=SITEMAP_XML, media_type="application/xml", headers=CACHE_HEADERS)
