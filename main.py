@@ -51,6 +51,12 @@ HOMEPAGE_HTML = """
     <link rel="alternate" hreflang="en" href="https://aipassiveautotrades.vercel.app/">
     <link rel="alternate" hreflang="es" href="https://aipassiveautotrades.vercel.app/es">
     <link rel="alternate" hreflang="fr" href="https://aipassiveautotrades.vercel.app/fr">
+    <link rel="alternate" hreflang="de" href="https://aipassiveautotrades.vercel.app/de">
+    <link rel="alternate" hreflang="pt" href="https://aipassiveautotrades.vercel.app/pt">
+    <link rel="alternate" hreflang="ar" href="https://aipassiveautotrades.vercel.app/ar">
+    <link rel="alternate" hreflang="fa" href="https://aipassiveautotrades.vercel.app/fa">
+    <link rel="alternate" hreflang="ur" href="https://aipassiveautotrades.vercel.app/ur">
+    <link rel="alternate" hreflang="hi" href="https://aipassiveautotrades.vercel.app/hi">
     <link rel="alternate" hreflang="x-default" href="https://aipassiveautotrades.vercel.app/">
     <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="theme-color" content="#050608">
@@ -309,6 +315,10 @@ HOMEPAGE_HTML = """
         .copyright { color: var(--faint); font-size: 0.78rem; margin-top: 18px; }
 
         /* ---------- responsive ---------- */
+        @media (max-width: 760px) {
+            .nav-inner { flex-wrap: wrap; height: auto; padding-top: 10px; padding-bottom: 10px; row-gap: 6px; }
+            .lang { order: 3; width: 100%; margin-left: 0; margin-right: 0; }
+        }
         @media (max-width: 960px) {
             .hero-grid { grid-template-columns: 1fr; gap: 48px; padding: 64px 0; }
             .split { grid-template-columns: 1fr; gap: 40px; }
@@ -336,7 +346,7 @@ HOMEPAGE_HTML = """
                 <a href="#pricing">Pricing</a>
                 <a href="#faq">FAQ</a>
             </div>
-            <div class="lang"><span class="cur">EN</span><a href="/es">ES</a><a href="/fr">FR</a></div>
+            <div class="lang"><span class="cur">EN</span><a href="/es">ES</a><a href="/fr">FR</a><a href="/de">DE</a><a href="/pt">PT</a><a href="/ar">AR</a><a href="/fa">FA</a><a href="/ur">UR</a><a href="/hi">HI</a></div>
             <a href="#pricing" class="nav-cta">Pre-Order Access</a>
         </div>
     </nav>
@@ -604,6 +614,12 @@ HREFLANG_LINKS = """
     <link rel="alternate" hreflang="en" href="https://aipassiveautotrades.vercel.app/">
     <link rel="alternate" hreflang="es" href="https://aipassiveautotrades.vercel.app/es">
     <link rel="alternate" hreflang="fr" href="https://aipassiveautotrades.vercel.app/fr">
+    <link rel="alternate" hreflang="de" href="https://aipassiveautotrades.vercel.app/de">
+    <link rel="alternate" hreflang="pt" href="https://aipassiveautotrades.vercel.app/pt">
+    <link rel="alternate" hreflang="ar" href="https://aipassiveautotrades.vercel.app/ar">
+    <link rel="alternate" hreflang="fa" href="https://aipassiveautotrades.vercel.app/fa">
+    <link rel="alternate" hreflang="ur" href="https://aipassiveautotrades.vercel.app/ur">
+    <link rel="alternate" hreflang="hi" href="https://aipassiveautotrades.vercel.app/hi">
     <link rel="alternate" hreflang="x-default" href="https://aipassiveautotrades.vercel.app/">
 """
 
@@ -644,7 +660,7 @@ HOMEPAGE_HTML_ES = """
                 <a href="#pricing">Precios</a>
                 <a href="#faq">Preguntas</a>
             </div>
-            <div class="lang"><a href="/">EN</a><span class="cur">ES</span><a href="/fr">FR</a></div>
+            <div class="lang"><a href="/">EN</a><span class="cur">ES</span><a href="/fr">FR</a><a href="/de">DE</a><a href="/pt">PT</a><a href="/ar">AR</a><a href="/fa">FA</a><a href="/ur">UR</a><a href="/hi">HI</a></div>
             <a href="#pricing" class="nav-cta">Reservar Acceso</a>
         </div>
     </nav>
@@ -940,7 +956,7 @@ HOMEPAGE_HTML_FR = """
                 <a href="#pricing">Tarifs</a>
                 <a href="#faq">FAQ</a>
             </div>
-            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><span class="cur">FR</span></div>
+            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><span class="cur">FR</span><a href="/de">DE</a><a href="/pt">PT</a><a href="/ar">AR</a><a href="/fa">FA</a><a href="/ur">UR</a><a href="/hi">HI</a></div>
             <a href="#pricing" class="nav-cta">Pr&eacute;commander</a>
         </div>
     </nav>
@@ -1199,6 +1215,1795 @@ HOMEPAGE_HTML_FR = """
 </html>
 """
 
+HOMEPAGE_HTML_DE = """
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ai PassiveAutotrades — Automatisierte Z-Score Quant-Trading-Engine</title>
+    <meta name="description" content="Vollautomatisierte Trading-Engine auf Basis von Z-Score Mean Reversion. Ausführung ohne Ihr Zutun, integrierte Risikokontrollen, Ihre Gelder verlassen nie Ihr eigenes Konto. Jetzt Gründerzugang vorbestellen.">
+    <link rel="canonical" href="https://aipassiveautotrades.vercel.app/de">
+""" + HREFLANG_LINKS + """
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#050608">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aipassiveautotrades.vercel.app/de">
+    <meta property="og:site_name" content="ai PassiveAutotrades">
+    <meta property="og:title" content="ai PassiveAutotrades — Institutionelle Erträge, Automatisiert.">
+    <meta property="og:description" content="Automatisierte Z-Score-Quant-Strategien ohne Chart-Beobachtung. Gründerzugang vor dem Launch vorbestellen.">
+    <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
+    <meta property="og:locale" content="de_DE">
+    <script defer src="/_vercel/insights/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+""" + HOMEPAGE_STYLE + """
+</head>
+<body>
+    <nav>
+        <div class="nav-inner">
+            <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+            <div class="nav-links">
+                <a href="#how">So funktioniert's</a>
+                <a href="#strategy">Strategie</a>
+                <a href="#pricing">Preise</a>
+                <a href="#faq">FAQ</a>
+            </div>
+            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><a href="/fr">FR</a><span class="cur">DE</span><a href="/pt">PT</a><a href="/ar">AR</a><a href="/fa">FA</a><a href="/ur">UR</a><a href="/hi">HI</a></div>
+            <a href="#pricing" class="nav-cta">Zugang vorbestellen</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="wrap">
+            <div class="hero-grid">
+                <div>
+                    <div class="eyebrow"><span class="dot"></span>AUTOMATISIERTE Z-SCORE QUANT-ENGINE</div>
+                    <h1>Institutionelle Erträge,<br><span class="grad">Automatisiert.</span></h1>
+                    <p class="hero-sub">Eine vollautomatisierte Trading-Engine auf Basis von Z-Score Mean Reversion — derselben statistischen Methodik, die Quant-Desks einsetzen — rund um die Uhr aktiv, damit Sie nie wieder auf Charts starren.</p>
+                    <div class="hero-note">Gründer-Vorbestellung — sichern Sie sich den Lifetime-Preis vor dem öffentlichen Launch</div>
+                    <div class="cta-row">
+                        <a href="#pricing" class="btn primary">Vorbestell-Stufen ansehen</a>
+                        <a href="#how" class="btn ghost">So funktioniert's</a>
+                    </div>
+                    <div class="hero-foot">
+                        <span>Ausführung ohne Ihr Zutun</span>
+                        <span>Integrierte Risikokontrollen</span>
+                        <span>Jederzeit kündbar</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="console mono">
+                        <div class="console-bar">
+                            <div class="dots"><i></i><i></i><i></i></div>
+                            <span class="title">ENGINE — SIGNAL-MONITOR</span>
+                        </div>
+                        <div class="console-body">
+                            <div class="crow"><span class="pair">BTC–USD</span><span class="z">z&nbsp;=&nbsp;+2.31</span><span class="sig armed">REVERT · ARMED</span></div>
+                            <div class="crow"><span class="pair">ETH–USD</span><span class="z">z&nbsp;=&nbsp;−0.42</span><span class="sig idle">IN BAND</span></div>
+                            <div class="crow"><span class="pair">SOL–USD</span><span class="z">z&nbsp;=&nbsp;−2.87</span><span class="sig armed">REVERT · ARMED</span></div>
+                            <div class="crow"><span class="pair">XRP–USD</span><span class="z">z&nbsp;=&nbsp;+0.96</span><span class="sig idle">IN BAND</span></div>
+                        </div>
+                        <div class="console-foot">
+                            <span>Risiko ✓ &nbsp; Positionsgröße ✓ &nbsp; Exposure-Limits ✓</span>
+                            <span>24/7</span>
+                        </div>
+                    </div>
+                    <div class="console-caption">Illustrativer Signal-Feed — so liest die Engine den Markt</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="strip">
+        <div class="strip-inner">
+            <div class="stat"><b>24/7</b><span>autonome Marktabdeckung</span></div>
+            <div class="stat"><b>ms</b><span>algorithmische Ausführungsgeschwindigkeit</span></div>
+            <div class="stat"><b>0</b><span>Charts, die Sie beobachten müssen</span></div>
+            <div class="stat"><b>100%</b><span>regelbasiert — null Emotionen</span></div>
+        </div>
+    </div>
+
+    <section id="how">
+        <div class="wrap">
+            <div class="sec-label">SO FUNKTIONIERT'S</div>
+            <div class="sec-head">
+                <h2>Drei Schritte. Dann übernimmt die Engine.</h2>
+                <p>Keine Signal-Gruppen, keine Bildschirmzeit, keine Bauchentscheidungen. Einmal konfiguriert, erfolgt jeder Ein- und Ausstieg systematisch.</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <span class="num">01</span>
+                    <h3>Stufe sichern</h3>
+                    <p>Bestellen Sie die passende Stufe vor. Der Gründerpreis wird dauerhaft an Ihr Konto gebunden — nach dem Launch wird er nie wieder angeboten.</p>
+                </div>
+                <div class="step">
+                    <span class="num">02</span>
+                    <h3>Verbinden &amp; konfigurieren</h3>
+                    <p>Zum Launch verbinden Sie die Engine mit Ihrem Exchange-Konto und legen Ihre Risikoparameter einmalig fest. Ihre Gelder bleiben jederzeit auf Ihrem eigenen Konto.</p>
+                </div>
+                <div class="step">
+                    <span class="num">03</span>
+                    <h3>Die Engine führt aus</h3>
+                    <p>Der Z-Score-Kern überwacht die statistische Abweichung rund um die Uhr und führt Einstiege, Ausstiege und Positionsgrößen automatisch aus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="strategy" class="alt">
+        <div class="wrap">
+            <div class="split">
+                <div class="sec-head">
+                    <div class="sec-label">DIE STRATEGIE</div>
+                    <h2>Warum Z-Score Mean Reversion?</h2>
+                    <p>Märkte überreagieren. Preise entfernen sich von ihrem statistischen Mittel — und gedehnte Preise neigen dazu, zurückzuschnappen. Ein Z-Score misst exakt, wie gedehnt ein Preis ist — in Standardabweichungen — und macht aus „das wirkt überzogen" eine präzise, überprüfbare Zahl.</p>
+                    <ul class="checklist">
+                        <li>Handelt einen definierten statistischen Vorteil — keine Indikatoren, Bauchgefühle oder Hype</li>
+                        <li>Jede Position wird nach Regeln eröffnet und geschlossen, das Risiko vor dem Trade bemessen</li>
+                        <li>Dieselbe Methodenklasse, die institutionelle Stat-Arb-Desks seit Jahrzehnten nutzen</li>
+                        <li>Emotionslos per Konstruktion: Die Engine kennt weder Rache-Trades noch FOMO noch Zögern</li>
+                    </ul>
+                </div>
+                <div class="quote-box">
+                    <div class="big">„Weicht der Preis mehr als ±2 Standardabweichungen von seinem gleitenden Mittel ab, armiert die Engine eine Reversionsposition — und managt sie bis zum Abschluss ohne menschliches Zutun."</div>
+                    <div class="src">— Die Kernregel von ai PassiveAutotrades, klar formuliert. Keine Blackbox, keine Mysterien-Signale.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="wrap">
+            <div class="sec-label">WAS SIE BEKOMMEN</div>
+            <div class="sec-head">
+                <h2>Konstruiert wie ein Trading-Desk. Geliefert wie ein Produkt.</h2>
+            </div>
+            <div class="grid-6">
+                <div class="cell"><span class="ic">&#128202;</span><h3>Z-Score-Signalkern</h3><p>Statistische Abweichung im gleitenden Fenster treibt jedes Signal — transparent, überprüfbar, konsistent.</p></div>
+                <div class="cell"><span class="ic">&#9889;</span><h3>Ausführung in Millisekunden</h3><p>Signale werden algorithmisch ausgelöst, sobald Schwellen überschritten werden — Tag, Nacht, Wochenende.</p></div>
+                <div class="cell"><span class="ic">&#128737;&#65039;</span><h3>Harte Risikolimits</h3><p>Positionsgröße, Exposure-Obergrenzen und automatische Ausstiege werden bei jeder Position durchgesetzt.</p></div>
+                <div class="cell"><span class="ic">&#128273;</span><h3>Ihre Gelder, Ihr Konto</h3><p>Die Engine verbindet sich mit Ihrem eigenen Exchange-Konto. Kapital wird nie an uns übertragen.</p></div>
+                <div class="cell"><span class="ic">&#128295;</span><h3>Einmalige Konfiguration</h3><p>Risikoniveau und Märkte ein einziges Mal wählen. Keine laufende Wartung, kein Babysitten.</p></div>
+                <div class="cell"><span class="ic">&#128225;</span><h3>API-Zugang <span style="color:var(--faint);font-weight:400;font-size:0.75rem">(VIP)</span></h3><p>Voller programmatischer Zugriff auf die Engine für eigene Integrationen und Monitoring.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="alt">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">GRÜNDER-VORBESTELLUNG</div>
+                <h2>Sichern Sie Ihre Stufe vor dem Launch</h2>
+                <p>Jede Stufe ist eine Vorbestellung zum Gründerpreis. Beim Launch werden Gründungsmitglieder zuerst aufgenommen — und diese Preise dauerhaft eingestellt.</p>
+            </div>
+            <div class="tiers">
+                <div class="tier">
+                    <span class="badge">VORBESTELLUNG</span>
+                    <h3>Prototype</h3>
+                    <div class="who">Für Algo-Einsteiger</div>
+                    <div class="price">$79.99</div>
+                    <div class="per">einmalig (USD)</div>
+                    <ul>
+                        <li>Einstiegszugang zur Prototyp-Engine</li>
+                        <li>Z-Score-Kernstrategie, ein Markt</li>
+                        <li>Standard-Risikokontrollen</li>
+                        <li>E-Mail-Support</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00" class="btn primary">Prototype sichern</a>
+                </div>
+                <div class="tier">
+                    <span class="badge">VORBESTELLUNG</span>
+                    <h3>Founding Alpha</h3>
+                    <div class="who">Für langfristig Überzeugte</div>
+                    <div class="price">$199.99</div>
+                    <div class="per">einmalig · lebenslang (USD)</div>
+                    <ul>
+                        <li>Lebenslanger Vollzugang zur Engine</li>
+                        <li>Alle Märkte &amp; Strategie-Updates, für immer</li>
+                        <li>Nie wiederkehrende Gebühren</li>
+                        <li>Bevorzugtes Onboarding zum Launch</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01" class="btn primary">Lifetime sichern</a>
+                </div>
+                <div class="tier">
+                    <span class="badge">VORBESTELLUNG</span>
+                    <h3>Early Access Pass</h3>
+                    <div class="who">Für flexible Starter</div>
+                    <div class="price">$49.99</div>
+                    <div class="per">pro Monat (USD)</div>
+                    <ul>
+                        <li>Voller Funktionsumfang der Engine</li>
+                        <li>Alle Märkte inklusive</li>
+                        <li>Jederzeit kündbar</li>
+                        <li>Standard-Support</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/00wcN4di180geXP9VEd3i02" class="btn ghost">Monatlich sichern</a>
+                </div>
+                <div class="tier featured">
+                    <span class="flag">BESTES ANGEBOT</span>
+                    <span class="badge">VORBESTELLUNG</span>
+                    <h3>VIP Annual Pass</h3>
+                    <div class="who">Für ernsthafte Operatoren</div>
+                    <div class="price">$499.99</div>
+                    <div class="per">pro Jahr (USD)</div>
+                    <ul>
+                        <li>Alles aus Early Access</li>
+                        <li>Priorisierte Ausführungs-Queue</li>
+                        <li>Voller API-Zugang</li>
+                        <li>Priorisierter Support-Kanal</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03" class="btn primary">Jährlich sichern</a>
+                </div>
+            </div>
+            <p class="pricing-note">Sichere Zahlung über Stripe · Zahlen Sie in USD, EUR, GBP, CAD oder AUD — Ihre Währung wird beim Checkout automatisch erkannt · Gründerpreise werden zum öffentlichen Launch dauerhaft eingestellt</p>
+        </div>
+    </section>
+
+    <section id="faq">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">FRAGEN</div>
+                <h2>Was vor dem Kauf gefragt wird</h2>
+            </div>
+            <div class="faq">
+                <details>
+                    <summary>Was genau kaufe ich mit einer Vorbestellung?</summary>
+                    <div class="a">Sie reservieren den Zugang zur Engine zum Gründerpreis vor dem öffentlichen Launch. Ihre Stufe und Ihr Preis werden dauerhaft an Ihr Konto gebunden. Gründungsmitglieder werden beim Go-Live zuerst aufgenommen; Launch-Updates gehen an die beim Checkout verwendete E-Mail-Adresse.</div>
+                </details>
+                <details>
+                    <summary>Verlassen meine Gelder jemals meine Kontrolle?</summary>
+                    <div class="a">Nein. Die Engine verbindet sich über API-Schlüssel mit Ihrem eigenen Exchange-Konto — Schlüssel, die Sie kontrollieren und jederzeit widerrufen können. Wir verwahren Ihr Kapital nie, und Auszahlungsberechtigungen sind niemals erforderlich.</div>
+                </details>
+                <details>
+                    <summary>Brauche ich Trading-Erfahrung?</summary>
+                    <div class="a">Zum Betrieb der Engine sind weder Chart-Lesen noch Trading-Kenntnisse nötig — die Konfiguration erfolgt einmalig. Sie sollten jedoch verstehen, dass jedes Trading ein reales Verlustrisiko birgt, bevor Sie Kapital einsetzen.</div>
+                </details>
+                <details>
+                    <summary>Kann die Engine Geld verlieren?</summary>
+                    <div class="a">Ja. Jede ehrliche Antwort auf diese Frage lautet ja — keine Strategie gewinnt jeden Trade, und Mean Reversion birgt Risiken in stark trendenden Märkten. Genau deshalb erzwingt die Engine Positionsgrößen und Exposure-Limits bei jedem Trade. Handeln Sie nie mit Kapital, dessen Verlust Sie sich nicht leisten können.</div>
+                </details>
+                <details>
+                    <summary>Was unterscheidet die Stufen?</summary>
+                    <div class="a">Prototype ist der Einstiegszugang zur Prototyp-Engine mit einem Markt. Founding Alpha ist lebenslanger Vollzugang ohne wiederkehrende Gebühren. Early Access ist dieselbe Voll-Engine mit monatlicher Abrechnung und jederzeitiger Kündigung. VIP Annual ergänzt priorisierte Ausführung, vollen API-Zugang und priorisierten Support.</div>
+                </details>
+                <details>
+                    <summary>Was passiert nach meiner Vorbestellung?</summary>
+                    <div class="a">Sie erhalten sofort Ihre Bestellbestätigung, danach Updates zum Launch-Zeitplan und Onboarding-Anweisungen per E-Mail. Gründungsmitglieder werden vor der öffentlichen Verfügbarkeit aufgenommen.</div>
+                </details>
+                <details>
+                    <summary>Bekomme ich eine Rückerstattung?</summary>
+                    <div class="a">Ja — Vorbestellungen sind jederzeit vor dem Launch voll erstattungsfähig. Kontaktieren Sie den Support (Details auf Ihrer Kaufquittung), und die Erstattung wird bearbeitet. Nach dem Launch können Monats- und Jahrespass jederzeit gekündigt werden, um künftige Abbuchungen zu stoppen. Details in unseren <a href="/terms" style="color:var(--accent)">Nutzungsbedingungen</a> (auf Englisch).</div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section class="final">
+        <div class="wrap">
+            <h2>Der Gründerpreis endet mit dem Launch.</h2>
+            <p>Reservieren Sie Ihre Stufe jetzt — sobald die Engine öffentlich ist, werden diese Preise dauerhaft eingestellt.</p>
+            <a href="#pricing" class="btn primary">Meine Stufe vorbestellen</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <div class="foot-top">
+                <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+                <div class="foot-links">
+                    <a href="#how">So funktioniert's</a>
+                    <a href="#strategy">Strategie</a>
+                    <a href="#pricing">Preise</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="/terms">AGB</a>
+                    <a href="/privacy">Datenschutz</a>
+                </div>
+            </div>
+            <p class="disclaimer">Risikohinweis: Trading birgt ein erhebliches Verlustrisiko und ist nicht für jeden Anleger geeignet. Algorithmische und automatisierte Strategien können Geld verlieren und tun es auch; vergangene oder simulierte Ergebnisse garantieren keine zukünftigen Resultate. ai PassiveAutotrades ist ein Software-Werkzeug — kein Anlageberater, Broker-Dealer oder Treuhänder, und nichts auf dieser Website stellt Finanzberatung oder eine Handelsaufforderung dar. Vorbestellungen gewähren Software-Zugang zum Launch wie oben beschrieben. Handeln Sie nur mit Kapital, dessen Verlust Sie sich leisten können.</p>
+            <p class="copyright">&copy; 2026 ai PassiveAutotrades. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+</body>
+</html>
+"""
+
+HOMEPAGE_HTML_PT = """
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ai PassiveAutotrades — Motor de Trading Quantitativo Z-Score Automatizado</title>
+    <meta name="description" content="Motor de trading totalmente automatizado baseado em reversão à média Z-score. Execução sem intervenção, controles de risco integrados e seus fundos nunca saem da sua própria conta. Reserve seu acesso fundador.">
+    <link rel="canonical" href="https://aipassiveautotrades.vercel.app/pt">
+""" + HREFLANG_LINKS + """
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#050608">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aipassiveautotrades.vercel.app/pt">
+    <meta property="og:site_name" content="ai PassiveAutotrades">
+    <meta property="og:title" content="ai PassiveAutotrades — Renda Institucional, Automatizada.">
+    <meta property="og:description" content="Estratégias quantitativas Z-score automatizadas sem olhar gráficos. Reserve seu acesso fundador antes do lançamento.">
+    <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
+    <meta property="og:locale" content="pt_BR">
+    <script defer src="/_vercel/insights/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+""" + HOMEPAGE_STYLE + """
+</head>
+<body>
+    <nav>
+        <div class="nav-inner">
+            <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+            <div class="nav-links">
+                <a href="#how">Como Funciona</a>
+                <a href="#strategy">Estratégia</a>
+                <a href="#pricing">Preços</a>
+                <a href="#faq">Perguntas</a>
+            </div>
+            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><a href="/fr">FR</a><a href="/de">DE</a><span class="cur">PT</span><a href="/ar">AR</a><a href="/fa">FA</a><a href="/ur">UR</a><a href="/hi">HI</a></div>
+            <a href="#pricing" class="nav-cta">Reservar Acesso</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="wrap">
+            <div class="hero-grid">
+                <div>
+                    <div class="eyebrow"><span class="dot"></span>MOTOR QUANTITATIVO Z-SCORE AUTOMATIZADO</div>
+                    <h1>Renda Institucional,<br><span class="grad">Automatizada.</span></h1>
+                    <p class="hero-sub">Um motor de trading totalmente automatizado baseado em reversão à média Z-score — a mesma metodologia estatística usada pelas mesas quantitativas — executando 24 horas por dia para você nunca mais olhar um gráfico.</p>
+                    <div class="hero-note">Pré-venda fundadora — garanta o preço vitalício antes do lançamento público</div>
+                    <div class="cta-row">
+                        <a href="#pricing" class="btn primary">Ver Níveis de Pré-venda</a>
+                        <a href="#how" class="btn ghost">Como Funciona</a>
+                    </div>
+                    <div class="hero-foot">
+                        <span>Execução sem intervenção</span>
+                        <span>Controles de risco integrados</span>
+                        <span>Cancele quando quiser</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="console mono">
+                        <div class="console-bar">
+                            <div class="dots"><i></i><i></i><i></i></div>
+                            <span class="title">MOTOR — MONITOR DE SINAIS</span>
+                        </div>
+                        <div class="console-body">
+                            <div class="crow"><span class="pair">BTC–USD</span><span class="z">z&nbsp;=&nbsp;+2.31</span><span class="sig armed">REVERT · ARMED</span></div>
+                            <div class="crow"><span class="pair">ETH–USD</span><span class="z">z&nbsp;=&nbsp;−0.42</span><span class="sig idle">IN BAND</span></div>
+                            <div class="crow"><span class="pair">SOL–USD</span><span class="z">z&nbsp;=&nbsp;−2.87</span><span class="sig armed">REVERT · ARMED</span></div>
+                            <div class="crow"><span class="pair">XRP–USD</span><span class="z">z&nbsp;=&nbsp;+0.96</span><span class="sig idle">IN BAND</span></div>
+                        </div>
+                        <div class="console-foot">
+                            <span>risco ✓ &nbsp; dimensionamento ✓ &nbsp; limites de exposição ✓</span>
+                            <span>24/7</span>
+                        </div>
+                    </div>
+                    <div class="console-caption">Feed de sinais ilustrativo — como o motor lê o mercado</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="strip">
+        <div class="strip-inner">
+            <div class="stat"><b>24/7</b><span>cobertura autônoma do mercado</span></div>
+            <div class="stat"><b>ms</b><span>velocidade de execução algorítmica</span></div>
+            <div class="stat"><b>0</b><span>gráficos para você acompanhar</span></div>
+            <div class="stat"><b>100%</b><span>baseado em regras — zero emoção</span></div>
+        </div>
+    </div>
+
+    <section id="how">
+        <div class="wrap">
+            <div class="sec-label">COMO FUNCIONA</div>
+            <div class="sec-head">
+                <h2>Três passos. Depois o motor assume.</h2>
+                <p>Sem grupos de sinais, sem horas de tela, sem decisões discricionárias. Uma vez configurado, cada entrada e saída é sistemática.</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <span class="num">01</span>
+                    <h3>Garanta Seu Nível</h3>
+                    <p>Reserve o nível que combina com você. O preço fundador fica travado permanentemente na sua conta — nunca mais será oferecido após o lançamento.</p>
+                </div>
+                <div class="step">
+                    <span class="num">02</span>
+                    <h3>Conecte e Configure</h3>
+                    <p>No lançamento, vincule o motor à sua conta de exchange e defina seus parâmetros de risco uma única vez. Seus fundos permanecem na sua própria conta o tempo todo.</p>
+                </div>
+                <div class="step">
+                    <span class="num">03</span>
+                    <h3>O Motor Executa</h3>
+                    <p>O núcleo Z-score monitora o desvio estatístico 24 horas por dia e executa entradas, saídas e dimensionamento de posições automaticamente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="strategy" class="alt">
+        <div class="wrap">
+            <div class="split">
+                <div class="sec-head">
+                    <div class="sec-label">A ESTRATÉGIA</div>
+                    <h2>Por que reversão à média Z-score?</h2>
+                    <p>Os mercados exageram. Os preços se afastam da sua média estatística, e preços esticados tendem a voltar. Um Z-score mede exatamente o quanto um preço está esticado — em desvios-padrão — transformando "isso parece exagerado" em um número preciso e testável.</p>
+                    <ul class="checklist">
+                        <li>Opera uma vantagem estatística definida — não indicadores, palpites ou hype</li>
+                        <li>Cada posição entra e sai por regra, com o risco dimensionado antes da operação</li>
+                        <li>A mesma classe de metodologia usada em mesas institucionais de stat-arb há décadas</li>
+                        <li>Sem emoção por construção: o motor não conhece vingança, FOMO nem hesitação</li>
+                    </ul>
+                </div>
+                <div class="quote-box">
+                    <div class="big">"Quando o preço desvia além de ±2 desvios-padrão da sua média móvel, o motor arma uma posição de reversão — e a gerencia até o fim sem intervenção humana."</div>
+                    <div class="src">— A regra central do ai PassiveAutotrades, dita com clareza. Sem caixa-preta, sem sinais misteriosos.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="wrap">
+            <div class="sec-label">O QUE VOCÊ RECEBE</div>
+            <div class="sec-head">
+                <h2>Projetado como uma mesa de operações. Entregue como um produto.</h2>
+            </div>
+            <div class="grid-6">
+                <div class="cell"><span class="ic">&#128202;</span><h3>Núcleo de Sinais Z-Score</h3><p>O desvio estatístico em janela móvel comanda cada sinal — transparente, testável e consistente.</p></div>
+                <div class="cell"><span class="ic">&#9889;</span><h3>Execução em Milissegundos</h3><p>Os sinais disparam algoritmicamente no momento em que os limiares são cruzados — dia, noite e fins de semana.</p></div>
+                <div class="cell"><span class="ic">&#128737;&#65039;</span><h3>Limites de Risco Rígidos</h3><p>Dimensionamento por operação, tetos de exposição e saídas automáticas aplicados em cada posição.</p></div>
+                <div class="cell"><span class="ic">&#128273;</span><h3>Seus Fundos, Sua Conta</h3><p>O motor se conecta à sua própria conta de exchange. O capital nunca é transferido para nós.</p></div>
+                <div class="cell"><span class="ic">&#128295;</span><h3>Configuração Única</h3><p>Escolha nível de risco e mercados uma única vez. Sem manutenção contínua nem vigilância.</p></div>
+                <div class="cell"><span class="ic">&#128225;</span><h3>Acesso API <span style="color:var(--faint);font-weight:400;font-size:0.75rem">(VIP)</span></h3><p>Acesso programático completo ao motor para integrações e monitoramento personalizados.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="alt">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">PRÉ-VENDA FUNDADORA</div>
+                <h2>Trave seu nível antes do lançamento</h2>
+                <p>Cada nível é uma pré-venda a preço fundador. Quando o motor for lançado, os membros fundadores entram primeiro — e esses preços são aposentados permanentemente.</p>
+            </div>
+            <div class="tiers">
+                <div class="tier">
+                    <span class="badge">PRÉ-VENDA</span>
+                    <h3>Prototype</h3>
+                    <div class="who">Para iniciantes em algo-trading</div>
+                    <div class="price">$79.99</div>
+                    <div class="per">pagamento único (USD)</div>
+                    <ul>
+                        <li>Acesso inicial ao motor protótipo</li>
+                        <li>Estratégia Z-score básica, um mercado</li>
+                        <li>Controles de risco padrão</li>
+                        <li>Suporte por email</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00" class="btn primary">Obter Prototype</a>
+                </div>
+                <div class="tier">
+                    <span class="badge">PRÉ-VENDA</span>
+                    <h3>Founding Alpha</h3>
+                    <div class="who">Para quem acredita no longo prazo</div>
+                    <div class="price">$199.99</div>
+                    <div class="per">pagamento único · vitalício (USD)</div>
+                    <ul>
+                        <li>Acesso completo vitalício ao motor</li>
+                        <li>Todos os mercados e atualizações, para sempre</li>
+                        <li>Sem taxas recorrentes, nunca</li>
+                        <li>Onboarding prioritário no lançamento</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01" class="btn primary">Garantir Vitalício</a>
+                </div>
+                <div class="tier">
+                    <span class="badge">PRÉ-VENDA</span>
+                    <h3>Early Access Pass</h3>
+                    <div class="who">Para quem prefere flexibilidade</div>
+                    <div class="price">$49.99</div>
+                    <div class="per">por mês (USD)</div>
+                    <ul>
+                        <li>Utilidade completa do motor</li>
+                        <li>Todos os mercados incluídos</li>
+                        <li>Cancele quando quiser</li>
+                        <li>Suporte padrão</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/00wcN4di180geXP9VEd3i02" class="btn ghost">Garantir Mensal</a>
+                </div>
+                <div class="tier featured">
+                    <span class="flag">MELHOR VALOR</span>
+                    <span class="badge">PRÉ-VENDA</span>
+                    <h3>VIP Annual Pass</h3>
+                    <div class="who">Para operadores sérios</div>
+                    <div class="price">$499.99</div>
+                    <div class="per">por ano (USD)</div>
+                    <ul>
+                        <li>Tudo do Early Access</li>
+                        <li>Fila de execução prioritária</li>
+                        <li>Acesso API completo</li>
+                        <li>Canal de suporte prioritário</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03" class="btn primary">Garantir Anual</a>
+                </div>
+            </div>
+            <p class="pricing-note">Pagamento seguro via Stripe · Pague em USD, EUR, GBP, CAD ou AUD — sua moeda é detectada automaticamente no checkout · Os preços fundadores são aposentados permanentemente no lançamento público</p>
+        </div>
+    </section>
+
+    <section id="faq">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">PERGUNTAS</div>
+                <h2>O que perguntam antes de comprar</h2>
+            </div>
+            <div class="faq">
+                <details>
+                    <summary>O que exatamente estou comprando com uma pré-venda?</summary>
+                    <div class="a">Você está reservando acesso ao motor a preço fundador antes do lançamento público. Seu nível e preço ficam travados permanentemente na sua conta. Os membros fundadores entram primeiro quando o motor for ao ar, e as novidades do lançamento vão para o email usado no checkout.</div>
+                </details>
+                <details>
+                    <summary>Meus fundos saem do meu controle em algum momento?</summary>
+                    <div class="a">Não. O motor se conecta à sua própria conta de exchange por chaves API que você controla e pode revogar a qualquer momento. Nunca custodiamos seu capital, e permissões de saque jamais são exigidas.</div>
+                </details>
+                <details>
+                    <summary>Preciso de experiência em trading?</summary>
+                    <div class="a">Não é preciso ler gráficos nem saber operar — a configuração é feita uma única vez. Você deve, porém, entender que todo trading envolve risco real de perda antes de comprometer capital.</div>
+                </details>
+                <details>
+                    <summary>O motor pode perder dinheiro?</summary>
+                    <div class="a">Sim. Qualquer resposta honesta a essa pergunta é sim — nenhuma estratégia vence todas as operações, e a reversão à média tem risco em mercados de tendência forte. É exatamente por isso que o motor aplica dimensionamento de posição e limites de exposição em cada operação. Nunca opere com capital que você não pode perder.</div>
+                </details>
+                <details>
+                    <summary>Qual a diferença entre os níveis?</summary>
+                    <div class="a">Prototype é acesso inicial de mercado único ao motor protótipo. Founding Alpha é acesso completo vitalício sem taxas recorrentes. Early Access é o mesmo motor completo cobrado mensalmente com cancelamento livre. VIP Annual adiciona execução prioritária, acesso API completo e suporte prioritário.</div>
+                </details>
+                <details>
+                    <summary>O que acontece depois da pré-venda?</summary>
+                    <div class="a">Você recebe a confirmação do pedido imediatamente, seguida de novidades sobre o cronograma de lançamento e instruções de onboarding por email. Os membros fundadores entram antes da disponibilidade pública.</div>
+                </details>
+                <details>
+                    <summary>Posso pedir reembolso?</summary>
+                    <div class="a">Sim — as pré-vendas são totalmente reembolsáveis a qualquer momento antes do lançamento. Contate o suporte (dados no seu recibo de compra) e o reembolso será processado. Após o lançamento, os passes mensal e anual podem ser cancelados a qualquer momento para interromper cobranças futuras. Detalhes completos nos nossos <a href="/terms" style="color:var(--accent)">Termos de Serviço</a> (em inglês).</div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section class="final">
+        <div class="wrap">
+            <h2>O preço fundador termina no lançamento.</h2>
+            <p>Reserve seu nível agora — quando o motor for público, esses preços serão aposentados permanentemente.</p>
+            <a href="#pricing" class="btn primary">Reservar Meu Nível</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <div class="foot-top">
+                <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+                <div class="foot-links">
+                    <a href="#how">Como Funciona</a>
+                    <a href="#strategy">Estratégia</a>
+                    <a href="#pricing">Preços</a>
+                    <a href="#faq">Perguntas</a>
+                    <a href="/terms">Termos</a>
+                    <a href="/privacy">Privacidade</a>
+                </div>
+            </div>
+            <p class="disclaimer">Aviso de risco: Trading envolve risco substancial de perda e não é adequado para todo investidor. Estratégias algorítmicas e automatizadas podem perder dinheiro e perdem; desempenho passado ou simulado não garante resultados futuros. O ai PassiveAutotrades é uma ferramenta de software — não é consultor de investimentos, corretora nem fiduciário, e nada neste site constitui aconselhamento financeiro ou solicitação para operar. As compras de pré-venda concedem acesso ao software no lançamento conforme descrito acima. Opere apenas com capital que você pode perder.</p>
+            <p class="copyright">&copy; 2026 ai PassiveAutotrades. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
+"""
+
+# Arabic needs right-to-left layout: dir="rtl" on <html> plus a few overrides for
+# the physical-direction CSS rules; the signal console stays LTR (terminal data).
+RTL_OVERRIDES = """
+<style>
+    .lang { margin-left: 0; margin-right: auto; }
+    .quote-box { border-left: 1px solid var(--line); border-right: 3px solid var(--accent); }
+    .stat { border-left: none; border-right: 1px solid var(--line-soft); }
+    .stat:first-child { border-right: none; }
+    .hero-foot span::before, .checklist li::before, .tier ul li::before { margin-right: 0; margin-left: 6px; }
+    .console { direction: ltr; }
+</style>
+"""
+
+HOMEPAGE_HTML_AR = """
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ai PassiveAutotrades — محرك تداول كمي آلي بمؤشر Z-Score</title>
+    <meta name="description" content="محرك تداول آلي بالكامل يعتمد على استراتيجية العودة إلى المتوسط بمؤشر Z-Score. تنفيذ دون تدخل، ضوابط مخاطر مدمجة، وأموالك لا تغادر حسابك الخاص أبداً. احجز وصول المؤسسين الآن.">
+    <link rel="canonical" href="https://aipassiveautotrades.vercel.app/ar">
+""" + HREFLANG_LINKS + """
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#050608">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aipassiveautotrades.vercel.app/ar">
+    <meta property="og:site_name" content="ai PassiveAutotrades">
+    <meta property="og:title" content="ai PassiveAutotrades — دخل مؤسسي، مؤتمت.">
+    <meta property="og:description" content="استراتيجيات كمية آلية بمؤشر Z-Score دون مراقبة الرسوم البيانية. احجز وصول المؤسسين قبل الإطلاق.">
+    <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
+    <meta property="og:locale" content="ar_AR">
+    <script defer src="/_vercel/insights/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+""" + HOMEPAGE_STYLE + RTL_OVERRIDES + """
+</head>
+<body>
+    <nav>
+        <div class="nav-inner">
+            <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+            <div class="nav-links">
+                <a href="#how">كيف يعمل</a>
+                <a href="#strategy">الاستراتيجية</a>
+                <a href="#pricing">الأسعار</a>
+                <a href="#faq">الأسئلة</a>
+            </div>
+            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><a href="/fr">FR</a><a href="/de">DE</a><a href="/pt">PT</a><span class="cur">AR</span><a href="/fa">FA</a><a href="/ur">UR</a><a href="/hi">HI</a></div>
+            <a href="#pricing" class="nav-cta">احجز وصولك</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="wrap">
+            <div class="hero-grid">
+                <div>
+                    <div class="eyebrow"><span class="dot"></span>محرك كمي آلي بمؤشر Z-SCORE</div>
+                    <h1>دخل مؤسسي،<br><span class="grad">مؤتمت.</span></h1>
+                    <p class="hero-sub">محرك تداول آلي بالكامل مبني على استراتيجية العودة إلى المتوسط بمؤشر Z-Score — المنهجية الإحصائية ذاتها التي تعتمدها مكاتب التداول الكمي — يعمل على مدار الساعة حتى لا تراقب الرسوم البيانية مجدداً.</p>
+                    <div class="hero-note">حجز مسبق للمؤسسين — ثبّت سعراً مدى الحياة قبل الإطلاق العام</div>
+                    <div class="cta-row">
+                        <a href="#pricing" class="btn primary">عرض باقات الحجز المسبق</a>
+                        <a href="#how" class="btn ghost">كيف يعمل</a>
+                    </div>
+                    <div class="hero-foot">
+                        <span>تنفيذ دون أي تدخل</span>
+                        <span>ضوابط مخاطر مدمجة</span>
+                        <span>إمكانية الإلغاء في أي وقت</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="console mono">
+                        <div class="console-bar">
+                            <div class="dots"><i></i><i></i><i></i></div>
+                            <span class="title">ENGINE — SIGNAL MONITOR</span>
+                        </div>
+                        <div class="console-body">
+                            <div class="crow"><span class="pair">BTC–USD</span><span class="z">z&nbsp;=&nbsp;+2.31</span><span class="sig armed">REVERT · ARMED</span></div>
+                            <div class="crow"><span class="pair">ETH–USD</span><span class="z">z&nbsp;=&nbsp;−0.42</span><span class="sig idle">IN BAND</span></div>
+                            <div class="crow"><span class="pair">SOL–USD</span><span class="z">z&nbsp;=&nbsp;−2.87</span><span class="sig armed">REVERT · ARMED</span></div>
+                            <div class="crow"><span class="pair">XRP–USD</span><span class="z">z&nbsp;=&nbsp;+0.96</span><span class="sig idle">IN BAND</span></div>
+                        </div>
+                        <div class="console-foot">
+                            <span>risk ✓ &nbsp; sizing ✓ &nbsp; exposure ✓</span>
+                            <span>24/7</span>
+                        </div>
+                    </div>
+                    <div class="console-caption">شاشة إشارات توضيحية — هكذا يقرأ المحرك السوق</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="strip">
+        <div class="strip-inner">
+            <div class="stat"><b>24/7</b><span>تغطية مستقلة للسوق</span></div>
+            <div class="stat"><b>ms</b><span>سرعة تنفيذ خوارزمية</span></div>
+            <div class="stat"><b>0</b><span>رسوم بيانية عليك مراقبتها</span></div>
+            <div class="stat"><b>100%</b><span>قائم على القواعد — صفر عواطف</span></div>
+        </div>
+    </div>
+
+    <section id="how">
+        <div class="wrap">
+            <div class="sec-label">كيف يعمل</div>
+            <div class="sec-head">
+                <h2>ثلاث خطوات. ثم يتولى المحرك القيادة.</h2>
+                <p>لا مجموعات إشارات، لا ساعات أمام الشاشة، لا قرارات مزاجية. بعد الإعداد، يصبح كل دخول وخروج منهجياً بالكامل.</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <span class="num">01</span>
+                    <h3>احجز باقتك</h3>
+                    <p>احجز الباقة المناسبة لك مسبقاً. سعر المؤسسين يُثبَّت في حسابك بشكل دائم — ولن يُعرض مجدداً بعد الإطلاق.</p>
+                </div>
+                <div class="step">
+                    <span class="num">02</span>
+                    <h3>اربط وهيّئ</h3>
+                    <p>عند الإطلاق، اربط المحرك بحسابك في منصة التداول وحدد معايير المخاطر مرة واحدة. أموالك تبقى في حسابك الخاص في جميع الأوقات.</p>
+                </div>
+                <div class="step">
+                    <span class="num">03</span>
+                    <h3>المحرك ينفّذ</h3>
+                    <p>يراقب نواة Z-Score الانحراف الإحصائي على مدار الساعة وينفّذ الدخول والخروج وتحديد حجم المراكز تلقائياً.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="strategy" class="alt">
+        <div class="wrap">
+            <div class="split">
+                <div class="sec-head">
+                    <div class="sec-label">الاستراتيجية</div>
+                    <h2>لماذا العودة إلى المتوسط بمؤشر Z-Score؟</h2>
+                    <p>الأسواق تبالغ في ردود أفعالها. تبتعد الأسعار عن متوسطها الإحصائي، والأسعار الممتدة تميل إلى العودة. يقيس مؤشر Z-Score بدقة مدى امتداد السعر — بالانحرافات المعيارية — فيحوّل «هذا يبدو مبالغاً فيه» إلى رقم دقيق قابل للاختبار.</p>
+                    <ul class="checklist">
+                        <li>يتداول ميزة إحصائية محددة — لا مؤشرات عشوائية ولا حدس ولا ضجيج</li>
+                        <li>كل مركز يُفتح ويُغلق وفق قاعدة، مع تحديد المخاطر قبل تنفيذ الصفقة</li>
+                        <li>فئة المنهجية ذاتها المستخدمة في مكاتب المراجحة الإحصائية المؤسسية منذ عقود</li>
+                        <li>بلا عواطف بحكم التصميم: المحرك لا يعرف الانتقام ولا الخوف من الفوات ولا التردد</li>
+                    </ul>
+                </div>
+                <div class="quote-box">
+                    <div class="big">«عندما ينحرف السعر أكثر من ±2 انحراف معياري عن متوسطه المتحرك، يسلّح المحرك مركز عودة إلى المتوسط — ويديره حتى النهاية دون تدخل بشري.»</div>
+                    <div class="src">— القاعدة الأساسية داخل ai PassiveAutotrades، معلنة بوضوح. لا صندوق أسود، ولا إشارات غامضة.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="wrap">
+            <div class="sec-label">ما الذي تحصل عليه</div>
+            <div class="sec-head">
+                <h2>مُصمَّم كمكتب تداول. يُسلَّم كمنتج.</h2>
+            </div>
+            <div class="grid-6">
+                <div class="cell"><span class="ic">&#128202;</span><h3>نواة إشارات Z-Score</h3><p>الانحراف الإحصائي على نافذة متحركة يقود كل إشارة — شفاف وقابل للاختبار ومتسق.</p></div>
+                <div class="cell"><span class="ic">&#9889;</span><h3>تنفيذ بالمللي ثانية</h3><p>تنطلق الإشارات خوارزمياً لحظة تجاوز العتبات — ليلاً ونهاراً وفي عطلات نهاية الأسبوع.</p></div>
+                <div class="cell"><span class="ic">&#128737;&#65039;</span><h3>حدود مخاطر صارمة</h3><p>حجم لكل صفقة، وسقوف تعرض، وخروج آلي تُفرض على كل مركز دون استثناء.</p></div>
+                <div class="cell"><span class="ic">&#128273;</span><h3>أموالك، حسابك</h3><p>يتصل المحرك بحسابك الخاص في منصة التداول. رأس المال لا يُحوَّل إلينا أبداً.</p></div>
+                <div class="cell"><span class="ic">&#128295;</span><h3>إعداد لمرة واحدة</h3><p>اختر مستوى المخاطر والأسواق مرة واحدة فقط. لا صيانة مستمرة ولا مراقبة.</p></div>
+                <div class="cell"><span class="ic">&#128225;</span><h3>وصول API <span style="color:var(--faint);font-weight:400;font-size:0.75rem">(VIP)</span></h3><p>وصول برمجي كامل إلى المحرك للتكاملات والمراقبة المخصصة.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="alt">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">حجز المؤسسين المسبق</div>
+                <h2>ثبّت باقتك قبل الإطلاق</h2>
+                <p>كل باقة هي حجز مسبق بسعر المؤسسين. عند إطلاق المحرك، ينضم الأعضاء المؤسسون أولاً — وتُسحب هذه الأسعار نهائياً.</p>
+            </div>
+            <div class="tiers">
+                <div class="tier">
+                    <span class="badge">حجز مسبق</span>
+                    <h3>Prototype</h3>
+                    <div class="who">لمن يبدأ في التداول الخوارزمي</div>
+                    <div class="price">$79.99</div>
+                    <div class="per">دفعة واحدة (دولار أمريكي)</div>
+                    <ul>
+                        <li>وصول مبدئي إلى محرك النموذج الأولي</li>
+                        <li>استراتيجية Z-Score الأساسية، سوق واحد</li>
+                        <li>ضوابط مخاطر قياسية</li>
+                        <li>دعم عبر البريد الإلكتروني</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00" class="btn primary">احصل على Prototype</a>
+                </div>
+                <div class="tier">
+                    <span class="badge">حجز مسبق</span>
+                    <h3>Founding Alpha</h3>
+                    <div class="who">للمؤمنين بالمدى الطويل</div>
+                    <div class="price">$199.99</div>
+                    <div class="per">دفعة واحدة · مدى الحياة (دولار أمريكي)</div>
+                    <ul>
+                        <li>وصول كامل مدى الحياة إلى المحرك</li>
+                        <li>جميع الأسواق وتحديثات الاستراتيجية، للأبد</li>
+                        <li>لا رسوم متكررة، أبداً</li>
+                        <li>انضمام ذو أولوية عند الإطلاق</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01" class="btn primary">احجز مدى الحياة</a>
+                </div>
+                <div class="tier">
+                    <span class="badge">حجز مسبق</span>
+                    <h3>Early Access Pass</h3>
+                    <div class="who">لمن يفضّل المرونة</div>
+                    <div class="price">$49.99</div>
+                    <div class="per">شهرياً (دولار أمريكي)</div>
+                    <ul>
+                        <li>الاستفادة الكاملة من المحرك</li>
+                        <li>جميع الأسواق مشمولة</li>
+                        <li>ألغِ في أي وقت</li>
+                        <li>دعم قياسي</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/00wcN4di180geXP9VEd3i02" class="btn ghost">احجز شهرياً</a>
+                </div>
+                <div class="tier featured">
+                    <span class="flag">أفضل قيمة</span>
+                    <span class="badge">حجز مسبق</span>
+                    <h3>VIP Annual Pass</h3>
+                    <div class="who">للمتداولين الجادين</div>
+                    <div class="price">$499.99</div>
+                    <div class="per">سنوياً (دولار أمريكي)</div>
+                    <ul>
+                        <li>كل ما في Early Access</li>
+                        <li>أولوية في طابور التنفيذ</li>
+                        <li>وصول API كامل</li>
+                        <li>قناة دعم ذات أولوية</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03" class="btn primary">احجز سنوياً</a>
+                </div>
+            </div>
+            <p class="pricing-note">دفع آمن عبر Stripe · ادفع بالدولار الأمريكي أو اليورو أو الجنيه الإسترليني أو الدولار الكندي أو الأسترالي — تُكتشف عملتك تلقائياً عند الدفع · تُسحب أسعار المؤسسين نهائياً عند الإطلاق العام</p>
+        </div>
+    </section>
+
+    <section id="faq">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">الأسئلة</div>
+                <h2>ما يُسأل قبل الشراء</h2>
+            </div>
+            <div class="faq">
+                <details>
+                    <summary>ما الذي أشتريه بالضبط بالحجز المسبق؟</summary>
+                    <div class="a">أنت تحجز الوصول إلى المحرك بسعر المؤسسين قبل الإطلاق العام. باقتك وسعرك يُثبَّتان في حسابك بشكل دائم. ينضم الأعضاء المؤسسون أولاً عند تشغيل المحرك، وتُرسل مستجدات الإطلاق إلى البريد الإلكتروني المستخدم عند الدفع.</div>
+                </details>
+                <details>
+                    <summary>هل تخرج أموالي من سيطرتي في أي وقت؟</summary>
+                    <div class="a">لا. يتصل المحرك بحسابك الخاص في منصة التداول عبر مفاتيح API تتحكم بها أنت ويمكنك إلغاؤها في أي وقت. لا نحتفظ برأس مالك أبداً، ولا تُطلب صلاحيات السحب مطلقاً.</div>
+                </details>
+                <details>
+                    <summary>هل أحتاج إلى خبرة في التداول؟</summary>
+                    <div class="a">لا حاجة لقراءة الرسوم البيانية أو مهارة في التداول لتشغيل المحرك — الإعداد يتم مرة واحدة. لكن عليك أن تدرك أن كل تداول ينطوي على خطر خسارة حقيقي قبل استثمار أي رأس مال.</div>
+                </details>
+                <details>
+                    <summary>هل يمكن أن يخسر المحرك المال؟</summary>
+                    <div class="a">نعم. أي إجابة صادقة عن هذا السؤال هي نعم — لا توجد استراتيجية تربح كل صفقة، والعودة إلى المتوسط تنطوي على مخاطر في الأسواق ذات الاتجاهات القوية. لهذا بالتحديد يفرض المحرك تحديد حجم المراكز وحدود التعرض على كل صفقة. لا تتداول أبداً برأس مال لا يمكنك تحمّل خسارته.</div>
+                </details>
+                <details>
+                    <summary>ما الفرق بين الباقات؟</summary>
+                    <div class="a">Prototype وصول مبدئي بسوق واحد إلى محرك النموذج الأولي. Founding Alpha وصول كامل مدى الحياة دون رسوم متكررة. Early Access هو المحرك الكامل ذاته بفوترة شهرية مع إلغاء حر. VIP Annual يضيف أولوية التنفيذ ووصول API الكامل والدعم ذا الأولوية.</div>
+                </details>
+                <details>
+                    <summary>ماذا يحدث بعد الحجز المسبق؟</summary>
+                    <div class="a">تصلك رسالة تأكيد الطلب فوراً، تليها مستجدات الجدول الزمني للإطلاق وتعليمات الانضمام عبر البريد الإلكتروني. ينضم الأعضاء المؤسسون قبل الإتاحة العامة.</div>
+                </details>
+                <details>
+                    <summary>هل يمكنني استرداد أموالي؟</summary>
+                    <div class="a">نعم — الحجوزات المسبقة قابلة للاسترداد بالكامل في أي وقت قبل الإطلاق. تواصل مع الدعم (البيانات في إيصال الشراء) وسيُعالج الاسترداد. بعد الإطلاق، يمكن إلغاء الباقتين الشهرية والسنوية في أي وقت لإيقاف الفوترة المستقبلية. التفاصيل الكاملة في <a href="/terms" style="color:var(--accent)">شروط الخدمة</a> (بالإنجليزية).</div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section class="final">
+        <div class="wrap">
+            <h2>سعر المؤسسين ينتهي عند الإطلاق.</h2>
+            <p>احجز باقتك الآن — عندما يصبح المحرك عاماً، تُسحب هذه الأسعار نهائياً.</p>
+            <a href="#pricing" class="btn primary">احجز باقتي</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <div class="foot-top">
+                <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+                <div class="foot-links">
+                    <a href="#how">كيف يعمل</a>
+                    <a href="#strategy">الاستراتيجية</a>
+                    <a href="#pricing">الأسعار</a>
+                    <a href="#faq">الأسئلة</a>
+                    <a href="/terms">الشروط</a>
+                    <a href="/privacy">الخصوصية</a>
+                </div>
+            </div>
+            <p class="disclaimer">إفصاح عن المخاطر: ينطوي التداول على خطر خسارة كبير وهو غير مناسب لكل مستثمر. الاستراتيجيات الخوارزمية والآلية يمكن أن تخسر المال وهي تخسره فعلاً؛ الأداء السابق أو المحاكى لا يضمن النتائج المستقبلية. ai PassiveAutotrades أداة برمجية — ليست مستشاراً استثمارياً ولا وسيطاً مالياً ولا جهة ائتمانية، ولا شيء في هذا الموقع يشكل نصيحة مالية أو دعوة للتداول. مشتريات الحجز المسبق تمنح الوصول إلى البرنامج عند الإطلاق كما هو موضح أعلاه. تداول فقط برأس مال يمكنك تحمّل خسارته.</p>
+            <p class="copyright">&copy; 2026 ai PassiveAutotrades. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+</body>
+</html>
+"""
+
+HOMEPAGE_HTML_FA = """
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ai PassiveAutotrades — موتور معاملات کمّی خودکار Z-Score</title>
+    <meta name="description" content="موتور معاملاتی کاملاً خودکار مبتنی بر بازگشت به میانگین Z-Score. اجرای بدون دخالت، کنترل ریسک داخلی، و سرمایه شما هرگز از حساب خودتان خارج نمی‌شود. دسترسی بنیان‌گذاران را پیش‌خرید کنید.">
+    <link rel="canonical" href="https://aipassiveautotrades.vercel.app/fa">
+""" + HREFLANG_LINKS + """
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#050608">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aipassiveautotrades.vercel.app/fa">
+    <meta property="og:site_name" content="ai PassiveAutotrades">
+    <meta property="og:title" content="ai PassiveAutotrades — درآمد نهادی، خودکار.">
+    <meta property="og:description" content="استراتژی‌های کمّی Z-Score خودکار بدون تماشای نمودار. دسترسی بنیان‌گذاران را پیش از عرضه پیش‌خرید کنید.">
+    <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
+    <meta property="og:locale" content="fa_IR">
+    <script defer src="/_vercel/insights/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+""" + HOMEPAGE_STYLE + RTL_OVERRIDES + """
+</head>
+<body>
+    <nav>
+        <div class="nav-inner">
+            <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+            <div class="nav-links">
+                <a href="#how">نحوه کار</a>
+                <a href="#strategy">استراتژی</a>
+                <a href="#pricing">قیمت‌ها</a>
+                <a href="#faq">پرسش‌ها</a>
+            </div>
+            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><a href="/fr">FR</a><a href="/de">DE</a><a href="/pt">PT</a><a href="/ar">AR</a><span class="cur">FA</span><a href="/ur">UR</a><a href="/hi">HI</a></div>
+            <a href="#pricing" class="nav-cta">پیش‌خرید دسترسی</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="wrap">
+            <div class="hero-grid">
+                <div>
+                    <div class="eyebrow"><span class="dot"></span>موتور کمّی خودکار Z-SCORE</div>
+                    <h1>درآمد نهادی،<br><span class="grad">خودکار.</span></h1>
+                    <p class="hero-sub">یک موتور معاملاتی کاملاً خودکار بر پایه بازگشت به میانگین Z-Score — همان روش‌شناسی آماری میزهای معاملات کمّی — که شبانه‌روز اجرا می‌کند تا شما دیگر هرگز به نمودار خیره نشوید.</p>
+                    <div class="hero-note">پیش‌خرید بنیان‌گذاران — قیمت مادام‌العمر را پیش از عرضه عمومی قفل کنید</div>
+                    <div class="cta-row">
+                        <a href="#pricing" class="btn primary">مشاهده پلن‌های پیش‌خرید</a>
+                        <a href="#how" class="btn ghost">نحوه کار</a>
+                    </div>
+                    <div class="hero-foot">
+                        <span>اجرای بدون دخالت</span>
+                        <span>کنترل ریسک داخلی</span>
+                        <span>امکان لغو در هر زمان</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="console mono">
+                        <div class="console-bar">
+                            <div class="dots"><i></i><i></i><i></i></div>
+                            <span class="title">ENGINE — SIGNAL MONITOR</span>
+                        </div>
+                        <div class="console-body">
+                            <div class="crow"><span class="pair">BTC–USD</span><span class="z">z&nbsp;=&nbsp;+2.31</span><span class="sig armed">REVERT · ARMED</span></div>
+                            <div class="crow"><span class="pair">ETH–USD</span><span class="z">z&nbsp;=&nbsp;−0.42</span><span class="sig idle">IN BAND</span></div>
+                            <div class="crow"><span class="pair">SOL–USD</span><span class="z">z&nbsp;=&nbsp;−2.87</span><span class="sig armed">REVERT · ARMED</span></div>
+                            <div class="crow"><span class="pair">XRP–USD</span><span class="z">z&nbsp;=&nbsp;+0.96</span><span class="sig idle">IN BAND</span></div>
+                        </div>
+                        <div class="console-foot">
+                            <span>risk ✓ &nbsp; sizing ✓ &nbsp; exposure ✓</span>
+                            <span>24/7</span>
+                        </div>
+                    </div>
+                    <div class="console-caption">نمای نمونه سیگنال‌ها — موتور بازار را این‌گونه می‌خواند</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="strip">
+        <div class="strip-inner">
+            <div class="stat"><b>24/7</b><span>پوشش خودکار بازار</span></div>
+            <div class="stat"><b>ms</b><span>سرعت اجرای الگوریتمی</span></div>
+            <div class="stat"><b>0</b><span>نموداری که باید تماشا کنید</span></div>
+            <div class="stat"><b>100%</b><span>قانون‌محور — بدون احساسات</span></div>
+        </div>
+    </div>
+
+    <section id="how">
+        <div class="wrap">
+            <div class="sec-label">نحوه کار</div>
+            <div class="sec-head">
+                <h2>سه گام. سپس موتور کنترل را به دست می‌گیرد.</h2>
+                <p>نه گروه سیگنال، نه ساعت‌ها پای نمایشگر، نه تصمیم‌های سلیقه‌ای. پس از پیکربندی، هر ورود و خروج سیستماتیک است.</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <span class="num">01</span>
+                    <h3>پلن خود را رزرو کنید</h3>
+                    <p>پلن مناسب خود را پیش‌خرید کنید. قیمت بنیان‌گذاران برای همیشه روی حساب شما قفل می‌شود — پس از عرضه دیگر هرگز ارائه نخواهد شد.</p>
+                </div>
+                <div class="step">
+                    <span class="num">02</span>
+                    <h3>اتصال و پیکربندی</h3>
+                    <p>هنگام عرضه، موتور را به حساب صرافی خود متصل کنید و پارامترهای ریسک را یک بار تنظیم کنید. سرمایه شما همیشه در حساب خودتان می‌ماند.</p>
+                </div>
+                <div class="step">
+                    <span class="num">03</span>
+                    <h3>موتور اجرا می‌کند</h3>
+                    <p>هسته Z-Score انحراف آماری را شبانه‌روز رصد می‌کند و ورود، خروج و اندازه پوزیشن را خودکار اجرا می‌کند.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="strategy" class="alt">
+        <div class="wrap">
+            <div class="split">
+                <div class="sec-head">
+                    <div class="sec-label">استراتژی</div>
+                    <h2>چرا بازگشت به میانگین Z-Score؟</h2>
+                    <p>بازارها بیش‌واکنشی‌اند. قیمت‌ها از میانگین آماری خود فاصله می‌گیرند و قیمت‌های کشیده‌شده تمایل به بازگشت دارند. Z-Score دقیقاً اندازه می‌گیرد قیمت چقدر کشیده شده — به انحراف معیار — و «به نظر بیش‌ازحد رفته» را به عددی دقیق و آزمون‌پذیر تبدیل می‌کند.</p>
+                    <ul class="checklist">
+                        <li>معامله بر مبنای یک مزیت آماری تعریف‌شده — نه اندیکاتور، نه حدس، نه هیاهو</li>
+                        <li>هر پوزیشن طبق قاعده باز و بسته می‌شود و ریسک پیش از معامله اندازه‌گیری می‌شود</li>
+                        <li>همان خانواده روش‌هایی که میزهای نهادی آربیتراژ آماری دهه‌هاست به کار می‌برند</li>
+                        <li>بدون احساسات به‌حکم طراحی: موتور نه انتقام می‌گیرد، نه FOMO دارد و نه تردید می‌کند</li>
+                    </ul>
+                </div>
+                <div class="quote-box">
+                    <div class="big">«وقتی قیمت بیش از ±۲ انحراف معیار از میانگین متحرک خود فاصله بگیرد، موتور یک پوزیشن بازگشتی مسلح می‌کند — و آن را تا پایان بدون دخالت انسانی مدیریت می‌کند.»</div>
+                    <div class="src">— قاعده اصلی ai PassiveAutotrades، بیان‌شده به‌روشنی. نه جعبه سیاه، نه سیگنال‌های مرموز.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="wrap">
+            <div class="sec-label">چه چیزی دریافت می‌کنید</div>
+            <div class="sec-head">
+                <h2>مهندسی‌شده مانند یک میز معاملات. تحویل‌شده مانند یک محصول.</h2>
+            </div>
+            <div class="grid-6">
+                <div class="cell"><span class="ic">&#128202;</span><h3>هسته سیگنال Z-Score</h3><p>انحراف آماری روی پنجره متحرک هر سیگنال را هدایت می‌کند — شفاف، آزمون‌پذیر و یکنواخت.</p></div>
+                <div class="cell"><span class="ic">&#9889;</span><h3>اجرا در میلی‌ثانیه</h3><p>سیگنال‌ها به‌محض عبور از آستانه‌ها الگوریتمی شلیک می‌شوند — روز، شب و آخر هفته.</p></div>
+                <div class="cell"><span class="ic">&#128737;&#65039;</span><h3>حدود ریسک سخت‌گیرانه</h3><p>اندازه هر معامله، سقف اکسپوژر و خروج خودکار روی هر پوزیشن اعمال می‌شود.</p></div>
+                <div class="cell"><span class="ic">&#128273;</span><h3>سرمایه شما، حساب شما</h3><p>موتور به حساب صرافی خود شما متصل می‌شود. سرمایه هرگز به ما منتقل نمی‌شود.</p></div>
+                <div class="cell"><span class="ic">&#128295;</span><h3>پیکربندی یک‌باره</h3><p>سطح ریسک و بازارها را فقط یک بار انتخاب کنید. بدون نگهداری یا مراقبت مداوم.</p></div>
+                <div class="cell"><span class="ic">&#128225;</span><h3>دسترسی API <span style="color:var(--faint);font-weight:400;font-size:0.75rem">(VIP)</span></h3><p>دسترسی برنامه‌نویسی کامل به موتور برای یکپارچه‌سازی و پایش سفارشی.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="alt">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">پیش‌خرید بنیان‌گذاران</div>
+                <h2>پلن خود را پیش از عرضه قفل کنید</h2>
+                <p>هر پلن یک پیش‌خرید با قیمت بنیان‌گذاران است. هنگام عرضه موتور، اعضای بنیان‌گذار اول وارد می‌شوند — و این قیمت‌ها برای همیشه بازنشسته می‌شوند.</p>
+            </div>
+            <div class="tiers">
+                <div class="tier">
+                    <span class="badge">پیش‌خرید</span>
+                    <h3>Prototype</h3>
+                    <div class="who">برای تازه‌واردان معاملات الگوریتمی</div>
+                    <div class="price">$79.99</div>
+                    <div class="per">پرداخت یک‌باره (دلار آمریکا)</div>
+                    <ul>
+                        <li>دسترسی اولیه به موتور نمونه</li>
+                        <li>استراتژی پایه Z-Score، یک بازار</li>
+                        <li>کنترل ریسک استاندارد</li>
+                        <li>پشتیبانی ایمیلی</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00" class="btn primary">دریافت Prototype</a>
+                </div>
+                <div class="tier">
+                    <span class="badge">پیش‌خرید</span>
+                    <h3>Founding Alpha</h3>
+                    <div class="who">برای باورمندان بلندمدت</div>
+                    <div class="price">$199.99</div>
+                    <div class="per">پرداخت یک‌باره · مادام‌العمر (دلار آمریکا)</div>
+                    <ul>
+                        <li>دسترسی کامل مادام‌العمر به موتور</li>
+                        <li>همه بازارها و به‌روزرسانی‌ها، برای همیشه</li>
+                        <li>بدون هزینه تکرارشونده، هرگز</li>
+                        <li>ورود با اولویت هنگام عرضه</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01" class="btn primary">رزرو مادام‌العمر</a>
+                </div>
+                <div class="tier">
+                    <span class="badge">پیش‌خرید</span>
+                    <h3>Early Access Pass</h3>
+                    <div class="who">برای شروع منعطف</div>
+                    <div class="price">$49.99</div>
+                    <div class="per">ماهانه (دلار آمریکا)</div>
+                    <ul>
+                        <li>کارایی کامل موتور</li>
+                        <li>شامل همه بازارها</li>
+                        <li>لغو در هر زمان</li>
+                        <li>پشتیبانی استاندارد</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/00wcN4di180geXP9VEd3i02" class="btn ghost">رزرو ماهانه</a>
+                </div>
+                <div class="tier featured">
+                    <span class="flag">بهترین ارزش</span>
+                    <span class="badge">پیش‌خرید</span>
+                    <h3>VIP Annual Pass</h3>
+                    <div class="who">برای معامله‌گران جدی</div>
+                    <div class="price">$499.99</div>
+                    <div class="per">سالانه (دلار آمریکا)</div>
+                    <ul>
+                        <li>همه امکانات Early Access</li>
+                        <li>صف اجرای با اولویت</li>
+                        <li>دسترسی کامل API</li>
+                        <li>کانال پشتیبانی با اولویت</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03" class="btn primary">رزرو سالانه</a>
+                </div>
+            </div>
+            <p class="pricing-note">پرداخت امن با Stripe · با دلار آمریکا، یورو، پوند، دلار کانادا یا استرالیا بپردازید — ارز شما هنگام پرداخت خودکار تشخیص داده می‌شود · قیمت‌های بنیان‌گذاران با عرضه عمومی برای همیشه حذف می‌شوند</p>
+        </div>
+    </section>
+
+    <section id="faq">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">پرسش‌ها</div>
+                <h2>آنچه پیش از خرید می‌پرسند</h2>
+            </div>
+            <div class="faq">
+                <details>
+                    <summary>با پیش‌خرید دقیقاً چه می‌خرم؟</summary>
+                    <div class="a">شما دسترسی به موتور را با قیمت بنیان‌گذاران، پیش از عرضه عمومی، رزرو می‌کنید. پلن و قیمت شما برای همیشه روی حسابتان قفل می‌شود. اعضای بنیان‌گذار هنگام راه‌اندازی اول وارد می‌شوند و اخبار عرضه به ایمیلی که هنگام پرداخت استفاده کرده‌اید ارسال می‌شود.</div>
+                </details>
+                <details>
+                    <summary>آیا سرمایه‌ام هرگز از کنترلم خارج می‌شود؟</summary>
+                    <div class="a">خیر. موتور از طریق کلیدهای API به حساب صرافی خود شما متصل می‌شود — کلیدهایی که شما کنترل می‌کنید و هر زمان می‌توانید باطل کنید. ما هرگز سرمایه شما را نگه نمی‌داریم و مجوز برداشت هیچ‌گاه لازم نیست.</div>
+                </details>
+                <details>
+                    <summary>آیا به تجربه معامله‌گری نیاز دارم؟</summary>
+                    <div class="a">برای کار با موتور نه نمودارخوانی لازم است نه مهارت معامله — پیکربندی یک بار انجام می‌شود. اما پیش از واردکردن سرمایه باید بدانید که هر معامله‌ای ریسک واقعی زیان دارد.</div>
+                </details>
+                <details>
+                    <summary>آیا موتور ممکن است ضرر کند؟</summary>
+                    <div class="a">بله. هر پاسخ صادقانه‌ای به این پرسش «بله» است — هیچ استراتژی‌ای همه معاملات را نمی‌برد و بازگشت به میانگین در بازارهای بهشدت روند‌دار ریسک دارد. دقیقاً به همین دلیل موتور اندازه پوزیشن و حدود اکسپوژر را روی هر معامله اعمال می‌کند. هرگز با سرمایه‌ای معامله نکنید که توان از دست دادنش را ندارید.</div>
+                </details>
+                <details>
+                    <summary>تفاوت پلن‌ها چیست؟</summary>
+                    <div class="a">Prototype دسترسی اولیه تک‌بازاره به موتور نمونه است. Founding Alpha دسترسی کامل مادام‌العمر بدون هزینه تکرارشونده است. Early Access همان موتور کامل با پرداخت ماهانه و لغو آزاد است. VIP Annual اجرای با اولویت، دسترسی کامل API و پشتیبانی با اولویت را اضافه می‌کند.</div>
+                </details>
+                <details>
+                    <summary>بعد از پیش‌خرید چه می‌شود؟</summary>
+                    <div class="a">تأییدیه سفارش را بلافاصله دریافت می‌کنید و سپس اخبار زمان‌بندی عرضه و دستورالعمل ورود از طریق ایمیل می‌رسد. اعضای بنیان‌گذار پیش از دسترسی عمومی وارد می‌شوند.</div>
+                </details>
+                <details>
+                    <summary>آیا می‌توانم وجهم را پس بگیرم؟</summary>
+                    <div class="a">بله — پیش‌خریدها تا پیش از عرضه در هر زمان کاملاً قابل استردادند. با پشتیبانی تماس بگیرید (اطلاعات در رسید خرید شماست) تا استرداد انجام شود. پس از عرضه، پلن‌های ماهانه و سالانه هر زمان قابل لغو هستند تا صورتحساب آینده متوقف شود. جزئیات کامل در <a href="/terms" style="color:var(--accent)">شرایط خدمات</a> (به انگلیسی).</div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section class="final">
+        <div class="wrap">
+            <h2>قیمت بنیان‌گذاران با عرضه پایان می‌یابد.</h2>
+            <p>همین حالا پلن خود را رزرو کنید — وقتی موتور عمومی شود، این قیمت‌ها برای همیشه حذف می‌شوند.</p>
+            <a href="#pricing" class="btn primary">رزرو پلن من</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <div class="foot-top">
+                <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+                <div class="foot-links">
+                    <a href="#how">نحوه کار</a>
+                    <a href="#strategy">استراتژی</a>
+                    <a href="#pricing">قیمت‌ها</a>
+                    <a href="#faq">پرسش‌ها</a>
+                    <a href="/terms">شرایط</a>
+                    <a href="/privacy">حریم خصوصی</a>
+                </div>
+            </div>
+            <p class="disclaimer">افشای ریسک: معامله‌گری ریسک زیان قابل‌توجهی دارد و برای هر سرمایه‌گذاری مناسب نیست. استراتژی‌های الگوریتمی و خودکار می‌توانند ضرر کنند و ضرر هم می‌کنند؛ عملکرد گذشته یا شبیه‌سازی‌شده تضمینی برای نتایج آینده نیست. ai PassiveAutotrades یک ابزار نرم‌افزاری است — نه مشاور سرمایه‌گذاری، نه کارگزار و نه امین، و هیچ‌چیز در این وب‌سایت توصیه مالی یا دعوت به معامله نیست. خرید پیش‌فروش، دسترسی به نرم‌افزار را هنگام عرضه مطابق توضیحات بالا فراهم می‌کند. تنها با سرمایه‌ای معامله کنید که توان از دست دادنش را دارید.</p>
+            <p class="copyright">&copy; 2026 ai PassiveAutotrades. تمامی حقوق محفوظ است.</p>
+        </div>
+    </footer>
+</body>
+</html>
+"""
+
+HOMEPAGE_HTML_UR = """
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ai PassiveAutotrades — خودکار Z-Score کوانٹ ٹریڈنگ انجن</title>
+    <meta name="description" content="Z-Score مین ریورژن پر مبنی مکمل خودکار ٹریڈنگ انجن۔ بغیر مداخلت ایگزیکیوشن، بلٹ اِن رسک کنٹرول، اور آپ کے فنڈز کبھی آپ کے اپنے اکاؤنٹ سے باہر نہیں جاتے۔ فاؤنڈر رسائی ابھی پری آرڈر کریں۔">
+    <link rel="canonical" href="https://aipassiveautotrades.vercel.app/ur">
+""" + HREFLANG_LINKS + """
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#050608">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aipassiveautotrades.vercel.app/ur">
+    <meta property="og:site_name" content="ai PassiveAutotrades">
+    <meta property="og:title" content="ai PassiveAutotrades — ادارہ جاتی آمدنی، خودکار۔">
+    <meta property="og:description" content="چارٹ دیکھے بغیر خودکار Z-Score کوانٹ حکمتِ عملیاں۔ لانچ سے پہلے فاؤنڈر رسائی پری آرڈر کریں۔">
+    <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
+    <meta property="og:locale" content="ur_PK">
+    <script defer src="/_vercel/insights/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+""" + HOMEPAGE_STYLE + RTL_OVERRIDES + """
+</head>
+<body>
+    <nav>
+        <div class="nav-inner">
+            <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+            <div class="nav-links">
+                <a href="#how">طریقہ کار</a>
+                <a href="#strategy">حکمتِ عملی</a>
+                <a href="#pricing">قیمتیں</a>
+                <a href="#faq">سوالات</a>
+            </div>
+            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><a href="/fr">FR</a><a href="/de">DE</a><a href="/pt">PT</a><a href="/ar">AR</a><a href="/fa">FA</a><span class="cur">UR</span><a href="/hi">HI</a></div>
+            <a href="#pricing" class="nav-cta">رسائی پری آرڈر کریں</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="wrap">
+            <div class="hero-grid">
+                <div>
+                    <div class="eyebrow"><span class="dot"></span>خودکار Z-SCORE کوانٹ انجن</div>
+                    <h1>ادارہ جاتی آمدنی،<br><span class="grad">خودکار۔</span></h1>
+                    <p class="hero-sub">Z-Score مین ریورژن پر مبنی ایک مکمل خودکار ٹریڈنگ انجن — وہی شماریاتی طریقہ کار جو کوانٹ ڈیسک استعمال کرتے ہیں — چوبیس گھنٹے چلتا ہے تاکہ آپ کبھی چارٹ نہ دیکھیں۔</p>
+                    <div class="hero-note">فاؤنڈر پری آرڈر — عوامی لانچ سے پہلے تاحیات قیمت مقفل کریں</div>
+                    <div class="cta-row">
+                        <a href="#pricing" class="btn primary">پری آرڈر پلان دیکھیں</a>
+                        <a href="#how" class="btn ghost">طریقہ کار</a>
+                    </div>
+                    <div class="hero-foot">
+                        <span>بغیر مداخلت ایگزیکیوشن</span>
+                        <span>بلٹ اِن رسک کنٹرول</span>
+                        <span>کسی بھی وقت منسوخی</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="console mono">
+                        <div class="console-bar">
+                            <div class="dots"><i></i><i></i><i></i></div>
+                            <span class="title">ENGINE — SIGNAL MONITOR</span>
+                        </div>
+                        <div class="console-body">
+                            <div class="crow"><span class="pair">BTC–USD</span><span class="z">z&nbsp;=&nbsp;+2.31</span><span class="sig armed">REVERT · ARMED</span></div>
+                            <div class="crow"><span class="pair">ETH–USD</span><span class="z">z&nbsp;=&nbsp;−0.42</span><span class="sig idle">IN BAND</span></div>
+                            <div class="crow"><span class="pair">SOL–USD</span><span class="z">z&nbsp;=&nbsp;−2.87</span><span class="sig armed">REVERT · ARMED</span></div>
+                            <div class="crow"><span class="pair">XRP–USD</span><span class="z">z&nbsp;=&nbsp;+0.96</span><span class="sig idle">IN BAND</span></div>
+                        </div>
+                        <div class="console-foot">
+                            <span>risk ✓ &nbsp; sizing ✓ &nbsp; exposure ✓</span>
+                            <span>24/7</span>
+                        </div>
+                    </div>
+                    <div class="console-caption">مثالی سگنل فیڈ — انجن مارکیٹ کو یوں پڑھتا ہے</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="strip">
+        <div class="strip-inner">
+            <div class="stat"><b>24/7</b><span>خودمختار مارکیٹ کوریج</span></div>
+            <div class="stat"><b>ms</b><span>الگورتھمک ایگزیکیوشن کی رفتار</span></div>
+            <div class="stat"><b>0</b><span>چارٹ جو آپ کو دیکھنے ہوں</span></div>
+            <div class="stat"><b>100%</b><span>اصول پر مبنی — صفر جذبات</span></div>
+        </div>
+    </div>
+
+    <section id="how">
+        <div class="wrap">
+            <div class="sec-label">طریقہ کار</div>
+            <div class="sec-head">
+                <h2>تین مراحل۔ پھر انجن سنبھال لیتا ہے۔</h2>
+                <p>نہ سگنل گروپ، نہ اسکرین کے گھنٹے، نہ صوابدیدی فیصلے۔ ایک بار کنفیگر ہونے کے بعد ہر انٹری اور ایگزٹ منظم ہے۔</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <span class="num">01</span>
+                    <h3>اپنا پلان محفوظ کریں</h3>
+                    <p>اپنے لیے موزوں پلان پری آرڈر کریں۔ فاؤنڈر قیمت مستقل طور پر آپ کے اکاؤنٹ سے منسلک ہو جاتی ہے — لانچ کے بعد یہ دوبارہ کبھی پیش نہیں ہوگی۔</p>
+                </div>
+                <div class="step">
+                    <span class="num">02</span>
+                    <h3>جوڑیں اور کنفیگر کریں</h3>
+                    <p>لانچ پر انجن کو اپنے ایکسچینج اکاؤنٹ سے جوڑیں اور رسک پیرامیٹر ایک بار طے کریں۔ آپ کے فنڈز ہر وقت آپ کے اپنے اکاؤنٹ میں رہتے ہیں۔</p>
+                </div>
+                <div class="step">
+                    <span class="num">03</span>
+                    <h3>انجن ایگزیکیوٹ کرتا ہے</h3>
+                    <p>Z-Score کور چوبیس گھنٹے شماریاتی انحراف پر نظر رکھتا ہے اور انٹری، ایگزٹ اور پوزیشن سائزنگ خودکار انجام دیتا ہے۔</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="strategy" class="alt">
+        <div class="wrap">
+            <div class="split">
+                <div class="sec-head">
+                    <div class="sec-label">حکمتِ عملی</div>
+                    <h2>Z-Score مین ریورژن ہی کیوں؟</h2>
+                    <p>مارکیٹیں حد سے زیادہ ردعمل دیتی ہیں۔ قیمتیں اپنے شماریاتی اوسط سے دور نکل جاتی ہیں، اور کھنچی ہوئی قیمتیں واپس پلٹنے کی طرف مائل ہوتی ہیں۔ Z-Score بالکل ناپتا ہے کہ قیمت کتنی کھنچی ہے — معیاری انحراف میں — اور «یہ حد سے بڑھا لگتا ہے» کو ایک درست، قابلِ آزمائش عدد بنا دیتا ہے۔</p>
+                    <ul class="checklist">
+                        <li>ایک متعین شماریاتی برتری پر تجارت — نہ انڈیکیٹر، نہ اندازے، نہ شور</li>
+                        <li>ہر پوزیشن اصول کے تحت کھلتی اور بند ہوتی ہے، رسک ٹریڈ سے پہلے ناپا جاتا ہے</li>
+                        <li>وہی طریقہ کار جو ادارہ جاتی سٹیٹ-آرب ڈیسک عشروں سے استعمال کرتے ہیں</li>
+                        <li>ساخت ہی سے بے جذبات: انجن نہ بدلہ لیتا ہے، نہ FOMO رکھتا ہے، نہ ہچکچاتا ہے</li>
+                    </ul>
+                </div>
+                <div class="quote-box">
+                    <div class="big">«جب قیمت اپنے رولنگ اوسط سے ±2 معیاری انحراف سے آگے نکل جائے تو انجن ایک ریورژن پوزیشن تیار کرتا ہے — اور اسے بغیر انسانی مداخلت کے انجام تک پہنچاتا ہے۔»</div>
+                    <div class="src">— ai PassiveAutotrades کا بنیادی اصول، صاف لفظوں میں۔ نہ بلیک باکس، نہ پراسرار سگنل۔</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="wrap">
+            <div class="sec-label">آپ کو کیا ملتا ہے</div>
+            <div class="sec-head">
+                <h2>ٹریڈنگ ڈیسک کی طرح تیار۔ پروڈکٹ کی طرح فراہم۔</h2>
+            </div>
+            <div class="grid-6">
+                <div class="cell"><span class="ic">&#128202;</span><h3>Z-Score سگنل کور</h3><p>رولنگ ونڈو شماریاتی انحراف ہر سگنل چلاتا ہے — شفاف، قابلِ آزمائش اور مستقل۔</p></div>
+                <div class="cell"><span class="ic">&#9889;</span><h3>ملی سیکنڈ ایگزیکیوشن</h3><p>حدیں عبور ہوتے ہی سگنل الگورتھم سے چلتے ہیں — دن، رات اور ویک اینڈ۔</p></div>
+                <div class="cell"><span class="ic">&#128737;&#65039;</span><h3>سخت رسک حدود</h3><p>فی ٹریڈ سائزنگ، ایکسپوژر کیپ اور خودکار ایگزٹ ہر پوزیشن پر نافذ ہوتے ہیں۔</p></div>
+                <div class="cell"><span class="ic">&#128273;</span><h3>آپ کے فنڈز، آپ کا اکاؤنٹ</h3><p>انجن آپ کے اپنے ایکسچینج اکاؤنٹ سے جڑتا ہے۔ سرمایہ کبھی ہمیں منتقل نہیں ہوتا۔</p></div>
+                <div class="cell"><span class="ic">&#128295;</span><h3>ایک بار کنفیگریشن</h3><p>رسک لیول اور مارکیٹیں صرف ایک بار چنیں۔ نہ مسلسل دیکھ بھال، نہ نگرانی۔</p></div>
+                <div class="cell"><span class="ic">&#128225;</span><h3>API رسائی <span style="color:var(--faint);font-weight:400;font-size:0.75rem">(VIP)</span></h3><p>حسبِ ضرورت انٹیگریشن اور مانیٹرنگ کے لیے انجن تک مکمل پروگرامیٹک رسائی۔</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="alt">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">فاؤنڈر پری آرڈر</div>
+                <h2>لانچ سے پہلے اپنا پلان مقفل کریں</h2>
+                <p>ہر پلان فاؤنڈر قیمت پر پری آرڈر ہے۔ انجن لانچ ہونے پر فاؤنڈنگ ممبر پہلے شامل ہوتے ہیں — اور یہ قیمتیں مستقل طور پر ختم کر دی جاتی ہیں۔</p>
+            </div>
+            <div class="tiers">
+                <div class="tier">
+                    <span class="badge">پری آرڈر</span>
+                    <h3>Prototype</h3>
+                    <div class="who">الگو ٹریڈنگ کے نئے صارفین کے لیے</div>
+                    <div class="price">$79.99</div>
+                    <div class="per">یکمشت (امریکی ڈالر)</div>
+                    <ul>
+                        <li>پروٹوٹائپ انجن تک ابتدائی رسائی</li>
+                        <li>بنیادی Z-Score حکمتِ عملی، ایک مارکیٹ</li>
+                        <li>معیاری رسک کنٹرول</li>
+                        <li>ای میل سپورٹ</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00" class="btn primary">Prototype حاصل کریں</a>
+                </div>
+                <div class="tier">
+                    <span class="badge">پری آرڈر</span>
+                    <h3>Founding Alpha</h3>
+                    <div class="who">طویل مدتی یقین رکھنے والوں کے لیے</div>
+                    <div class="price">$199.99</div>
+                    <div class="per">یکمشت · تاحیات (امریکی ڈالر)</div>
+                    <ul>
+                        <li>انجن تک تاحیات مکمل رسائی</li>
+                        <li>تمام مارکیٹیں اور اپڈیٹس، ہمیشہ کے لیے</li>
+                        <li>کوئی بار بار فیس نہیں، کبھی نہیں</li>
+                        <li>لانچ پر ترجیحی آن بورڈنگ</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01" class="btn primary">تاحیات محفوظ کریں</a>
+                </div>
+                <div class="tier">
+                    <span class="badge">پری آرڈر</span>
+                    <h3>Early Access Pass</h3>
+                    <div class="who">لچک پسند کرنے والوں کے لیے</div>
+                    <div class="price">$49.99</div>
+                    <div class="per">ماہانہ (امریکی ڈالر)</div>
+                    <ul>
+                        <li>انجن کی مکمل سہولت</li>
+                        <li>تمام مارکیٹیں شامل</li>
+                        <li>کسی بھی وقت منسوخ کریں</li>
+                        <li>معیاری سپورٹ</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/00wcN4di180geXP9VEd3i02" class="btn ghost">ماہانہ محفوظ کریں</a>
+                </div>
+                <div class="tier featured">
+                    <span class="flag">بہترین قیمت</span>
+                    <span class="badge">پری آرڈر</span>
+                    <h3>VIP Annual Pass</h3>
+                    <div class="who">سنجیدہ ٹریڈرز کے لیے</div>
+                    <div class="price">$499.99</div>
+                    <div class="per">سالانہ (امریکی ڈالر)</div>
+                    <ul>
+                        <li>Early Access کا سب کچھ</li>
+                        <li>ترجیحی ایگزیکیوشن قطار</li>
+                        <li>مکمل API رسائی</li>
+                        <li>ترجیحی سپورٹ چینل</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03" class="btn primary">سالانہ محفوظ کریں</a>
+                </div>
+            </div>
+            <p class="pricing-note">Stripe کے ذریعے محفوظ ادائیگی · USD، EUR، GBP، CAD یا AUD میں ادا کریں — چیک آؤٹ پر آپ کی کرنسی خودکار پہچانی جاتی ہے · فاؤنڈر قیمتیں عوامی لانچ پر مستقل ختم ہو جاتی ہیں</p>
+        </div>
+    </section>
+
+    <section id="faq">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">سوالات</div>
+                <h2>خریدنے سے پہلے کیا پوچھا جاتا ہے</h2>
+            </div>
+            <div class="faq">
+                <details>
+                    <summary>پری آرڈر سے میں بالکل کیا خرید رہا ہوں؟</summary>
+                    <div class="a">آپ عوامی لانچ سے پہلے فاؤنڈر قیمت پر انجن کی رسائی محفوظ کر رہے ہیں۔ آپ کا پلان اور قیمت مستقل طور پر آپ کے اکاؤنٹ سے منسلک ہو جاتے ہیں۔ انجن لائیو ہونے پر فاؤنڈنگ ممبر پہلے شامل ہوتے ہیں، اور لانچ کی اطلاعات اسی ای میل پر آتی ہیں جو آپ نے چیک آؤٹ پر استعمال کی۔</div>
+                </details>
+                <details>
+                    <summary>کیا میرے فنڈز کبھی میرے کنٹرول سے نکلتے ہیں؟</summary>
+                    <div class="a">نہیں۔ انجن API کلیدوں کے ذریعے آپ کے اپنے ایکسچینج اکاؤنٹ سے جڑتا ہے — کلیدیں جو آپ کنٹرول کرتے ہیں اور کسی بھی وقت منسوخ کر سکتے ہیں۔ ہم کبھی آپ کا سرمایہ اپنے پاس نہیں رکھتے، اور وِتھڈرال اجازت کبھی درکار نہیں ہوتی۔</div>
+                </details>
+                <details>
+                    <summary>کیا مجھے ٹریڈنگ کا تجربہ چاہیے؟</summary>
+                    <div class="a">انجن چلانے کے لیے نہ چارٹ پڑھنا ضروری ہے نہ ٹریڈنگ کی مہارت — کنفیگریشن ایک بار کی جاتی ہے۔ البتہ سرمایہ لگانے سے پہلے آپ کو سمجھنا چاہیے کہ ہر ٹریڈنگ میں نقصان کا حقیقی خطرہ ہوتا ہے۔</div>
+                </details>
+                <details>
+                    <summary>کیا انجن پیسہ کھو سکتا ہے؟</summary>
+                    <div class="a">جی ہاں۔ اس سوال کا ہر ایماندار جواب ہاں ہے — کوئی حکمتِ عملی ہر ٹریڈ نہیں جیتتی، اور مضبوط رجحان والی مارکیٹوں میں مین ریورژن خطرہ رکھتا ہے۔ اسی لیے انجن ہر ٹریڈ پر پوزیشن سائزنگ اور ایکسپوژر حدود نافذ کرتا ہے۔ کبھی ایسا سرمایہ نہ لگائیں جس کا نقصان آپ برداشت نہ کر سکیں۔</div>
+                </details>
+                <details>
+                    <summary>پلانز میں کیا فرق ہے؟</summary>
+                    <div class="a">Prototype پروٹوٹائپ انجن تک ایک مارکیٹ کی ابتدائی رسائی ہے۔ Founding Alpha بغیر بار بار فیس کے تاحیات مکمل رسائی ہے۔ Early Access وہی مکمل انجن ماہانہ بلنگ اور آزاد منسوخی کے ساتھ ہے۔ VIP Annual میں ترجیحی ایگزیکیوشن، مکمل API رسائی اور ترجیحی سپورٹ شامل ہیں۔</div>
+                </details>
+                <details>
+                    <summary>پری آرڈر کے بعد کیا ہوتا ہے؟</summary>
+                    <div class="a">آپ کو فوراً آرڈر کی تصدیق ملتی ہے، پھر لانچ ٹائم لائن کی اطلاعات اور آن بورڈنگ ہدایات ای میل سے آتی ہیں۔ فاؤنڈنگ ممبر عوامی دستیابی سے پہلے شامل ہوتے ہیں۔</div>
+                </details>
+                <details>
+                    <summary>کیا مجھے رقم واپس مل سکتی ہے؟</summary>
+                    <div class="a">جی ہاں — پری آرڈر لانچ سے پہلے کسی بھی وقت مکمل قابلِ واپسی ہیں۔ سپورٹ سے رابطہ کریں (تفصیل آپ کی خریداری کی رسید پر ہے) اور رقم واپس کر دی جائے گی۔ لانچ کے بعد ماہانہ اور سالانہ پاس کسی بھی وقت منسوخ کر کے آئندہ بلنگ روکی جا سکتی ہے۔ مکمل تفصیل ہماری <a href="/terms" style="color:var(--accent)">شرائطِ خدمت</a> میں (انگریزی میں)۔</div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section class="final">
+        <div class="wrap">
+            <h2>فاؤنڈر قیمت لانچ پر ختم ہو جاتی ہے۔</h2>
+            <p>اپنا پلان ابھی محفوظ کریں — انجن عوامی ہوتے ہی یہ قیمتیں مستقل ختم ہو جائیں گی۔</p>
+            <a href="#pricing" class="btn primary">میرا پلان پری آرڈر کریں</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <div class="foot-top">
+                <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+                <div class="foot-links">
+                    <a href="#how">طریقہ کار</a>
+                    <a href="#strategy">حکمتِ عملی</a>
+                    <a href="#pricing">قیمتیں</a>
+                    <a href="#faq">سوالات</a>
+                    <a href="/terms">شرائط</a>
+                    <a href="/privacy">پرائیویسی</a>
+                </div>
+            </div>
+            <p class="disclaimer">رسک ڈسکلوژر: ٹریڈنگ میں نقصان کا نمایاں خطرہ ہے اور یہ ہر سرمایہ کار کے لیے موزوں نہیں۔ الگورتھمک اور خودکار حکمتِ عملیاں پیسہ کھو سکتی ہیں اور کھوتی ہیں؛ ماضی یا سمولیٹڈ کارکردگی مستقبل کے نتائج کی ضمانت نہیں۔ ai PassiveAutotrades ایک سافٹ ویئر ٹول ہے — نہ سرمایہ کاری مشیر، نہ بروکر ڈیلر، نہ امین، اور اس ویب سائٹ پر کچھ بھی مالی مشورہ یا ٹریڈ کی دعوت نہیں۔ پری آرڈر خریداری اوپر بیان کردہ طریقے سے لانچ پر سافٹ ویئر رسائی دیتی ہے۔ صرف اتنا سرمایہ لگائیں جس کا نقصان آپ برداشت کر سکیں۔</p>
+            <p class="copyright">&copy; 2026 ai PassiveAutotrades۔ جملہ حقوق محفوظ ہیں۔</p>
+        </div>
+    </footer>
+</body>
+</html>
+"""
+
+HOMEPAGE_HTML_HI = """
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ai PassiveAutotrades — स्वचालित Z-Score क्वांट ट्रेडिंग इंजन</title>
+    <meta name="description" content="Z-Score मीन रिवर्ज़न पर आधारित पूर्णतः स्वचालित ट्रेडिंग इंजन। बिना हस्तक्षेप निष्पादन, बिल्ट-इन रिस्क कंट्रोल, और आपके फ़ंड कभी आपके अपने खाते से बाहर नहीं जाते। फ़ाउंडर एक्सेस अभी प्री-ऑर्डर करें।">
+    <link rel="canonical" href="https://aipassiveautotrades.vercel.app/hi">
+""" + HREFLANG_LINKS + """
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#050608">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aipassiveautotrades.vercel.app/hi">
+    <meta property="og:site_name" content="ai PassiveAutotrades">
+    <meta property="og:title" content="ai PassiveAutotrades — संस्थागत आय, स्वचालित।">
+    <meta property="og:description" content="चार्ट देखे बिना स्वचालित Z-Score क्वांट रणनीतियाँ। लॉन्च से पहले फ़ाउंडर एक्सेस प्री-ऑर्डर करें।">
+    <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
+    <meta property="og:locale" content="hi_IN">
+    <script defer src="/_vercel/insights/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+""" + HOMEPAGE_STYLE + """
+</head>
+<body>
+    <nav>
+        <div class="nav-inner">
+            <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+            <div class="nav-links">
+                <a href="#how">कैसे काम करता है</a>
+                <a href="#strategy">रणनीति</a>
+                <a href="#pricing">क़ीमतें</a>
+                <a href="#faq">प्रश्न</a>
+            </div>
+            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><a href="/fr">FR</a><a href="/de">DE</a><a href="/pt">PT</a><a href="/ar">AR</a><a href="/fa">FA</a><a href="/ur">UR</a><span class="cur">HI</span></div>
+            <a href="#pricing" class="nav-cta">एक्सेस प्री-ऑर्डर करें</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="wrap">
+            <div class="hero-grid">
+                <div>
+                    <div class="eyebrow"><span class="dot"></span>स्वचालित Z-SCORE क्वांट इंजन</div>
+                    <h1>संस्थागत आय,<br><span class="grad">स्वचालित।</span></h1>
+                    <p class="hero-sub">Z-Score मीन रिवर्ज़न पर बना पूर्णतः स्वचालित ट्रेडिंग इंजन — वही सांख्यिकीय पद्धति जो क्वांट डेस्क अपनाते हैं — चौबीसों घंटे चलता है ताकि आपको कभी चार्ट न देखना पड़े।</p>
+                    <div class="hero-note">फ़ाउंडर प्री-ऑर्डर — सार्वजनिक लॉन्च से पहले आजीवन क़ीमत लॉक करें</div>
+                    <div class="cta-row">
+                        <a href="#pricing" class="btn primary">प्री-ऑर्डर प्लान देखें</a>
+                        <a href="#how" class="btn ghost">कैसे काम करता है</a>
+                    </div>
+                    <div class="hero-foot">
+                        <span>बिना हस्तक्षेप निष्पादन</span>
+                        <span>बिल्ट-इन रिस्क कंट्रोल</span>
+                        <span>कभी भी रद्द करने का विकल्प</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="console mono">
+                        <div class="console-bar">
+                            <div class="dots"><i></i><i></i><i></i></div>
+                            <span class="title">ENGINE — SIGNAL MONITOR</span>
+                        </div>
+                        <div class="console-body">
+                            <div class="crow"><span class="pair">BTC–USD</span><span class="z">z&nbsp;=&nbsp;+2.31</span><span class="sig armed">REVERT · ARMED</span></div>
+                            <div class="crow"><span class="pair">ETH–USD</span><span class="z">z&nbsp;=&nbsp;−0.42</span><span class="sig idle">IN BAND</span></div>
+                            <div class="crow"><span class="pair">SOL–USD</span><span class="z">z&nbsp;=&nbsp;−2.87</span><span class="sig armed">REVERT · ARMED</span></div>
+                            <div class="crow"><span class="pair">XRP–USD</span><span class="z">z&nbsp;=&nbsp;+0.96</span><span class="sig idle">IN BAND</span></div>
+                        </div>
+                        <div class="console-foot">
+                            <span>risk ✓ &nbsp; sizing ✓ &nbsp; exposure ✓</span>
+                            <span>24/7</span>
+                        </div>
+                    </div>
+                    <div class="console-caption">उदाहरणात्मक सिग्नल फ़ीड — इंजन बाज़ार को ऐसे पढ़ता है</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="strip">
+        <div class="strip-inner">
+            <div class="stat"><b>24/7</b><span>स्वायत्त बाज़ार कवरेज</span></div>
+            <div class="stat"><b>ms</b><span>एल्गोरिथमिक निष्पादन गति</span></div>
+            <div class="stat"><b>0</b><span>चार्ट जो आपको देखने हों</span></div>
+            <div class="stat"><b>100%</b><span>नियम-आधारित — शून्य भावनाएँ</span></div>
+        </div>
+    </div>
+
+    <section id="how">
+        <div class="wrap">
+            <div class="sec-label">कैसे काम करता है</div>
+            <div class="sec-head">
+                <h2>तीन क़दम। फिर इंजन संभाल लेता है।</h2>
+                <p>न सिग्नल ग्रुप, न स्क्रीन के घंटे, न मनमाने फ़ैसले। एक बार कॉन्फ़िगर होने पर हर एंट्री और एग्ज़िट व्यवस्थित है।</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <span class="num">01</span>
+                    <h3>अपना प्लान सुरक्षित करें</h3>
+                    <p>अपने लिए सही प्लान प्री-ऑर्डर करें। फ़ाउंडर क़ीमत स्थायी रूप से आपके खाते से जुड़ जाती है — लॉन्च के बाद यह दोबारा कभी नहीं मिलेगी।</p>
+                </div>
+                <div class="step">
+                    <span class="num">02</span>
+                    <h3>जोड़ें और कॉन्फ़िगर करें</h3>
+                    <p>लॉन्च पर इंजन को अपने एक्सचेंज खाते से जोड़ें और रिस्क पैरामीटर एक बार तय करें। आपके फ़ंड हर समय आपके अपने खाते में रहते हैं।</p>
+                </div>
+                <div class="step">
+                    <span class="num">03</span>
+                    <h3>इंजन निष्पादित करता है</h3>
+                    <p>Z-Score कोर चौबीसों घंटे सांख्यिकीय विचलन पर नज़र रखता है और एंट्री, एग्ज़िट व पोज़िशन साइज़िंग स्वतः करता है।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="strategy" class="alt">
+        <div class="wrap">
+            <div class="split">
+                <div class="sec-head">
+                    <div class="sec-label">रणनीति</div>
+                    <h2>Z-Score मीन रिवर्ज़न ही क्यों?</h2>
+                    <p>बाज़ार अति-प्रतिक्रिया करते हैं। क़ीमतें अपने सांख्यिकीय औसत से दूर खिंच जाती हैं, और खिंची हुई क़ीमतें लौटने की प्रवृत्ति रखती हैं। Z-Score ठीक-ठीक मापता है कि क़ीमत कितनी खिंची है — मानक विचलनों में — और "यह ज़्यादा बढ़ा हुआ लगता है" को एक सटीक, परखने योग्य संख्या बना देता है।</p>
+                    <ul class="checklist">
+                        <li>एक परिभाषित सांख्यिकीय बढ़त पर ट्रेड — न इंडिकेटर, न अटकलें, न शोर</li>
+                        <li>हर पोज़िशन नियम से खुलती-बंद होती है, जोखिम ट्रेड से पहले तय होता है</li>
+                        <li>वही पद्धति-वर्ग जो संस्थागत स्टैट-आर्ब डेस्क दशकों से इस्तेमाल करते हैं</li>
+                        <li>बनावट से ही भावना-रहित: इंजन न बदला लेता है, न FOMO करता है, न हिचकिचाता है</li>
+                    </ul>
+                </div>
+                <div class="quote-box">
+                    <div class="big">"जब क़ीमत अपने रोलिंग औसत से ±2 मानक विचलन से आगे निकल जाती है, इंजन एक रिवर्ज़न पोज़िशन तैयार करता है — और उसे बिना मानवीय हस्तक्षेप के अंजाम तक पहुँचाता है।"</div>
+                    <div class="src">— ai PassiveAutotrades का मूल नियम, साफ़ शब्दों में। न ब्लैक बॉक्स, न रहस्यमय सिग्नल।</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="wrap">
+            <div class="sec-label">आपको क्या मिलता है</div>
+            <div class="sec-head">
+                <h2>ट्रेडिंग डेस्क की तरह निर्मित। प्रोडक्ट की तरह प्रदत्त।</h2>
+            </div>
+            <div class="grid-6">
+                <div class="cell"><span class="ic">&#128202;</span><h3>Z-Score सिग्नल कोर</h3><p>रोलिंग-विंडो सांख्यिकीय विचलन हर सिग्नल चलाता है — पारदर्शी, परखने योग्य और सुसंगत।</p></div>
+                <div class="cell"><span class="ic">&#9889;</span><h3>मिलीसेकंड निष्पादन</h3><p>सीमाएँ पार होते ही सिग्नल एल्गोरिथम से चलते हैं — दिन, रात और सप्ताहांत।</p></div>
+                <div class="cell"><span class="ic">&#128737;&#65039;</span><h3>कठोर जोखिम सीमाएँ</h3><p>प्रति-ट्रेड साइज़िंग, एक्सपोज़र कैप और स्वचालित एग्ज़िट हर पोज़िशन पर लागू।</p></div>
+                <div class="cell"><span class="ic">&#128273;</span><h3>आपके फ़ंड, आपका खाता</h3><p>इंजन आपके अपने एक्सचेंज खाते से जुड़ता है। पूँजी कभी हमें हस्तांतरित नहीं होती।</p></div>
+                <div class="cell"><span class="ic">&#128295;</span><h3>एक बार का सेटअप</h3><p>जोखिम स्तर और बाज़ार सिर्फ़ एक बार चुनें। न लगातार रखरखाव, न निगरानी।</p></div>
+                <div class="cell"><span class="ic">&#128225;</span><h3>API एक्सेस <span style="color:var(--faint);font-weight:400;font-size:0.75rem">(VIP)</span></h3><p>कस्टम इंटीग्रेशन और मॉनिटरिंग के लिए इंजन तक पूर्ण प्रोग्रामेटिक पहुँच।</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="alt">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">फ़ाउंडर प्री-ऑर्डर</div>
+                <h2>लॉन्च से पहले अपना प्लान लॉक करें</h2>
+                <p>हर प्लान फ़ाउंडर क़ीमत पर प्री-ऑर्डर है। इंजन लॉन्च होते ही फ़ाउंडिंग सदस्य सबसे पहले शामिल होते हैं — और ये क़ीमतें स्थायी रूप से हट जाती हैं।</p>
+            </div>
+            <div class="tiers">
+                <div class="tier">
+                    <span class="badge">प्री-ऑर्डर</span>
+                    <h3>Prototype</h3>
+                    <div class="who">एल्गो-ट्रेडिंग में नए लोगों के लिए</div>
+                    <div class="price">$79.99</div>
+                    <div class="per">एकमुश्त (US डॉलर)</div>
+                    <ul>
+                        <li>प्रोटोटाइप इंजन तक शुरुआती पहुँच</li>
+                        <li>मूल Z-Score रणनीति, एक बाज़ार</li>
+                        <li>मानक रिस्क कंट्रोल</li>
+                        <li>ईमेल सपोर्ट</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00" class="btn primary">Prototype पाएँ</a>
+                </div>
+                <div class="tier">
+                    <span class="badge">प्री-ऑर्डर</span>
+                    <h3>Founding Alpha</h3>
+                    <div class="who">दीर्घकालिक विश्वास रखने वालों के लिए</div>
+                    <div class="price">$199.99</div>
+                    <div class="per">एकमुश्त · आजीवन (US डॉलर)</div>
+                    <ul>
+                        <li>इंजन तक आजीवन पूर्ण पहुँच</li>
+                        <li>सभी बाज़ार और अपडेट, हमेशा के लिए</li>
+                        <li>कोई आवर्ती शुल्क नहीं, कभी नहीं</li>
+                        <li>लॉन्च पर प्राथमिकता ऑनबोर्डिंग</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01" class="btn primary">आजीवन सुरक्षित करें</a>
+                </div>
+                <div class="tier">
+                    <span class="badge">प्री-ऑर्डर</span>
+                    <h3>Early Access Pass</h3>
+                    <div class="who">लचीलापन चाहने वालों के लिए</div>
+                    <div class="price">$49.99</div>
+                    <div class="per">प्रति माह (US डॉलर)</div>
+                    <ul>
+                        <li>इंजन की पूरी उपयोगिता</li>
+                        <li>सभी बाज़ार शामिल</li>
+                        <li>कभी भी रद्द करें</li>
+                        <li>मानक सपोर्ट</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/00wcN4di180geXP9VEd3i02" class="btn ghost">मासिक सुरक्षित करें</a>
+                </div>
+                <div class="tier featured">
+                    <span class="flag">सर्वश्रेष्ठ मूल्य</span>
+                    <span class="badge">प्री-ऑर्डर</span>
+                    <h3>VIP Annual Pass</h3>
+                    <div class="who">गंभीर ट्रेडरों के लिए</div>
+                    <div class="price">$499.99</div>
+                    <div class="per">प्रति वर्ष (US डॉलर)</div>
+                    <ul>
+                        <li>Early Access का सब कुछ</li>
+                        <li>प्राथमिकता निष्पादन क़तार</li>
+                        <li>पूर्ण API एक्सेस</li>
+                        <li>प्राथमिकता सपोर्ट चैनल</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03" class="btn primary">वार्षिक सुरक्षित करें</a>
+                </div>
+            </div>
+            <p class="pricing-note">Stripe से सुरक्षित भुगतान · USD, EUR, GBP, CAD या AUD में भुगतान करें — चेकआउट पर आपकी मुद्रा स्वतः पहचानी जाती है · फ़ाउंडर क़ीमतें सार्वजनिक लॉन्च पर स्थायी रूप से हट जाती हैं</p>
+        </div>
+    </section>
+
+    <section id="faq">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">प्रश्न</div>
+                <h2>ख़रीदने से पहले पूछे जाने वाले सवाल</h2>
+            </div>
+            <div class="faq">
+                <details>
+                    <summary>प्री-ऑर्डर से मैं वास्तव में क्या ख़रीद रहा हूँ?</summary>
+                    <div class="a">आप सार्वजनिक लॉन्च से पहले फ़ाउंडर क़ीमत पर इंजन की पहुँच आरक्षित कर रहे हैं। आपका प्लान और क़ीमत स्थायी रूप से आपके खाते से जुड़ जाते हैं। इंजन लाइव होते ही फ़ाउंडिंग सदस्य सबसे पहले शामिल होते हैं, और लॉन्च की जानकारी चेकआउट पर इस्तेमाल किए गए ईमेल पर भेजी जाती है।</div>
+                </details>
+                <details>
+                    <summary>क्या मेरे फ़ंड कभी मेरे नियंत्रण से बाहर जाते हैं?</summary>
+                    <div class="a">नहीं। इंजन API कुंजियों से आपके अपने एक्सचेंज खाते से जुड़ता है — कुंजियाँ जिन्हें आप नियंत्रित करते हैं और कभी भी रद्द कर सकते हैं। हम कभी आपकी पूँजी अपने पास नहीं रखते, और निकासी अनुमतियाँ कभी आवश्यक नहीं होतीं।</div>
+                </details>
+                <details>
+                    <summary>क्या मुझे ट्रेडिंग अनुभव चाहिए?</summary>
+                    <div class="a">इंजन चलाने के लिए न चार्ट पढ़ना ज़रूरी है न ट्रेडिंग कौशल — कॉन्फ़िगरेशन एक बार का काम है। हाँ, पूँजी लगाने से पहले आपको समझना चाहिए कि हर ट्रेडिंग में नुक़सान का वास्तविक जोखिम होता है।</div>
+                </details>
+                <details>
+                    <summary>क्या इंजन पैसा गँवा सकता है?</summary>
+                    <div class="a">हाँ। इस प्रश्न का हर ईमानदार उत्तर हाँ है — कोई रणनीति हर ट्रेड नहीं जीतती, और मज़बूत ट्रेंड वाले बाज़ारों में मीन रिवर्ज़न जोखिम भरा है। ठीक इसीलिए इंजन हर ट्रेड पर पोज़िशन साइज़िंग और एक्सपोज़र सीमाएँ लागू करता है। कभी ऐसी पूँजी से ट्रेड न करें जिसे खोना आप सह न सकें।</div>
+                </details>
+                <details>
+                    <summary>प्लानों में क्या अंतर है?</summary>
+                    <div class="a">Prototype प्रोटोटाइप इंजन तक एक-बाज़ार की शुरुआती पहुँच है। Founding Alpha बिना आवर्ती शुल्क के आजीवन पूर्ण पहुँच है। Early Access वही पूर्ण इंजन मासिक बिलिंग और मुक्त रद्दीकरण के साथ है। VIP Annual में प्राथमिकता निष्पादन, पूर्ण API एक्सेस और प्राथमिकता सपोर्ट जुड़ते हैं।</div>
+                </details>
+                <details>
+                    <summary>प्री-ऑर्डर के बाद क्या होता है?</summary>
+                    <div class="a">आपको तुरंत ऑर्डर की पुष्टि मिलती है, फिर लॉन्च समय-सारणी की जानकारी और ऑनबोर्डिंग निर्देश ईमेल से आते हैं। फ़ाउंडिंग सदस्य सार्वजनिक उपलब्धता से पहले शामिल होते हैं।</div>
+                </details>
+                <details>
+                    <summary>क्या मुझे रिफ़ंड मिल सकता है?</summary>
+                    <div class="a">हाँ — प्री-ऑर्डर लॉन्च से पहले किसी भी समय पूर्ण रिफ़ंड योग्य हैं। सपोर्ट से संपर्क करें (विवरण आपकी ख़रीद रसीद पर है) और रिफ़ंड प्रोसेस कर दिया जाएगा। लॉन्च के बाद मासिक और वार्षिक पास कभी भी रद्द कर भविष्य की बिलिंग रोकी जा सकती है। पूरा विवरण हमारी <a href="/terms" style="color:var(--accent)">सेवा की शर्तों</a> में (अंग्रेज़ी में)।</div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section class="final">
+        <div class="wrap">
+            <h2>फ़ाउंडर क़ीमत लॉन्च पर समाप्त हो जाती है।</h2>
+            <p>अपना प्लान अभी आरक्षित करें — इंजन सार्वजनिक होते ही ये क़ीमतें स्थायी रूप से हट जाएँगी।</p>
+            <a href="#pricing" class="btn primary">मेरा प्लान प्री-ऑर्डर करें</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <div class="foot-top">
+                <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+                <div class="foot-links">
+                    <a href="#how">कैसे काम करता है</a>
+                    <a href="#strategy">रणनीति</a>
+                    <a href="#pricing">क़ीमतें</a>
+                    <a href="#faq">प्रश्न</a>
+                    <a href="/terms">शर्तें</a>
+                    <a href="/privacy">गोपनीयता</a>
+                </div>
+            </div>
+            <p class="disclaimer">जोखिम प्रकटीकरण: ट्रेडिंग में नुक़सान का पर्याप्त जोखिम है और यह हर निवेशक के लिए उपयुक्त नहीं है। एल्गोरिथमिक और स्वचालित रणनीतियाँ पैसा गँवा सकती हैं और गँवाती हैं; अतीत या सिम्युलेटेड प्रदर्शन भविष्य के परिणामों की गारंटी नहीं है। ai PassiveAutotrades एक सॉफ़्टवेयर टूल है — यह निवेश सलाहकार, ब्रोकर-डीलर या न्यासी नहीं है, और इस साइट पर कुछ भी वित्तीय सलाह या ट्रेड का आग्रह नहीं है। प्री-ऑर्डर ख़रीद ऊपर वर्णित अनुसार लॉन्च पर सॉफ़्टवेयर पहुँच देती है। केवल उतनी पूँजी से ट्रेड करें जिसे खोना आप सह सकें।</p>
+            <p class="copyright">&copy; 2026 ai PassiveAutotrades. सर्वाधिकार सुरक्षित।</p>
+        </div>
+    </footer>
+</body>
+</html>
+"""
+
 LEGAL_STYLE = """
 <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -1335,6 +3140,36 @@ SITEMAP_XML = """<?xml version="1.0" encoding="UTF-8"?>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://aipassiveautotrades.vercel.app/de</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aipassiveautotrades.vercel.app/pt</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aipassiveautotrades.vercel.app/ar</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aipassiveautotrades.vercel.app/fa</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aipassiveautotrades.vercel.app/ur</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aipassiveautotrades.vercel.app/hi</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aipassiveautotrades.vercel.app/terms</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -1389,6 +3224,36 @@ def read_root_es():
 @app.get("/fr", response_class=HTMLResponse)
 def read_root_fr():
     return HTMLResponse(content=HOMEPAGE_HTML_FR, headers=CACHE_HEADERS)
+
+
+@app.get("/de", response_class=HTMLResponse)
+def read_root_de():
+    return HTMLResponse(content=HOMEPAGE_HTML_DE, headers=CACHE_HEADERS)
+
+
+@app.get("/pt", response_class=HTMLResponse)
+def read_root_pt():
+    return HTMLResponse(content=HOMEPAGE_HTML_PT, headers=CACHE_HEADERS)
+
+
+@app.get("/ar", response_class=HTMLResponse)
+def read_root_ar():
+    return HTMLResponse(content=HOMEPAGE_HTML_AR, headers=CACHE_HEADERS)
+
+
+@app.get("/fa", response_class=HTMLResponse)
+def read_root_fa():
+    return HTMLResponse(content=HOMEPAGE_HTML_FA, headers=CACHE_HEADERS)
+
+
+@app.get("/ur", response_class=HTMLResponse)
+def read_root_ur():
+    return HTMLResponse(content=HOMEPAGE_HTML_UR, headers=CACHE_HEADERS)
+
+
+@app.get("/hi", response_class=HTMLResponse)
+def read_root_hi():
+    return HTMLResponse(content=HOMEPAGE_HTML_HI, headers=CACHE_HEADERS)
 
 
 @app.get("/terms", response_class=HTMLResponse)
