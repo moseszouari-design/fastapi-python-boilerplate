@@ -6,6 +6,9 @@ app = FastAPI(
     title="ai PassiveAutotrades",
     description="Institutional Alpha",
     version="1.0.0",
+    docs_url=None,
+    redoc_url=None,
+    openapi_url=None,
 )
 
 
@@ -132,6 +135,7 @@ HOMEPAGE_HTML = """
     }
     </script>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -725,6 +729,27 @@ CACHE_HEADERS = {
     "Cache-Control": "public, max-age=300, s-maxage=86400, stale-while-revalidate=604800"
 }
 
+NOT_FOUND_HTML = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page not found | ai PassiveAutotrades</title>
+    <meta name="robots" content="noindex">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+""" + LEGAL_STYLE + """
+</head>
+<body>
+    <div class="page" style="text-align:center; padding-top:120px;">
+        <h1>404 &mdash; page not found</h1>
+        <p style="margin: 16px 0 32px;">That page doesn't exist. The engine, however, does.</p>
+        <a href="/" style="display:inline-block; background:#4f8ff7; color:#04070d; padding:14px 28px; border-radius:9px; font-weight:700;">Back to ai PassiveAutotrades</a>
+    </div>
+</body>
+</html>
+"""
+
 
 @app.get("/", response_class=HTMLResponse)
 def read_root():
@@ -752,3 +777,8 @@ def robots():
 @app.get("/sitemap.xml")
 def sitemap():
     return Response(content=SITEMAP_XML, media_type="application/xml", headers=CACHE_HEADERS)
+
+
+@app.exception_handler(404)
+async def not_found(request, exc):
+    return HTMLResponse(content=NOT_FOUND_HTML, status_code=404)
