@@ -60,6 +60,7 @@ HOMEPAGE_HTML = """
     <meta name="twitter:title" content="ai PassiveAutotrades — Institutional Income, Automated.">
     <meta name="twitter:description" content="Automated Z-score quant strategies without watching charts. Pre-order founding access before launch.">
     <meta name="twitter:image" content="https://aipassiveautotrades.vercel.app/og.png">
+    <script defer src="/_vercel/insights/script.js"></script>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
