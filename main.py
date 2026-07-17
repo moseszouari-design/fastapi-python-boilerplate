@@ -57,6 +57,8 @@ HOMEPAGE_HTML = """
     <link rel="alternate" hreflang="fa" href="https://aipassiveautotrades.vercel.app/fa">
     <link rel="alternate" hreflang="ur" href="https://aipassiveautotrades.vercel.app/ur">
     <link rel="alternate" hreflang="hi" href="https://aipassiveautotrades.vercel.app/hi">
+    <link rel="alternate" hreflang="bn" href="https://aipassiveautotrades.vercel.app/bn">
+    <link rel="alternate" hreflang="ta" href="https://aipassiveautotrades.vercel.app/ta">
     <link rel="alternate" hreflang="x-default" href="https://aipassiveautotrades.vercel.app/">
     <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="theme-color" content="#050608">
@@ -346,7 +348,7 @@ HOMEPAGE_HTML = """
                 <a href="#pricing">Pricing</a>
                 <a href="#faq">FAQ</a>
             </div>
-            <div class="lang"><span class="cur">EN</span><a href="/es">ES</a><a href="/fr">FR</a><a href="/de">DE</a><a href="/pt">PT</a><a href="/ar">AR</a><a href="/fa">FA</a><a href="/ur">UR</a><a href="/hi">HI</a></div>
+            <div class="lang"><span class="cur">EN</span><a href="/es">ES</a><a href="/fr">FR</a><a href="/de">DE</a><a href="/pt">PT</a><a href="/ar">AR</a><a href="/fa">FA</a><a href="/ur">UR</a><a href="/hi">HI</a><a href="/bn">BN</a><a href="/ta">TA</a></div>
             <a href="#pricing" class="nav-cta">Pre-Order Access</a>
         </div>
     </nav>
@@ -620,6 +622,8 @@ HREFLANG_LINKS = """
     <link rel="alternate" hreflang="fa" href="https://aipassiveautotrades.vercel.app/fa">
     <link rel="alternate" hreflang="ur" href="https://aipassiveautotrades.vercel.app/ur">
     <link rel="alternate" hreflang="hi" href="https://aipassiveautotrades.vercel.app/hi">
+    <link rel="alternate" hreflang="bn" href="https://aipassiveautotrades.vercel.app/bn">
+    <link rel="alternate" hreflang="ta" href="https://aipassiveautotrades.vercel.app/ta">
     <link rel="alternate" hreflang="x-default" href="https://aipassiveautotrades.vercel.app/">
 """
 
@@ -660,7 +664,7 @@ HOMEPAGE_HTML_ES = """
                 <a href="#pricing">Precios</a>
                 <a href="#faq">Preguntas</a>
             </div>
-            <div class="lang"><a href="/">EN</a><span class="cur">ES</span><a href="/fr">FR</a><a href="/de">DE</a><a href="/pt">PT</a><a href="/ar">AR</a><a href="/fa">FA</a><a href="/ur">UR</a><a href="/hi">HI</a></div>
+            <div class="lang"><a href="/">EN</a><span class="cur">ES</span><a href="/fr">FR</a><a href="/de">DE</a><a href="/pt">PT</a><a href="/ar">AR</a><a href="/fa">FA</a><a href="/ur">UR</a><a href="/hi">HI</a><a href="/bn">BN</a><a href="/ta">TA</a></div>
             <a href="#pricing" class="nav-cta">Reservar Acceso</a>
         </div>
     </nav>
@@ -956,7 +960,7 @@ HOMEPAGE_HTML_FR = """
                 <a href="#pricing">Tarifs</a>
                 <a href="#faq">FAQ</a>
             </div>
-            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><span class="cur">FR</span><a href="/de">DE</a><a href="/pt">PT</a><a href="/ar">AR</a><a href="/fa">FA</a><a href="/ur">UR</a><a href="/hi">HI</a></div>
+            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><span class="cur">FR</span><a href="/de">DE</a><a href="/pt">PT</a><a href="/ar">AR</a><a href="/fa">FA</a><a href="/ur">UR</a><a href="/hi">HI</a><a href="/bn">BN</a><a href="/ta">TA</a></div>
             <a href="#pricing" class="nav-cta">Pr&eacute;commander</a>
         </div>
     </nav>
@@ -1252,7 +1256,7 @@ HOMEPAGE_HTML_DE = """
                 <a href="#pricing">Preise</a>
                 <a href="#faq">FAQ</a>
             </div>
-            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><a href="/fr">FR</a><span class="cur">DE</span><a href="/pt">PT</a><a href="/ar">AR</a><a href="/fa">FA</a><a href="/ur">UR</a><a href="/hi">HI</a></div>
+            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><a href="/fr">FR</a><span class="cur">DE</span><a href="/pt">PT</a><a href="/ar">AR</a><a href="/fa">FA</a><a href="/ur">UR</a><a href="/hi">HI</a><a href="/bn">BN</a><a href="/ta">TA</a></div>
             <a href="#pricing" class="nav-cta">Zugang vorbestellen</a>
         </div>
     </nav>
@@ -1548,7 +1552,7 @@ HOMEPAGE_HTML_PT = """
                 <a href="#pricing">Preços</a>
                 <a href="#faq">Perguntas</a>
             </div>
-            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><a href="/fr">FR</a><a href="/de">DE</a><span class="cur">PT</span><a href="/ar">AR</a><a href="/fa">FA</a><a href="/ur">UR</a><a href="/hi">HI</a></div>
+            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><a href="/fr">FR</a><a href="/de">DE</a><span class="cur">PT</span><a href="/ar">AR</a><a href="/fa">FA</a><a href="/ur">UR</a><a href="/hi">HI</a><a href="/bn">BN</a><a href="/ta">TA</a></div>
             <a href="#pricing" class="nav-cta">Reservar Acesso</a>
         </div>
     </nav>
@@ -1857,7 +1861,7 @@ HOMEPAGE_HTML_AR = """
                 <a href="#pricing">الأسعار</a>
                 <a href="#faq">الأسئلة</a>
             </div>
-            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><a href="/fr">FR</a><a href="/de">DE</a><a href="/pt">PT</a><span class="cur">AR</span><a href="/fa">FA</a><a href="/ur">UR</a><a href="/hi">HI</a></div>
+            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><a href="/fr">FR</a><a href="/de">DE</a><a href="/pt">PT</a><span class="cur">AR</span><a href="/fa">FA</a><a href="/ur">UR</a><a href="/hi">HI</a><a href="/bn">BN</a><a href="/ta">TA</a></div>
             <a href="#pricing" class="nav-cta">احجز وصولك</a>
         </div>
     </nav>
@@ -2153,7 +2157,7 @@ HOMEPAGE_HTML_FA = """
                 <a href="#pricing">قیمت‌ها</a>
                 <a href="#faq">پرسش‌ها</a>
             </div>
-            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><a href="/fr">FR</a><a href="/de">DE</a><a href="/pt">PT</a><a href="/ar">AR</a><span class="cur">FA</span><a href="/ur">UR</a><a href="/hi">HI</a></div>
+            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><a href="/fr">FR</a><a href="/de">DE</a><a href="/pt">PT</a><a href="/ar">AR</a><span class="cur">FA</span><a href="/ur">UR</a><a href="/hi">HI</a><a href="/bn">BN</a><a href="/ta">TA</a></div>
             <a href="#pricing" class="nav-cta">پیش‌خرید دسترسی</a>
         </div>
     </nav>
@@ -2449,7 +2453,7 @@ HOMEPAGE_HTML_UR = """
                 <a href="#pricing">قیمتیں</a>
                 <a href="#faq">سوالات</a>
             </div>
-            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><a href="/fr">FR</a><a href="/de">DE</a><a href="/pt">PT</a><a href="/ar">AR</a><a href="/fa">FA</a><span class="cur">UR</span><a href="/hi">HI</a></div>
+            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><a href="/fr">FR</a><a href="/de">DE</a><a href="/pt">PT</a><a href="/ar">AR</a><a href="/fa">FA</a><span class="cur">UR</span><a href="/hi">HI</a><a href="/bn">BN</a><a href="/ta">TA</a></div>
             <a href="#pricing" class="nav-cta">رسائی پری آرڈر کریں</a>
         </div>
     </nav>
@@ -2745,7 +2749,7 @@ HOMEPAGE_HTML_HI = """
                 <a href="#pricing">क़ीमतें</a>
                 <a href="#faq">प्रश्न</a>
             </div>
-            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><a href="/fr">FR</a><a href="/de">DE</a><a href="/pt">PT</a><a href="/ar">AR</a><a href="/fa">FA</a><a href="/ur">UR</a><span class="cur">HI</span></div>
+            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><a href="/fr">FR</a><a href="/de">DE</a><a href="/pt">PT</a><a href="/ar">AR</a><a href="/fa">FA</a><a href="/ur">UR</a><span class="cur">HI</span><a href="/bn">BN</a><a href="/ta">TA</a></div>
             <a href="#pricing" class="nav-cta">एक्सेस प्री-ऑर्डर करें</a>
         </div>
     </nav>
@@ -3004,6 +3008,598 @@ HOMEPAGE_HTML_HI = """
 </html>
 """
 
+HOMEPAGE_HTML_BN = """
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ai PassiveAutotrades — স্বয়ংক্রিয় Z-Score কোয়ান্ট ট্রেডিং ইঞ্জিন</title>
+    <meta name="description" content="Z-Score মিন রিভার্সনের উপর ভিত্তি করে সম্পূর্ণ স্বয়ংক্রিয় ট্রেডিং ইঞ্জিন। হস্তক্ষেপ ছাড়া এক্সিকিউশন, বিল্ট-ইন রিস্ক কন্ট্রোল, এবং আপনার ফান্ড কখনও আপনার নিজের অ্যাকাউন্ট ছেড়ে যায় না। প্রতিষ্ঠাতা অ্যাক্সেস এখনই প্রি-অর্ডার করুন।">
+    <link rel="canonical" href="https://aipassiveautotrades.vercel.app/bn">
+""" + HREFLANG_LINKS + """
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#050608">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aipassiveautotrades.vercel.app/bn">
+    <meta property="og:site_name" content="ai PassiveAutotrades">
+    <meta property="og:title" content="ai PassiveAutotrades — প্রাতিষ্ঠানিক আয়, স্বয়ংক্রিয়।">
+    <meta property="og:description" content="চার্ট না দেখে স্বয়ংক্রিয় Z-Score কোয়ান্ট কৌশল। লঞ্চের আগে প্রতিষ্ঠাতা অ্যাক্সেস প্রি-অর্ডার করুন।">
+    <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
+    <meta property="og:locale" content="bn_BD">
+    <script defer src="/_vercel/insights/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+""" + HOMEPAGE_STYLE + """
+</head>
+<body>
+    <nav>
+        <div class="nav-inner">
+            <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+            <div class="nav-links">
+                <a href="#how">কীভাবে কাজ করে</a>
+                <a href="#strategy">কৌশল</a>
+                <a href="#pricing">মূল্য</a>
+                <a href="#faq">প্রশ্ন</a>
+            </div>
+            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><a href="/fr">FR</a><a href="/de">DE</a><a href="/pt">PT</a><a href="/ar">AR</a><a href="/fa">FA</a><a href="/ur">UR</a><a href="/hi">HI</a><span class="cur">BN</span><a href="/ta">TA</a></div>
+            <a href="#pricing" class="nav-cta">অ্যাক্সেস প্রি-অর্ডার করুন</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="wrap">
+            <div class="hero-grid">
+                <div>
+                    <div class="eyebrow"><span class="dot"></span>স্বয়ংক্রিয় Z-SCORE কোয়ান্ট ইঞ্জিন</div>
+                    <h1>প্রাতিষ্ঠানিক আয়,<br><span class="grad">স্বয়ংক্রিয়।</span></h1>
+                    <p class="hero-sub">Z-Score মিন রিভার্সনের উপর নির্মিত সম্পূর্ণ স্বয়ংক্রিয় ট্রেডিং ইঞ্জিন — কোয়ান্ট ডেস্কগুলি যে পরিসংখ্যানগত পদ্ধতি ব্যবহার করে সেটিই — চব্বিশ ঘণ্টা চলে যাতে আপনাকে আর কখনও চার্ট দেখতে না হয়।</p>
+                    <div class="hero-note">প্রতিষ্ঠাতা প্রি-অর্ডার — পাবলিক লঞ্চের আগে আজীবন মূল্য লক করুন</div>
+                    <div class="cta-row">
+                        <a href="#pricing" class="btn primary">প্রি-অর্ডার প্ল্যান দেখুন</a>
+                        <a href="#how" class="btn ghost">কীভাবে কাজ করে</a>
+                    </div>
+                    <div class="hero-foot">
+                        <span>হস্তক্ষেপ ছাড়া এক্সিকিউশন</span>
+                        <span>বিল্ট-ইন রিস্ক কন্ট্রোল</span>
+                        <span>যেকোনো সময় বাতিলের সুযোগ</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="console mono">
+                        <div class="console-bar">
+                            <div class="dots"><i></i><i></i><i></i></div>
+                            <span class="title">ENGINE — SIGNAL MONITOR</span>
+                        </div>
+                        <div class="console-body">
+                            <div class="crow"><span class="pair">BTC–USD</span><span class="z">z&nbsp;=&nbsp;+2.31</span><span class="sig armed">REVERT · ARMED</span></div>
+                            <div class="crow"><span class="pair">ETH–USD</span><span class="z">z&nbsp;=&nbsp;−0.42</span><span class="sig idle">IN BAND</span></div>
+                            <div class="crow"><span class="pair">SOL–USD</span><span class="z">z&nbsp;=&nbsp;−2.87</span><span class="sig armed">REVERT · ARMED</span></div>
+                            <div class="crow"><span class="pair">XRP–USD</span><span class="z">z&nbsp;=&nbsp;+0.96</span><span class="sig idle">IN BAND</span></div>
+                        </div>
+                        <div class="console-foot">
+                            <span>risk ✓ &nbsp; sizing ✓ &nbsp; exposure ✓</span>
+                            <span>24/7</span>
+                        </div>
+                    </div>
+                    <div class="console-caption">উদাহরণমূলক সিগন্যাল ফিড — ইঞ্জিন বাজারকে এভাবে পড়ে</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="strip">
+        <div class="strip-inner">
+            <div class="stat"><b>24/7</b><span>স্বাধীন বাজার কভারেজ</span></div>
+            <div class="stat"><b>ms</b><span>অ্যালগরিদমিক এক্সিকিউশনের গতি</span></div>
+            <div class="stat"><b>0</b><span>চার্ট যা আপনাকে দেখতে হবে</span></div>
+            <div class="stat"><b>100%</b><span>নিয়মভিত্তিক — শূন্য আবেগ</span></div>
+        </div>
+    </div>
+
+    <section id="how">
+        <div class="wrap">
+            <div class="sec-label">কীভাবে কাজ করে</div>
+            <div class="sec-head">
+                <h2>তিনটি ধাপ। তারপর ইঞ্জিন দায়িত্ব নেয়।</h2>
+                <p>কোনো সিগন্যাল গ্রুপ নেই, স্ক্রিনের সামনে ঘণ্টা নেই, খেয়ালখুশির সিদ্ধান্ত নেই। একবার কনফিগার হলে প্রতিটি এন্ট্রি ও এক্সিট নিয়মমাফিক।</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <span class="num">01</span>
+                    <h3>আপনার প্ল্যান নিশ্চিত করুন</h3>
+                    <p>আপনার উপযুক্ত প্ল্যানটি প্রি-অর্ডার করুন। প্রতিষ্ঠাতা মূল্য স্থায়ীভাবে আপনার অ্যাকাউন্টে লক হয়ে যায় — লঞ্চের পরে এটি আর কখনও দেওয়া হবে না।</p>
+                </div>
+                <div class="step">
+                    <span class="num">02</span>
+                    <h3>সংযুক্ত করুন ও কনফিগার করুন</h3>
+                    <p>লঞ্চে ইঞ্জিনটি আপনার এক্সচেঞ্জ অ্যাকাউন্টের সাথে যুক্ত করুন এবং একবারই রিস্ক প্যারামিটার ঠিক করুন। আপনার ফান্ড সবসময় আপনার নিজের অ্যাকাউন্টেই থাকে।</p>
+                </div>
+                <div class="step">
+                    <span class="num">03</span>
+                    <h3>ইঞ্জিন এক্সিকিউট করে</h3>
+                    <p>Z-Score কোর চব্বিশ ঘণ্টা পরিসংখ্যানগত বিচ্যুতি পর্যবেক্ষণ করে এবং এন্ট্রি, এক্সিট ও পজিশন সাইজিং স্বয়ংক্রিয়ভাবে সম্পন্ন করে।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="strategy" class="alt">
+        <div class="wrap">
+            <div class="split">
+                <div class="sec-head">
+                    <div class="sec-label">কৌশল</div>
+                    <h2>কেন Z-Score মিন রিভার্সন?</h2>
+                    <p>বাজার অতিপ্রতিক্রিয়া করে। দাম তার পরিসংখ্যানগত গড় থেকে দূরে সরে যায়, আর টানটান দাম ফিরে আসার প্রবণতা রাখে। Z-Score ঠিক মাপে দাম কতটা সরেছে — স্ট্যান্ডার্ড ডেভিয়েশনে — ফলে "এটা অতিরিক্ত মনে হচ্ছে" পরিণত হয় একটি নির্ভুল, যাচাইযোগ্য সংখ্যায়।</p>
+                    <ul class="checklist">
+                        <li>একটি সংজ্ঞায়িত পরিসংখ্যানগত সুবিধায় ট্রেড — ইন্ডিকেটর, অনুমান বা হাইপ নয়</li>
+                        <li>প্রতিটি পজিশন নিয়ম মেনে খোলে ও বন্ধ হয়, ঝুঁকি ট্রেডের আগেই নির্ধারিত</li>
+                        <li>প্রাতিষ্ঠানিক স্ট্যাট-আর্ব ডেস্কগুলি দশকের পর দশক এই শ্রেণির পদ্ধতিই ব্যবহার করে</li>
+                        <li>গঠনগতভাবেই আবেগহীন: ইঞ্জিন প্রতিশোধ নেয় না, FOMO করে না, দ্বিধা করে না</li>
+                    </ul>
+                </div>
+                <div class="quote-box">
+                    <div class="big">"দাম যখন তার রোলিং গড় থেকে ±২ স্ট্যান্ডার্ড ডেভিয়েশনের বেশি সরে যায়, ইঞ্জিন একটি রিভার্সন পজিশন প্রস্তুত করে — এবং মানুষের হস্তক্ষেপ ছাড়াই তা শেষ পর্যন্ত পরিচালনা করে।"</div>
+                    <div class="src">— ai PassiveAutotrades-এর মূল নিয়ম, সরল ভাষায়। কোনো ব্ল্যাক বক্স নেই, রহস্যময় সিগন্যাল নেই।</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="wrap">
+            <div class="sec-label">আপনি যা পাবেন</div>
+            <div class="sec-head">
+                <h2>ট্রেডিং ডেস্কের মতো নির্মিত। প্রোডাক্টের মতো সরবরাহকৃত।</h2>
+            </div>
+            <div class="grid-6">
+                <div class="cell"><span class="ic">&#128202;</span><h3>Z-Score সিগন্যাল কোর</h3><p>রোলিং-উইন্ডো পরিসংখ্যানগত বিচ্যুতি প্রতিটি সিগন্যাল চালায় — স্বচ্ছ, যাচাইযোগ্য ও সামঞ্জস্যপূর্ণ।</p></div>
+                <div class="cell"><span class="ic">&#9889;</span><h3>মিলিসেকেন্ডে এক্সিকিউশন</h3><p>সীমা অতিক্রম করা মাত্র সিগন্যাল অ্যালগরিদমে চলে — দিন, রাত, সাপ্তাহিক ছুটি।</p></div>
+                <div class="cell"><span class="ic">&#128737;&#65039;</span><h3>কঠোর ঝুঁকি সীমা</h3><p>প্রতি-ট্রেড সাইজিং, এক্সপোজার সীমা ও স্বয়ংক্রিয় এক্সিট প্রতিটি পজিশনে প্রযোজ্য।</p></div>
+                <div class="cell"><span class="ic">&#128273;</span><h3>আপনার ফান্ড, আপনার অ্যাকাউন্ট</h3><p>ইঞ্জিন আপনার নিজের এক্সচেঞ্জ অ্যাকাউন্টের সাথে যুক্ত হয়। মূলধন কখনও আমাদের কাছে যায় না।</p></div>
+                <div class="cell"><span class="ic">&#128295;</span><h3>একবারের সেটআপ</h3><p>ঝুঁকির মাত্রা ও বাজার একবারই বেছে নিন। চলমান রক্ষণাবেক্ষণ বা নজরদারি নেই।</p></div>
+                <div class="cell"><span class="ic">&#128225;</span><h3>API অ্যাক্সেস <span style="color:var(--faint);font-weight:400;font-size:0.75rem">(VIP)</span></h3><p>কাস্টম ইন্টিগ্রেশন ও মনিটরিংয়ের জন্য ইঞ্জিনে সম্পূর্ণ প্রোগ্রাম্যাটিক অ্যাক্সেস।</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="alt">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">প্রতিষ্ঠাতা প্রি-অর্ডার</div>
+                <h2>লঞ্চের আগে আপনার প্ল্যান লক করুন</h2>
+                <p>প্রতিটি প্ল্যান প্রতিষ্ঠাতা মূল্যে প্রি-অর্ডার। ইঞ্জিন লঞ্চ হলে প্রতিষ্ঠাতা সদস্যরা আগে যুক্ত হন — এবং এই মূল্যগুলি স্থায়ীভাবে তুলে নেওয়া হয়।</p>
+            </div>
+            <div class="tiers">
+                <div class="tier">
+                    <span class="badge">প্রি-অর্ডার</span>
+                    <h3>Prototype</h3>
+                    <div class="who">অ্যালগো-ট্রেডিংয়ে নতুনদের জন্য</div>
+                    <div class="price">$79.99</div>
+                    <div class="per">এককালীন (মার্কিন ডলার)</div>
+                    <ul>
+                        <li>প্রোটোটাইপ ইঞ্জিনে প্রাথমিক অ্যাক্সেস</li>
+                        <li>মূল Z-Score কৌশল, একটি বাজার</li>
+                        <li>স্ট্যান্ডার্ড রিস্ক কন্ট্রোল</li>
+                        <li>ইমেইল সাপোর্ট</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00" class="btn primary">Prototype নিন</a>
+                </div>
+                <div class="tier">
+                    <span class="badge">প্রি-অর্ডার</span>
+                    <h3>Founding Alpha</h3>
+                    <div class="who">দীর্ঘমেয়াদে বিশ্বাসীদের জন্য</div>
+                    <div class="price">$199.99</div>
+                    <div class="per">এককালীন · আজীবন (মার্কিন ডলার)</div>
+                    <ul>
+                        <li>ইঞ্জিনে আজীবন সম্পূর্ণ অ্যাক্সেস</li>
+                        <li>সব বাজার ও কৌশল আপডেট, চিরকাল</li>
+                        <li>কোনো পুনরাবৃত্ত ফি নেই, কখনও না</li>
+                        <li>লঞ্চে অগ্রাধিকার অনবোর্ডিং</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01" class="btn primary">আজীবন নিশ্চিত করুন</a>
+                </div>
+                <div class="tier">
+                    <span class="badge">প্রি-অর্ডার</span>
+                    <h3>Early Access Pass</h3>
+                    <div class="who">নমনীয়তা পছন্দকারীদের জন্য</div>
+                    <div class="price">$49.99</div>
+                    <div class="per">প্রতি মাসে (মার্কিন ডলার)</div>
+                    <ul>
+                        <li>ইঞ্জিনের সম্পূর্ণ সুবিধা</li>
+                        <li>সব বাজার অন্তর্ভুক্ত</li>
+                        <li>যেকোনো সময় বাতিল করুন</li>
+                        <li>স্ট্যান্ডার্ড সাপোর্ট</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/00wcN4di180geXP9VEd3i02" class="btn ghost">মাসিক নিশ্চিত করুন</a>
+                </div>
+                <div class="tier featured">
+                    <span class="flag">সেরা মূল্য</span>
+                    <span class="badge">প্রি-অর্ডার</span>
+                    <h3>VIP Annual Pass</h3>
+                    <div class="who">গুরুতর ট্রেডারদের জন্য</div>
+                    <div class="price">$499.99</div>
+                    <div class="per">প্রতি বছরে (মার্কিন ডলার)</div>
+                    <ul>
+                        <li>Early Access-এর সবকিছু</li>
+                        <li>অগ্রাধিকার এক্সিকিউশন সারি</li>
+                        <li>সম্পূর্ণ API অ্যাক্সেস</li>
+                        <li>অগ্রাধিকার সাপোর্ট চ্যানেল</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03" class="btn primary">বার্ষিক নিশ্চিত করুন</a>
+                </div>
+            </div>
+            <p class="pricing-note">Stripe-এর মাধ্যমে নিরাপদ পেমেন্ট · USD, EUR, GBP, CAD বা AUD-তে পরিশোধ করুন — চেকআউটে আপনার মুদ্রা স্বয়ংক্রিয়ভাবে শনাক্ত হয় · পাবলিক লঞ্চে প্রতিষ্ঠাতা মূল্য স্থায়ীভাবে তুলে নেওয়া হয়</p>
+        </div>
+    </section>
+
+    <section id="faq">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">প্রশ্ন</div>
+                <h2>কেনার আগে যা জিজ্ঞাসা করা হয়</h2>
+            </div>
+            <div class="faq">
+                <details>
+                    <summary>প্রি-অর্ডারে আমি আসলে কী কিনছি?</summary>
+                    <div class="a">আপনি পাবলিক লঞ্চের আগে প্রতিষ্ঠাতা মূল্যে ইঞ্জিনের অ্যাক্সেস সংরক্ষণ করছেন। আপনার প্ল্যান ও মূল্য স্থায়ীভাবে আপনার অ্যাকাউন্টে লক হয়। ইঞ্জিন চালু হলে প্রতিষ্ঠাতা সদস্যরা আগে যুক্ত হন, আর লঞ্চের খবর চেকআউটে ব্যবহৃত ইমেইলে পাঠানো হয়।</div>
+                </details>
+                <details>
+                    <summary>আমার ফান্ড কি কখনও আমার নিয়ন্ত্রণের বাইরে যায়?</summary>
+                    <div class="a">না। ইঞ্জিন API কী-র মাধ্যমে আপনার নিজের এক্সচেঞ্জ অ্যাকাউন্টের সাথে যুক্ত হয় — কী যা আপনি নিয়ন্ত্রণ করেন এবং যেকোনো সময় বাতিল করতে পারেন। আমরা কখনও আপনার মূলধন রাখি না, এবং উত্তোলনের অনুমতি কখনও প্রয়োজন হয় না।</div>
+                </details>
+                <details>
+                    <summary>আমার কি ট্রেডিং অভিজ্ঞতা দরকার?</summary>
+                    <div class="a">ইঞ্জিন চালাতে চার্ট পড়া বা ট্রেডিং দক্ষতা লাগে না — কনফিগারেশন একবারের কাজ। তবে মূলধন বিনিয়োগের আগে বুঝতে হবে যে প্রতিটি ট্রেডিংয়ে প্রকৃত ক্ষতির ঝুঁকি থাকে।</div>
+                </details>
+                <details>
+                    <summary>ইঞ্জিন কি টাকা হারাতে পারে?</summary>
+                    <div class="a">হ্যাঁ। এই প্রশ্নের প্রতিটি সৎ উত্তরই হ্যাঁ — কোনো কৌশল প্রতিটি ট্রেড জেতে না, আর শক্তিশালী ট্রেন্ডের বাজারে মিন রিভার্সনের ঝুঁকি আছে। ঠিক এই কারণেই ইঞ্জিন প্রতিটি ট্রেডে পজিশন সাইজিং ও এক্সপোজার সীমা প্রয়োগ করে। এমন মূলধন দিয়ে কখনও ট্রেড করবেন না যা হারানোর সামর্থ্য আপনার নেই।</div>
+                </details>
+                <details>
+                    <summary>প্ল্যানগুলির মধ্যে পার্থক্য কী?</summary>
+                    <div class="a">Prototype হলো প্রোটোটাইপ ইঞ্জিনে এক-বাজারের প্রাথমিক অ্যাক্সেস। Founding Alpha হলো পুনরাবৃত্ত ফি ছাড়া আজীবন সম্পূর্ণ অ্যাক্সেস। Early Access একই সম্পূর্ণ ইঞ্জিন, মাসিক বিলিং ও স্বাধীন বাতিলসহ। VIP Annual যোগ করে অগ্রাধিকার এক্সিকিউশন, সম্পূর্ণ API অ্যাক্সেস ও অগ্রাধিকার সাপোর্ট।</div>
+                </details>
+                <details>
+                    <summary>প্রি-অর্ডারের পরে কী হয়?</summary>
+                    <div class="a">আপনি সাথে সাথে অর্ডার নিশ্চিতকরণ পাবেন, তারপর ইমেইলে লঞ্চ সময়সূচির খবর ও অনবোর্ডিং নির্দেশনা। প্রতিষ্ঠাতা সদস্যরা পাবলিক প্রাপ্যতার আগে যুক্ত হন।</div>
+                </details>
+                <details>
+                    <summary>আমি কি রিফান্ড পেতে পারি?</summary>
+                    <div class="a">হ্যাঁ — লঞ্চের আগে যেকোনো সময় প্রি-অর্ডার সম্পূর্ণ ফেরতযোগ্য। সাপোর্টে যোগাযোগ করুন (বিস্তারিত আপনার ক্রয় রসিদে) এবং রিফান্ড প্রক্রিয়া করা হবে। লঞ্চের পরে মাসিক ও বার্ষিক পাস যেকোনো সময় বাতিল করে ভবিষ্যৎ বিলিং বন্ধ করা যায়। সম্পূর্ণ বিবরণ আমাদের <a href="/terms" style="color:var(--accent)">সেবার শর্তাবলিতে</a> (ইংরেজিতে)।</div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section class="final">
+        <div class="wrap">
+            <h2>প্রতিষ্ঠাতা মূল্য লঞ্চেই শেষ।</h2>
+            <p>এখনই আপনার প্ল্যান সংরক্ষণ করুন — ইঞ্জিন পাবলিক হলে এই মূল্যগুলি স্থায়ীভাবে তুলে নেওয়া হবে।</p>
+            <a href="#pricing" class="btn primary">আমার প্ল্যান প্রি-অর্ডার করুন</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <div class="foot-top">
+                <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+                <div class="foot-links">
+                    <a href="#how">কীভাবে কাজ করে</a>
+                    <a href="#strategy">কৌশল</a>
+                    <a href="#pricing">মূল্য</a>
+                    <a href="#faq">প্রশ্ন</a>
+                    <a href="/terms">শর্তাবলি</a>
+                    <a href="/privacy">গোপনীয়তা</a>
+                </div>
+            </div>
+            <p class="disclaimer">ঝুঁকি প্রকাশ: ট্রেডিংয়ে উল্লেখযোগ্য ক্ষতির ঝুঁকি রয়েছে এবং এটি সব বিনিয়োগকারীর জন্য উপযুক্ত নয়। অ্যালগরিদমিক ও স্বয়ংক্রিয় কৌশল অর্থ হারাতে পারে এবং হারায়ও; অতীত বা সিমুলেটেড পারফরম্যান্স ভবিষ্যৎ ফলাফলের নিশ্চয়তা দেয় না। ai PassiveAutotrades একটি সফটওয়্যার টুল — এটি বিনিয়োগ উপদেষ্টা, ব্রোকার-ডিলার বা ট্রাস্টি নয়, এবং এই সাইটের কিছুই আর্থিক পরামর্শ বা ট্রেডের আমন্ত্রণ নয়। প্রি-অর্ডার ক্রয় উপরে বর্ণিত অনুযায়ী লঞ্চে সফটওয়্যার অ্যাক্সেস দেয়। শুধু সেই মূলধন দিয়ে ট্রেড করুন যা হারানোর সামর্থ্য আপনার আছে।</p>
+            <p class="copyright">&copy; 2026 ai PassiveAutotrades. সর্বস্বত্ব সংরক্ষিত।</p>
+        </div>
+    </footer>
+</body>
+</html>
+"""
+
+HOMEPAGE_HTML_TA = """
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ai PassiveAutotrades — தானியங்கி Z-Score குவாண்ட் டிரேடிங் இன்ஜின்</title>
+    <meta name="description" content="Z-Score சராசரி மீட்சியை அடிப்படையாகக் கொண்ட முழு தானியங்கி டிரேடிங் இன்ஜின். தலையீடின்றி செயலாக்கம், உள்ளமைந்த ரிஸ்க் கட்டுப்பாடுகள், உங்கள் நிதி உங்கள் சொந்தக் கணக்கை விட்டு வெளியேறாது. நிறுவனர் அணுகலை இப்போதே முன்பதிவு செய்யுங்கள்.">
+    <link rel="canonical" href="https://aipassiveautotrades.vercel.app/ta">
+""" + HREFLANG_LINKS + """
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#050608">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aipassiveautotrades.vercel.app/ta">
+    <meta property="og:site_name" content="ai PassiveAutotrades">
+    <meta property="og:title" content="ai PassiveAutotrades — நிறுவன வருமானம், தானியங்கி.">
+    <meta property="og:description" content="வரைபடங்களைப் பார்க்காமல் தானியங்கி Z-Score குவாண்ட் உத்திகள். வெளியீட்டுக்கு முன் நிறுவனர் அணுகலை முன்பதிவு செய்யுங்கள்.">
+    <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
+    <meta property="og:locale" content="ta_IN">
+    <script defer src="/_vercel/insights/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+""" + HOMEPAGE_STYLE + """
+</head>
+<body>
+    <nav>
+        <div class="nav-inner">
+            <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+            <div class="nav-links">
+                <a href="#how">எப்படி வேலை செய்கிறது</a>
+                <a href="#strategy">உத்தி</a>
+                <a href="#pricing">விலைகள்</a>
+                <a href="#faq">கேள்விகள்</a>
+            </div>
+            <div class="lang"><a href="/">EN</a><a href="/es">ES</a><a href="/fr">FR</a><a href="/de">DE</a><a href="/pt">PT</a><a href="/ar">AR</a><a href="/fa">FA</a><a href="/ur">UR</a><a href="/hi">HI</a><a href="/bn">BN</a><span class="cur">TA</span></div>
+            <a href="#pricing" class="nav-cta">அணுகலை முன்பதிவு செய்</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="wrap">
+            <div class="hero-grid">
+                <div>
+                    <div class="eyebrow"><span class="dot"></span>தானியங்கி Z-SCORE குவாண்ட் இன்ஜின்</div>
+                    <h1>நிறுவன வருமானம்,<br><span class="grad">தானியங்கி.</span></h1>
+                    <p class="hero-sub">Z-Score சராசரி மீட்சியில் கட்டப்பட்ட முழு தானியங்கி டிரேடிங் இன்ஜின் — குவாண்ட் டெஸ்க்குகள் பயன்படுத்தும் அதே புள்ளியியல் முறை — இரவு பகலாக இயங்குகிறது, நீங்கள் இனி வரைபடங்களைப் பார்க்கத் தேவையில்லை.</p>
+                    <div class="hero-note">நிறுவனர் முன்பதிவு — பொது வெளியீட்டுக்கு முன் வாழ்நாள் விலையைப் பூட்டுங்கள்</div>
+                    <div class="cta-row">
+                        <a href="#pricing" class="btn primary">முன்பதிவுத் திட்டங்களைக் காண</a>
+                        <a href="#how" class="btn ghost">எப்படி வேலை செய்கிறது</a>
+                    </div>
+                    <div class="hero-foot">
+                        <span>தலையீடின்றி செயலாக்கம்</span>
+                        <span>உள்ளமைந்த ரிஸ்க் கட்டுப்பாடுகள்</span>
+                        <span>எப்போது வேண்டுமானாலும் ரத்து</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="console mono">
+                        <div class="console-bar">
+                            <div class="dots"><i></i><i></i><i></i></div>
+                            <span class="title">ENGINE — SIGNAL MONITOR</span>
+                        </div>
+                        <div class="console-body">
+                            <div class="crow"><span class="pair">BTC–USD</span><span class="z">z&nbsp;=&nbsp;+2.31</span><span class="sig armed">REVERT · ARMED</span></div>
+                            <div class="crow"><span class="pair">ETH–USD</span><span class="z">z&nbsp;=&nbsp;−0.42</span><span class="sig idle">IN BAND</span></div>
+                            <div class="crow"><span class="pair">SOL–USD</span><span class="z">z&nbsp;=&nbsp;−2.87</span><span class="sig armed">REVERT · ARMED</span></div>
+                            <div class="crow"><span class="pair">XRP–USD</span><span class="z">z&nbsp;=&nbsp;+0.96</span><span class="sig idle">IN BAND</span></div>
+                        </div>
+                        <div class="console-foot">
+                            <span>risk ✓ &nbsp; sizing ✓ &nbsp; exposure ✓</span>
+                            <span>24/7</span>
+                        </div>
+                    </div>
+                    <div class="console-caption">எடுத்துக்காட்டு சிக்னல் ஃபீட் — இன்ஜின் சந்தையை இப்படிப் படிக்கிறது</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="strip">
+        <div class="strip-inner">
+            <div class="stat"><b>24/7</b><span>தன்னாட்சி சந்தைக் கண்காணிப்பு</span></div>
+            <div class="stat"><b>ms</b><span>அல்காரிதம் செயலாக்க வேகம்</span></div>
+            <div class="stat"><b>0</b><span>நீங்கள் பார்க்க வேண்டிய வரைபடங்கள்</span></div>
+            <div class="stat"><b>100%</b><span>விதிமுறை அடிப்படை — உணர்ச்சி இல்லை</span></div>
+        </div>
+    </div>
+
+    <section id="how">
+        <div class="wrap">
+            <div class="sec-label">எப்படி வேலை செய்கிறது</div>
+            <div class="sec-head">
+                <h2>மூன்று படிகள். பிறகு இன்ஜின் பொறுப்பேற்கிறது.</h2>
+                <p>சிக்னல் குழுக்கள் இல்லை, திரை நேரம் இல்லை, மனம்போன போக்கில் முடிவுகள் இல்லை. ஒருமுறை அமைத்தபின், ஒவ்வொரு நுழைவும் வெளியேற்றமும் முறைப்படி நடக்கிறது.</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <span class="num">01</span>
+                    <h3>உங்கள் திட்டத்தை உறுதி செய்யுங்கள்</h3>
+                    <p>உங்களுக்கு ஏற்ற திட்டத்தை முன்பதிவு செய்யுங்கள். நிறுவனர் விலை உங்கள் கணக்கில் நிரந்தரமாகப் பூட்டப்படும் — வெளியீட்டுக்குப் பிறகு அது மீண்டும் வழங்கப்படாது.</p>
+                </div>
+                <div class="step">
+                    <span class="num">02</span>
+                    <h3>இணைத்து அமையுங்கள்</h3>
+                    <p>வெளியீட்டின்போது இன்ஜினை உங்கள் எக்ஸ்சேஞ்ச் கணக்குடன் இணைத்து, ரிஸ்க் அளவுருக்களை ஒருமுறை அமையுங்கள். உங்கள் நிதி எப்போதும் உங்கள் சொந்தக் கணக்கிலேயே இருக்கும்.</p>
+                </div>
+                <div class="step">
+                    <span class="num">03</span>
+                    <h3>இன்ஜின் செயல்படுத்துகிறது</h3>
+                    <p>Z-Score மையம் புள்ளியியல் விலகலை இரவு பகலாகக் கண்காணித்து, நுழைவு, வெளியேற்றம், பொசிஷன் அளவை தானாகவே செயல்படுத்துகிறது.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="strategy" class="alt">
+        <div class="wrap">
+            <div class="split">
+                <div class="sec-head">
+                    <div class="sec-label">உத்தி</div>
+                    <h2>ஏன் Z-Score சராசரி மீட்சி?</h2>
+                    <p>சந்தைகள் மிகைத் தூண்டுதலுக்கு உள்ளாகின்றன. விலைகள் தம் புள்ளியியல் சராசரியிலிருந்து விலகிச் செல்கின்றன; இழுபட்ட விலைகள் திரும்பும் போக்கு கொண்டவை. விலை எவ்வளவு இழுபட்டுள்ளது என்பதை Z-Score துல்லியமாக அளக்கிறது — நியம விலகல்களில் — "இது அதிகமாகத் தெரிகிறது" என்பதைத் துல்லியமான, சரிபார்க்கக்கூடிய எண்ணாக மாற்றுகிறது.</p>
+                    <ul class="checklist">
+                        <li>வரையறுக்கப்பட்ட புள்ளியியல் அனுகூலத்தில் வர்த்தகம் — காட்டிகள், ஊகங்கள், பரபரப்பு அல்ல</li>
+                        <li>ஒவ்வொரு பொசிஷனும் விதிப்படி திறந்து மூடப்படுகிறது; ரிஸ்க் வர்த்தகத்துக்கு முன்பே அளவிடப்படுகிறது</li>
+                        <li>நிறுவன ஸ்டேட்-ஆர்ப் டெஸ்க்குகள் பல தசாப்தங்களாகப் பயன்படுத்தும் அதே முறை வகை</li>
+                        <li>வடிவமைப்பிலேயே உணர்ச்சியற்றது: இன்ஜினுக்கு பழிவாங்கலோ, FOMO-வோ, தயக்கமோ இல்லை</li>
+                    </ul>
+                </div>
+                <div class="quote-box">
+                    <div class="big">"விலை தனது நகரும் சராசரியிலிருந்து ±2 நியம விலகல்களுக்கு மேல் விலகும்போது, இன்ஜின் ஒரு மீட்சி பொசிஷனைத் தயார்படுத்துகிறது — மனிதத் தலையீடின்றி இறுதிவரை நிர்வகிக்கிறது."</div>
+                    <div class="src">— ai PassiveAutotrades-இன் மையவிதி, தெளிவாகச் சொல்லப்பட்டது. கறுப்புப் பெட்டி இல்லை, மர்மச் சிக்னல்கள் இல்லை.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="wrap">
+            <div class="sec-label">நீங்கள் பெறுவது</div>
+            <div class="sec-head">
+                <h2>டிரேடிங் டெஸ்க் போலக் கட்டப்பட்டது. தயாரிப்பு போல வழங்கப்படுகிறது.</h2>
+            </div>
+            <div class="grid-6">
+                <div class="cell"><span class="ic">&#128202;</span><h3>Z-Score சிக்னல் மையம்</h3><p>நகரும்-சாளர புள்ளியியல் விலகல் ஒவ்வொரு சிக்னலையும் இயக்குகிறது — வெளிப்படை, சரிபார்க்கக்கூடியது, சீரானது.</p></div>
+                <div class="cell"><span class="ic">&#9889;</span><h3>மில்லி வினாடி செயலாக்கம்</h3><p>வரம்புகள் தாண்டியதும் சிக்னல்கள் அல்காரிதப்படி இயங்கும் — பகல், இரவு, வார இறுதி.</p></div>
+                <div class="cell"><span class="ic">&#128737;&#65039;</span><h3>கடுமையான ரிஸ்க் வரம்புகள்</h3><p>ஒவ்வொரு வர்த்தக அளவு, எக்ஸ்போஷர் உச்சவரம்பு, தானியங்கி வெளியேற்றம் — ஒவ்வொரு பொசிஷனிலும் அமல்.</p></div>
+                <div class="cell"><span class="ic">&#128273;</span><h3>உங்கள் நிதி, உங்கள் கணக்கு</h3><p>இன்ஜின் உங்கள் சொந்த எக்ஸ்சேஞ்ச் கணக்குடன் இணைகிறது. மூலதனம் எங்களுக்கு ஒருபோதும் மாற்றப்படாது.</p></div>
+                <div class="cell"><span class="ic">&#128295;</span><h3>ஒருமுறை அமைப்பு</h3><p>ரிஸ்க் நிலையையும் சந்தைகளையும் ஒருமுறை மட்டும் தேர்வு செய்யுங்கள். தொடர் பராமரிப்போ கண்காணிப்போ இல்லை.</p></div>
+                <div class="cell"><span class="ic">&#128225;</span><h3>API அணுகல் <span style="color:var(--faint);font-weight:400;font-size:0.75rem">(VIP)</span></h3><p>தனிப்பயன் ஒருங்கிணைப்பு மற்றும் கண்காணிப்புக்கான முழு நிரலாக்க அணுகல்.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="alt">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">நிறுவனர் முன்பதிவு</div>
+                <h2>வெளியீட்டுக்கு முன் உங்கள் திட்டத்தைப் பூட்டுங்கள்</h2>
+                <p>ஒவ்வொரு திட்டமும் நிறுவனர் விலையிலான முன்பதிவு. இன்ஜின் வெளியாகும்போது நிறுவனர் உறுப்பினர்கள் முதலில் இணைவார்கள் — இந்த விலைகள் நிரந்தரமாக விலக்கப்படும்.</p>
+            </div>
+            <div class="tiers">
+                <div class="tier">
+                    <span class="badge">முன்பதிவு</span>
+                    <h3>Prototype</h3>
+                    <div class="who">அல்கோ டிரேடிங் புதியவர்களுக்கு</div>
+                    <div class="price">$79.99</div>
+                    <div class="per">ஒருமுறை (அமெரிக்க டாலர்)</div>
+                    <ul>
+                        <li>ப்ரோட்டோடைப் இன்ஜினுக்கு ஆரம்ப அணுகல்</li>
+                        <li>அடிப்படை Z-Score உத்தி, ஒரு சந்தை</li>
+                        <li>நிலையான ரிஸ்க் கட்டுப்பாடுகள்</li>
+                        <li>மின்னஞ்சல் ஆதரவு</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00" class="btn primary">Prototype பெறுங்கள்</a>
+                </div>
+                <div class="tier">
+                    <span class="badge">முன்பதிவு</span>
+                    <h3>Founding Alpha</h3>
+                    <div class="who">நீண்டகால நம்பிக்கையாளர்களுக்கு</div>
+                    <div class="price">$199.99</div>
+                    <div class="per">ஒருமுறை · வாழ்நாள் (அமெரிக்க டாலர்)</div>
+                    <ul>
+                        <li>இன்ஜினுக்கு வாழ்நாள் முழு அணுகல்</li>
+                        <li>அனைத்து சந்தைகளும் மேம்பாடுகளும், என்றென்றும்</li>
+                        <li>தொடர் கட்டணங்கள் இல்லவே இல்லை</li>
+                        <li>வெளியீட்டில் முன்னுரிமை இணைப்பு</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01" class="btn primary">வாழ்நாளை உறுதி செய்</a>
+                </div>
+                <div class="tier">
+                    <span class="badge">முன்பதிவு</span>
+                    <h3>Early Access Pass</h3>
+                    <div class="who">நெகிழ்வு விரும்புவோருக்கு</div>
+                    <div class="price">$49.99</div>
+                    <div class="per">மாதத்திற்கு (அமெரிக்க டாலர்)</div>
+                    <ul>
+                        <li>இன்ஜினின் முழுப் பயன்</li>
+                        <li>அனைத்து சந்தைகளும் உள்ளடக்கம்</li>
+                        <li>எப்போது வேண்டுமானாலும் ரத்து</li>
+                        <li>நிலையான ஆதரவு</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/00wcN4di180geXP9VEd3i02" class="btn ghost">மாதாந்திரம் உறுதி செய்</a>
+                </div>
+                <div class="tier featured">
+                    <span class="flag">சிறந்த மதிப்பு</span>
+                    <span class="badge">முன்பதிவு</span>
+                    <h3>VIP Annual Pass</h3>
+                    <div class="who">தீவிர டிரேடர்களுக்கு</div>
+                    <div class="price">$499.99</div>
+                    <div class="per">ஆண்டுக்கு (அமெரிக்க டாலர்)</div>
+                    <ul>
+                        <li>Early Access-இன் அனைத்தும்</li>
+                        <li>முன்னுரிமை செயலாக்க வரிசை</li>
+                        <li>முழு API அணுகல்</li>
+                        <li>முன்னுரிமை ஆதரவு சேனல்</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03" class="btn primary">ஆண்டுத் திட்டத்தை உறுதி செய்</a>
+                </div>
+            </div>
+            <p class="pricing-note">Stripe மூலம் பாதுகாப்பான கட்டணம் · USD, EUR, GBP, CAD அல்லது AUD-இல் செலுத்துங்கள் — செக்அவுட்டில் உங்கள் நாணயம் தானாகக் கண்டறியப்படும் · பொது வெளியீட்டில் நிறுவனர் விலைகள் நிரந்தரமாக விலக்கப்படும்</p>
+        </div>
+    </section>
+
+    <section id="faq">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">கேள்விகள்</div>
+                <h2>வாங்கும் முன் கேட்கப்படுவது</h2>
+            </div>
+            <div class="faq">
+                <details>
+                    <summary>முன்பதிவில் நான் சரியாக என்ன வாங்குகிறேன்?</summary>
+                    <div class="a">பொது வெளியீட்டுக்கு முன் நிறுவனர் விலையில் இன்ஜின் அணுகலை நீங்கள் முன்பதிவு செய்கிறீர்கள். உங்கள் திட்டமும் விலையும் உங்கள் கணக்கில் நிரந்தரமாகப் பூட்டப்படும். இன்ஜின் இயங்கத் தொடங்கியதும் நிறுவனர் உறுப்பினர்கள் முதலில் இணைக்கப்படுவார்கள்; வெளியீட்டுத் தகவல்கள் செக்அவுட்டில் பயன்படுத்திய மின்னஞ்சலுக்கு அனுப்பப்படும்.</div>
+                </details>
+                <details>
+                    <summary>என் நிதி எப்போதாவது என் கட்டுப்பாட்டை விட்டு வெளியேறுமா?</summary>
+                    <div class="a">இல்லை. நீங்கள் கட்டுப்படுத்தும், எப்போது வேண்டுமானாலும் ரத்து செய்யக்கூடிய API விசைகள் மூலம் இன்ஜின் உங்கள் சொந்த எக்ஸ்சேஞ்ச் கணக்குடன் இணைகிறது. உங்கள் மூலதனத்தை நாங்கள் ஒருபோதும் வைத்திருக்க மாட்டோம்; பணமெடுப்பு அனுமதிகள் ஒருபோதும் தேவையில்லை.</div>
+                </details>
+                <details>
+                    <summary>எனக்கு டிரேடிங் அனுபவம் தேவையா?</summary>
+                    <div class="a">இன்ஜினை இயக்க வரைபடம் படிக்கவோ டிரேடிங் திறமையோ தேவையில்லை — அமைப்பு ஒருமுறை மட்டுமே. இருப்பினும், மூலதனத்தை ஈடுபடுத்தும் முன் ஒவ்வொரு வர்த்தகத்திலும் உண்மையான இழப்பு அபாயம் உள்ளது என்பதைப் புரிந்து கொள்ள வேண்டும்.</div>
+                </details>
+                <details>
+                    <summary>இன்ஜின் பணத்தை இழக்க முடியுமா?</summary>
+                    <div class="a">ஆம். இந்தக் கேள்விக்கான ஒவ்வொரு நேர்மையான பதிலும் ஆம் — எந்த உத்தியும் ஒவ்வொரு வர்த்தகத்திலும் வெல்வதில்லை; வலுவான போக்குள்ள சந்தைகளில் சராசரி மீட்சிக்கு அபாயம் உண்டு. அதனால்தான் இன்ஜின் ஒவ்வொரு வர்த்தகத்திலும் பொசிஷன் அளவையும் எக்ஸ்போஷர் வரம்புகளையும் கட்டாயமாக்குகிறது. இழக்கச் சகிக்க முடியாத மூலதனத்தில் ஒருபோதும் வர்த்தகம் செய்யாதீர்கள்.</div>
+                </details>
+                <details>
+                    <summary>திட்டங்களுக்கு இடையிலான வேறுபாடு என்ன?</summary>
+                    <div class="a">Prototype — ப்ரோட்டோடைப் இன்ஜினுக்கு ஒற்றைச் சந்தை ஆரம்ப அணுகல். Founding Alpha — தொடர் கட்டணமின்றி வாழ்நாள் முழு அணுகல். Early Access — அதே முழு இன்ஜின், மாதாந்திரக் கட்டணம், சுதந்திரமான ரத்து. VIP Annual — முன்னுரிமை செயலாக்கம், முழு API அணுகல், முன்னுரிமை ஆதரவு கூடுதல்.</div>
+                </details>
+                <details>
+                    <summary>முன்பதிவுக்குப் பிறகு என்ன நடக்கும்?</summary>
+                    <div class="a">உடனே ஆர்டர் உறுதிப்படுத்தல் கிடைக்கும்; பிறகு வெளியீட்டு கால அட்டவணைத் தகவல்களும் இணைப்பு வழிமுறைகளும் மின்னஞ்சலில் வரும். நிறுவனர் உறுப்பினர்கள் பொது கிடைப்பதற்கு முன் இணைக்கப்படுவார்கள்.</div>
+                </details>
+                <details>
+                    <summary>எனக்குப் பணத்திரும்பம் கிடைக்குமா?</summary>
+                    <div class="a">ஆம் — வெளியீட்டுக்கு முன் எப்போது வேண்டுமானாலும் முன்பதிவுகள் முழுமையாகத் திரும்பப்பெறத்தக்கவை. ஆதரவைத் தொடர்பு கொள்ளுங்கள் (விவரங்கள் உங்கள் வாங்கல் ரசீதில்); பணத்திரும்பம் செயல்படுத்தப்படும். வெளியீட்டுக்குப் பிறகு மாத மற்றும் ஆண்டு பாஸ்களை எப்போது வேண்டுமானாலும் ரத்து செய்து எதிர்கால கட்டணங்களை நிறுத்தலாம். முழு விவரங்கள் எங்கள் <a href="/terms" style="color:var(--accent)">சேவை விதிமுறைகளில்</a> (ஆங்கிலத்தில்).</div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section class="final">
+        <div class="wrap">
+            <h2>நிறுவனர் விலை வெளியீட்டோடு முடிவடைகிறது.</h2>
+            <p>இப்போதே உங்கள் திட்டத்தை முன்பதிவு செய்யுங்கள் — இன்ஜின் பொதுவானதும் இந்த விலைகள் நிரந்தரமாக விலக்கப்படும்.</p>
+            <a href="#pricing" class="btn primary">என் திட்டத்தை முன்பதிவு செய்</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <div class="foot-top">
+                <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+                <div class="foot-links">
+                    <a href="#how">எப்படி வேலை செய்கிறது</a>
+                    <a href="#strategy">உத்தி</a>
+                    <a href="#pricing">விலைகள்</a>
+                    <a href="#faq">கேள்விகள்</a>
+                    <a href="/terms">விதிமுறைகள்</a>
+                    <a href="/privacy">தனியுரிமை</a>
+                </div>
+            </div>
+            <p class="disclaimer">அபாய வெளிப்படுத்தல்: வர்த்தகத்தில் கணிசமான இழப்பு அபாயம் உள்ளது; இது ஒவ்வொரு முதலீட்டாளருக்கும் ஏற்றதல்ல. அல்காரிதம் மற்றும் தானியங்கி உத்திகள் பணத்தை இழக்கக்கூடும், இழக்கின்றன; கடந்தகால அல்லது உருவகப்படுத்தப்பட்ட செயல்திறன் எதிர்கால முடிவுகளுக்கு உத்தரவாதம் அல்ல. ai PassiveAutotrades ஒரு மென்பொருள் கருவி — முதலீட்டு ஆலோசகரோ, தரகர்-வியாபாரியோ, நம்பிக்கைப் பொறுப்பாளரோ அல்ல; இந்தத் தளத்தில் எதுவும் நிதி ஆலோசனையோ வர்த்தக அழைப்போ அல்ல. முன்பதிவு வாங்கல்கள் மேலே விவரித்தபடி வெளியீட்டில் மென்பொருள் அணுகலை வழங்கும். இழக்கச் சகிக்கக்கூடிய மூலதனத்தில் மட்டுமே வர்த்தகம் செய்யுங்கள்.</p>
+            <p class="copyright">&copy; 2026 ai PassiveAutotrades. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.</p>
+        </div>
+    </footer>
+</body>
+</html>
+"""
+
 LEGAL_STYLE = """
 <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -3170,6 +3766,16 @@ SITEMAP_XML = """<?xml version="1.0" encoding="UTF-8"?>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://aipassiveautotrades.vercel.app/bn</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aipassiveautotrades.vercel.app/ta</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aipassiveautotrades.vercel.app/terms</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -3254,6 +3860,16 @@ def read_root_ur():
 @app.get("/hi", response_class=HTMLResponse)
 def read_root_hi():
     return HTMLResponse(content=HOMEPAGE_HTML_HI, headers=CACHE_HEADERS)
+
+
+@app.get("/bn", response_class=HTMLResponse)
+def read_root_bn():
+    return HTMLResponse(content=HOMEPAGE_HTML_BN, headers=CACHE_HEADERS)
+
+
+@app.get("/ta", response_class=HTMLResponse)
+def read_root_ta():
+    return HTMLResponse(content=HOMEPAGE_HTML_TA, headers=CACHE_HEADERS)
 
 
 @app.get("/terms", response_class=HTMLResponse)
