@@ -5,7 +5,7 @@ from fastapi.responses import HTMLResponse, PlainTextResponse, Response
 app = FastAPI(
     title="ai PassiveAutotrades",
     description="Institutional Alpha",
-    version="1.0.0",
+    version="1.1.0",
     docs_url=None,
     redoc_url=None,
     openapi_url=None,
