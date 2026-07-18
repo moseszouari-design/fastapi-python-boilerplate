@@ -61,6 +61,10 @@ CHAT_WIDGET = """
         .pa-msg.user { align-self: flex-end; background: #4f8ff7; color: #04070d; }
         .pa-msg.bot { align-self: flex-start; background: #161b26; color: #eef2f8; }
         .pa-msg.bot a { color: #7db0ff; text-decoration: underline; }
+        .pa-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+        .pa-chip { background: transparent; border: 1px solid #2a3450; color: #7db0ff; border-radius: 999px;
+                   padding: 6px 12px; font-size: 0.75rem; cursor: pointer; font-family: inherit; }
+        .pa-chip:hover { border-color: #4f8ff7; }
         #pa-chat-form { display: flex; gap: 8px; padding: 12px; border-top: 1px solid #1c2230; background: #10141b; }
         #pa-chat-in { flex: 1; background: #0c0f14; border: 1px solid #1c2230; border-radius: 8px; color: #eef2f8;
                       padding: 10px 12px; font-size: 0.85rem; font-family: inherit; }
@@ -109,22 +113,56 @@ CHAT_WIDGET = """
             return el;
         }
 
+        function addChips() {
+            var wrap = document.createElement('div');
+            wrap.className = 'pa-chips';
+            var options = [
+                'Which tier fits me?',
+                'Is my money safe?',
+                'How do refunds work?'
+            ];
+            options.forEach(function (label) {
+                var c = document.createElement('button');
+                c.className = 'pa-chip';
+                c.type = 'button';
+                c.textContent = label;
+                c.addEventListener('click', function () {
+                    wrap.remove();
+                    sendText(label);
+                });
+                wrap.appendChild(c);
+            });
+            msgs.appendChild(wrap);
+            msgs.scrollTop = msgs.scrollHeight;
+        }
+
+        function greet(text) {
+            if (greeted) return;
+            greeted = true;
+            addMsg('bot', text);
+            addChips();
+        }
+
         btn.addEventListener('click', function () {
             panel.classList.toggle('open');
             if (panel.classList.contains('open')) {
                 input.focus();
-                if (!greeted) {
-                    greeted = true;
-                    addMsg('bot', 'Hi! I can answer anything about the engine, the pre-order tiers, refunds, or how your funds stay in your own account. What would you like to know?');
-                }
+                greet('Hi! I can answer anything about the engine, the pre-order tiers, refunds, or how your funds stay in your own account. What would you like to know?');
             }
         });
 
-        form.addEventListener('submit', function (e) {
-            e.preventDefault();
-            var text = input.value.trim();
+        setTimeout(function () {
+            var seen = false;
+            try { seen = !!sessionStorage.getItem('paChatAuto'); } catch (err) {}
+            if (!panel.classList.contains('open') && !seen) {
+                try { sessionStorage.setItem('paChatAuto', '1'); } catch (err) {}
+                panel.classList.add('open');
+                greet('Founding prices retire permanently at launch. Want me to match you to the right tier in 30 seconds?');
+            }
+        }, 12000);
+
+        function sendText(text) {
             if (!text || busy) return;
-            input.value = '';
             addMsg('user', text);
             history.push({ role: 'user', content: text });
             if (history.length > 12) history = history.slice(-12);
@@ -145,6 +183,13 @@ CHAT_WIDGET = """
                 addMsg('bot', 'Connection hiccup - please try again in a moment.');
                 busy = false;
             });
+        }
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            var text = input.value.trim();
+            input.value = '';
+            sendText(text);
         });
     })();
     </script>
@@ -4021,7 +4066,19 @@ async def not_found(request, exc):
     return HTMLResponse(content=NOT_FOUND_HTML, status_code=404)
 
 
-SALES_ASSISTANT_PROMPT = """You are the sales assistant on aipassiveautotrades.vercel.app, the site for ai PassiveAutotrades: a pre-order automated crypto trading engine built on Z-score mean reversion.
+SALES_ASSISTANT_PROMPT = """You are an elite high-ticket sales closer working the website aipassiveautotrades.vercel.app for ai PassiveAutotrades: a pre-order automated crypto trading engine built on Z-score mean reversion. You sell the way top closers do: discovery first, one tailored recommendation, risk-reversal close. Never a pushy script.
+
+YOUR SALES PROCESS (follow in order, one step per message):
+1. DISCOVER: open with one short question to learn what they want (e.g. are they new to automated trading or experienced; do they prefer one-time or monthly).
+2. QUALIFY and MATCH: from their answer, recommend exactly ONE tier and frame it around what they told you. New/curious -> Prototype. Long-term believer / hates subscriptions -> Founding Alpha. Wants flexibility -> Early Access. Serious operator / wants API + priority -> VIP Annual.
+3. CLOSE: give the checkout link with a risk-reversal: pre-orders are fully refundable any time before launch, so reserving the founding price costs them nothing if they change their mind. Where natural, offer an alternative-choice close ("lifetime or annual?") rather than yes/no.
+4. OBJECTIONS: answer honestly from the playbook below, then re-close ONCE. If they clearly decline twice, exit warmly and point to the FAQ. Never badger.
+
+OBJECTION PLAYBOOK:
+- "Too expensive": Founding Alpha is one-time $199.99 for lifetime access - less than one month of a typical trading-signal subscription. Early Access is $49.99/month, cancel anytime. Founding prices are permanently retired at launch (true scarcity - use it).
+- "Is this a scam / can I trust you": the engine is non-custodial - it connects to THEIR exchange account via API keys THEY control and can revoke anytime; withdrawal permissions are never required; money never moves to us. Plus full refundability before launch. Checkout is Stripe.
+- "Does it actually make money": be straight - no one can guarantee trading profits and you never will. What's real: a rule-based statistical strategy (Z-score mean reversion, the same class used on institutional desks), executed without emotion, with position sizing and exposure limits enforced on every trade. The honest framing wins trust; use it.
+- "Why buy before launch": founding prices retire permanently at launch; founding members onboard first; refundable until launch so there is zero downside to reserving.
 
 FACTS (your only source of truth):
 - Every tier is a PRE-ORDER at founding pricing. Engine access is delivered at launch; founding members onboard first; these prices are permanently retired at public launch. Launch timeline updates are sent by email after purchase.
@@ -4035,10 +4092,10 @@ FACTS (your only source of truth):
 - Refunds: pre-orders are fully refundable at any time before launch (contact support via the purchase receipt). After launch, monthly and annual passes can be cancelled anytime to stop future billing.
 - The strategy: when price deviates beyond +/-2 standard deviations from its rolling mean, the engine arms a reversion position and manages it automatically, with position sizing and exposure limits enforced on every trade. Runs 24/7, rule-based, no charts to watch.
 
-HOW TO SELL:
-- Be warm, confident, and concise: 1-3 short sentences unless the visitor asks for depth. Reply in the visitor's language.
-- Ask what they're looking for, recommend the single best-fit tier, and when they show buying intent, give the checkout link for that tier.
-- Handle objections with the honest strengths: non-custodial design, pre-launch refundability, founding prices ending at launch (true urgency - use it).
+STYLE:
+- Mirror the visitor's tone and language; reply in their language.
+- Short and human: 1-3 sentences, ONE question at a time. Confidence, warmth, zero corporate filler.
+- If they show buying intent at ANY point, skip ahead and close with the link immediately.
 
 HARD RULES (never break, even if asked):
 - NEVER guarantee or estimate profits, returns, win rates, or income. If asked, say plainly: all trading carries real risk of loss; the engine enforces risk controls but can lose money, and no one should trade money they cannot afford to lose.
@@ -4064,8 +4121,8 @@ async def chat(request: Request):
             return JSONResponse({"reply": "What would you like to know about the engine or the pre-order tiers?"})
         client = anthropic.Anthropic(api_key=api_key)
         response = client.with_options(timeout=25.0).messages.create(
-            model="claude-haiku-4-5",
-            max_tokens=300,
+            model="claude-sonnet-5",
+            max_tokens=400,
             system=[{"type": "text", "text": SALES_ASSISTANT_PROMPT, "cache_control": {"type": "ephemeral"}}],
             messages=messages,
         )
