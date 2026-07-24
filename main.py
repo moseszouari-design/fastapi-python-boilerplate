@@ -441,7 +441,12 @@ HOMEPAGE_HTML = """
         .tier h3 { font-size: 1.02rem; margin-bottom: 4px; }
         .tier .who { color: var(--faint); font-size: 0.78rem; margin-bottom: 18px; }
         .tier .price { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; }
-        .tier .per { color: var(--faint); font-size: 0.78rem; margin-bottom: 20px; }
+        .tier .per { color: var(--faint); font-size: 0.78rem; margin-bottom: 14px; }
+        .tier .cap { display: inline-flex; align-items: center; gap: 7px; font-size: 0.72rem; font-weight: 700;
+                     letter-spacing: 0.4px; color: var(--amber); background: rgba(217,161,59,0.08);
+                     border: 1px solid rgba(217,161,59,0.3); border-radius: 999px; padding: 5px 12px;
+                     align-self: flex-start; margin-bottom: 20px; }
+        .tier .cap::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--amber); }
         .tier ul { list-style: none; display: grid; gap: 10px; margin-bottom: 26px; flex: 1; }
         .tier ul li { display: flex; gap: 10px; color: var(--muted); font-size: 0.84rem; line-height: 1.45; }
         .tier ul li::before { content: '✓'; color: var(--green); font-weight: 700; flex-shrink: 0; }
@@ -641,6 +646,7 @@ HOMEPAGE_HTML = """
                     <div class="who">For first-time algo users</div>
                     <div class="price">$79.99</div>
                     <div class="per">one-time</div>
+                    <div class="cap">Limited to 250,000 founding spots</div>
                     <ul>
                         <li>Entry access to the prototype engine</li>
                         <li>Core Z-score strategy, one market</li>
@@ -655,6 +661,7 @@ HOMEPAGE_HTML = """
                     <div class="who">For long-term believers</div>
                     <div class="price">$199.99</div>
                     <div class="per">one-time &middot; lifetime</div>
+                    <div class="cap">Limited to 40,000 founding spots</div>
                     <ul>
                         <li>Lifetime full-engine access</li>
                         <li>All markets &amp; strategy updates, forever</li>
@@ -669,6 +676,7 @@ HOMEPAGE_HTML = """
                     <div class="who">For flexible starters</div>
                     <div class="price">$49.99</div>
                     <div class="per">per month</div>
+                    <div class="cap">Limited to 95,000 founding spots</div>
                     <ul>
                         <li>Full engine utility</li>
                         <li>All markets included</li>
@@ -684,6 +692,7 @@ HOMEPAGE_HTML = """
                     <div class="who">For serious operators</div>
                     <div class="price">$499.99</div>
                     <div class="per">per year</div>
+                    <div class="cap">Limited to 30,000 founding spots</div>
                     <ul>
                         <li>Everything in Early Access</li>
                         <li>Priority execution queue</li>
@@ -958,6 +967,7 @@ HOMEPAGE_HTML_ES = """
                     <div class="who">Para quienes empiezan en algo-trading</div>
                     <div class="price">$79.99</div>
                     <div class="per">pago &uacute;nico (USD)</div>
+                    <div class="cap">Limitado a 250,000 plazas fundadoras</div>
                     <ul>
                         <li>Acceso inicial al motor prototipo</li>
                         <li>Estrategia Z-score b&aacute;sica, un mercado</li>
@@ -972,6 +982,7 @@ HOMEPAGE_HTML_ES = """
                     <div class="who">Para creyentes a largo plazo</div>
                     <div class="price">$199.99</div>
                     <div class="per">pago &uacute;nico &middot; de por vida (USD)</div>
+                    <div class="cap">Limitado a 40,000 plazas fundadoras</div>
                     <ul>
                         <li>Acceso completo de por vida</li>
                         <li>Todos los mercados y actualizaciones, para siempre</li>
@@ -986,6 +997,7 @@ HOMEPAGE_HTML_ES = """
                     <div class="who">Para quienes prefieren flexibilidad</div>
                     <div class="price">$49.99</div>
                     <div class="per">al mes (USD)</div>
+                    <div class="cap">Limitado a 95,000 plazas fundadoras</div>
                     <ul>
                         <li>Utilidad completa del motor</li>
                         <li>Todos los mercados incluidos</li>
@@ -1001,6 +1013,7 @@ HOMEPAGE_HTML_ES = """
                     <div class="who">Para operadores serios</div>
                     <div class="price">$499.99</div>
                     <div class="per">al a&ntilde;o (USD)</div>
+                    <div class="cap">Limitado a 30,000 plazas fundadoras</div>
                     <ul>
                         <li>Todo lo de Early Access</li>
                         <li>Cola de ejecuci&oacute;n prioritaria</li>
@@ -1255,6 +1268,7 @@ HOMEPAGE_HTML_FR = """
                     <div class="who">Pour d&eacute;buter en algo-trading</div>
                     <div class="price">$79.99</div>
                     <div class="per">paiement unique (USD)</div>
+                    <div class="cap">Limité à 250,000 places fondatrices</div>
                     <ul>
                         <li>Acc&egrave;s d'entr&eacute;e au moteur prototype</li>
                         <li>Strat&eacute;gie Z-score de base, un march&eacute;</li>
@@ -1269,6 +1283,7 @@ HOMEPAGE_HTML_FR = """
                     <div class="who">Pour les convaincus de long terme</div>
                     <div class="price">$199.99</div>
                     <div class="per">paiement unique &middot; &agrave; vie (USD)</div>
+                    <div class="cap">Limité à 40,000 places fondatrices</div>
                     <ul>
                         <li>Acc&egrave;s complet &agrave; vie au moteur</li>
                         <li>Tous les march&eacute;s et mises &agrave; jour, pour toujours</li>
@@ -1283,6 +1298,7 @@ HOMEPAGE_HTML_FR = """
                     <div class="who">Pour d&eacute;marrer en souplesse</div>
                     <div class="price">$49.99</div>
                     <div class="per">par mois (USD)</div>
+                    <div class="cap">Limité à 95,000 places fondatrices</div>
                     <ul>
                         <li>Utilit&eacute; compl&egrave;te du moteur</li>
                         <li>Tous les march&eacute;s inclus</li>
@@ -1298,6 +1314,7 @@ HOMEPAGE_HTML_FR = """
                     <div class="who">Pour les op&eacute;rateurs s&eacute;rieux</div>
                     <div class="price">$499.99</div>
                     <div class="per">par an (USD)</div>
+                    <div class="cap">Limité à 30,000 places fondatrices</div>
                     <ul>
                         <li>Tout Early Access inclus</li>
                         <li>File d'ex&eacute;cution prioritaire</li>
@@ -1552,6 +1569,7 @@ HOMEPAGE_HTML_DE = """
                     <div class="who">Für Algo-Einsteiger</div>
                     <div class="price">$79.99</div>
                     <div class="per">einmalig (USD)</div>
+                    <div class="cap">Begrenzt auf 250,000 Gründerplätze</div>
                     <ul>
                         <li>Einstiegszugang zur Prototyp-Engine</li>
                         <li>Z-Score-Kernstrategie, ein Markt</li>
@@ -1566,6 +1584,7 @@ HOMEPAGE_HTML_DE = """
                     <div class="who">Für langfristig Überzeugte</div>
                     <div class="price">$199.99</div>
                     <div class="per">einmalig · lebenslang (USD)</div>
+                    <div class="cap">Begrenzt auf 40,000 Gründerplätze</div>
                     <ul>
                         <li>Lebenslanger Vollzugang zur Engine</li>
                         <li>Alle Märkte &amp; Strategie-Updates, für immer</li>
@@ -1580,6 +1599,7 @@ HOMEPAGE_HTML_DE = """
                     <div class="who">Für flexible Starter</div>
                     <div class="price">$49.99</div>
                     <div class="per">pro Monat (USD)</div>
+                    <div class="cap">Begrenzt auf 95,000 Gründerplätze</div>
                     <ul>
                         <li>Voller Funktionsumfang der Engine</li>
                         <li>Alle Märkte inklusive</li>
@@ -1595,6 +1615,7 @@ HOMEPAGE_HTML_DE = """
                     <div class="who">Für ernsthafte Operatoren</div>
                     <div class="price">$499.99</div>
                     <div class="per">pro Jahr (USD)</div>
+                    <div class="cap">Begrenzt auf 30,000 Gründerplätze</div>
                     <ul>
                         <li>Alles aus Early Access</li>
                         <li>Priorisierte Ausführungs-Queue</li>
@@ -1849,6 +1870,7 @@ HOMEPAGE_HTML_PT = """
                     <div class="who">Para iniciantes em algo-trading</div>
                     <div class="price">$79.99</div>
                     <div class="per">pagamento único (USD)</div>
+                    <div class="cap">Limitado a 250,000 vagas fundadoras</div>
                     <ul>
                         <li>Acesso inicial ao motor protótipo</li>
                         <li>Estratégia Z-score básica, um mercado</li>
@@ -1863,6 +1885,7 @@ HOMEPAGE_HTML_PT = """
                     <div class="who">Para quem acredita no longo prazo</div>
                     <div class="price">$199.99</div>
                     <div class="per">pagamento único · vitalício (USD)</div>
+                    <div class="cap">Limitado a 40,000 vagas fundadoras</div>
                     <ul>
                         <li>Acesso completo vitalício ao motor</li>
                         <li>Todos os mercados e atualizações, para sempre</li>
@@ -1877,6 +1900,7 @@ HOMEPAGE_HTML_PT = """
                     <div class="who">Para quem prefere flexibilidade</div>
                     <div class="price">$49.99</div>
                     <div class="per">por mês (USD)</div>
+                    <div class="cap">Limitado a 95,000 vagas fundadoras</div>
                     <ul>
                         <li>Utilidade completa do motor</li>
                         <li>Todos os mercados incluídos</li>
@@ -1892,6 +1916,7 @@ HOMEPAGE_HTML_PT = """
                     <div class="who">Para operadores sérios</div>
                     <div class="price">$499.99</div>
                     <div class="per">por ano (USD)</div>
+                    <div class="cap">Limitado a 30,000 vagas fundadoras</div>
                     <ul>
                         <li>Tudo do Early Access</li>
                         <li>Fila de execução prioritária</li>
@@ -2159,6 +2184,7 @@ HOMEPAGE_HTML_AR = """
                     <div class="who">لمن يبدأ في التداول الخوارزمي</div>
                     <div class="price">$79.99</div>
                     <div class="per">دفعة واحدة (دولار أمريكي)</div>
+                    <div class="cap">مقتصر على 250,000 مقعد تأسيسي</div>
                     <ul>
                         <li>وصول مبدئي إلى محرك النموذج الأولي</li>
                         <li>استراتيجية Z-Score الأساسية، سوق واحد</li>
@@ -2173,6 +2199,7 @@ HOMEPAGE_HTML_AR = """
                     <div class="who">للمؤمنين بالمدى الطويل</div>
                     <div class="price">$199.99</div>
                     <div class="per">دفعة واحدة · مدى الحياة (دولار أمريكي)</div>
+                    <div class="cap">مقتصر على 40,000 مقعد تأسيسي</div>
                     <ul>
                         <li>وصول كامل مدى الحياة إلى المحرك</li>
                         <li>جميع الأسواق وتحديثات الاستراتيجية، للأبد</li>
@@ -2187,6 +2214,7 @@ HOMEPAGE_HTML_AR = """
                     <div class="who">لمن يفضّل المرونة</div>
                     <div class="price">$49.99</div>
                     <div class="per">شهرياً (دولار أمريكي)</div>
+                    <div class="cap">مقتصر على 95,000 مقعد تأسيسي</div>
                     <ul>
                         <li>الاستفادة الكاملة من المحرك</li>
                         <li>جميع الأسواق مشمولة</li>
@@ -2202,6 +2230,7 @@ HOMEPAGE_HTML_AR = """
                     <div class="who">للمتداولين الجادين</div>
                     <div class="price">$499.99</div>
                     <div class="per">سنوياً (دولار أمريكي)</div>
+                    <div class="cap">مقتصر على 30,000 مقعد تأسيسي</div>
                     <ul>
                         <li>كل ما في Early Access</li>
                         <li>أولوية في طابور التنفيذ</li>
@@ -2456,6 +2485,7 @@ HOMEPAGE_HTML_FA = """
                     <div class="who">برای تازه‌واردان معاملات الگوریتمی</div>
                     <div class="price">$79.99</div>
                     <div class="per">پرداخت یک‌باره (دلار آمریکا)</div>
+                    <div class="cap">محدود به 250,000 جایگاه بنیان‌گذاری</div>
                     <ul>
                         <li>دسترسی اولیه به موتور نمونه</li>
                         <li>استراتژی پایه Z-Score، یک بازار</li>
@@ -2470,6 +2500,7 @@ HOMEPAGE_HTML_FA = """
                     <div class="who">برای باورمندان بلندمدت</div>
                     <div class="price">$199.99</div>
                     <div class="per">پرداخت یک‌باره · مادام‌العمر (دلار آمریکا)</div>
+                    <div class="cap">محدود به 40,000 جایگاه بنیان‌گذاری</div>
                     <ul>
                         <li>دسترسی کامل مادام‌العمر به موتور</li>
                         <li>همه بازارها و به‌روزرسانی‌ها، برای همیشه</li>
@@ -2484,6 +2515,7 @@ HOMEPAGE_HTML_FA = """
                     <div class="who">برای شروع منعطف</div>
                     <div class="price">$49.99</div>
                     <div class="per">ماهانه (دلار آمریکا)</div>
+                    <div class="cap">محدود به 95,000 جایگاه بنیان‌گذاری</div>
                     <ul>
                         <li>کارایی کامل موتور</li>
                         <li>شامل همه بازارها</li>
@@ -2499,6 +2531,7 @@ HOMEPAGE_HTML_FA = """
                     <div class="who">برای معامله‌گران جدی</div>
                     <div class="price">$499.99</div>
                     <div class="per">سالانه (دلار آمریکا)</div>
+                    <div class="cap">محدود به 30,000 جایگاه بنیان‌گذاری</div>
                     <ul>
                         <li>همه امکانات Early Access</li>
                         <li>صف اجرای با اولویت</li>
@@ -2753,6 +2786,7 @@ HOMEPAGE_HTML_UR = """
                     <div class="who">الگو ٹریڈنگ کے نئے صارفین کے لیے</div>
                     <div class="price">$79.99</div>
                     <div class="per">یکمشت (امریکی ڈالر)</div>
+                    <div class="cap">صرف 250,000 بانی نشستیں</div>
                     <ul>
                         <li>پروٹوٹائپ انجن تک ابتدائی رسائی</li>
                         <li>بنیادی Z-Score حکمتِ عملی، ایک مارکیٹ</li>
@@ -2767,6 +2801,7 @@ HOMEPAGE_HTML_UR = """
                     <div class="who">طویل مدتی یقین رکھنے والوں کے لیے</div>
                     <div class="price">$199.99</div>
                     <div class="per">یکمشت · تاحیات (امریکی ڈالر)</div>
+                    <div class="cap">صرف 40,000 بانی نشستیں</div>
                     <ul>
                         <li>انجن تک تاحیات مکمل رسائی</li>
                         <li>تمام مارکیٹیں اور اپڈیٹس، ہمیشہ کے لیے</li>
@@ -2781,6 +2816,7 @@ HOMEPAGE_HTML_UR = """
                     <div class="who">لچک پسند کرنے والوں کے لیے</div>
                     <div class="price">$49.99</div>
                     <div class="per">ماہانہ (امریکی ڈالر)</div>
+                    <div class="cap">صرف 95,000 بانی نشستیں</div>
                     <ul>
                         <li>انجن کی مکمل سہولت</li>
                         <li>تمام مارکیٹیں شامل</li>
@@ -2796,6 +2832,7 @@ HOMEPAGE_HTML_UR = """
                     <div class="who">سنجیدہ ٹریڈرز کے لیے</div>
                     <div class="price">$499.99</div>
                     <div class="per">سالانہ (امریکی ڈالر)</div>
+                    <div class="cap">صرف 30,000 بانی نشستیں</div>
                     <ul>
                         <li>Early Access کا سب کچھ</li>
                         <li>ترجیحی ایگزیکیوشن قطار</li>
@@ -3050,6 +3087,7 @@ HOMEPAGE_HTML_HI = """
                     <div class="who">एल्गो-ट्रेडिंग में नए लोगों के लिए</div>
                     <div class="price">$79.99</div>
                     <div class="per">एकमुश्त (US डॉलर)</div>
+                    <div class="cap">केवल 250,000 फ़ाउंडर स्थान</div>
                     <ul>
                         <li>प्रोटोटाइप इंजन तक शुरुआती पहुँच</li>
                         <li>मूल Z-Score रणनीति, एक बाज़ार</li>
@@ -3064,6 +3102,7 @@ HOMEPAGE_HTML_HI = """
                     <div class="who">दीर्घकालिक विश्वास रखने वालों के लिए</div>
                     <div class="price">$199.99</div>
                     <div class="per">एकमुश्त · आजीवन (US डॉलर)</div>
+                    <div class="cap">केवल 40,000 फ़ाउंडर स्थान</div>
                     <ul>
                         <li>इंजन तक आजीवन पूर्ण पहुँच</li>
                         <li>सभी बाज़ार और अपडेट, हमेशा के लिए</li>
@@ -3078,6 +3117,7 @@ HOMEPAGE_HTML_HI = """
                     <div class="who">लचीलापन चाहने वालों के लिए</div>
                     <div class="price">$49.99</div>
                     <div class="per">प्रति माह (US डॉलर)</div>
+                    <div class="cap">केवल 95,000 फ़ाउंडर स्थान</div>
                     <ul>
                         <li>इंजन की पूरी उपयोगिता</li>
                         <li>सभी बाज़ार शामिल</li>
@@ -3093,6 +3133,7 @@ HOMEPAGE_HTML_HI = """
                     <div class="who">गंभीर ट्रेडरों के लिए</div>
                     <div class="price">$499.99</div>
                     <div class="per">प्रति वर्ष (US डॉलर)</div>
+                    <div class="cap">केवल 30,000 फ़ाउंडर स्थान</div>
                     <ul>
                         <li>Early Access का सब कुछ</li>
                         <li>प्राथमिकता निष्पादन क़तार</li>
@@ -3347,6 +3388,7 @@ HOMEPAGE_HTML_BN = """
                     <div class="who">অ্যালগো-ট্রেডিংয়ে নতুনদের জন্য</div>
                     <div class="price">$79.99</div>
                     <div class="per">এককালীন (মার্কিন ডলার)</div>
+                    <div class="cap">মাত্র 250,000 প্রতিষ্ঠাতা স্থান</div>
                     <ul>
                         <li>প্রোটোটাইপ ইঞ্জিনে প্রাথমিক অ্যাক্সেস</li>
                         <li>মূল Z-Score কৌশল, একটি বাজার</li>
@@ -3361,6 +3403,7 @@ HOMEPAGE_HTML_BN = """
                     <div class="who">দীর্ঘমেয়াদে বিশ্বাসীদের জন্য</div>
                     <div class="price">$199.99</div>
                     <div class="per">এককালীন · আজীবন (মার্কিন ডলার)</div>
+                    <div class="cap">মাত্র 40,000 প্রতিষ্ঠাতা স্থান</div>
                     <ul>
                         <li>ইঞ্জিনে আজীবন সম্পূর্ণ অ্যাক্সেস</li>
                         <li>সব বাজার ও কৌশল আপডেট, চিরকাল</li>
@@ -3375,6 +3418,7 @@ HOMEPAGE_HTML_BN = """
                     <div class="who">নমনীয়তা পছন্দকারীদের জন্য</div>
                     <div class="price">$49.99</div>
                     <div class="per">প্রতি মাসে (মার্কিন ডলার)</div>
+                    <div class="cap">মাত্র 95,000 প্রতিষ্ঠাতা স্থান</div>
                     <ul>
                         <li>ইঞ্জিনের সম্পূর্ণ সুবিধা</li>
                         <li>সব বাজার অন্তর্ভুক্ত</li>
@@ -3390,6 +3434,7 @@ HOMEPAGE_HTML_BN = """
                     <div class="who">গুরুতর ট্রেডারদের জন্য</div>
                     <div class="price">$499.99</div>
                     <div class="per">প্রতি বছরে (মার্কিন ডলার)</div>
+                    <div class="cap">মাত্র 30,000 প্রতিষ্ঠাতা স্থান</div>
                     <ul>
                         <li>Early Access-এর সবকিছু</li>
                         <li>অগ্রাধিকার এক্সিকিউশন সারি</li>
@@ -3644,6 +3689,7 @@ HOMEPAGE_HTML_TA = """
                     <div class="who">அல்கோ டிரேடிங் புதியவர்களுக்கு</div>
                     <div class="price">$79.99</div>
                     <div class="per">ஒருமுறை (அமெரிக்க டாலர்)</div>
+                    <div class="cap">250,000 நிறுவனர் இடங்கள் மட்டுமே</div>
                     <ul>
                         <li>ப்ரோட்டோடைப் இன்ஜினுக்கு ஆரம்ப அணுகல்</li>
                         <li>அடிப்படை Z-Score உத்தி, ஒரு சந்தை</li>
@@ -3658,6 +3704,7 @@ HOMEPAGE_HTML_TA = """
                     <div class="who">நீண்டகால நம்பிக்கையாளர்களுக்கு</div>
                     <div class="price">$199.99</div>
                     <div class="per">ஒருமுறை · வாழ்நாள் (அமெரிக்க டாலர்)</div>
+                    <div class="cap">40,000 நிறுவனர் இடங்கள் மட்டுமே</div>
                     <ul>
                         <li>இன்ஜினுக்கு வாழ்நாள் முழு அணுகல்</li>
                         <li>அனைத்து சந்தைகளும் மேம்பாடுகளும், என்றென்றும்</li>
@@ -3672,6 +3719,7 @@ HOMEPAGE_HTML_TA = """
                     <div class="who">நெகிழ்வு விரும்புவோருக்கு</div>
                     <div class="price">$49.99</div>
                     <div class="per">மாதத்திற்கு (அமெரிக்க டாலர்)</div>
+                    <div class="cap">95,000 நிறுவனர் இடங்கள் மட்டுமே</div>
                     <ul>
                         <li>இன்ஜினின் முழுப் பயன்</li>
                         <li>அனைத்து சந்தைகளும் உள்ளடக்கம்</li>
@@ -3687,6 +3735,7 @@ HOMEPAGE_HTML_TA = """
                     <div class="who">தீவிர டிரேடர்களுக்கு</div>
                     <div class="price">$499.99</div>
                     <div class="per">ஆண்டுக்கு (அமெரிக்க டாலர்)</div>
+                    <div class="cap">30,000 நிறுவனர் இடங்கள் மட்டுமே</div>
                     <ul>
                         <li>Early Access-இன் அனைத்தும்</li>
                         <li>முன்னுரிமை செயலாக்க வரிசை</li>
