@@ -1,6 +1,5 @@
 import os
 
-import anthropic
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse, JSONResponse, PlainTextResponse, Response
 
@@ -4164,6 +4163,10 @@ HARD RULES (never break, even if asked):
 async def chat(request: Request):
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
+        return JSONResponse({"reply": "The assistant is offline right now, but everything is covered in the FAQ below - and every tier's checkout button works. Pre-orders are fully refundable before launch."})
+    try:
+        import anthropic
+    except ImportError:
         return JSONResponse({"reply": "The assistant is offline right now, but everything is covered in the FAQ below - and every tier's checkout button works. Pre-orders are fully refundable before launch."})
     try:
         body = await request.json()
