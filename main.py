@@ -677,6 +677,7 @@ HOMEPAGE_HTML = """
                     <div class="who">For long-term believers</div>
                     <div class="price">$199.99</div>
                     <div class="per">one-time &middot; lifetime</div>
+                    <div class="ship">&#128197; Launches early 2027</div>
                     <div class="cap">Limited to 40,000 founding spots</div>
                     <ul>
                         <li>Lifetime full-engine access</li>
@@ -692,6 +693,7 @@ HOMEPAGE_HTML = """
                     <div class="who">For flexible starters</div>
                     <div class="price">$49.99</div>
                     <div class="per">per month</div>
+                    <div class="ship">&#128197; Launches early 2027</div>
                     <div class="cap">Limited to 95,000 founding spots</div>
                     <ul>
                         <li>Full engine utility</li>
@@ -708,6 +710,7 @@ HOMEPAGE_HTML = """
                     <div class="who">For serious operators</div>
                     <div class="price">$499.99</div>
                     <div class="per">per year</div>
+                    <div class="ship">&#128197; Launches early 2027</div>
                     <div class="cap">Limited to 30,000 founding spots</div>
                     <ul>
                         <li>Everything in Early Access</li>
@@ -1004,6 +1007,7 @@ HOMEPAGE_HTML_ES = """
                     <div class="who">Para creyentes a largo plazo</div>
                     <div class="price">$199.99</div>
                     <div class="per">pago &uacute;nico &middot; de por vida (USD)</div>
+                    <div class="ship">&#128197; Se lanza a principios de 2027</div>
                     <div class="cap">Limitado a 40,000 plazas fundadoras</div>
                     <ul>
                         <li>Acceso completo de por vida</li>
@@ -1019,6 +1023,7 @@ HOMEPAGE_HTML_ES = """
                     <div class="who">Para quienes prefieren flexibilidad</div>
                     <div class="price">$49.99</div>
                     <div class="per">al mes (USD)</div>
+                    <div class="ship">&#128197; Se lanza a principios de 2027</div>
                     <div class="cap">Limitado a 95,000 plazas fundadoras</div>
                     <ul>
                         <li>Utilidad completa del motor</li>
@@ -1035,6 +1040,7 @@ HOMEPAGE_HTML_ES = """
                     <div class="who">Para operadores serios</div>
                     <div class="price">$499.99</div>
                     <div class="per">al a&ntilde;o (USD)</div>
+                    <div class="ship">&#128197; Se lanza a principios de 2027</div>
                     <div class="cap">Limitado a 30,000 plazas fundadoras</div>
                     <ul>
                         <li>Todo lo de Early Access</li>
@@ -1311,6 +1317,7 @@ HOMEPAGE_HTML_FR = """
                     <div class="who">Pour les convaincus de long terme</div>
                     <div class="price">$199.99</div>
                     <div class="per">paiement unique &middot; &agrave; vie (USD)</div>
+                    <div class="ship">&#128197; Sortie début 2027</div>
                     <div class="cap">Limité à 40,000 places fondatrices</div>
                     <ul>
                         <li>Acc&egrave;s complet &agrave; vie au moteur</li>
@@ -1326,6 +1333,7 @@ HOMEPAGE_HTML_FR = """
                     <div class="who">Pour d&eacute;marrer en souplesse</div>
                     <div class="price">$49.99</div>
                     <div class="per">par mois (USD)</div>
+                    <div class="ship">&#128197; Sortie début 2027</div>
                     <div class="cap">Limité à 95,000 places fondatrices</div>
                     <ul>
                         <li>Utilit&eacute; compl&egrave;te du moteur</li>
@@ -1342,6 +1350,7 @@ HOMEPAGE_HTML_FR = """
                     <div class="who">Pour les op&eacute;rateurs s&eacute;rieux</div>
                     <div class="price">$499.99</div>
                     <div class="per">par an (USD)</div>
+                    <div class="ship">&#128197; Sortie début 2027</div>
                     <div class="cap">Limité à 30,000 places fondatrices</div>
                     <ul>
                         <li>Tout Early Access inclus</li>
@@ -1618,6 +1627,7 @@ HOMEPAGE_HTML_DE = """
                     <div class="who">Für langfristig Überzeugte</div>
                     <div class="price">$199.99</div>
                     <div class="per">einmalig · lebenslang (USD)</div>
+                    <div class="ship">&#128197; Erscheint Anfang 2027</div>
                     <div class="cap">Begrenzt auf 40,000 Gründerplätze</div>
                     <ul>
                         <li>Lebenslanger Vollzugang zur Engine</li>
@@ -1633,6 +1643,7 @@ HOMEPAGE_HTML_DE = """
                     <div class="who">Für flexible Starter</div>
                     <div class="price">$49.99</div>
                     <div class="per">pro Monat (USD)</div>
+                    <div class="ship">&#128197; Erscheint Anfang 2027</div>
                     <div class="cap">Begrenzt auf 95,000 Gründerplätze</div>
                     <ul>
                         <li>Voller Funktionsumfang der Engine</li>
@@ -1649,6 +1660,7 @@ HOMEPAGE_HTML_DE = """
                     <div class="who">Für ernsthafte Operatoren</div>
                     <div class="price">$499.99</div>
                     <div class="per">pro Jahr (USD)</div>
+                    <div class="ship">&#128197; Erscheint Anfang 2027</div>
                     <div class="cap">Begrenzt auf 30,000 Gründerplätze</div>
                     <ul>
                         <li>Alles aus Early Access</li>
@@ -1925,6 +1937,7 @@ HOMEPAGE_HTML_PT = """
                     <div class="who">Para quem acredita no longo prazo</div>
                     <div class="price">$199.99</div>
                     <div class="per">pagamento único · vitalício (USD)</div>
+                    <div class="ship">&#128197; Lançamento no início de 2027</div>
                     <div class="cap">Limitado a 40,000 vagas fundadoras</div>
                     <ul>
                         <li>Acesso completo vitalício ao motor</li>
@@ -1940,6 +1953,7 @@ HOMEPAGE_HTML_PT = """
                     <div class="who">Para quem prefere flexibilidade</div>
                     <div class="price">$49.99</div>
                     <div class="per">por mês (USD)</div>
+                    <div class="ship">&#128197; Lançamento no início de 2027</div>
                     <div class="cap">Limitado a 95,000 vagas fundadoras</div>
                     <ul>
                         <li>Utilidade completa do motor</li>
@@ -1956,6 +1970,7 @@ HOMEPAGE_HTML_PT = """
                     <div class="who">Para operadores sérios</div>
                     <div class="price">$499.99</div>
                     <div class="per">por ano (USD)</div>
+                    <div class="ship">&#128197; Lançamento no início de 2027</div>
                     <div class="cap">Limitado a 30,000 vagas fundadoras</div>
                     <ul>
                         <li>Tudo do Early Access</li>
@@ -2245,6 +2260,7 @@ HOMEPAGE_HTML_AR = """
                     <div class="who">للمؤمنين بالمدى الطويل</div>
                     <div class="price">$199.99</div>
                     <div class="per">دفعة واحدة · مدى الحياة (دولار أمريكي)</div>
+                    <div class="ship">&#128197; يُطلق أوائل 2027</div>
                     <div class="cap">مقتصر على 40,000 مقعد تأسيسي</div>
                     <ul>
                         <li>وصول كامل مدى الحياة إلى المحرك</li>
@@ -2260,6 +2276,7 @@ HOMEPAGE_HTML_AR = """
                     <div class="who">لمن يفضّل المرونة</div>
                     <div class="price">$49.99</div>
                     <div class="per">شهرياً (دولار أمريكي)</div>
+                    <div class="ship">&#128197; يُطلق أوائل 2027</div>
                     <div class="cap">مقتصر على 95,000 مقعد تأسيسي</div>
                     <ul>
                         <li>الاستفادة الكاملة من المحرك</li>
@@ -2276,6 +2293,7 @@ HOMEPAGE_HTML_AR = """
                     <div class="who">للمتداولين الجادين</div>
                     <div class="price">$499.99</div>
                     <div class="per">سنوياً (دولار أمريكي)</div>
+                    <div class="ship">&#128197; يُطلق أوائل 2027</div>
                     <div class="cap">مقتصر على 30,000 مقعد تأسيسي</div>
                     <ul>
                         <li>كل ما في Early Access</li>
@@ -2552,6 +2570,7 @@ HOMEPAGE_HTML_FA = """
                     <div class="who">برای باورمندان بلندمدت</div>
                     <div class="price">$199.99</div>
                     <div class="per">پرداخت یک‌باره · مادام‌العمر (دلار آمریکا)</div>
+                    <div class="ship">&#128197; عرضه در اوایل ۲۰۲۷</div>
                     <div class="cap">محدود به 40,000 جایگاه بنیان‌گذاری</div>
                     <ul>
                         <li>دسترسی کامل مادام‌العمر به موتور</li>
@@ -2567,6 +2586,7 @@ HOMEPAGE_HTML_FA = """
                     <div class="who">برای شروع منعطف</div>
                     <div class="price">$49.99</div>
                     <div class="per">ماهانه (دلار آمریکا)</div>
+                    <div class="ship">&#128197; عرضه در اوایل ۲۰۲۷</div>
                     <div class="cap">محدود به 95,000 جایگاه بنیان‌گذاری</div>
                     <ul>
                         <li>کارایی کامل موتور</li>
@@ -2583,6 +2603,7 @@ HOMEPAGE_HTML_FA = """
                     <div class="who">برای معامله‌گران جدی</div>
                     <div class="price">$499.99</div>
                     <div class="per">سالانه (دلار آمریکا)</div>
+                    <div class="ship">&#128197; عرضه در اوایل ۲۰۲۷</div>
                     <div class="cap">محدود به 30,000 جایگاه بنیان‌گذاری</div>
                     <ul>
                         <li>همه امکانات Early Access</li>
@@ -2859,6 +2880,7 @@ HOMEPAGE_HTML_UR = """
                     <div class="who">طویل مدتی یقین رکھنے والوں کے لیے</div>
                     <div class="price">$199.99</div>
                     <div class="per">یکمشت · تاحیات (امریکی ڈالر)</div>
+                    <div class="ship">&#128197; 2027 کے اوائل میں ریلیز</div>
                     <div class="cap">صرف 40,000 بانی نشستیں</div>
                     <ul>
                         <li>انجن تک تاحیات مکمل رسائی</li>
@@ -2874,6 +2896,7 @@ HOMEPAGE_HTML_UR = """
                     <div class="who">لچک پسند کرنے والوں کے لیے</div>
                     <div class="price">$49.99</div>
                     <div class="per">ماہانہ (امریکی ڈالر)</div>
+                    <div class="ship">&#128197; 2027 کے اوائل میں ریلیز</div>
                     <div class="cap">صرف 95,000 بانی نشستیں</div>
                     <ul>
                         <li>انجن کی مکمل سہولت</li>
@@ -2890,6 +2913,7 @@ HOMEPAGE_HTML_UR = """
                     <div class="who">سنجیدہ ٹریڈرز کے لیے</div>
                     <div class="price">$499.99</div>
                     <div class="per">سالانہ (امریکی ڈالر)</div>
+                    <div class="ship">&#128197; 2027 کے اوائل میں ریلیز</div>
                     <div class="cap">صرف 30,000 بانی نشستیں</div>
                     <ul>
                         <li>Early Access کا سب کچھ</li>
@@ -3166,6 +3190,7 @@ HOMEPAGE_HTML_HI = """
                     <div class="who">दीर्घकालिक विश्वास रखने वालों के लिए</div>
                     <div class="price">$199.99</div>
                     <div class="per">एकमुश्त · आजीवन (US डॉलर)</div>
+                    <div class="ship">&#128197; 2027 की शुरुआत में रिलीज़</div>
                     <div class="cap">केवल 40,000 फ़ाउंडर स्थान</div>
                     <ul>
                         <li>इंजन तक आजीवन पूर्ण पहुँच</li>
@@ -3181,6 +3206,7 @@ HOMEPAGE_HTML_HI = """
                     <div class="who">लचीलापन चाहने वालों के लिए</div>
                     <div class="price">$49.99</div>
                     <div class="per">प्रति माह (US डॉलर)</div>
+                    <div class="ship">&#128197; 2027 की शुरुआत में रिलीज़</div>
                     <div class="cap">केवल 95,000 फ़ाउंडर स्थान</div>
                     <ul>
                         <li>इंजन की पूरी उपयोगिता</li>
@@ -3197,6 +3223,7 @@ HOMEPAGE_HTML_HI = """
                     <div class="who">गंभीर ट्रेडरों के लिए</div>
                     <div class="price">$499.99</div>
                     <div class="per">प्रति वर्ष (US डॉलर)</div>
+                    <div class="ship">&#128197; 2027 की शुरुआत में रिलीज़</div>
                     <div class="cap">केवल 30,000 फ़ाउंडर स्थान</div>
                     <ul>
                         <li>Early Access का सब कुछ</li>
@@ -3473,6 +3500,7 @@ HOMEPAGE_HTML_BN = """
                     <div class="who">দীর্ঘমেয়াদে বিশ্বাসীদের জন্য</div>
                     <div class="price">$199.99</div>
                     <div class="per">এককালীন · আজীবন (মার্কিন ডলার)</div>
+                    <div class="ship">&#128197; ২০২৭-এর শুরুতে প্রকাশ</div>
                     <div class="cap">মাত্র 40,000 প্রতিষ্ঠাতা স্থান</div>
                     <ul>
                         <li>ইঞ্জিনে আজীবন সম্পূর্ণ অ্যাক্সেস</li>
@@ -3488,6 +3516,7 @@ HOMEPAGE_HTML_BN = """
                     <div class="who">নমনীয়তা পছন্দকারীদের জন্য</div>
                     <div class="price">$49.99</div>
                     <div class="per">প্রতি মাসে (মার্কিন ডলার)</div>
+                    <div class="ship">&#128197; ২০২৭-এর শুরুতে প্রকাশ</div>
                     <div class="cap">মাত্র 95,000 প্রতিষ্ঠাতা স্থান</div>
                     <ul>
                         <li>ইঞ্জিনের সম্পূর্ণ সুবিধা</li>
@@ -3504,6 +3533,7 @@ HOMEPAGE_HTML_BN = """
                     <div class="who">গুরুতর ট্রেডারদের জন্য</div>
                     <div class="price">$499.99</div>
                     <div class="per">প্রতি বছরে (মার্কিন ডলার)</div>
+                    <div class="ship">&#128197; ২০২৭-এর শুরুতে প্রকাশ</div>
                     <div class="cap">মাত্র 30,000 প্রতিষ্ঠাতা স্থান</div>
                     <ul>
                         <li>Early Access-এর সবকিছু</li>
@@ -3780,6 +3810,7 @@ HOMEPAGE_HTML_TA = """
                     <div class="who">நீண்டகால நம்பிக்கையாளர்களுக்கு</div>
                     <div class="price">$199.99</div>
                     <div class="per">ஒருமுறை · வாழ்நாள் (அமெரிக்க டாலர்)</div>
+                    <div class="ship">&#128197; 2027 தொடக்கத்தில் வெளியீடு</div>
                     <div class="cap">40,000 நிறுவனர் இடங்கள் மட்டுமே</div>
                     <ul>
                         <li>இன்ஜினுக்கு வாழ்நாள் முழு அணுகல்</li>
@@ -3795,6 +3826,7 @@ HOMEPAGE_HTML_TA = """
                     <div class="who">நெகிழ்வு விரும்புவோருக்கு</div>
                     <div class="price">$49.99</div>
                     <div class="per">மாதத்திற்கு (அமெரிக்க டாலர்)</div>
+                    <div class="ship">&#128197; 2027 தொடக்கத்தில் வெளியீடு</div>
                     <div class="cap">95,000 நிறுவனர் இடங்கள் மட்டுமே</div>
                     <ul>
                         <li>இன்ஜினின் முழுப் பயன்</li>
@@ -3811,6 +3843,7 @@ HOMEPAGE_HTML_TA = """
                     <div class="who">தீவிர டிரேடர்களுக்கு</div>
                     <div class="price">$499.99</div>
                     <div class="per">ஆண்டுக்கு (அமெரிக்க டாலர்)</div>
+                    <div class="ship">&#128197; 2027 தொடக்கத்தில் வெளியீடு</div>
                     <div class="cap">30,000 நிறுவனர் இடங்கள் மட்டுமே</div>
                     <ul>
                         <li>Early Access-இன் அனைத்தும்</li>
