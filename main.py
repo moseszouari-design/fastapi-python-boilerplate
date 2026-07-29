@@ -446,6 +446,10 @@ HOMEPAGE_HTML = """
                      border: 1px solid rgba(217,161,59,0.3); border-radius: 999px; padding: 5px 12px;
                      align-self: flex-start; margin-bottom: 20px; }
         .tier .cap::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--amber); }
+        .tier .ship { display: inline-flex; align-items: center; gap: 6px; font-size: 0.72rem; font-weight: 700;
+                      letter-spacing: 0.3px; color: var(--green); background: rgba(70,184,118,0.08);
+                      border: 1px solid rgba(70,184,118,0.3); border-radius: 999px; padding: 5px 12px;
+                      align-self: flex-start; margin-bottom: 14px; }
         .tier ul { list-style: none; display: grid; gap: 10px; margin-bottom: 26px; flex: 1; }
         .tier ul li { display: flex; gap: 10px; color: var(--muted); font-size: 0.84rem; line-height: 1.45; }
         .tier ul li::before { content: '✓'; color: var(--green); font-weight: 700; flex-shrink: 0; }
@@ -657,6 +661,7 @@ HOMEPAGE_HTML = """
                     <div class="who">For first-time algo users</div>
                     <div class="price">$79.99</div>
                     <div class="per">one-time</div>
+                    <div class="ship">&#128197; Ships Aug 13, 2026</div>
                     <div class="cap">Limited to 250,000 founding spots</div>
                     <ul>
                         <li>Entry access to the prototype engine</li>
@@ -983,6 +988,7 @@ HOMEPAGE_HTML_ES = """
                     <div class="who">Para quienes empiezan en algo-trading</div>
                     <div class="price">$79.99</div>
                     <div class="per">pago &uacute;nico (USD)</div>
+                    <div class="ship">&#128197; Se lanza el 13 ago 2026</div>
                     <div class="cap">Limitado a 250,000 plazas fundadoras</div>
                     <ul>
                         <li>Acceso inicial al motor prototipo</li>
@@ -1289,6 +1295,7 @@ HOMEPAGE_HTML_FR = """
                     <div class="who">Pour d&eacute;buter en algo-trading</div>
                     <div class="price">$79.99</div>
                     <div class="per">paiement unique (USD)</div>
+                    <div class="ship">&#128197; Sortie le 13 août 2026</div>
                     <div class="cap">Limité à 250,000 places fondatrices</div>
                     <ul>
                         <li>Acc&egrave;s d'entr&eacute;e au moteur prototype</li>
@@ -1595,6 +1602,7 @@ HOMEPAGE_HTML_DE = """
                     <div class="who">Für Algo-Einsteiger</div>
                     <div class="price">$79.99</div>
                     <div class="per">einmalig (USD)</div>
+                    <div class="ship">&#128197; Erscheint am 13. Aug. 2026</div>
                     <div class="cap">Begrenzt auf 250,000 Gründerplätze</div>
                     <ul>
                         <li>Einstiegszugang zur Prototyp-Engine</li>
@@ -1901,6 +1909,7 @@ HOMEPAGE_HTML_PT = """
                     <div class="who">Para iniciantes em algo-trading</div>
                     <div class="price">$79.99</div>
                     <div class="per">pagamento único (USD)</div>
+                    <div class="ship">&#128197; Lançamento em 13 ago 2026</div>
                     <div class="cap">Limitado a 250,000 vagas fundadoras</div>
                     <ul>
                         <li>Acesso inicial ao motor protótipo</li>
@@ -2220,6 +2229,7 @@ HOMEPAGE_HTML_AR = """
                     <div class="who">لمن يبدأ في التداول الخوارزمي</div>
                     <div class="price">$79.99</div>
                     <div class="per">دفعة واحدة (دولار أمريكي)</div>
+                    <div class="ship">&#128197; يُطلق في 13 أغسطس 2026</div>
                     <div class="cap">مقتصر على 250,000 مقعد تأسيسي</div>
                     <ul>
                         <li>وصول مبدئي إلى محرك النموذج الأولي</li>
@@ -2526,6 +2536,7 @@ HOMEPAGE_HTML_FA = """
                     <div class="who">برای تازه‌واردان معاملات الگوریتمی</div>
                     <div class="price">$79.99</div>
                     <div class="per">پرداخت یک‌باره (دلار آمریکا)</div>
+                    <div class="ship">&#128197; عرضه در ۱۳ اوت ۲۰۲۶</div>
                     <div class="cap">محدود به 250,000 جایگاه بنیان‌گذاری</div>
                     <ul>
                         <li>دسترسی اولیه به موتور نمونه</li>
@@ -2832,6 +2843,7 @@ HOMEPAGE_HTML_UR = """
                     <div class="who">الگو ٹریڈنگ کے نئے صارفین کے لیے</div>
                     <div class="price">$79.99</div>
                     <div class="per">یکمشت (امریکی ڈالر)</div>
+                    <div class="ship">&#128197; 13 اگست 2026 کو ریلیز</div>
                     <div class="cap">صرف 250,000 بانی نشستیں</div>
                     <ul>
                         <li>پروٹوٹائپ انجن تک ابتدائی رسائی</li>
@@ -3138,6 +3150,7 @@ HOMEPAGE_HTML_HI = """
                     <div class="who">एल्गो-ट्रेडिंग में नए लोगों के लिए</div>
                     <div class="price">$79.99</div>
                     <div class="per">एकमुश्त (US डॉलर)</div>
+                    <div class="ship">&#128197; 13 अगस्त 2026 को रिलीज़</div>
                     <div class="cap">केवल 250,000 फ़ाउंडर स्थान</div>
                     <ul>
                         <li>प्रोटोटाइप इंजन तक शुरुआती पहुँच</li>
@@ -3444,6 +3457,7 @@ HOMEPAGE_HTML_BN = """
                     <div class="who">অ্যালগো-ট্রেডিংয়ে নতুনদের জন্য</div>
                     <div class="price">$79.99</div>
                     <div class="per">এককালীন (মার্কিন ডলার)</div>
+                    <div class="ship">&#128197; ১৩ আগস্ট ২০২৬-এ প্রকাশ</div>
                     <div class="cap">মাত্র 250,000 প্রতিষ্ঠাতা স্থান</div>
                     <ul>
                         <li>প্রোটোটাইপ ইঞ্জিনে প্রাথমিক অ্যাক্সেস</li>
@@ -3750,6 +3764,7 @@ HOMEPAGE_HTML_TA = """
                     <div class="who">அல்கோ டிரேடிங் புதியவர்களுக்கு</div>
                     <div class="price">$79.99</div>
                     <div class="per">ஒருமுறை (அமெரிக்க டாலர்)</div>
+                    <div class="ship">&#128197; 13 ஆகஸ்ட் 2026 அன்று வெளியீடு</div>
                     <div class="cap">250,000 நிறுவனர் இடங்கள் மட்டுமே</div>
                     <ul>
                         <li>ப்ரோட்டோடைப் இன்ஜினுக்கு ஆரம்ப அணுகல்</li>
