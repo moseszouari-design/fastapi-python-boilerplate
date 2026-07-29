@@ -4243,8 +4243,8 @@ async def chat(request: Request):
             return JSONResponse({"reply": "What would you like to know about the engine or the pre-order tiers?"})
         client = anthropic.Anthropic(api_key=api_key)
         response = client.with_options(timeout=25.0).messages.create(
-            model="claude-sonnet-5",
-            max_tokens=400,
+            model="claude-haiku-4-5",
+            max_tokens=350,
             system=[{"type": "text", "text": SALES_ASSISTANT_PROMPT, "cache_control": {"type": "ephemeral"}}],
             messages=messages,
         )
