@@ -451,6 +451,13 @@ HOMEPAGE_HTML = """
         .tier ul li::before { content: '✓'; color: var(--green); font-weight: 700; flex-shrink: 0; }
         .tier .btn { text-align: center; width: 100%; padding: 13px 0; }
         .pricing-note { text-align: center; color: var(--faint); font-size: 0.8rem; margin-top: 26px; }
+        .guarantee { max-width: 760px; margin: 0 auto 44px; text-align: center; background: rgba(70,184,118,0.06);
+                     border: 1px solid rgba(70,184,118,0.35); border-radius: 14px; padding: 24px 28px; }
+        .guarantee .g-title { font-weight: 800; font-size: 1.08rem; color: var(--green); margin-bottom: 8px; }
+        .guarantee .g-body { color: var(--muted); font-size: 0.92rem; line-height: 1.55; margin-bottom: 16px; }
+        .guarantee .g-trust { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 20px;
+                              font-size: 0.8rem; color: var(--faint); }
+        .guarantee .g-trust span::before { content: '\\2713'; color: var(--green); font-weight: 700; margin: 0 5px; }
 
         /* ---------- faq ---------- */
         .faq { max-width: 760px; margin: 0 auto; display: grid; gap: 12px; }
@@ -637,6 +644,11 @@ HOMEPAGE_HTML = """
                 <div class="sec-label">FOUNDING PRE-ORDER</div>
                 <h2>Lock your tier before launch</h2>
                 <p>Every tier is a pre-order at founding pricing. When the engine launches, founding members onboard first &mdash; and these prices are permanently retired.</p>
+            </div>
+            <div class="guarantee">
+                <div class="g-title">&#128737;&#65039; 100% Money-Back Guarantee</div>
+                <div class="g-body">Every pre-order is fully refundable any time before launch — zero risk to lock in your founding price.</div>
+                <div class="g-trust"><span>Secure Stripe checkout</span><span>Non-custodial — funds stay in your account</span><span>Cancel anytime</span></div>
             </div>
             <div class="tiers">
                 <div class="tier">
@@ -959,6 +971,11 @@ HOMEPAGE_HTML_ES = """
                 <h2>Asegura tu nivel antes del lanzamiento</h2>
                 <p>Cada nivel es una reserva a precio fundador. Al lanzarse el motor, los miembros fundadores entran primero &mdash; y estos precios se retiran permanentemente.</p>
             </div>
+            <div class="guarantee">
+                <div class="g-title">&#128737;&#65039; Garantía de reembolso del 100%</div>
+                <div class="g-body">Cada reserva es totalmente reembolsable en cualquier momento antes del lanzamiento: cero riesgo al fijar tu precio fundador.</div>
+                <div class="g-trust"><span>Pago seguro con Stripe</span><span>No custodial: tus fondos siguen en tu cuenta</span><span>Cancela cuando quieras</span></div>
+            </div>
             <div class="tiers">
                 <div class="tier">
                     <span class="badge">RESERVA</span>
@@ -1259,6 +1276,11 @@ HOMEPAGE_HTML_FR = """
                 <div class="sec-label">PR&Eacute;COMMANDE FONDATRICE</div>
                 <h2>Verrouillez votre offre avant le lancement</h2>
                 <p>Chaque offre est une pr&eacute;commande au tarif fondateur. Au lancement du moteur, les membres fondateurs sont int&eacute;gr&eacute;s en premier &mdash; et ces tarifs sont d&eacute;finitivement retir&eacute;s.</p>
+            </div>
+            <div class="guarantee">
+                <div class="g-title">&#128737;&#65039; Garantie satisfait ou remboursé à 100 %</div>
+                <div class="g-body">Chaque précommande est intégralement remboursable à tout moment avant le lancement — aucun risque à verrouiller votre tarif fondateur.</div>
+                <div class="g-trust"><span>Paiement sécurisé via Stripe</span><span>Non-dépositaire — vos fonds restent sur votre compte</span><span>Résiliable à tout moment</span></div>
             </div>
             <div class="tiers">
                 <div class="tier">
@@ -1561,6 +1583,11 @@ HOMEPAGE_HTML_DE = """
                 <h2>Sichern Sie Ihre Stufe vor dem Launch</h2>
                 <p>Jede Stufe ist eine Vorbestellung zum Gründerpreis. Beim Launch werden Gründungsmitglieder zuerst aufgenommen — und diese Preise dauerhaft eingestellt.</p>
             </div>
+            <div class="guarantee">
+                <div class="g-title">&#128737;&#65039; 100 % Geld-zurück-Garantie</div>
+                <div class="g-body">Jede Vorbestellung ist jederzeit vor dem Launch voll erstattungsfähig — kein Risiko, Ihren Gründerpreis zu sichern.</div>
+                <div class="g-trust"><span>Sichere Zahlung über Stripe</span><span>Nicht-verwahrend — Ihr Geld bleibt auf Ihrem Konto</span><span>Jederzeit kündbar</span></div>
+            </div>
             <div class="tiers">
                 <div class="tier">
                     <span class="badge">VORBESTELLUNG</span>
@@ -1861,6 +1888,11 @@ HOMEPAGE_HTML_PT = """
                 <div class="sec-label">PRÉ-VENDA FUNDADORA</div>
                 <h2>Trave seu nível antes do lançamento</h2>
                 <p>Cada nível é uma pré-venda a preço fundador. Quando o motor for lançado, os membros fundadores entram primeiro — e esses preços são aposentados permanentemente.</p>
+            </div>
+            <div class="guarantee">
+                <div class="g-title">&#128737;&#65039; Garantia de reembolso de 100%</div>
+                <div class="g-body">Cada pré-venda é totalmente reembolsável a qualquer momento antes do lançamento — risco zero para garantir seu preço fundador.</div>
+                <div class="g-trust"><span>Pagamento seguro via Stripe</span><span>Não custodial — seus fundos ficam na sua conta</span><span>Cancele quando quiser</span></div>
             </div>
             <div class="tiers">
                 <div class="tier">
@@ -2176,6 +2208,11 @@ HOMEPAGE_HTML_AR = """
                 <h2>ثبّت باقتك قبل الإطلاق</h2>
                 <p>كل باقة هي حجز مسبق بسعر المؤسسين. عند إطلاق المحرك، ينضم الأعضاء المؤسسون أولاً — وتُسحب هذه الأسعار نهائياً.</p>
             </div>
+            <div class="guarantee">
+                <div class="g-title">&#128737;&#65039; ضمان استرداد الأموال 100%</div>
+                <div class="g-body">كل حجز مسبق قابل للاسترداد بالكامل في أي وقت قبل الإطلاق — دون أي مخاطرة لتثبيت سعر المؤسسين.</div>
+                <div class="g-trust"><span>دفع آمن عبر Stripe</span><span>غير احتجازي — أموالك تبقى في حسابك</span><span>ألغِ في أي وقت</span></div>
+            </div>
             <div class="tiers">
                 <div class="tier">
                     <span class="badge">حجز مسبق</span>
@@ -2476,6 +2513,11 @@ HOMEPAGE_HTML_FA = """
                 <div class="sec-label">پیش‌خرید بنیان‌گذاران</div>
                 <h2>پلن خود را پیش از عرضه قفل کنید</h2>
                 <p>هر پلن یک پیش‌خرید با قیمت بنیان‌گذاران است. هنگام عرضه موتور، اعضای بنیان‌گذار اول وارد می‌شوند — و این قیمت‌ها برای همیشه بازنشسته می‌شوند.</p>
+            </div>
+            <div class="guarantee">
+                <div class="g-title">&#128737;&#65039; ضمانت بازگشت ۱۰۰٪ وجه</div>
+                <div class="g-body">هر پیش‌خرید تا پیش از عرضه در هر زمان کاملاً قابل استرداد است — بدون هیچ ریسکی برای قفل‌کردن قیمت بنیان‌گذاری.</div>
+                <div class="g-trust"><span>پرداخت امن با Stripe</span><span>غیرامانی — سرمایه در حساب خودتان می‌ماند</span><span>لغو در هر زمان</span></div>
             </div>
             <div class="tiers">
                 <div class="tier">
@@ -2778,6 +2820,11 @@ HOMEPAGE_HTML_UR = """
                 <h2>لانچ سے پہلے اپنا پلان مقفل کریں</h2>
                 <p>ہر پلان فاؤنڈر قیمت پر پری آرڈر ہے۔ انجن لانچ ہونے پر فاؤنڈنگ ممبر پہلے شامل ہوتے ہیں — اور یہ قیمتیں مستقل طور پر ختم کر دی جاتی ہیں۔</p>
             </div>
+            <div class="guarantee">
+                <div class="g-title">&#128737;&#65039; 100% رقم واپسی کی ضمانت</div>
+                <div class="g-body">ہر پری آرڈر لانچ سے پہلے کسی بھی وقت مکمل قابلِ واپسی ہے — فاؤنڈر قیمت محفوظ کرنے میں کوئی خطرہ نہیں۔</div>
+                <div class="g-trust"><span>Stripe کے ذریعے محفوظ ادائیگی</span><span>غیر تحویلی — آپ کے فنڈز آپ کے اکاؤنٹ میں</span><span>کسی بھی وقت منسوخ کریں</span></div>
+            </div>
             <div class="tiers">
                 <div class="tier">
                     <span class="badge">پری آرڈر</span>
@@ -3078,6 +3125,11 @@ HOMEPAGE_HTML_HI = """
                 <div class="sec-label">फ़ाउंडर प्री-ऑर्डर</div>
                 <h2>लॉन्च से पहले अपना प्लान लॉक करें</h2>
                 <p>हर प्लान फ़ाउंडर क़ीमत पर प्री-ऑर्डर है। इंजन लॉन्च होते ही फ़ाउंडिंग सदस्य सबसे पहले शामिल होते हैं — और ये क़ीमतें स्थायी रूप से हट जाती हैं।</p>
+            </div>
+            <div class="guarantee">
+                <div class="g-title">&#128737;&#65039; 100% मनी-बैक गारंटी</div>
+                <div class="g-body">हर प्री-ऑर्डर लॉन्च से पहले किसी भी समय पूरी तरह रिफ़ंड योग्य है — फ़ाउंडर क़ीमत लॉक करने में शून्य जोखिम।</div>
+                <div class="g-trust"><span>Stripe से सुरक्षित भुगतान</span><span>नॉन-कस्टोडियल — आपके फ़ंड आपके खाते में</span><span>कभी भी रद्द करें</span></div>
             </div>
             <div class="tiers">
                 <div class="tier">
@@ -3380,6 +3432,11 @@ HOMEPAGE_HTML_BN = """
                 <h2>লঞ্চের আগে আপনার প্ল্যান লক করুন</h2>
                 <p>প্রতিটি প্ল্যান প্রতিষ্ঠাতা মূল্যে প্রি-অর্ডার। ইঞ্জিন লঞ্চ হলে প্রতিষ্ঠাতা সদস্যরা আগে যুক্ত হন — এবং এই মূল্যগুলি স্থায়ীভাবে তুলে নেওয়া হয়।</p>
             </div>
+            <div class="guarantee">
+                <div class="g-title">&#128737;&#65039; ১০০% মানি-ব্যাক গ্যারান্টি</div>
+                <div class="g-body">প্রতিটি প্রি-অর্ডার লঞ্চের আগে যেকোনো সময় সম্পূর্ণ ফেরতযোগ্য — প্রতিষ্ঠাতা মূল্য নিশ্চিত করতে শূন্য ঝুঁকি।</div>
+                <div class="g-trust"><span>Stripe-এর মাধ্যমে নিরাপদ পেমেন্ট</span><span>নন-কাস্টোডিয়াল — আপনার ফান্ড আপনার অ্যাকাউন্টে</span><span>যেকোনো সময় বাতিল</span></div>
+            </div>
             <div class="tiers">
                 <div class="tier">
                     <span class="badge">প্রি-অর্ডার</span>
@@ -3680,6 +3737,11 @@ HOMEPAGE_HTML_TA = """
                 <div class="sec-label">நிறுவனர் முன்பதிவு</div>
                 <h2>வெளியீட்டுக்கு முன் உங்கள் திட்டத்தைப் பூட்டுங்கள்</h2>
                 <p>ஒவ்வொரு திட்டமும் நிறுவனர் விலையிலான முன்பதிவு. இன்ஜின் வெளியாகும்போது நிறுவனர் உறுப்பினர்கள் முதலில் இணைவார்கள் — இந்த விலைகள் நிரந்தரமாக விலக்கப்படும்.</p>
+            </div>
+            <div class="guarantee">
+                <div class="g-title">&#128737;&#65039; 100% பணத்-திரும்ப உத்தரவாதம்</div>
+                <div class="g-body">ஒவ்வொரு முன்பதிவும் வெளியீட்டுக்கு முன் எப்போது வேண்டுமானாலும் முழுமையாக திரும்பப்பெறத்தக்கது — நிறுவனர் விலையைப் பூட்ட எந்த ஆபத்தும் இல்லை.</div>
+                <div class="g-trust"><span>Stripe மூலம் பாதுகாப்பான பணம்</span><span>காப்பகம் அல்ல — உங்கள் நிதி உங்கள் கணக்கில்</span><span>எப்போது வேண்டுமானாலும் ரத்து</span></div>
             </div>
             <div class="tiers">
                 <div class="tier">
