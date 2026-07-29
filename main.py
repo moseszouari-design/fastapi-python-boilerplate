@@ -661,7 +661,7 @@ HOMEPAGE_HTML = """
                     <div class="who">For first-time algo users</div>
                     <div class="price">$79.99</div>
                     <div class="per">one-time</div>
-                    <div class="ship">&#128197; Ships Aug 13, 2026</div>
+                    <div class="ship">&#128197; Launches Aug 13, 2026</div>
                     <div class="cap">Limited to 250,000 founding spots</div>
                     <ul>
                         <li>Entry access to the prototype engine</li>
