@@ -253,10 +253,10 @@ HOMEPAGE_HTML = """
           "image": "https://aipassiveautotrades.vercel.app/og.png",
           "url": "https://aipassiveautotrades.vercel.app/",
           "offers": [
-            { "@type": "Offer", "name": "Prototype (Pre-Order)", "price": "79.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder", "url": "https://aipassiveautotrades.vercel.app/#pricing" },
-            { "@type": "Offer", "name": "Founding Alpha — Lifetime (Pre-Order)", "price": "199.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder", "url": "https://aipassiveautotrades.vercel.app/#pricing" },
-            { "@type": "Offer", "name": "Early Access Pass — Monthly (Pre-Order)", "price": "49.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder", "url": "https://aipassiveautotrades.vercel.app/#pricing" },
-            { "@type": "Offer", "name": "VIP Annual Pass (Pre-Order)", "price": "499.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder", "url": "https://aipassiveautotrades.vercel.app/#pricing" }
+            { "@type": "Offer", "name": "Prototype (Pre-Order)", "price": "159.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder", "url": "https://aipassiveautotrades.vercel.app/#pricing" },
+            { "@type": "Offer", "name": "Founding Alpha — Lifetime (Pre-Order)", "price": "399.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder", "url": "https://aipassiveautotrades.vercel.app/#pricing" },
+            { "@type": "Offer", "name": "Early Access Pass — Monthly (Pre-Order)", "price": "99.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder", "url": "https://aipassiveautotrades.vercel.app/#pricing" },
+            { "@type": "Offer", "name": "VIP Annual Pass (Pre-Order)", "price": "999.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder", "url": "https://aipassiveautotrades.vercel.app/#pricing" }
           ]
         },
         {
@@ -659,7 +659,7 @@ HOMEPAGE_HTML = """
                     <span class="badge">PRE-ORDER</span>
                     <h3>Prototype</h3>
                     <div class="who">For first-time algo users</div>
-                    <div class="price">$79.99</div>
+                    <div class="price">$159.99</div>
                     <div class="per">one-time</div>
                     <div class="ship">&#128197; Launches Aug 13, 2026</div>
                     <div class="cap">Limited to 250,000 founding spots</div>
@@ -675,7 +675,7 @@ HOMEPAGE_HTML = """
                     <span class="badge">PRE-ORDER</span>
                     <h3>Founding Alpha</h3>
                     <div class="who">For long-term believers</div>
-                    <div class="price">$199.99</div>
+                    <div class="price">$399.99</div>
                     <div class="per">one-time &middot; lifetime</div>
                     <div class="ship">&#128197; Launches early 2027</div>
                     <div class="cap">Limited to 40,000 founding spots</div>
@@ -691,7 +691,7 @@ HOMEPAGE_HTML = """
                     <span class="badge">PRE-ORDER</span>
                     <h3>Early Access Pass</h3>
                     <div class="who">For flexible starters</div>
-                    <div class="price">$49.99</div>
+                    <div class="price">$99.99</div>
                     <div class="per">per month</div>
                     <div class="ship">&#128197; Launches early 2027</div>
                     <div class="cap">Limited to 95,000 founding spots</div>
@@ -708,7 +708,7 @@ HOMEPAGE_HTML = """
                     <span class="badge">PRE-ORDER</span>
                     <h3>VIP Annual Pass</h3>
                     <div class="who">For serious operators</div>
-                    <div class="price">$499.99</div>
+                    <div class="price">$999.99</div>
                     <div class="per">per year</div>
                     <div class="ship">&#128197; Launches early 2027</div>
                     <div class="cap">Limited to 30,000 founding spots</div>
@@ -989,7 +989,7 @@ HOMEPAGE_HTML_ES = """
                     <span class="badge">RESERVA</span>
                     <h3>Prototype</h3>
                     <div class="who">Para quienes empiezan en algo-trading</div>
-                    <div class="price">$79.99</div>
+                    <div class="price">$159.99</div>
                     <div class="per">pago &uacute;nico (USD)</div>
                     <div class="ship">&#128197; Se lanza el 13 ago 2026</div>
                     <div class="cap">Limitado a 250,000 plazas fundadoras</div>
@@ -1005,7 +1005,7 @@ HOMEPAGE_HTML_ES = """
                     <span class="badge">RESERVA</span>
                     <h3>Founding Alpha</h3>
                     <div class="who">Para creyentes a largo plazo</div>
-                    <div class="price">$199.99</div>
+                    <div class="price">$399.99</div>
                     <div class="per">pago &uacute;nico &middot; de por vida (USD)</div>
                     <div class="ship">&#128197; Se lanza a principios de 2027</div>
                     <div class="cap">Limitado a 40,000 plazas fundadoras</div>
@@ -1021,7 +1021,7 @@ HOMEPAGE_HTML_ES = """
                     <span class="badge">RESERVA</span>
                     <h3>Early Access Pass</h3>
                     <div class="who">Para quienes prefieren flexibilidad</div>
-                    <div class="price">$49.99</div>
+                    <div class="price">$99.99</div>
                     <div class="per">al mes (USD)</div>
                     <div class="ship">&#128197; Se lanza a principios de 2027</div>
                     <div class="cap">Limitado a 95,000 plazas fundadoras</div>
@@ -1038,7 +1038,7 @@ HOMEPAGE_HTML_ES = """
                     <span class="badge">RESERVA</span>
                     <h3>VIP Annual Pass</h3>
                     <div class="who">Para operadores serios</div>
-                    <div class="price">$499.99</div>
+                    <div class="price">$999.99</div>
                     <div class="per">al a&ntilde;o (USD)</div>
                     <div class="ship">&#128197; Se lanza a principios de 2027</div>
                     <div class="cap">Limitado a 30,000 plazas fundadoras</div>
@@ -1299,7 +1299,7 @@ HOMEPAGE_HTML_FR = """
                     <span class="badge">PR&Eacute;COMMANDE</span>
                     <h3>Prototype</h3>
                     <div class="who">Pour d&eacute;buter en algo-trading</div>
-                    <div class="price">$79.99</div>
+                    <div class="price">$159.99</div>
                     <div class="per">paiement unique (USD)</div>
                     <div class="ship">&#128197; Sortie le 13 août 2026</div>
                     <div class="cap">Limité à 250,000 places fondatrices</div>
@@ -1315,7 +1315,7 @@ HOMEPAGE_HTML_FR = """
                     <span class="badge">PR&Eacute;COMMANDE</span>
                     <h3>Founding Alpha</h3>
                     <div class="who">Pour les convaincus de long terme</div>
-                    <div class="price">$199.99</div>
+                    <div class="price">$399.99</div>
                     <div class="per">paiement unique &middot; &agrave; vie (USD)</div>
                     <div class="ship">&#128197; Sortie début 2027</div>
                     <div class="cap">Limité à 40,000 places fondatrices</div>
@@ -1331,7 +1331,7 @@ HOMEPAGE_HTML_FR = """
                     <span class="badge">PR&Eacute;COMMANDE</span>
                     <h3>Early Access Pass</h3>
                     <div class="who">Pour d&eacute;marrer en souplesse</div>
-                    <div class="price">$49.99</div>
+                    <div class="price">$99.99</div>
                     <div class="per">par mois (USD)</div>
                     <div class="ship">&#128197; Sortie début 2027</div>
                     <div class="cap">Limité à 95,000 places fondatrices</div>
@@ -1348,7 +1348,7 @@ HOMEPAGE_HTML_FR = """
                     <span class="badge">PR&Eacute;COMMANDE</span>
                     <h3>VIP Annual Pass</h3>
                     <div class="who">Pour les op&eacute;rateurs s&eacute;rieux</div>
-                    <div class="price">$499.99</div>
+                    <div class="price">$999.99</div>
                     <div class="per">par an (USD)</div>
                     <div class="ship">&#128197; Sortie début 2027</div>
                     <div class="cap">Limité à 30,000 places fondatrices</div>
@@ -1609,7 +1609,7 @@ HOMEPAGE_HTML_DE = """
                     <span class="badge">VORBESTELLUNG</span>
                     <h3>Prototype</h3>
                     <div class="who">Für Algo-Einsteiger</div>
-                    <div class="price">$79.99</div>
+                    <div class="price">$159.99</div>
                     <div class="per">einmalig (USD)</div>
                     <div class="ship">&#128197; Erscheint am 13. Aug. 2026</div>
                     <div class="cap">Begrenzt auf 250,000 Gründerplätze</div>
@@ -1625,7 +1625,7 @@ HOMEPAGE_HTML_DE = """
                     <span class="badge">VORBESTELLUNG</span>
                     <h3>Founding Alpha</h3>
                     <div class="who">Für langfristig Überzeugte</div>
-                    <div class="price">$199.99</div>
+                    <div class="price">$399.99</div>
                     <div class="per">einmalig · lebenslang (USD)</div>
                     <div class="ship">&#128197; Erscheint Anfang 2027</div>
                     <div class="cap">Begrenzt auf 40,000 Gründerplätze</div>
@@ -1641,7 +1641,7 @@ HOMEPAGE_HTML_DE = """
                     <span class="badge">VORBESTELLUNG</span>
                     <h3>Early Access Pass</h3>
                     <div class="who">Für flexible Starter</div>
-                    <div class="price">$49.99</div>
+                    <div class="price">$99.99</div>
                     <div class="per">pro Monat (USD)</div>
                     <div class="ship">&#128197; Erscheint Anfang 2027</div>
                     <div class="cap">Begrenzt auf 95,000 Gründerplätze</div>
@@ -1658,7 +1658,7 @@ HOMEPAGE_HTML_DE = """
                     <span class="badge">VORBESTELLUNG</span>
                     <h3>VIP Annual Pass</h3>
                     <div class="who">Für ernsthafte Operatoren</div>
-                    <div class="price">$499.99</div>
+                    <div class="price">$999.99</div>
                     <div class="per">pro Jahr (USD)</div>
                     <div class="ship">&#128197; Erscheint Anfang 2027</div>
                     <div class="cap">Begrenzt auf 30,000 Gründerplätze</div>
@@ -1919,7 +1919,7 @@ HOMEPAGE_HTML_PT = """
                     <span class="badge">PRÉ-VENDA</span>
                     <h3>Prototype</h3>
                     <div class="who">Para iniciantes em algo-trading</div>
-                    <div class="price">$79.99</div>
+                    <div class="price">$159.99</div>
                     <div class="per">pagamento único (USD)</div>
                     <div class="ship">&#128197; Lançamento em 13 ago 2026</div>
                     <div class="cap">Limitado a 250,000 vagas fundadoras</div>
@@ -1935,7 +1935,7 @@ HOMEPAGE_HTML_PT = """
                     <span class="badge">PRÉ-VENDA</span>
                     <h3>Founding Alpha</h3>
                     <div class="who">Para quem acredita no longo prazo</div>
-                    <div class="price">$199.99</div>
+                    <div class="price">$399.99</div>
                     <div class="per">pagamento único · vitalício (USD)</div>
                     <div class="ship">&#128197; Lançamento no início de 2027</div>
                     <div class="cap">Limitado a 40,000 vagas fundadoras</div>
@@ -1951,7 +1951,7 @@ HOMEPAGE_HTML_PT = """
                     <span class="badge">PRÉ-VENDA</span>
                     <h3>Early Access Pass</h3>
                     <div class="who">Para quem prefere flexibilidade</div>
-                    <div class="price">$49.99</div>
+                    <div class="price">$99.99</div>
                     <div class="per">por mês (USD)</div>
                     <div class="ship">&#128197; Lançamento no início de 2027</div>
                     <div class="cap">Limitado a 95,000 vagas fundadoras</div>
@@ -1968,7 +1968,7 @@ HOMEPAGE_HTML_PT = """
                     <span class="badge">PRÉ-VENDA</span>
                     <h3>VIP Annual Pass</h3>
                     <div class="who">Para operadores sérios</div>
-                    <div class="price">$499.99</div>
+                    <div class="price">$999.99</div>
                     <div class="per">por ano (USD)</div>
                     <div class="ship">&#128197; Lançamento no início de 2027</div>
                     <div class="cap">Limitado a 30,000 vagas fundadoras</div>
@@ -2242,7 +2242,7 @@ HOMEPAGE_HTML_AR = """
                     <span class="badge">حجز مسبق</span>
                     <h3>Prototype</h3>
                     <div class="who">لمن يبدأ في التداول الخوارزمي</div>
-                    <div class="price">$79.99</div>
+                    <div class="price">$159.99</div>
                     <div class="per">دفعة واحدة (دولار أمريكي)</div>
                     <div class="ship">&#128197; يُطلق في 13 أغسطس 2026</div>
                     <div class="cap">مقتصر على 250,000 مقعد تأسيسي</div>
@@ -2258,7 +2258,7 @@ HOMEPAGE_HTML_AR = """
                     <span class="badge">حجز مسبق</span>
                     <h3>Founding Alpha</h3>
                     <div class="who">للمؤمنين بالمدى الطويل</div>
-                    <div class="price">$199.99</div>
+                    <div class="price">$399.99</div>
                     <div class="per">دفعة واحدة · مدى الحياة (دولار أمريكي)</div>
                     <div class="ship">&#128197; يُطلق أوائل 2027</div>
                     <div class="cap">مقتصر على 40,000 مقعد تأسيسي</div>
@@ -2274,7 +2274,7 @@ HOMEPAGE_HTML_AR = """
                     <span class="badge">حجز مسبق</span>
                     <h3>Early Access Pass</h3>
                     <div class="who">لمن يفضّل المرونة</div>
-                    <div class="price">$49.99</div>
+                    <div class="price">$99.99</div>
                     <div class="per">شهرياً (دولار أمريكي)</div>
                     <div class="ship">&#128197; يُطلق أوائل 2027</div>
                     <div class="cap">مقتصر على 95,000 مقعد تأسيسي</div>
@@ -2291,7 +2291,7 @@ HOMEPAGE_HTML_AR = """
                     <span class="badge">حجز مسبق</span>
                     <h3>VIP Annual Pass</h3>
                     <div class="who">للمتداولين الجادين</div>
-                    <div class="price">$499.99</div>
+                    <div class="price">$999.99</div>
                     <div class="per">سنوياً (دولار أمريكي)</div>
                     <div class="ship">&#128197; يُطلق أوائل 2027</div>
                     <div class="cap">مقتصر على 30,000 مقعد تأسيسي</div>
@@ -2552,7 +2552,7 @@ HOMEPAGE_HTML_FA = """
                     <span class="badge">پیش‌خرید</span>
                     <h3>Prototype</h3>
                     <div class="who">برای تازه‌واردان معاملات الگوریتمی</div>
-                    <div class="price">$79.99</div>
+                    <div class="price">$159.99</div>
                     <div class="per">پرداخت یک‌باره (دلار آمریکا)</div>
                     <div class="ship">&#128197; عرضه در ۱۳ اوت ۲۰۲۶</div>
                     <div class="cap">محدود به 250,000 جایگاه بنیان‌گذاری</div>
@@ -2568,7 +2568,7 @@ HOMEPAGE_HTML_FA = """
                     <span class="badge">پیش‌خرید</span>
                     <h3>Founding Alpha</h3>
                     <div class="who">برای باورمندان بلندمدت</div>
-                    <div class="price">$199.99</div>
+                    <div class="price">$399.99</div>
                     <div class="per">پرداخت یک‌باره · مادام‌العمر (دلار آمریکا)</div>
                     <div class="ship">&#128197; عرضه در اوایل ۲۰۲۷</div>
                     <div class="cap">محدود به 40,000 جایگاه بنیان‌گذاری</div>
@@ -2584,7 +2584,7 @@ HOMEPAGE_HTML_FA = """
                     <span class="badge">پیش‌خرید</span>
                     <h3>Early Access Pass</h3>
                     <div class="who">برای شروع منعطف</div>
-                    <div class="price">$49.99</div>
+                    <div class="price">$99.99</div>
                     <div class="per">ماهانه (دلار آمریکا)</div>
                     <div class="ship">&#128197; عرضه در اوایل ۲۰۲۷</div>
                     <div class="cap">محدود به 95,000 جایگاه بنیان‌گذاری</div>
@@ -2601,7 +2601,7 @@ HOMEPAGE_HTML_FA = """
                     <span class="badge">پیش‌خرید</span>
                     <h3>VIP Annual Pass</h3>
                     <div class="who">برای معامله‌گران جدی</div>
-                    <div class="price">$499.99</div>
+                    <div class="price">$999.99</div>
                     <div class="per">سالانه (دلار آمریکا)</div>
                     <div class="ship">&#128197; عرضه در اوایل ۲۰۲۷</div>
                     <div class="cap">محدود به 30,000 جایگاه بنیان‌گذاری</div>
@@ -2862,7 +2862,7 @@ HOMEPAGE_HTML_UR = """
                     <span class="badge">پری آرڈر</span>
                     <h3>Prototype</h3>
                     <div class="who">الگو ٹریڈنگ کے نئے صارفین کے لیے</div>
-                    <div class="price">$79.99</div>
+                    <div class="price">$159.99</div>
                     <div class="per">یکمشت (امریکی ڈالر)</div>
                     <div class="ship">&#128197; 13 اگست 2026 کو ریلیز</div>
                     <div class="cap">صرف 250,000 بانی نشستیں</div>
@@ -2878,7 +2878,7 @@ HOMEPAGE_HTML_UR = """
                     <span class="badge">پری آرڈر</span>
                     <h3>Founding Alpha</h3>
                     <div class="who">طویل مدتی یقین رکھنے والوں کے لیے</div>
-                    <div class="price">$199.99</div>
+                    <div class="price">$399.99</div>
                     <div class="per">یکمشت · تاحیات (امریکی ڈالر)</div>
                     <div class="ship">&#128197; 2027 کے اوائل میں ریلیز</div>
                     <div class="cap">صرف 40,000 بانی نشستیں</div>
@@ -2894,7 +2894,7 @@ HOMEPAGE_HTML_UR = """
                     <span class="badge">پری آرڈر</span>
                     <h3>Early Access Pass</h3>
                     <div class="who">لچک پسند کرنے والوں کے لیے</div>
-                    <div class="price">$49.99</div>
+                    <div class="price">$99.99</div>
                     <div class="per">ماہانہ (امریکی ڈالر)</div>
                     <div class="ship">&#128197; 2027 کے اوائل میں ریلیز</div>
                     <div class="cap">صرف 95,000 بانی نشستیں</div>
@@ -2911,7 +2911,7 @@ HOMEPAGE_HTML_UR = """
                     <span class="badge">پری آرڈر</span>
                     <h3>VIP Annual Pass</h3>
                     <div class="who">سنجیدہ ٹریڈرز کے لیے</div>
-                    <div class="price">$499.99</div>
+                    <div class="price">$999.99</div>
                     <div class="per">سالانہ (امریکی ڈالر)</div>
                     <div class="ship">&#128197; 2027 کے اوائل میں ریلیز</div>
                     <div class="cap">صرف 30,000 بانی نشستیں</div>
@@ -3172,7 +3172,7 @@ HOMEPAGE_HTML_HI = """
                     <span class="badge">प्री-ऑर्डर</span>
                     <h3>Prototype</h3>
                     <div class="who">एल्गो-ट्रेडिंग में नए लोगों के लिए</div>
-                    <div class="price">$79.99</div>
+                    <div class="price">$159.99</div>
                     <div class="per">एकमुश्त (US डॉलर)</div>
                     <div class="ship">&#128197; 13 अगस्त 2026 को रिलीज़</div>
                     <div class="cap">केवल 250,000 फ़ाउंडर स्थान</div>
@@ -3188,7 +3188,7 @@ HOMEPAGE_HTML_HI = """
                     <span class="badge">प्री-ऑर्डर</span>
                     <h3>Founding Alpha</h3>
                     <div class="who">दीर्घकालिक विश्वास रखने वालों के लिए</div>
-                    <div class="price">$199.99</div>
+                    <div class="price">$399.99</div>
                     <div class="per">एकमुश्त · आजीवन (US डॉलर)</div>
                     <div class="ship">&#128197; 2027 की शुरुआत में रिलीज़</div>
                     <div class="cap">केवल 40,000 फ़ाउंडर स्थान</div>
@@ -3204,7 +3204,7 @@ HOMEPAGE_HTML_HI = """
                     <span class="badge">प्री-ऑर्डर</span>
                     <h3>Early Access Pass</h3>
                     <div class="who">लचीलापन चाहने वालों के लिए</div>
-                    <div class="price">$49.99</div>
+                    <div class="price">$99.99</div>
                     <div class="per">प्रति माह (US डॉलर)</div>
                     <div class="ship">&#128197; 2027 की शुरुआत में रिलीज़</div>
                     <div class="cap">केवल 95,000 फ़ाउंडर स्थान</div>
@@ -3221,7 +3221,7 @@ HOMEPAGE_HTML_HI = """
                     <span class="badge">प्री-ऑर्डर</span>
                     <h3>VIP Annual Pass</h3>
                     <div class="who">गंभीर ट्रेडरों के लिए</div>
-                    <div class="price">$499.99</div>
+                    <div class="price">$999.99</div>
                     <div class="per">प्रति वर्ष (US डॉलर)</div>
                     <div class="ship">&#128197; 2027 की शुरुआत में रिलीज़</div>
                     <div class="cap">केवल 30,000 फ़ाउंडर स्थान</div>
@@ -3482,7 +3482,7 @@ HOMEPAGE_HTML_BN = """
                     <span class="badge">প্রি-অর্ডার</span>
                     <h3>Prototype</h3>
                     <div class="who">অ্যালগো-ট্রেডিংয়ে নতুনদের জন্য</div>
-                    <div class="price">$79.99</div>
+                    <div class="price">$159.99</div>
                     <div class="per">এককালীন (মার্কিন ডলার)</div>
                     <div class="ship">&#128197; ১৩ আগস্ট ২০২৬-এ প্রকাশ</div>
                     <div class="cap">মাত্র 250,000 প্রতিষ্ঠাতা স্থান</div>
@@ -3498,7 +3498,7 @@ HOMEPAGE_HTML_BN = """
                     <span class="badge">প্রি-অর্ডার</span>
                     <h3>Founding Alpha</h3>
                     <div class="who">দীর্ঘমেয়াদে বিশ্বাসীদের জন্য</div>
-                    <div class="price">$199.99</div>
+                    <div class="price">$399.99</div>
                     <div class="per">এককালীন · আজীবন (মার্কিন ডলার)</div>
                     <div class="ship">&#128197; ২০২৭-এর শুরুতে প্রকাশ</div>
                     <div class="cap">মাত্র 40,000 প্রতিষ্ঠাতা স্থান</div>
@@ -3514,7 +3514,7 @@ HOMEPAGE_HTML_BN = """
                     <span class="badge">প্রি-অর্ডার</span>
                     <h3>Early Access Pass</h3>
                     <div class="who">নমনীয়তা পছন্দকারীদের জন্য</div>
-                    <div class="price">$49.99</div>
+                    <div class="price">$99.99</div>
                     <div class="per">প্রতি মাসে (মার্কিন ডলার)</div>
                     <div class="ship">&#128197; ২০২৭-এর শুরুতে প্রকাশ</div>
                     <div class="cap">মাত্র 95,000 প্রতিষ্ঠাতা স্থান</div>
@@ -3531,7 +3531,7 @@ HOMEPAGE_HTML_BN = """
                     <span class="badge">প্রি-অর্ডার</span>
                     <h3>VIP Annual Pass</h3>
                     <div class="who">গুরুতর ট্রেডারদের জন্য</div>
-                    <div class="price">$499.99</div>
+                    <div class="price">$999.99</div>
                     <div class="per">প্রতি বছরে (মার্কিন ডলার)</div>
                     <div class="ship">&#128197; ২০২৭-এর শুরুতে প্রকাশ</div>
                     <div class="cap">মাত্র 30,000 প্রতিষ্ঠাতা স্থান</div>
@@ -3792,7 +3792,7 @@ HOMEPAGE_HTML_TA = """
                     <span class="badge">முன்பதிவு</span>
                     <h3>Prototype</h3>
                     <div class="who">அல்கோ டிரேடிங் புதியவர்களுக்கு</div>
-                    <div class="price">$79.99</div>
+                    <div class="price">$159.99</div>
                     <div class="per">ஒருமுறை (அமெரிக்க டாலர்)</div>
                     <div class="ship">&#128197; 13 ஆகஸ்ட் 2026 அன்று வெளியீடு</div>
                     <div class="cap">250,000 நிறுவனர் இடங்கள் மட்டுமே</div>
@@ -3808,7 +3808,7 @@ HOMEPAGE_HTML_TA = """
                     <span class="badge">முன்பதிவு</span>
                     <h3>Founding Alpha</h3>
                     <div class="who">நீண்டகால நம்பிக்கையாளர்களுக்கு</div>
-                    <div class="price">$199.99</div>
+                    <div class="price">$399.99</div>
                     <div class="per">ஒருமுறை · வாழ்நாள் (அமெரிக்க டாலர்)</div>
                     <div class="ship">&#128197; 2027 தொடக்கத்தில் வெளியீடு</div>
                     <div class="cap">40,000 நிறுவனர் இடங்கள் மட்டுமே</div>
@@ -3824,7 +3824,7 @@ HOMEPAGE_HTML_TA = """
                     <span class="badge">முன்பதிவு</span>
                     <h3>Early Access Pass</h3>
                     <div class="who">நெகிழ்வு விரும்புவோருக்கு</div>
-                    <div class="price">$49.99</div>
+                    <div class="price">$99.99</div>
                     <div class="per">மாதத்திற்கு (அமெரிக்க டாலர்)</div>
                     <div class="ship">&#128197; 2027 தொடக்கத்தில் வெளியீடு</div>
                     <div class="cap">95,000 நிறுவனர் இடங்கள் மட்டுமே</div>
@@ -3841,7 +3841,7 @@ HOMEPAGE_HTML_TA = """
                     <span class="badge">முன்பதிவு</span>
                     <h3>VIP Annual Pass</h3>
                     <div class="who">தீவிர டிரேடர்களுக்கு</div>
-                    <div class="price">$499.99</div>
+                    <div class="price">$999.99</div>
                     <div class="per">ஆண்டுக்கு (அமெரிக்க டாலர்)</div>
                     <div class="ship">&#128197; 2027 தொடக்கத்தில் வெளியீடு</div>
                     <div class="cap">30,000 நிறுவனர் இடங்கள் மட்டுமே</div>
@@ -4233,7 +4233,7 @@ YOUR SALES PROCESS (follow in order, one step per message):
 4. OBJECTIONS: answer honestly from the playbook below, then re-close ONCE. If they clearly decline twice, exit warmly and point to the FAQ. Never badger.
 
 OBJECTION PLAYBOOK:
-- "Too expensive": Founding Alpha is one-time $199.99 for lifetime access - less than one month of a typical trading-signal subscription. Early Access is $49.99/month, cancel anytime. Founding prices are permanently retired at launch (true scarcity - use it).
+- "Too expensive": Founding Alpha is one-time $399.99 for lifetime access - less than one month of a typical trading-signal subscription. Early Access is $99.99/month, cancel anytime. Founding prices are permanently retired at launch (true scarcity - use it).
 - "Is this a scam / can I trust you": the engine is non-custodial - it connects to THEIR exchange account via API keys THEY control and can revoke anytime; withdrawal permissions are never required; money never moves to us. Plus full refundability before launch. Checkout is Stripe.
 - "Does it actually make money": be straight - no one can guarantee trading profits and you never will. What's real: a rule-based statistical strategy (Z-score mean reversion, the same class used on institutional desks), executed without emotion, with position sizing and exposure limits enforced on every trade. The honest framing wins trust; use it.
 - "Why buy before launch": founding prices retire permanently at launch; founding members onboard first; refundable until launch so there is zero downside to reserving.
@@ -4241,10 +4241,10 @@ OBJECTION PLAYBOOK:
 FACTS (your only source of truth):
 - Every tier is a PRE-ORDER at founding pricing. Engine access is delivered at launch; founding members onboard first; these prices are permanently retired at public launch. Launch timeline updates are sent by email after purchase.
 - Tiers:
-  1. Prototype - $79.99 one-time. Entry access to the prototype engine, core Z-score strategy, one market, email support. Checkout: https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00
-  2. Founding Alpha - $199.99 one-time, LIFETIME full-engine access, all markets and updates forever, no recurring fees, priority onboarding. Checkout: https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01
-  3. Early Access Pass - $49.99/month, full engine, all markets, cancel anytime. Checkout: https://buy.stripe.com/00wcN4di180geXP9VEd3i02
-  4. VIP Annual Pass - $499.99/year, everything in Early Access plus priority execution queue, full API access, priority support. Best value. Checkout: https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03
+  1. Prototype - $159.99 one-time. Entry access to the prototype engine, core Z-score strategy, one market, email support. Checkout: https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00
+  2. Founding Alpha - $399.99 one-time, LIFETIME full-engine access, all markets and updates forever, no recurring fees, priority onboarding. Checkout: https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01
+  3. Early Access Pass - $99.99/month, full engine, all markets, cancel anytime. Checkout: https://buy.stripe.com/00wcN4di180geXP9VEd3i02
+  4. VIP Annual Pass - $999.99/year, everything in Early Access plus priority execution queue, full API access, priority support. Best value. Checkout: https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03
 - Payment is via Stripe; the buyer's local currency (USD, EUR, GBP, CAD, AUD) is detected automatically at checkout.
 - Non-custodial: the engine connects to the buyer's own exchange account via API keys they control and can revoke; withdrawal permissions are never required; funds never move to us.
 - Refunds: pre-orders are fully refundable at any time before launch (contact support via the purchase receipt). After launch, monthly and annual passes can be cancelled anytime to stop future billing.
@@ -4252,7 +4252,7 @@ FACTS (your only source of truth):
 
 TRUSTED ADVISOR (this is how trust is actually earned - behaviors, not claims):
 - Advisor first, closer second: answer every product question fully and usefully, even when there is no sale in it. A visitor who got real help comes back to buy.
-- Downsell when in doubt: if someone is hesitant, new to trading, or unsure, recommend the CHEAPEST suitable tier (usually Prototype at $79.99) and say why the bigger tiers can wait - "you can always upgrade later." Advising someone to spend less is the single most trust-building move you can make, and it converts skeptics.
+- Downsell when in doubt: if someone is hesitant, new to trading, or unsure, recommend the CHEAPEST suitable tier (usually Prototype at $159.99) and say why the bigger tiers can wait - "you can always upgrade later." Advising someone to spend less is the single most trust-building move you can make, and it converts skeptics.
 - Volunteer the safety facts before being asked, whenever relevant: fully refundable before launch, non-custodial (their money stays in their own exchange account), Stripe checkout, cancel anytime on subscriptions.
 - Give genuinely responsible product advice: start with small trading capital, never money they cannot afford to lose, understand this is a pre-order delivered at launch.
 - Admit unknowns plainly. Launch date, exchange list, and other unannounced details: say you do not have that yet and that buyers get updates by email. Never bluff or invent an answer - one caught bluff destroys all trust.
