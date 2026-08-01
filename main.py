@@ -192,6 +192,77 @@ CHAT_WIDGET = """
         });
     })();
     </script>
+    <style>
+        #pa-cd { background: #10141b; border: 1px solid #1c2230; border-radius: 12px; padding: 16px 18px;
+                 margin: 0 0 26px; text-align: center; color: #eef2f8; }
+        #pa-cd .pa-cd-lead { font-size: 0.9rem; color: #9fb0c8; margin-bottom: 10px; }
+        #pa-cd .pa-cd-clock { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
+        #pa-cd .pa-cd-num { font-size: 1.7rem; font-weight: 800; color: #4f8ff7; font-variant-numeric: tabular-nums; line-height: 1.1; }
+        #pa-cd .pa-cd-lab { font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.08em; color: #7d8aa0; }
+    </style>
+    <script>
+    (function () {
+        var TARGET = Date.UTC(2026, 7, 13, 0, 0, 0);
+        var T = {
+            en: ['Prototype launches in', 'Days', 'Hours', 'Min', 'Sec'],
+            es: ['El prototipo se lanza en', 'Días', 'Horas', 'Min', 'Seg'],
+            fr: ['Le prototype est lancé dans', 'Jours', 'Heures', 'Min', 'Sec'],
+            de: ['Prototyp startet in', 'Tage', 'Std', 'Min', 'Sek'],
+            pt: ['O protótipo é lançado em', 'Dias', 'Horas', 'Min', 'Seg'],
+            ar: ['يُطلق النموذج الأولي خلال', 'أيام', 'ساعات', 'دقائق', 'ثوانٍ'],
+            fa: ['نمونه اولیه عرضه می‌شود در', 'روز', 'ساعت', 'دقیقه', 'ثانیه'],
+            ur: ['پروٹوٹائپ لانچ ہوگا', 'دن', 'گھنٹے', 'منٹ', 'سیکنڈ'],
+            hi: ['प्रोटोटाइप लॉन्च होगा', 'दिन', 'घंटे', 'मिनट', 'सेकंड'],
+            bn: ['প্রোটোটাইপ চালু হবে', 'দিন', 'ঘণ্টা', 'মিনিট', 'সেকেন্ড'],
+            ta: ['முன்மாதிரி தொடங்குகிறது', 'நாட்கள்', 'மணி', 'நிமிடம்', 'வினாடி']
+        };
+        var lang = (document.documentElement.lang || 'en').slice(0, 2).toLowerCase();
+        var t = T[lang] || T.en;
+        var pr = document.getElementById('pricing');
+        var wrap = pr && pr.querySelector('.wrap');
+        if (!wrap) return;
+        var box = document.createElement('div');
+        box.id = 'pa-cd';
+        var lead = document.createElement('div');
+        lead.className = 'pa-cd-lead';
+        lead.textContent = t[0];
+        var clock = document.createElement('div');
+        clock.className = 'pa-cd-clock';
+        var units = [];
+        for (var i = 1; i <= 4; i++) {
+            var u = document.createElement('div');
+            var n = document.createElement('div');
+            n.className = 'pa-cd-num';
+            n.textContent = '--';
+            var l = document.createElement('div');
+            l.className = 'pa-cd-lab';
+            l.textContent = t[i];
+            u.appendChild(n);
+            u.appendChild(l);
+            clock.appendChild(u);
+            units.push(n);
+        }
+        box.appendChild(lead);
+        box.appendChild(clock);
+        wrap.insertBefore(box, wrap.firstChild);
+        function pad(x) { return (x < 10 ? '0' : '') + x; }
+        function tick() {
+            var diff = TARGET - Date.now();
+            if (diff < 0) diff = 0;
+            var s = Math.floor(diff / 1000);
+            var d = Math.floor(s / 86400);
+            var h = Math.floor((s % 86400) / 3600);
+            var m = Math.floor((s % 3600) / 60);
+            var sec = s % 60;
+            units[0].textContent = d;
+            units[1].textContent = pad(h);
+            units[2].textContent = pad(m);
+            units[3].textContent = pad(sec);
+        }
+        tick();
+        setInterval(tick, 1000);
+    })();
+    </script>
 """
 
 # Rendered once at import time; served from Vercel's edge cache via the
