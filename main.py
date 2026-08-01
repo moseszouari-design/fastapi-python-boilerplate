@@ -662,7 +662,7 @@ HOMEPAGE_HTML = """
                     <div class="price">$159.99</div>
                     <div class="per">one-time</div>
                     <div class="ship">&#128197; Launches Aug 13, 2026</div>
-                    <div class="cap">Limited to 250,000 founding spots</div>
+                    <div class="cap">Limited to 875,000 founding spots</div>
                     <ul>
                         <li>Entry access to the prototype engine</li>
                         <li>Core Z-score strategy, one market</li>
@@ -678,7 +678,7 @@ HOMEPAGE_HTML = """
                     <div class="price">$399.99</div>
                     <div class="per">one-time &middot; lifetime</div>
                     <div class="ship">&#128197; Launches early 2027</div>
-                    <div class="cap">Limited to 40,000 founding spots</div>
+                    <div class="cap">Limited to 140,000 founding spots</div>
                     <ul>
                         <li>Lifetime full-engine access</li>
                         <li>All markets &amp; strategy updates, forever</li>
@@ -694,7 +694,7 @@ HOMEPAGE_HTML = """
                     <div class="price">$99.99</div>
                     <div class="per">per month</div>
                     <div class="ship">&#128197; Launches early 2027</div>
-                    <div class="cap">Limited to 95,000 founding spots</div>
+                    <div class="cap">Limited to 332,500 founding spots</div>
                     <ul>
                         <li>Full engine utility</li>
                         <li>All markets included</li>
@@ -711,7 +711,7 @@ HOMEPAGE_HTML = """
                     <div class="price">$999.99</div>
                     <div class="per">per year</div>
                     <div class="ship">&#128197; Launches early 2027</div>
-                    <div class="cap">Limited to 30,000 founding spots</div>
+                    <div class="cap">Limited to 105,000 founding spots</div>
                     <ul>
                         <li>Everything in Early Access</li>
                         <li>Priority execution queue</li>
@@ -992,7 +992,7 @@ HOMEPAGE_HTML_ES = """
                     <div class="price">$159.99</div>
                     <div class="per">pago &uacute;nico (USD)</div>
                     <div class="ship">&#128197; Se lanza el 13 ago 2026</div>
-                    <div class="cap">Limitado a 250,000 plazas fundadoras</div>
+                    <div class="cap">Limitado a 875,000 plazas fundadoras</div>
                     <ul>
                         <li>Acceso inicial al motor prototipo</li>
                         <li>Estrategia Z-score b&aacute;sica, un mercado</li>
@@ -1008,7 +1008,7 @@ HOMEPAGE_HTML_ES = """
                     <div class="price">$399.99</div>
                     <div class="per">pago &uacute;nico &middot; de por vida (USD)</div>
                     <div class="ship">&#128197; Se lanza a principios de 2027</div>
-                    <div class="cap">Limitado a 40,000 plazas fundadoras</div>
+                    <div class="cap">Limitado a 140,000 plazas fundadoras</div>
                     <ul>
                         <li>Acceso completo de por vida</li>
                         <li>Todos los mercados y actualizaciones, para siempre</li>
@@ -1024,7 +1024,7 @@ HOMEPAGE_HTML_ES = """
                     <div class="price">$99.99</div>
                     <div class="per">al mes (USD)</div>
                     <div class="ship">&#128197; Se lanza a principios de 2027</div>
-                    <div class="cap">Limitado a 95,000 plazas fundadoras</div>
+                    <div class="cap">Limitado a 332,500 plazas fundadoras</div>
                     <ul>
                         <li>Utilidad completa del motor</li>
                         <li>Todos los mercados incluidos</li>
@@ -1041,7 +1041,7 @@ HOMEPAGE_HTML_ES = """
                     <div class="price">$999.99</div>
                     <div class="per">al a&ntilde;o (USD)</div>
                     <div class="ship">&#128197; Se lanza a principios de 2027</div>
-                    <div class="cap">Limitado a 30,000 plazas fundadoras</div>
+                    <div class="cap">Limitado a 105,000 plazas fundadoras</div>
                     <ul>
                         <li>Todo lo de Early Access</li>
                         <li>Cola de ejecuci&oacute;n prioritaria</li>
@@ -1302,7 +1302,7 @@ HOMEPAGE_HTML_FR = """
                     <div class="price">$159.99</div>
                     <div class="per">paiement unique (USD)</div>
                     <div class="ship">&#128197; Sortie le 13 août 2026</div>
-                    <div class="cap">Limité à 250,000 places fondatrices</div>
+                    <div class="cap">Limité à 875,000 places fondatrices</div>
                     <ul>
                         <li>Acc&egrave;s d'entr&eacute;e au moteur prototype</li>
                         <li>Strat&eacute;gie Z-score de base, un march&eacute;</li>
@@ -1318,7 +1318,7 @@ HOMEPAGE_HTML_FR = """
                     <div class="price">$399.99</div>
                     <div class="per">paiement unique &middot; &agrave; vie (USD)</div>
                     <div class="ship">&#128197; Sortie début 2027</div>
-                    <div class="cap">Limité à 40,000 places fondatrices</div>
+                    <div class="cap">Limité à 140,000 places fondatrices</div>
                     <ul>
                         <li>Acc&egrave;s complet &agrave; vie au moteur</li>
                         <li>Tous les march&eacute;s et mises &agrave; jour, pour toujours</li>
@@ -1334,7 +1334,7 @@ HOMEPAGE_HTML_FR = """
                     <div class="price">$99.99</div>
                     <div class="per">par mois (USD)</div>
                     <div class="ship">&#128197; Sortie début 2027</div>
-                    <div class="cap">Limité à 95,000 places fondatrices</div>
+                    <div class="cap">Limité à 332,500 places fondatrices</div>
                     <ul>
                         <li>Utilit&eacute; compl&egrave;te du moteur</li>
                         <li>Tous les march&eacute;s inclus</li>
@@ -1351,7 +1351,7 @@ HOMEPAGE_HTML_FR = """
                     <div class="price">$999.99</div>
                     <div class="per">par an (USD)</div>
                     <div class="ship">&#128197; Sortie début 2027</div>
-                    <div class="cap">Limité à 30,000 places fondatrices</div>
+                    <div class="cap">Limité à 105,000 places fondatrices</div>
                     <ul>
                         <li>Tout Early Access inclus</li>
                         <li>File d'ex&eacute;cution prioritaire</li>
@@ -1612,7 +1612,7 @@ HOMEPAGE_HTML_DE = """
                     <div class="price">$159.99</div>
                     <div class="per">einmalig (USD)</div>
                     <div class="ship">&#128197; Erscheint am 13. Aug. 2026</div>
-                    <div class="cap">Begrenzt auf 250,000 Gründerplätze</div>
+                    <div class="cap">Begrenzt auf 875,000 Gründerplätze</div>
                     <ul>
                         <li>Einstiegszugang zur Prototyp-Engine</li>
                         <li>Z-Score-Kernstrategie, ein Markt</li>
@@ -1628,7 +1628,7 @@ HOMEPAGE_HTML_DE = """
                     <div class="price">$399.99</div>
                     <div class="per">einmalig · lebenslang (USD)</div>
                     <div class="ship">&#128197; Erscheint Anfang 2027</div>
-                    <div class="cap">Begrenzt auf 40,000 Gründerplätze</div>
+                    <div class="cap">Begrenzt auf 140,000 Gründerplätze</div>
                     <ul>
                         <li>Lebenslanger Vollzugang zur Engine</li>
                         <li>Alle Märkte &amp; Strategie-Updates, für immer</li>
@@ -1644,7 +1644,7 @@ HOMEPAGE_HTML_DE = """
                     <div class="price">$99.99</div>
                     <div class="per">pro Monat (USD)</div>
                     <div class="ship">&#128197; Erscheint Anfang 2027</div>
-                    <div class="cap">Begrenzt auf 95,000 Gründerplätze</div>
+                    <div class="cap">Begrenzt auf 332,500 Gründerplätze</div>
                     <ul>
                         <li>Voller Funktionsumfang der Engine</li>
                         <li>Alle Märkte inklusive</li>
@@ -1661,7 +1661,7 @@ HOMEPAGE_HTML_DE = """
                     <div class="price">$999.99</div>
                     <div class="per">pro Jahr (USD)</div>
                     <div class="ship">&#128197; Erscheint Anfang 2027</div>
-                    <div class="cap">Begrenzt auf 30,000 Gründerplätze</div>
+                    <div class="cap">Begrenzt auf 105,000 Gründerplätze</div>
                     <ul>
                         <li>Alles aus Early Access</li>
                         <li>Priorisierte Ausführungs-Queue</li>
@@ -1922,7 +1922,7 @@ HOMEPAGE_HTML_PT = """
                     <div class="price">$159.99</div>
                     <div class="per">pagamento único (USD)</div>
                     <div class="ship">&#128197; Lançamento em 13 ago 2026</div>
-                    <div class="cap">Limitado a 250,000 vagas fundadoras</div>
+                    <div class="cap">Limitado a 875,000 vagas fundadoras</div>
                     <ul>
                         <li>Acesso inicial ao motor protótipo</li>
                         <li>Estratégia Z-score básica, um mercado</li>
@@ -1938,7 +1938,7 @@ HOMEPAGE_HTML_PT = """
                     <div class="price">$399.99</div>
                     <div class="per">pagamento único · vitalício (USD)</div>
                     <div class="ship">&#128197; Lançamento no início de 2027</div>
-                    <div class="cap">Limitado a 40,000 vagas fundadoras</div>
+                    <div class="cap">Limitado a 140,000 vagas fundadoras</div>
                     <ul>
                         <li>Acesso completo vitalício ao motor</li>
                         <li>Todos os mercados e atualizações, para sempre</li>
@@ -1954,7 +1954,7 @@ HOMEPAGE_HTML_PT = """
                     <div class="price">$99.99</div>
                     <div class="per">por mês (USD)</div>
                     <div class="ship">&#128197; Lançamento no início de 2027</div>
-                    <div class="cap">Limitado a 95,000 vagas fundadoras</div>
+                    <div class="cap">Limitado a 332,500 vagas fundadoras</div>
                     <ul>
                         <li>Utilidade completa do motor</li>
                         <li>Todos os mercados incluídos</li>
@@ -1971,7 +1971,7 @@ HOMEPAGE_HTML_PT = """
                     <div class="price">$999.99</div>
                     <div class="per">por ano (USD)</div>
                     <div class="ship">&#128197; Lançamento no início de 2027</div>
-                    <div class="cap">Limitado a 30,000 vagas fundadoras</div>
+                    <div class="cap">Limitado a 105,000 vagas fundadoras</div>
                     <ul>
                         <li>Tudo do Early Access</li>
                         <li>Fila de execução prioritária</li>
@@ -2245,7 +2245,7 @@ HOMEPAGE_HTML_AR = """
                     <div class="price">$159.99</div>
                     <div class="per">دفعة واحدة (دولار أمريكي)</div>
                     <div class="ship">&#128197; يُطلق في 13 أغسطس 2026</div>
-                    <div class="cap">مقتصر على 250,000 مقعد تأسيسي</div>
+                    <div class="cap">مقتصر على 875,000 مقعد تأسيسي</div>
                     <ul>
                         <li>وصول مبدئي إلى محرك النموذج الأولي</li>
                         <li>استراتيجية Z-Score الأساسية، سوق واحد</li>
@@ -2261,7 +2261,7 @@ HOMEPAGE_HTML_AR = """
                     <div class="price">$399.99</div>
                     <div class="per">دفعة واحدة · مدى الحياة (دولار أمريكي)</div>
                     <div class="ship">&#128197; يُطلق أوائل 2027</div>
-                    <div class="cap">مقتصر على 40,000 مقعد تأسيسي</div>
+                    <div class="cap">مقتصر على 140,000 مقعد تأسيسي</div>
                     <ul>
                         <li>وصول كامل مدى الحياة إلى المحرك</li>
                         <li>جميع الأسواق وتحديثات الاستراتيجية، للأبد</li>
@@ -2277,7 +2277,7 @@ HOMEPAGE_HTML_AR = """
                     <div class="price">$99.99</div>
                     <div class="per">شهرياً (دولار أمريكي)</div>
                     <div class="ship">&#128197; يُطلق أوائل 2027</div>
-                    <div class="cap">مقتصر على 95,000 مقعد تأسيسي</div>
+                    <div class="cap">مقتصر على 332,500 مقعد تأسيسي</div>
                     <ul>
                         <li>الاستفادة الكاملة من المحرك</li>
                         <li>جميع الأسواق مشمولة</li>
@@ -2294,7 +2294,7 @@ HOMEPAGE_HTML_AR = """
                     <div class="price">$999.99</div>
                     <div class="per">سنوياً (دولار أمريكي)</div>
                     <div class="ship">&#128197; يُطلق أوائل 2027</div>
-                    <div class="cap">مقتصر على 30,000 مقعد تأسيسي</div>
+                    <div class="cap">مقتصر على 105,000 مقعد تأسيسي</div>
                     <ul>
                         <li>كل ما في Early Access</li>
                         <li>أولوية في طابور التنفيذ</li>
@@ -2555,7 +2555,7 @@ HOMEPAGE_HTML_FA = """
                     <div class="price">$159.99</div>
                     <div class="per">پرداخت یک‌باره (دلار آمریکا)</div>
                     <div class="ship">&#128197; عرضه در ۱۳ اوت ۲۰۲۶</div>
-                    <div class="cap">محدود به 250,000 جایگاه بنیان‌گذاری</div>
+                    <div class="cap">محدود به 875,000 جایگاه بنیان‌گذاری</div>
                     <ul>
                         <li>دسترسی اولیه به موتور نمونه</li>
                         <li>استراتژی پایه Z-Score، یک بازار</li>
@@ -2571,7 +2571,7 @@ HOMEPAGE_HTML_FA = """
                     <div class="price">$399.99</div>
                     <div class="per">پرداخت یک‌باره · مادام‌العمر (دلار آمریکا)</div>
                     <div class="ship">&#128197; عرضه در اوایل ۲۰۲۷</div>
-                    <div class="cap">محدود به 40,000 جایگاه بنیان‌گذاری</div>
+                    <div class="cap">محدود به 140,000 جایگاه بنیان‌گذاری</div>
                     <ul>
                         <li>دسترسی کامل مادام‌العمر به موتور</li>
                         <li>همه بازارها و به‌روزرسانی‌ها، برای همیشه</li>
@@ -2587,7 +2587,7 @@ HOMEPAGE_HTML_FA = """
                     <div class="price">$99.99</div>
                     <div class="per">ماهانه (دلار آمریکا)</div>
                     <div class="ship">&#128197; عرضه در اوایل ۲۰۲۷</div>
-                    <div class="cap">محدود به 95,000 جایگاه بنیان‌گذاری</div>
+                    <div class="cap">محدود به 332,500 جایگاه بنیان‌گذاری</div>
                     <ul>
                         <li>کارایی کامل موتور</li>
                         <li>شامل همه بازارها</li>
@@ -2604,7 +2604,7 @@ HOMEPAGE_HTML_FA = """
                     <div class="price">$999.99</div>
                     <div class="per">سالانه (دلار آمریکا)</div>
                     <div class="ship">&#128197; عرضه در اوایل ۲۰۲۷</div>
-                    <div class="cap">محدود به 30,000 جایگاه بنیان‌گذاری</div>
+                    <div class="cap">محدود به 105,000 جایگاه بنیان‌گذاری</div>
                     <ul>
                         <li>همه امکانات Early Access</li>
                         <li>صف اجرای با اولویت</li>
@@ -2865,7 +2865,7 @@ HOMEPAGE_HTML_UR = """
                     <div class="price">$159.99</div>
                     <div class="per">یکمشت (امریکی ڈالر)</div>
                     <div class="ship">&#128197; 13 اگست 2026 کو ریلیز</div>
-                    <div class="cap">صرف 250,000 بانی نشستیں</div>
+                    <div class="cap">صرف 875,000 بانی نشستیں</div>
                     <ul>
                         <li>پروٹوٹائپ انجن تک ابتدائی رسائی</li>
                         <li>بنیادی Z-Score حکمتِ عملی، ایک مارکیٹ</li>
@@ -2881,7 +2881,7 @@ HOMEPAGE_HTML_UR = """
                     <div class="price">$399.99</div>
                     <div class="per">یکمشت · تاحیات (امریکی ڈالر)</div>
                     <div class="ship">&#128197; 2027 کے اوائل میں ریلیز</div>
-                    <div class="cap">صرف 40,000 بانی نشستیں</div>
+                    <div class="cap">صرف 140,000 بانی نشستیں</div>
                     <ul>
                         <li>انجن تک تاحیات مکمل رسائی</li>
                         <li>تمام مارکیٹیں اور اپڈیٹس، ہمیشہ کے لیے</li>
@@ -2897,7 +2897,7 @@ HOMEPAGE_HTML_UR = """
                     <div class="price">$99.99</div>
                     <div class="per">ماہانہ (امریکی ڈالر)</div>
                     <div class="ship">&#128197; 2027 کے اوائل میں ریلیز</div>
-                    <div class="cap">صرف 95,000 بانی نشستیں</div>
+                    <div class="cap">صرف 332,500 بانی نشستیں</div>
                     <ul>
                         <li>انجن کی مکمل سہولت</li>
                         <li>تمام مارکیٹیں شامل</li>
@@ -2914,7 +2914,7 @@ HOMEPAGE_HTML_UR = """
                     <div class="price">$999.99</div>
                     <div class="per">سالانہ (امریکی ڈالر)</div>
                     <div class="ship">&#128197; 2027 کے اوائل میں ریلیز</div>
-                    <div class="cap">صرف 30,000 بانی نشستیں</div>
+                    <div class="cap">صرف 105,000 بانی نشستیں</div>
                     <ul>
                         <li>Early Access کا سب کچھ</li>
                         <li>ترجیحی ایگزیکیوشن قطار</li>
@@ -3175,7 +3175,7 @@ HOMEPAGE_HTML_HI = """
                     <div class="price">$159.99</div>
                     <div class="per">एकमुश्त (US डॉलर)</div>
                     <div class="ship">&#128197; 13 अगस्त 2026 को रिलीज़</div>
-                    <div class="cap">केवल 250,000 फ़ाउंडर स्थान</div>
+                    <div class="cap">केवल 875,000 फ़ाउंडर स्थान</div>
                     <ul>
                         <li>प्रोटोटाइप इंजन तक शुरुआती पहुँच</li>
                         <li>मूल Z-Score रणनीति, एक बाज़ार</li>
@@ -3191,7 +3191,7 @@ HOMEPAGE_HTML_HI = """
                     <div class="price">$399.99</div>
                     <div class="per">एकमुश्त · आजीवन (US डॉलर)</div>
                     <div class="ship">&#128197; 2027 की शुरुआत में रिलीज़</div>
-                    <div class="cap">केवल 40,000 फ़ाउंडर स्थान</div>
+                    <div class="cap">केवल 140,000 फ़ाउंडर स्थान</div>
                     <ul>
                         <li>इंजन तक आजीवन पूर्ण पहुँच</li>
                         <li>सभी बाज़ार और अपडेट, हमेशा के लिए</li>
@@ -3207,7 +3207,7 @@ HOMEPAGE_HTML_HI = """
                     <div class="price">$99.99</div>
                     <div class="per">प्रति माह (US डॉलर)</div>
                     <div class="ship">&#128197; 2027 की शुरुआत में रिलीज़</div>
-                    <div class="cap">केवल 95,000 फ़ाउंडर स्थान</div>
+                    <div class="cap">केवल 332,500 फ़ाउंडर स्थान</div>
                     <ul>
                         <li>इंजन की पूरी उपयोगिता</li>
                         <li>सभी बाज़ार शामिल</li>
@@ -3224,7 +3224,7 @@ HOMEPAGE_HTML_HI = """
                     <div class="price">$999.99</div>
                     <div class="per">प्रति वर्ष (US डॉलर)</div>
                     <div class="ship">&#128197; 2027 की शुरुआत में रिलीज़</div>
-                    <div class="cap">केवल 30,000 फ़ाउंडर स्थान</div>
+                    <div class="cap">केवल 105,000 फ़ाउंडर स्थान</div>
                     <ul>
                         <li>Early Access का सब कुछ</li>
                         <li>प्राथमिकता निष्पादन क़तार</li>
@@ -3485,7 +3485,7 @@ HOMEPAGE_HTML_BN = """
                     <div class="price">$159.99</div>
                     <div class="per">এককালীন (মার্কিন ডলার)</div>
                     <div class="ship">&#128197; ১৩ আগস্ট ২০২৬-এ প্রকাশ</div>
-                    <div class="cap">মাত্র 250,000 প্রতিষ্ঠাতা স্থান</div>
+                    <div class="cap">মাত্র 875,000 প্রতিষ্ঠাতা স্থান</div>
                     <ul>
                         <li>প্রোটোটাইপ ইঞ্জিনে প্রাথমিক অ্যাক্সেস</li>
                         <li>মূল Z-Score কৌশল, একটি বাজার</li>
@@ -3501,7 +3501,7 @@ HOMEPAGE_HTML_BN = """
                     <div class="price">$399.99</div>
                     <div class="per">এককালীন · আজীবন (মার্কিন ডলার)</div>
                     <div class="ship">&#128197; ২০২৭-এর শুরুতে প্রকাশ</div>
-                    <div class="cap">মাত্র 40,000 প্রতিষ্ঠাতা স্থান</div>
+                    <div class="cap">মাত্র 140,000 প্রতিষ্ঠাতা স্থান</div>
                     <ul>
                         <li>ইঞ্জিনে আজীবন সম্পূর্ণ অ্যাক্সেস</li>
                         <li>সব বাজার ও কৌশল আপডেট, চিরকাল</li>
@@ -3517,7 +3517,7 @@ HOMEPAGE_HTML_BN = """
                     <div class="price">$99.99</div>
                     <div class="per">প্রতি মাসে (মার্কিন ডলার)</div>
                     <div class="ship">&#128197; ২০২৭-এর শুরুতে প্রকাশ</div>
-                    <div class="cap">মাত্র 95,000 প্রতিষ্ঠাতা স্থান</div>
+                    <div class="cap">মাত্র 332,500 প্রতিষ্ঠাতা স্থান</div>
                     <ul>
                         <li>ইঞ্জিনের সম্পূর্ণ সুবিধা</li>
                         <li>সব বাজার অন্তর্ভুক্ত</li>
@@ -3534,7 +3534,7 @@ HOMEPAGE_HTML_BN = """
                     <div class="price">$999.99</div>
                     <div class="per">প্রতি বছরে (মার্কিন ডলার)</div>
                     <div class="ship">&#128197; ২০২৭-এর শুরুতে প্রকাশ</div>
-                    <div class="cap">মাত্র 30,000 প্রতিষ্ঠাতা স্থান</div>
+                    <div class="cap">মাত্র 105,000 প্রতিষ্ঠাতা স্থান</div>
                     <ul>
                         <li>Early Access-এর সবকিছু</li>
                         <li>অগ্রাধিকার এক্সিকিউশন সারি</li>
@@ -3795,7 +3795,7 @@ HOMEPAGE_HTML_TA = """
                     <div class="price">$159.99</div>
                     <div class="per">ஒருமுறை (அமெரிக்க டாலர்)</div>
                     <div class="ship">&#128197; 13 ஆகஸ்ட் 2026 அன்று வெளியீடு</div>
-                    <div class="cap">250,000 நிறுவனர் இடங்கள் மட்டுமே</div>
+                    <div class="cap">875,000 நிறுவனர் இடங்கள் மட்டுமே</div>
                     <ul>
                         <li>ப்ரோட்டோடைப் இன்ஜினுக்கு ஆரம்ப அணுகல்</li>
                         <li>அடிப்படை Z-Score உத்தி, ஒரு சந்தை</li>
@@ -3811,7 +3811,7 @@ HOMEPAGE_HTML_TA = """
                     <div class="price">$399.99</div>
                     <div class="per">ஒருமுறை · வாழ்நாள் (அமெரிக்க டாலர்)</div>
                     <div class="ship">&#128197; 2027 தொடக்கத்தில் வெளியீடு</div>
-                    <div class="cap">40,000 நிறுவனர் இடங்கள் மட்டுமே</div>
+                    <div class="cap">140,000 நிறுவனர் இடங்கள் மட்டுமே</div>
                     <ul>
                         <li>இன்ஜினுக்கு வாழ்நாள் முழு அணுகல்</li>
                         <li>அனைத்து சந்தைகளும் மேம்பாடுகளும், என்றென்றும்</li>
@@ -3827,7 +3827,7 @@ HOMEPAGE_HTML_TA = """
                     <div class="price">$99.99</div>
                     <div class="per">மாதத்திற்கு (அமெரிக்க டாலர்)</div>
                     <div class="ship">&#128197; 2027 தொடக்கத்தில் வெளியீடு</div>
-                    <div class="cap">95,000 நிறுவனர் இடங்கள் மட்டுமே</div>
+                    <div class="cap">332,500 நிறுவனர் இடங்கள் மட்டுமே</div>
                     <ul>
                         <li>இன்ஜினின் முழுப் பயன்</li>
                         <li>அனைத்து சந்தைகளும் உள்ளடக்கம்</li>
@@ -3844,7 +3844,7 @@ HOMEPAGE_HTML_TA = """
                     <div class="price">$999.99</div>
                     <div class="per">ஆண்டுக்கு (அமெரிக்க டாலர்)</div>
                     <div class="ship">&#128197; 2027 தொடக்கத்தில் வெளியீடு</div>
-                    <div class="cap">30,000 நிறுவனர் இடங்கள் மட்டுமே</div>
+                    <div class="cap">105,000 நிறுவனர் இடங்கள் மட்டுமே</div>
                     <ul>
                         <li>Early Access-இன் அனைத்தும்</li>
                         <li>முன்னுரிமை செயலாக்க வரிசை</li>
