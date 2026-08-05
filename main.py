@@ -202,7 +202,7 @@ CHAT_WIDGET = """
     </style>
     <script>
     (function () {
-        var TARGET = Date.UTC(2026, 7, 13, 0, 0, 0);
+        var TARGET = Date.UTC(2026, 8, 11, 0, 0, 0);
         var T = {
             en: ['Prototype launches in', 'Days', 'Hours', 'Min', 'Sec'],
             es: ['El prototipo se lanza en', 'Días', 'Horas', 'Min', 'Seg'],
@@ -732,7 +732,7 @@ HOMEPAGE_HTML = """
                     <div class="who">For first-time algo users</div>
                     <div class="price">$159.99</div>
                     <div class="per">one-time</div>
-                    <div class="ship">&#128197; Launches Aug 13, 2026</div>
+                    <div class="ship">&#128197; Launches Sep 11, 2026</div>
                     <div class="cap">Limited to 875,000 founding spots</div>
                     <ul>
                         <li>Entry access to the prototype engine</li>
@@ -740,7 +740,7 @@ HOMEPAGE_HTML = """
                         <li>Standard risk controls</li>
                         <li>Email support</li>
                     </ul>
-                    <a href="https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00" class="btn primary">Get Prototype</a>
+                    <a href="https://buy.stripe.com/eVq7sK4Lv0xO4jbc3Md3i04" class="btn primary">Get Prototype</a>
                 </div>
                 <div class="tier">
                     <span class="badge">PRE-ORDER</span>
@@ -756,7 +756,7 @@ HOMEPAGE_HTML = """
                         <li>No recurring fees, ever</li>
                         <li>Priority onboarding at launch</li>
                     </ul>
-                    <a href="https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01" class="btn primary">Claim Lifetime</a>
+                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">Claim Lifetime</a>
                 </div>
                 <div class="tier">
                     <span class="badge">PRE-ORDER</span>
@@ -772,7 +772,7 @@ HOMEPAGE_HTML = """
                         <li>Cancel anytime</li>
                         <li>Standard support</li>
                     </ul>
-                    <a href="https://buy.stripe.com/00wcN4di180geXP9VEd3i02" class="btn ghost">Claim Monthly</a>
+                    <a href="https://buy.stripe.com/dRm9AS5Pz80g6rj9VEd3i06" class="btn ghost">Claim Monthly</a>
                 </div>
                 <div class="tier featured">
                     <span class="flag">BEST VALUE</span>
@@ -789,7 +789,7 @@ HOMEPAGE_HTML = """
                         <li>Full API access</li>
                         <li>Priority support channel</li>
                     </ul>
-                    <a href="https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03" class="btn primary">Claim Annual</a>
+                    <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">Claim Annual</a>
                 </div>
             </div>
             <p class="pricing-note">Secure checkout via Stripe &middot; Pay in USD, EUR, GBP, CAD or AUD &mdash; your currency is detected automatically at checkout &middot; Founding prices retire permanently at public launch</p>
@@ -1062,7 +1062,7 @@ HOMEPAGE_HTML_ES = """
                     <div class="who">Para quienes empiezan en algo-trading</div>
                     <div class="price">$159.99</div>
                     <div class="per">pago &uacute;nico (USD)</div>
-                    <div class="ship">&#128197; Se lanza el 13 ago 2026</div>
+                    <div class="ship">&#128197; Se lanza el 11 sept 2026</div>
                     <div class="cap">Limitado a 875,000 plazas fundadoras</div>
                     <ul>
                         <li>Acceso inicial al motor prototipo</li>
@@ -1070,7 +1070,7 @@ HOMEPAGE_HTML_ES = """
                         <li>Controles de riesgo est&aacute;ndar</li>
                         <li>Soporte por email</li>
                     </ul>
-                    <a href="https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00" class="btn primary">Obtener Prototype</a>
+                    <a href="https://buy.stripe.com/eVq7sK4Lv0xO4jbc3Md3i04" class="btn primary">Obtener Prototype</a>
                 </div>
                 <div class="tier">
                     <span class="badge">RESERVA</span>
@@ -1086,7 +1086,7 @@ HOMEPAGE_HTML_ES = """
                         <li>Sin cuotas recurrentes, nunca</li>
                         <li>Incorporaci&oacute;n prioritaria en el lanzamiento</li>
                     </ul>
-                    <a href="https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01" class="btn primary">Reservar De Por Vida</a>
+                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">Reservar De Por Vida</a>
                 </div>
                 <div class="tier">
                     <span class="badge">RESERVA</span>
@@ -1102,7 +1102,7 @@ HOMEPAGE_HTML_ES = """
                         <li>Cancela cuando quieras</li>
                         <li>Soporte est&aacute;ndar</li>
                     </ul>
-                    <a href="https://buy.stripe.com/00wcN4di180geXP9VEd3i02" class="btn ghost">Reservar Mensual</a>
+                    <a href="https://buy.stripe.com/dRm9AS5Pz80g6rj9VEd3i06" class="btn ghost">Reservar Mensual</a>
                 </div>
                 <div class="tier featured">
                     <span class="flag">MEJOR VALOR</span>
@@ -1119,7 +1119,7 @@ HOMEPAGE_HTML_ES = """
                         <li>Acceso API completo</li>
                         <li>Canal de soporte prioritario</li>
                     </ul>
-                    <a href="https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03" class="btn primary">Reservar Anual</a>
+                    <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">Reservar Anual</a>
                 </div>
             </div>
             <p class="pricing-note">Pago seguro v&iacute;a Stripe &middot; Paga en USD, EUR, GBP, CAD o AUD &mdash; tu moneda se detecta autom&aacute;ticamente al pagar &middot; Los precios fundadores se retiran permanentemente en el lanzamiento p&uacute;blico</p>
@@ -1372,7 +1372,7 @@ HOMEPAGE_HTML_FR = """
                     <div class="who">Pour d&eacute;buter en algo-trading</div>
                     <div class="price">$159.99</div>
                     <div class="per">paiement unique (USD)</div>
-                    <div class="ship">&#128197; Sortie le 13 août 2026</div>
+                    <div class="ship">&#128197; Sortie le 11 sept 2026</div>
                     <div class="cap">Limité à 875,000 places fondatrices</div>
                     <ul>
                         <li>Acc&egrave;s d'entr&eacute;e au moteur prototype</li>
@@ -1380,7 +1380,7 @@ HOMEPAGE_HTML_FR = """
                         <li>Contr&ocirc;les de risque standard</li>
                         <li>Support par email</li>
                     </ul>
-                    <a href="https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00" class="btn primary">Obtenir Prototype</a>
+                    <a href="https://buy.stripe.com/eVq7sK4Lv0xO4jbc3Md3i04" class="btn primary">Obtenir Prototype</a>
                 </div>
                 <div class="tier">
                     <span class="badge">PR&Eacute;COMMANDE</span>
@@ -1396,7 +1396,7 @@ HOMEPAGE_HTML_FR = """
                         <li>Aucun frais r&eacute;current, jamais</li>
                         <li>Int&eacute;gration prioritaire au lancement</li>
                     </ul>
-                    <a href="https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01" class="btn primary">R&eacute;server &Agrave; Vie</a>
+                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">R&eacute;server &Agrave; Vie</a>
                 </div>
                 <div class="tier">
                     <span class="badge">PR&Eacute;COMMANDE</span>
@@ -1412,7 +1412,7 @@ HOMEPAGE_HTML_FR = """
                         <li>R&eacute;siliable &agrave; tout moment</li>
                         <li>Support standard</li>
                     </ul>
-                    <a href="https://buy.stripe.com/00wcN4di180geXP9VEd3i02" class="btn ghost">R&eacute;server Mensuel</a>
+                    <a href="https://buy.stripe.com/dRm9AS5Pz80g6rj9VEd3i06" class="btn ghost">R&eacute;server Mensuel</a>
                 </div>
                 <div class="tier featured">
                     <span class="flag">MEILLEURE OFFRE</span>
@@ -1429,7 +1429,7 @@ HOMEPAGE_HTML_FR = """
                         <li>Acc&egrave;s API complet</li>
                         <li>Canal de support prioritaire</li>
                     </ul>
-                    <a href="https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03" class="btn primary">R&eacute;server Annuel</a>
+                    <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">R&eacute;server Annuel</a>
                 </div>
             </div>
             <p class="pricing-note">Paiement s&eacute;curis&eacute; via Stripe &middot; Payez en USD, EUR, GBP, CAD ou AUD &mdash; votre devise est d&eacute;tect&eacute;e automatiquement au paiement &middot; Les tarifs fondateurs sont d&eacute;finitivement retir&eacute;s au lancement public</p>
@@ -1682,7 +1682,7 @@ HOMEPAGE_HTML_DE = """
                     <div class="who">Für Algo-Einsteiger</div>
                     <div class="price">$159.99</div>
                     <div class="per">einmalig (USD)</div>
-                    <div class="ship">&#128197; Erscheint am 13. Aug. 2026</div>
+                    <div class="ship">&#128197; Erscheint am 11. Sep. 2026</div>
                     <div class="cap">Begrenzt auf 875,000 Gründerplätze</div>
                     <ul>
                         <li>Einstiegszugang zur Prototyp-Engine</li>
@@ -1690,7 +1690,7 @@ HOMEPAGE_HTML_DE = """
                         <li>Standard-Risikokontrollen</li>
                         <li>E-Mail-Support</li>
                     </ul>
-                    <a href="https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00" class="btn primary">Prototype sichern</a>
+                    <a href="https://buy.stripe.com/eVq7sK4Lv0xO4jbc3Md3i04" class="btn primary">Prototype sichern</a>
                 </div>
                 <div class="tier">
                     <span class="badge">VORBESTELLUNG</span>
@@ -1706,7 +1706,7 @@ HOMEPAGE_HTML_DE = """
                         <li>Nie wiederkehrende Gebühren</li>
                         <li>Bevorzugtes Onboarding zum Launch</li>
                     </ul>
-                    <a href="https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01" class="btn primary">Lifetime sichern</a>
+                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">Lifetime sichern</a>
                 </div>
                 <div class="tier">
                     <span class="badge">VORBESTELLUNG</span>
@@ -1722,7 +1722,7 @@ HOMEPAGE_HTML_DE = """
                         <li>Jederzeit kündbar</li>
                         <li>Standard-Support</li>
                     </ul>
-                    <a href="https://buy.stripe.com/00wcN4di180geXP9VEd3i02" class="btn ghost">Monatlich sichern</a>
+                    <a href="https://buy.stripe.com/dRm9AS5Pz80g6rj9VEd3i06" class="btn ghost">Monatlich sichern</a>
                 </div>
                 <div class="tier featured">
                     <span class="flag">BESTES ANGEBOT</span>
@@ -1739,7 +1739,7 @@ HOMEPAGE_HTML_DE = """
                         <li>Voller API-Zugang</li>
                         <li>Priorisierter Support-Kanal</li>
                     </ul>
-                    <a href="https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03" class="btn primary">Jährlich sichern</a>
+                    <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">Jährlich sichern</a>
                 </div>
             </div>
             <p class="pricing-note">Sichere Zahlung über Stripe · Zahlen Sie in USD, EUR, GBP, CAD oder AUD — Ihre Währung wird beim Checkout automatisch erkannt · Gründerpreise werden zum öffentlichen Launch dauerhaft eingestellt</p>
@@ -1992,7 +1992,7 @@ HOMEPAGE_HTML_PT = """
                     <div class="who">Para iniciantes em algo-trading</div>
                     <div class="price">$159.99</div>
                     <div class="per">pagamento único (USD)</div>
-                    <div class="ship">&#128197; Lançamento em 13 ago 2026</div>
+                    <div class="ship">&#128197; Lançamento em 11 set 2026</div>
                     <div class="cap">Limitado a 875,000 vagas fundadoras</div>
                     <ul>
                         <li>Acesso inicial ao motor protótipo</li>
@@ -2000,7 +2000,7 @@ HOMEPAGE_HTML_PT = """
                         <li>Controles de risco padrão</li>
                         <li>Suporte por email</li>
                     </ul>
-                    <a href="https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00" class="btn primary">Obter Prototype</a>
+                    <a href="https://buy.stripe.com/eVq7sK4Lv0xO4jbc3Md3i04" class="btn primary">Obter Prototype</a>
                 </div>
                 <div class="tier">
                     <span class="badge">PRÉ-VENDA</span>
@@ -2016,7 +2016,7 @@ HOMEPAGE_HTML_PT = """
                         <li>Sem taxas recorrentes, nunca</li>
                         <li>Onboarding prioritário no lançamento</li>
                     </ul>
-                    <a href="https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01" class="btn primary">Garantir Vitalício</a>
+                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">Garantir Vitalício</a>
                 </div>
                 <div class="tier">
                     <span class="badge">PRÉ-VENDA</span>
@@ -2032,7 +2032,7 @@ HOMEPAGE_HTML_PT = """
                         <li>Cancele quando quiser</li>
                         <li>Suporte padrão</li>
                     </ul>
-                    <a href="https://buy.stripe.com/00wcN4di180geXP9VEd3i02" class="btn ghost">Garantir Mensal</a>
+                    <a href="https://buy.stripe.com/dRm9AS5Pz80g6rj9VEd3i06" class="btn ghost">Garantir Mensal</a>
                 </div>
                 <div class="tier featured">
                     <span class="flag">MELHOR VALOR</span>
@@ -2049,7 +2049,7 @@ HOMEPAGE_HTML_PT = """
                         <li>Acesso API completo</li>
                         <li>Canal de suporte prioritário</li>
                     </ul>
-                    <a href="https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03" class="btn primary">Garantir Anual</a>
+                    <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">Garantir Anual</a>
                 </div>
             </div>
             <p class="pricing-note">Pagamento seguro via Stripe · Pague em USD, EUR, GBP, CAD ou AUD — sua moeda é detectada automaticamente no checkout · Os preços fundadores são aposentados permanentemente no lançamento público</p>
@@ -2315,7 +2315,7 @@ HOMEPAGE_HTML_AR = """
                     <div class="who">لمن يبدأ في التداول الخوارزمي</div>
                     <div class="price">$159.99</div>
                     <div class="per">دفعة واحدة (دولار أمريكي)</div>
-                    <div class="ship">&#128197; يُطلق في 13 أغسطس 2026</div>
+                    <div class="ship">&#128197; يُطلق في 11 سبتمبر 2026</div>
                     <div class="cap">مقتصر على 875,000 مقعد تأسيسي</div>
                     <ul>
                         <li>وصول مبدئي إلى محرك النموذج الأولي</li>
@@ -2323,7 +2323,7 @@ HOMEPAGE_HTML_AR = """
                         <li>ضوابط مخاطر قياسية</li>
                         <li>دعم عبر البريد الإلكتروني</li>
                     </ul>
-                    <a href="https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00" class="btn primary">احصل على Prototype</a>
+                    <a href="https://buy.stripe.com/eVq7sK4Lv0xO4jbc3Md3i04" class="btn primary">احصل على Prototype</a>
                 </div>
                 <div class="tier">
                     <span class="badge">حجز مسبق</span>
@@ -2339,7 +2339,7 @@ HOMEPAGE_HTML_AR = """
                         <li>لا رسوم متكررة، أبداً</li>
                         <li>انضمام ذو أولوية عند الإطلاق</li>
                     </ul>
-                    <a href="https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01" class="btn primary">احجز مدى الحياة</a>
+                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">احجز مدى الحياة</a>
                 </div>
                 <div class="tier">
                     <span class="badge">حجز مسبق</span>
@@ -2355,7 +2355,7 @@ HOMEPAGE_HTML_AR = """
                         <li>ألغِ في أي وقت</li>
                         <li>دعم قياسي</li>
                     </ul>
-                    <a href="https://buy.stripe.com/00wcN4di180geXP9VEd3i02" class="btn ghost">احجز شهرياً</a>
+                    <a href="https://buy.stripe.com/dRm9AS5Pz80g6rj9VEd3i06" class="btn ghost">احجز شهرياً</a>
                 </div>
                 <div class="tier featured">
                     <span class="flag">أفضل قيمة</span>
@@ -2372,7 +2372,7 @@ HOMEPAGE_HTML_AR = """
                         <li>وصول API كامل</li>
                         <li>قناة دعم ذات أولوية</li>
                     </ul>
-                    <a href="https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03" class="btn primary">احجز سنوياً</a>
+                    <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">احجز سنوياً</a>
                 </div>
             </div>
             <p class="pricing-note">دفع آمن عبر Stripe · ادفع بالدولار الأمريكي أو اليورو أو الجنيه الإسترليني أو الدولار الكندي أو الأسترالي — تُكتشف عملتك تلقائياً عند الدفع · تُسحب أسعار المؤسسين نهائياً عند الإطلاق العام</p>
@@ -2625,7 +2625,7 @@ HOMEPAGE_HTML_FA = """
                     <div class="who">برای تازه‌واردان معاملات الگوریتمی</div>
                     <div class="price">$159.99</div>
                     <div class="per">پرداخت یک‌باره (دلار آمریکا)</div>
-                    <div class="ship">&#128197; عرضه در ۱۳ اوت ۲۰۲۶</div>
+                    <div class="ship">&#128197; عرضه در ۱۱ سپتامبر ۲۰۲۶</div>
                     <div class="cap">محدود به 875,000 جایگاه بنیان‌گذاری</div>
                     <ul>
                         <li>دسترسی اولیه به موتور نمونه</li>
@@ -2633,7 +2633,7 @@ HOMEPAGE_HTML_FA = """
                         <li>کنترل ریسک استاندارد</li>
                         <li>پشتیبانی ایمیلی</li>
                     </ul>
-                    <a href="https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00" class="btn primary">دریافت Prototype</a>
+                    <a href="https://buy.stripe.com/eVq7sK4Lv0xO4jbc3Md3i04" class="btn primary">دریافت Prototype</a>
                 </div>
                 <div class="tier">
                     <span class="badge">پیش‌خرید</span>
@@ -2649,7 +2649,7 @@ HOMEPAGE_HTML_FA = """
                         <li>بدون هزینه تکرارشونده، هرگز</li>
                         <li>ورود با اولویت هنگام عرضه</li>
                     </ul>
-                    <a href="https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01" class="btn primary">رزرو مادام‌العمر</a>
+                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">رزرو مادام‌العمر</a>
                 </div>
                 <div class="tier">
                     <span class="badge">پیش‌خرید</span>
@@ -2665,7 +2665,7 @@ HOMEPAGE_HTML_FA = """
                         <li>لغو در هر زمان</li>
                         <li>پشتیبانی استاندارد</li>
                     </ul>
-                    <a href="https://buy.stripe.com/00wcN4di180geXP9VEd3i02" class="btn ghost">رزرو ماهانه</a>
+                    <a href="https://buy.stripe.com/dRm9AS5Pz80g6rj9VEd3i06" class="btn ghost">رزرو ماهانه</a>
                 </div>
                 <div class="tier featured">
                     <span class="flag">بهترین ارزش</span>
@@ -2682,7 +2682,7 @@ HOMEPAGE_HTML_FA = """
                         <li>دسترسی کامل API</li>
                         <li>کانال پشتیبانی با اولویت</li>
                     </ul>
-                    <a href="https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03" class="btn primary">رزرو سالانه</a>
+                    <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">رزرو سالانه</a>
                 </div>
             </div>
             <p class="pricing-note">پرداخت امن با Stripe · با دلار آمریکا، یورو، پوند، دلار کانادا یا استرالیا بپردازید — ارز شما هنگام پرداخت خودکار تشخیص داده می‌شود · قیمت‌های بنیان‌گذاران با عرضه عمومی برای همیشه حذف می‌شوند</p>
@@ -2935,7 +2935,7 @@ HOMEPAGE_HTML_UR = """
                     <div class="who">الگو ٹریڈنگ کے نئے صارفین کے لیے</div>
                     <div class="price">$159.99</div>
                     <div class="per">یکمشت (امریکی ڈالر)</div>
-                    <div class="ship">&#128197; 13 اگست 2026 کو ریلیز</div>
+                    <div class="ship">&#128197; 11 ستمبر 2026 کو ریلیز</div>
                     <div class="cap">صرف 875,000 بانی نشستیں</div>
                     <ul>
                         <li>پروٹوٹائپ انجن تک ابتدائی رسائی</li>
@@ -2943,7 +2943,7 @@ HOMEPAGE_HTML_UR = """
                         <li>معیاری رسک کنٹرول</li>
                         <li>ای میل سپورٹ</li>
                     </ul>
-                    <a href="https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00" class="btn primary">Prototype حاصل کریں</a>
+                    <a href="https://buy.stripe.com/eVq7sK4Lv0xO4jbc3Md3i04" class="btn primary">Prototype حاصل کریں</a>
                 </div>
                 <div class="tier">
                     <span class="badge">پری آرڈر</span>
@@ -2959,7 +2959,7 @@ HOMEPAGE_HTML_UR = """
                         <li>کوئی بار بار فیس نہیں، کبھی نہیں</li>
                         <li>لانچ پر ترجیحی آن بورڈنگ</li>
                     </ul>
-                    <a href="https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01" class="btn primary">تاحیات محفوظ کریں</a>
+                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">تاحیات محفوظ کریں</a>
                 </div>
                 <div class="tier">
                     <span class="badge">پری آرڈر</span>
@@ -2975,7 +2975,7 @@ HOMEPAGE_HTML_UR = """
                         <li>کسی بھی وقت منسوخ کریں</li>
                         <li>معیاری سپورٹ</li>
                     </ul>
-                    <a href="https://buy.stripe.com/00wcN4di180geXP9VEd3i02" class="btn ghost">ماہانہ محفوظ کریں</a>
+                    <a href="https://buy.stripe.com/dRm9AS5Pz80g6rj9VEd3i06" class="btn ghost">ماہانہ محفوظ کریں</a>
                 </div>
                 <div class="tier featured">
                     <span class="flag">بہترین قیمت</span>
@@ -2992,7 +2992,7 @@ HOMEPAGE_HTML_UR = """
                         <li>مکمل API رسائی</li>
                         <li>ترجیحی سپورٹ چینل</li>
                     </ul>
-                    <a href="https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03" class="btn primary">سالانہ محفوظ کریں</a>
+                    <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">سالانہ محفوظ کریں</a>
                 </div>
             </div>
             <p class="pricing-note">Stripe کے ذریعے محفوظ ادائیگی · USD، EUR، GBP، CAD یا AUD میں ادا کریں — چیک آؤٹ پر آپ کی کرنسی خودکار پہچانی جاتی ہے · فاؤنڈر قیمتیں عوامی لانچ پر مستقل ختم ہو جاتی ہیں</p>
@@ -3245,7 +3245,7 @@ HOMEPAGE_HTML_HI = """
                     <div class="who">एल्गो-ट्रेडिंग में नए लोगों के लिए</div>
                     <div class="price">$159.99</div>
                     <div class="per">एकमुश्त (US डॉलर)</div>
-                    <div class="ship">&#128197; 13 अगस्त 2026 को रिलीज़</div>
+                    <div class="ship">&#128197; 11 सितंबर 2026 को रिलीज़</div>
                     <div class="cap">केवल 875,000 फ़ाउंडर स्थान</div>
                     <ul>
                         <li>प्रोटोटाइप इंजन तक शुरुआती पहुँच</li>
@@ -3253,7 +3253,7 @@ HOMEPAGE_HTML_HI = """
                         <li>मानक रिस्क कंट्रोल</li>
                         <li>ईमेल सपोर्ट</li>
                     </ul>
-                    <a href="https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00" class="btn primary">Prototype पाएँ</a>
+                    <a href="https://buy.stripe.com/eVq7sK4Lv0xO4jbc3Md3i04" class="btn primary">Prototype पाएँ</a>
                 </div>
                 <div class="tier">
                     <span class="badge">प्री-ऑर्डर</span>
@@ -3269,7 +3269,7 @@ HOMEPAGE_HTML_HI = """
                         <li>कोई आवर्ती शुल्क नहीं, कभी नहीं</li>
                         <li>लॉन्च पर प्राथमिकता ऑनबोर्डिंग</li>
                     </ul>
-                    <a href="https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01" class="btn primary">आजीवन सुरक्षित करें</a>
+                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">आजीवन सुरक्षित करें</a>
                 </div>
                 <div class="tier">
                     <span class="badge">प्री-ऑर्डर</span>
@@ -3285,7 +3285,7 @@ HOMEPAGE_HTML_HI = """
                         <li>कभी भी रद्द करें</li>
                         <li>मानक सपोर्ट</li>
                     </ul>
-                    <a href="https://buy.stripe.com/00wcN4di180geXP9VEd3i02" class="btn ghost">मासिक सुरक्षित करें</a>
+                    <a href="https://buy.stripe.com/dRm9AS5Pz80g6rj9VEd3i06" class="btn ghost">मासिक सुरक्षित करें</a>
                 </div>
                 <div class="tier featured">
                     <span class="flag">सर्वश्रेष्ठ मूल्य</span>
@@ -3302,7 +3302,7 @@ HOMEPAGE_HTML_HI = """
                         <li>पूर्ण API एक्सेस</li>
                         <li>प्राथमिकता सपोर्ट चैनल</li>
                     </ul>
-                    <a href="https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03" class="btn primary">वार्षिक सुरक्षित करें</a>
+                    <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">वार्षिक सुरक्षित करें</a>
                 </div>
             </div>
             <p class="pricing-note">Stripe से सुरक्षित भुगतान · USD, EUR, GBP, CAD या AUD में भुगतान करें — चेकआउट पर आपकी मुद्रा स्वतः पहचानी जाती है · फ़ाउंडर क़ीमतें सार्वजनिक लॉन्च पर स्थायी रूप से हट जाती हैं</p>
@@ -3555,7 +3555,7 @@ HOMEPAGE_HTML_BN = """
                     <div class="who">অ্যালগো-ট্রেডিংয়ে নতুনদের জন্য</div>
                     <div class="price">$159.99</div>
                     <div class="per">এককালীন (মার্কিন ডলার)</div>
-                    <div class="ship">&#128197; ১৩ আগস্ট ২০২৬-এ প্রকাশ</div>
+                    <div class="ship">&#128197; ১১ সেপ্টেম্বর ২০২৬-এ প্রকাশ</div>
                     <div class="cap">মাত্র 875,000 প্রতিষ্ঠাতা স্থান</div>
                     <ul>
                         <li>প্রোটোটাইপ ইঞ্জিনে প্রাথমিক অ্যাক্সেস</li>
@@ -3563,7 +3563,7 @@ HOMEPAGE_HTML_BN = """
                         <li>স্ট্যান্ডার্ড রিস্ক কন্ট্রোল</li>
                         <li>ইমেইল সাপোর্ট</li>
                     </ul>
-                    <a href="https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00" class="btn primary">Prototype নিন</a>
+                    <a href="https://buy.stripe.com/eVq7sK4Lv0xO4jbc3Md3i04" class="btn primary">Prototype নিন</a>
                 </div>
                 <div class="tier">
                     <span class="badge">প্রি-অর্ডার</span>
@@ -3579,7 +3579,7 @@ HOMEPAGE_HTML_BN = """
                         <li>কোনো পুনরাবৃত্ত ফি নেই, কখনও না</li>
                         <li>লঞ্চে অগ্রাধিকার অনবোর্ডিং</li>
                     </ul>
-                    <a href="https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01" class="btn primary">আজীবন নিশ্চিত করুন</a>
+                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">আজীবন নিশ্চিত করুন</a>
                 </div>
                 <div class="tier">
                     <span class="badge">প্রি-অর্ডার</span>
@@ -3595,7 +3595,7 @@ HOMEPAGE_HTML_BN = """
                         <li>যেকোনো সময় বাতিল করুন</li>
                         <li>স্ট্যান্ডার্ড সাপোর্ট</li>
                     </ul>
-                    <a href="https://buy.stripe.com/00wcN4di180geXP9VEd3i02" class="btn ghost">মাসিক নিশ্চিত করুন</a>
+                    <a href="https://buy.stripe.com/dRm9AS5Pz80g6rj9VEd3i06" class="btn ghost">মাসিক নিশ্চিত করুন</a>
                 </div>
                 <div class="tier featured">
                     <span class="flag">সেরা মূল্য</span>
@@ -3612,7 +3612,7 @@ HOMEPAGE_HTML_BN = """
                         <li>সম্পূর্ণ API অ্যাক্সেস</li>
                         <li>অগ্রাধিকার সাপোর্ট চ্যানেল</li>
                     </ul>
-                    <a href="https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03" class="btn primary">বার্ষিক নিশ্চিত করুন</a>
+                    <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">বার্ষিক নিশ্চিত করুন</a>
                 </div>
             </div>
             <p class="pricing-note">Stripe-এর মাধ্যমে নিরাপদ পেমেন্ট · USD, EUR, GBP, CAD বা AUD-তে পরিশোধ করুন — চেকআউটে আপনার মুদ্রা স্বয়ংক্রিয়ভাবে শনাক্ত হয় · পাবলিক লঞ্চে প্রতিষ্ঠাতা মূল্য স্থায়ীভাবে তুলে নেওয়া হয়</p>
@@ -3865,7 +3865,7 @@ HOMEPAGE_HTML_TA = """
                     <div class="who">அல்கோ டிரேடிங் புதியவர்களுக்கு</div>
                     <div class="price">$159.99</div>
                     <div class="per">ஒருமுறை (அமெரிக்க டாலர்)</div>
-                    <div class="ship">&#128197; 13 ஆகஸ்ட் 2026 அன்று வெளியீடு</div>
+                    <div class="ship">&#128197; 11 செப்டம்பர் 2026 அன்று வெளியீடு</div>
                     <div class="cap">875,000 நிறுவனர் இடங்கள் மட்டுமே</div>
                     <ul>
                         <li>ப்ரோட்டோடைப் இன்ஜினுக்கு ஆரம்ப அணுகல்</li>
@@ -3873,7 +3873,7 @@ HOMEPAGE_HTML_TA = """
                         <li>நிலையான ரிஸ்க் கட்டுப்பாடுகள்</li>
                         <li>மின்னஞ்சல் ஆதரவு</li>
                     </ul>
-                    <a href="https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00" class="btn primary">Prototype பெறுங்கள்</a>
+                    <a href="https://buy.stripe.com/eVq7sK4Lv0xO4jbc3Md3i04" class="btn primary">Prototype பெறுங்கள்</a>
                 </div>
                 <div class="tier">
                     <span class="badge">முன்பதிவு</span>
@@ -3889,7 +3889,7 @@ HOMEPAGE_HTML_TA = """
                         <li>தொடர் கட்டணங்கள் இல்லவே இல்லை</li>
                         <li>வெளியீட்டில் முன்னுரிமை இணைப்பு</li>
                     </ul>
-                    <a href="https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01" class="btn primary">வாழ்நாளை உறுதி செய்</a>
+                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">வாழ்நாளை உறுதி செய்</a>
                 </div>
                 <div class="tier">
                     <span class="badge">முன்பதிவு</span>
@@ -3905,7 +3905,7 @@ HOMEPAGE_HTML_TA = """
                         <li>எப்போது வேண்டுமானாலும் ரத்து</li>
                         <li>நிலையான ஆதரவு</li>
                     </ul>
-                    <a href="https://buy.stripe.com/00wcN4di180geXP9VEd3i02" class="btn ghost">மாதாந்திரம் உறுதி செய்</a>
+                    <a href="https://buy.stripe.com/dRm9AS5Pz80g6rj9VEd3i06" class="btn ghost">மாதாந்திரம் உறுதி செய்</a>
                 </div>
                 <div class="tier featured">
                     <span class="flag">சிறந்த மதிப்பு</span>
@@ -3922,7 +3922,7 @@ HOMEPAGE_HTML_TA = """
                         <li>முழு API அணுகல்</li>
                         <li>முன்னுரிமை ஆதரவு சேனல்</li>
                     </ul>
-                    <a href="https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03" class="btn primary">ஆண்டுத் திட்டத்தை உறுதி செய்</a>
+                    <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">ஆண்டுத் திட்டத்தை உறுதி செய்</a>
                 </div>
             </div>
             <p class="pricing-note">Stripe மூலம் பாதுகாப்பான கட்டணம் · USD, EUR, GBP, CAD அல்லது AUD-இல் செலுத்துங்கள் — செக்அவுட்டில் உங்கள் நாணயம் தானாகக் கண்டறியப்படும் · பொது வெளியீட்டில் நிறுவனர் விலைகள் நிரந்தரமாக விலக்கப்படும்</p>
@@ -4312,10 +4312,10 @@ OBJECTION PLAYBOOK:
 FACTS (your only source of truth):
 - Every tier is a PRE-ORDER at founding pricing. Engine access is delivered at launch; founding members onboard first; these prices are permanently retired at public launch. Launch timeline updates are sent by email after purchase.
 - Tiers:
-  1. Prototype - $159.99 one-time. Entry access to the prototype engine, core Z-score strategy, one market, email support. Checkout: https://buy.stripe.com/9B6aEWcdX0xO16Z0l4d3i00
-  2. Founding Alpha - $399.99 one-time, LIFETIME full-engine access, all markets and updates forever, no recurring fees, priority onboarding. Checkout: https://buy.stripe.com/3cIdR80vfa8odTL0l4d3i01
-  3. Early Access Pass - $99.99/month, full engine, all markets, cancel anytime. Checkout: https://buy.stripe.com/00wcN4di180geXP9VEd3i02
-  4. VIP Annual Pass - $999.99/year, everything in Early Access plus priority execution queue, full API access, priority support. Best value. Checkout: https://buy.stripe.com/5kQ7sKguddkAcPH9VEd3i03
+  1. Prototype - $159.99 one-time. Entry access to the prototype engine, core Z-score strategy, one market, email support. Checkout: https://buy.stripe.com/eVq7sK4Lv0xO4jbc3Md3i04
+  2. Founding Alpha - $399.99 one-time, LIFETIME full-engine access, all markets and updates forever, no recurring fees, priority onboarding. Checkout: https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05
+  3. Early Access Pass - $99.99/month, full engine, all markets, cancel anytime. Checkout: https://buy.stripe.com/dRm9AS5Pz80g6rj9VEd3i06
+  4. VIP Annual Pass - $999.99/year, everything in Early Access plus priority execution queue, full API access, priority support. Best value. Checkout: https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07
 - Payment is via Stripe; the buyer's local currency (USD, EUR, GBP, CAD, AUD) is detected automatically at checkout.
 - Non-custodial: the engine connects to the buyer's own exchange account via API keys they control and can revoke; withdrawal permissions are never required; funds never move to us.
 - Refunds: pre-orders are fully refundable at any time before launch (contact support via the purchase receipt). After launch, monthly and annual passes can be cancelled anytime to stop future billing.
