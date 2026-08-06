@@ -263,6 +263,86 @@ CHAT_WIDGET = """
         setInterval(tick, 1000);
     })();
     </script>
+    <style>
+        #pa-cap-sec { padding: 8px 20px 64px; }
+        #pa-cap { max-width: 720px; margin: 0 auto; background: #10141b; border: 1px solid #1c2230;
+                  border-radius: 14px; padding: 28px 24px; text-align: center; }
+        #pa-cap h3 { color: #eef2f8; font-size: 1.2rem; font-weight: 800; margin: 0 0 6px; }
+        #pa-cap p { color: #9fb0c8; font-size: 0.9rem; line-height: 1.5; margin: 0 0 18px; }
+        #pa-cap form { display: flex; gap: 10px; max-width: 460px; margin: 0 auto; flex-wrap: wrap; justify-content: center; }
+        #pa-cap input { flex: 1; min-width: 200px; background: #0c0f14; border: 1px solid #1c2230; border-radius: 9px;
+                        color: #eef2f8; padding: 12px 14px; font-size: 0.9rem; font-family: inherit; }
+        #pa-cap input:focus { outline: none; border-color: #4f8ff7; }
+        #pa-cap button { background: #4f8ff7; color: #04070d; border: none; border-radius: 9px; padding: 12px 22px;
+                         font-weight: 700; font-size: 0.9rem; cursor: pointer; font-family: inherit; }
+        #pa-cap .pa-cap-ok { color: #46b876; font-weight: 700; font-size: 0.98rem; }
+    </style>
+    <script>
+    (function () {
+        var ENDPOINT = 'https://assets.mailerlite.com/jsonp/2559139/forms/195018304119637256/subscribe';
+        var T = {
+            en: ['Not ready to pre-order?', 'Get launch updates and lock your founding price. No spam, unsubscribe anytime.', 'Your email', 'Notify me', "You're on the list. Watch your inbox."],
+            es: ['¿Aún no listo para reservar?', 'Recibe novedades del lanzamiento y asegura tu precio fundador. Sin spam, cancela cuando quieras.', 'Tu correo', 'Avísame', 'Estás en la lista. Revisa tu correo.'],
+            fr: ['Pas encore prêt à précommander ?', 'Recevez les infos du lancement et verrouillez votre tarif fondateur. Zéro spam.', 'Votre e-mail', 'Prévenez-moi', 'Vous êtes inscrit. Surveillez votre boîte mail.'],
+            de: ['Noch nicht bereit vorzubestellen?', 'Erhalte Launch-Updates und sichere deinen Gründerpreis. Kein Spam.', 'Deine E-Mail', 'Benachrichtige mich', 'Du bist auf der Liste. Schau in dein Postfach.'],
+            pt: ['Ainda não quer pré-encomendar?', 'Receba novidades do lançamento e garanta seu preço fundador. Sem spam.', 'Seu e-mail', 'Avise-me', 'Você está na lista. Fique de olho no e-mail.'],
+            ar: ['لست مستعداً للحجز المسبق؟', 'احصل على تحديثات الإطلاق وثبّت سعرك التأسيسي. بدون رسائل مزعجة.', 'بريدك الإلكتروني', 'أبلغني', 'أنت الآن في القائمة. تابع بريدك.'],
+            fa: ['هنوز برای پیش‌خرید آماده نیستید؟', 'از اخبار عرضه باخبر شوید و قیمت بنیان‌گذاری خود را قفل کنید. بدون اسپم.', 'ایمیل شما', 'به من اطلاع بده', 'شما در فهرست هستید. ایمیل خود را بررسی کنید.'],
+            ur: ['ابھی پری آرڈر کے لیے تیار نہیں؟', 'لانچ اپڈیٹس حاصل کریں اور اپنی بانی قیمت محفوظ کریں۔ کوئی اسپیم نہیں۔', 'آپ کا ای میل', 'مجھے اطلاع دیں', 'آپ فہرست میں شامل ہیں۔ اپنا ان باکس دیکھیں۔'],
+            hi: ['अभी प्री-ऑर्डर के लिए तैयार नहीं?', 'लॉन्च अपडेट पाएं और अपनी फ़ाउंडिंग कीमत लॉक करें। कोई स्पैम नहीं।', 'आपका ईमेल', 'मुझे सूचित करें', 'आप सूची में हैं। अपना इनबॉक्स देखें।'],
+            bn: ['এখনও প্রি-অর্ডারে প্রস্তুত নন?', 'লঞ্চ আপডেট পান এবং আপনার প্রতিষ্ঠাতা মূল্য লক করুন। কোনো স্প্যাম নেই।', 'আপনার ইমেল', 'আমাকে জানান', 'আপনি তালিকায় আছেন। আপনার ইনবক্স দেখুন।'],
+            ta: ['இன்னும் முன்பதிவு செய்யத் தயாராக இல்லையா?', 'வெளியீட்டு புதுப்பிப்புகளைப் பெறுங்கள், உங்கள் நிறுவனர் விலையைப் பூட்டுங்கள். ஸ்பேம் இல்லை.', 'உங்கள் மின்னஞ்சல்', 'எனக்கு அறிவி', 'நீங்கள் பட்டியலில் உள்ளீர்கள். உங்கள் இன்பாக்ஸைப் பாருங்கள்.']
+        };
+        var lang = (document.documentElement.lang || 'en').slice(0, 2).toLowerCase();
+        var t = T[lang] || T.en;
+        var pr = document.getElementById('pricing');
+        if (!pr) return;
+        var sec = document.createElement('section');
+        sec.id = 'pa-cap-sec';
+        var box = document.createElement('div');
+        box.id = 'pa-cap';
+        var h = document.createElement('h3');
+        h.textContent = t[0];
+        var p = document.createElement('p');
+        p.textContent = t[1];
+        var f = document.createElement('form');
+        var inp = document.createElement('input');
+        inp.type = 'email';
+        inp.required = true;
+        inp.placeholder = t[2];
+        inp.setAttribute('autocomplete', 'email');
+        var btn = document.createElement('button');
+        btn.type = 'submit';
+        btn.textContent = t[3];
+        f.appendChild(inp);
+        f.appendChild(btn);
+        box.appendChild(h);
+        box.appendChild(p);
+        box.appendChild(f);
+        sec.appendChild(box);
+        pr.parentNode.insertBefore(sec, pr.nextSibling);
+        f.addEventListener('submit', function (e) {
+            e.preventDefault();
+            var email = inp.value.trim();
+            if (!email) return;
+            btn.disabled = true;
+            var body = 'fields[email]=' + encodeURIComponent(email) + '&ml-submit=1&anticsrf=true';
+            function done() {
+                box.innerHTML = '';
+                var ok = document.createElement('div');
+                ok.className = 'pa-cap-ok';
+                ok.textContent = t[4];
+                box.appendChild(ok);
+            }
+            fetch(ENDPOINT, {
+                method: 'POST',
+                mode: 'no-cors',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: body
+            }).then(done).catch(done);
+        });
+    })();
+    </script>
 """
 
 # Rendered once at import time; served from Vercel's edge cache via the
