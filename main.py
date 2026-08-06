@@ -373,14 +373,14 @@ HOMEPAGE_HTML = """
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/">
     <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — Institutional Income, Automated.">
+    <meta property="og:title" content="ai PassiveAutotrades — Institutional-Grade Trading, Automated.">
     <meta property="og:description" content="Automated Z-score quant strategies without watching charts. Pre-order founding access before launch.">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:locale" content="en_US">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ai PassiveAutotrades — Institutional Income, Automated.">
+    <meta name="twitter:title" content="ai PassiveAutotrades — Institutional-Grade Trading, Automated.">
     <meta name="twitter:description" content="Automated Z-score quant strategies without watching charts. Pre-order founding access before launch.">
     <meta name="twitter:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <script defer src="/_vercel/insights/script.js"></script>
@@ -682,7 +682,7 @@ HOMEPAGE_HTML = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>AUTOMATED Z-SCORE QUANT ENGINE</div>
-                    <h1>Institutional Income,<br><span class="grad">Automated.</span></h1>
+                    <h1>Institutional-Grade Trading,<br><span class="grad">Automated.</span></h1>
                     <p class="hero-sub">A fully automated trading engine built on Z-score mean reversion &mdash; the same statistical methodology quant desks run &mdash; executing around the clock so you never watch a chart.</p>
                     <div class="hero-note">Founding pre-order &mdash; lock lifetime pricing before public launch</div>
                     <div class="cta-row">
@@ -980,7 +980,7 @@ HOMEPAGE_HTML_ES = """
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/es">
     <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — Ingresos Institucionales, Automatizados.">
+    <meta property="og:title" content="ai PassiveAutotrades — Trading de Grado Institucional, Automatizado.">
     <meta property="og:description" content="Estrategias cuantitativas Z-score automatizadas sin mirar gráficos. Reserva tu acceso fundador antes del lanzamiento.">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:locale" content="es_ES">
@@ -1012,7 +1012,7 @@ HOMEPAGE_HTML_ES = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>MOTOR CUANTITATIVO Z-SCORE AUTOMATIZADO</div>
-                    <h1>Ingresos Institucionales,<br><span class="grad">Automatizados.</span></h1>
+                    <h1>Trading de Grado Institucional,<br><span class="grad">Automatizado.</span></h1>
                     <p class="hero-sub">Un motor de trading totalmente automatizado basado en reversión a la media Z-score &mdash; la misma metodología estadística que usan las mesas cuantitativas &mdash; ejecutando las 24 horas para que nunca mires un gráfico.</p>
                     <div class="hero-note">Reserva fundadora &mdash; asegura el precio de por vida antes del lanzamiento público</div>
                     <div class="cta-row">
@@ -1290,7 +1290,7 @@ HOMEPAGE_HTML_FR = """
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/fr">
     <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — Des Revenus Institutionnels, Automatisés.">
+    <meta property="og:title" content="ai PassiveAutotrades — Un Trading de Niveau Institutionnel, Automatisé.">
     <meta property="og:description" content="Stratégies quantitatives Z-score automatisées sans surveiller les graphiques. Précommandez votre accès fondateur avant le lancement.">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:locale" content="fr_FR">
@@ -1322,7 +1322,7 @@ HOMEPAGE_HTML_FR = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>MOTEUR QUANTITATIF Z-SCORE AUTOMATIS&Eacute;</div>
-                    <h1>Des Revenus Institutionnels,<br><span class="grad">Automatis&eacute;s.</span></h1>
+                    <h1>Un Trading de Niveau Institutionnel,<br><span class="grad">Automatis&eacute;.</span></h1>
                     <p class="hero-sub">Un moteur de trading enti&egrave;rement automatis&eacute; fond&eacute; sur le retour &agrave; la moyenne Z-score &mdash; la m&ecirc;me m&eacute;thodologie statistique que les desks quantitatifs &mdash; ex&eacute;cutant 24h/24 pour que vous ne regardiez plus jamais un graphique.</p>
                     <div class="hero-note">Pr&eacute;commande fondatrice &mdash; verrouillez le tarif &agrave; vie avant le lancement public</div>
                     <div class="cta-row">
@@ -1600,7 +1600,7 @@ HOMEPAGE_HTML_DE = """
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/de">
     <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — Institutionelle Erträge, Automatisiert.">
+    <meta property="og:title" content="ai PassiveAutotrades — Trading auf institutionellem Niveau, Automatisiert.">
     <meta property="og:description" content="Automatisierte Z-Score-Quant-Strategien ohne Chart-Beobachtung. Gründerzugang vor dem Launch vorbestellen.">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:locale" content="de_DE">
@@ -1632,7 +1632,7 @@ HOMEPAGE_HTML_DE = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>AUTOMATISIERTE Z-SCORE QUANT-ENGINE</div>
-                    <h1>Institutionelle Erträge,<br><span class="grad">Automatisiert.</span></h1>
+                    <h1>Trading auf institutionellem Niveau,<br><span class="grad">Automatisiert.</span></h1>
                     <p class="hero-sub">Eine vollautomatisierte Trading-Engine auf Basis von Z-Score Mean Reversion — derselben statistischen Methodik, die Quant-Desks einsetzen — rund um die Uhr aktiv, damit Sie nie wieder auf Charts starren.</p>
                     <div class="hero-note">Gründer-Vorbestellung — sichern Sie sich den Lifetime-Preis vor dem öffentlichen Launch</div>
                     <div class="cta-row">
@@ -1910,7 +1910,7 @@ HOMEPAGE_HTML_PT = """
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/pt">
     <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — Renda Institucional, Automatizada.">
+    <meta property="og:title" content="ai PassiveAutotrades — Trading de Nível Institucional, Automatizado.">
     <meta property="og:description" content="Estratégias quantitativas Z-score automatizadas sem olhar gráficos. Reserve seu acesso fundador antes do lançamento.">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:locale" content="pt_BR">
@@ -1942,7 +1942,7 @@ HOMEPAGE_HTML_PT = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>MOTOR QUANTITATIVO Z-SCORE AUTOMATIZADO</div>
-                    <h1>Renda Institucional,<br><span class="grad">Automatizada.</span></h1>
+                    <h1>Trading de Nível Institucional,<br><span class="grad">Automatizado.</span></h1>
                     <p class="hero-sub">Um motor de trading totalmente automatizado baseado em reversão à média Z-score — a mesma metodologia estatística usada pelas mesas quantitativas — executando 24 horas por dia para você nunca mais olhar um gráfico.</p>
                     <div class="hero-note">Pré-venda fundadora — garanta o preço vitalício antes do lançamento público</div>
                     <div class="cta-row">
@@ -2233,7 +2233,7 @@ HOMEPAGE_HTML_AR = """
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/ar">
     <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — دخل مؤسسي، مؤتمت.">
+    <meta property="og:title" content="ai PassiveAutotrades — تداول بمستوى مؤسسي، مؤتمت.">
     <meta property="og:description" content="استراتيجيات كمية آلية بمؤشر Z-Score دون مراقبة الرسوم البيانية. احجز وصول المؤسسين قبل الإطلاق.">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:locale" content="ar_AR">
@@ -2265,7 +2265,7 @@ HOMEPAGE_HTML_AR = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>محرك كمي آلي بمؤشر Z-SCORE</div>
-                    <h1>دخل مؤسسي،<br><span class="grad">مؤتمت.</span></h1>
+                    <h1>تداول بمستوى مؤسسي،<br><span class="grad">مؤتمت.</span></h1>
                     <p class="hero-sub">محرك تداول آلي بالكامل مبني على استراتيجية العودة إلى المتوسط بمؤشر Z-Score — المنهجية الإحصائية ذاتها التي تعتمدها مكاتب التداول الكمي — يعمل على مدار الساعة حتى لا تراقب الرسوم البيانية مجدداً.</p>
                     <div class="hero-note">حجز مسبق للمؤسسين — ثبّت سعراً مدى الحياة قبل الإطلاق العام</div>
                     <div class="cta-row">
@@ -2543,7 +2543,7 @@ HOMEPAGE_HTML_FA = """
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/fa">
     <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — درآمد نهادی، خودکار.">
+    <meta property="og:title" content="ai PassiveAutotrades — معاملات در سطح نهادی، خودکار.">
     <meta property="og:description" content="استراتژی‌های کمّی Z-Score خودکار بدون تماشای نمودار. دسترسی بنیان‌گذاران را پیش از عرضه پیش‌خرید کنید.">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:locale" content="fa_IR">
@@ -2575,7 +2575,7 @@ HOMEPAGE_HTML_FA = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>موتور کمّی خودکار Z-SCORE</div>
-                    <h1>درآمد نهادی،<br><span class="grad">خودکار.</span></h1>
+                    <h1>معاملات در سطح نهادی،<br><span class="grad">خودکار.</span></h1>
                     <p class="hero-sub">یک موتور معاملاتی کاملاً خودکار بر پایه بازگشت به میانگین Z-Score — همان روش‌شناسی آماری میزهای معاملات کمّی — که شبانه‌روز اجرا می‌کند تا شما دیگر هرگز به نمودار خیره نشوید.</p>
                     <div class="hero-note">پیش‌خرید بنیان‌گذاران — قیمت مادام‌العمر را پیش از عرضه عمومی قفل کنید</div>
                     <div class="cta-row">
@@ -2853,7 +2853,7 @@ HOMEPAGE_HTML_UR = """
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/ur">
     <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — ادارہ جاتی آمدنی، خودکار۔">
+    <meta property="og:title" content="ai PassiveAutotrades — ادارہ جاتی سطح کی ٹریڈنگ، خودکار۔">
     <meta property="og:description" content="چارٹ دیکھے بغیر خودکار Z-Score کوانٹ حکمتِ عملیاں۔ لانچ سے پہلے فاؤنڈر رسائی پری آرڈر کریں۔">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:locale" content="ur_PK">
@@ -2885,7 +2885,7 @@ HOMEPAGE_HTML_UR = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>خودکار Z-SCORE کوانٹ انجن</div>
-                    <h1>ادارہ جاتی آمدنی،<br><span class="grad">خودکار۔</span></h1>
+                    <h1>ادارہ جاتی سطح کی ٹریڈنگ،<br><span class="grad">خودکار۔</span></h1>
                     <p class="hero-sub">Z-Score مین ریورژن پر مبنی ایک مکمل خودکار ٹریڈنگ انجن — وہی شماریاتی طریقہ کار جو کوانٹ ڈیسک استعمال کرتے ہیں — چوبیس گھنٹے چلتا ہے تاکہ آپ کبھی چارٹ نہ دیکھیں۔</p>
                     <div class="hero-note">فاؤنڈر پری آرڈر — عوامی لانچ سے پہلے تاحیات قیمت مقفل کریں</div>
                     <div class="cta-row">
@@ -3163,7 +3163,7 @@ HOMEPAGE_HTML_HI = """
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/hi">
     <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — संस्थागत आय, स्वचालित।">
+    <meta property="og:title" content="ai PassiveAutotrades — संस्थागत-स्तर की ट्रेडिंग, स्वचालित।">
     <meta property="og:description" content="चार्ट देखे बिना स्वचालित Z-Score क्वांट रणनीतियाँ। लॉन्च से पहले फ़ाउंडर एक्सेस प्री-ऑर्डर करें।">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:locale" content="hi_IN">
@@ -3195,7 +3195,7 @@ HOMEPAGE_HTML_HI = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>स्वचालित Z-SCORE क्वांट इंजन</div>
-                    <h1>संस्थागत आय,<br><span class="grad">स्वचालित।</span></h1>
+                    <h1>संस्थागत-स्तर की ट्रेडिंग,<br><span class="grad">स्वचालित।</span></h1>
                     <p class="hero-sub">Z-Score मीन रिवर्ज़न पर बना पूर्णतः स्वचालित ट्रेडिंग इंजन — वही सांख्यिकीय पद्धति जो क्वांट डेस्क अपनाते हैं — चौबीसों घंटे चलता है ताकि आपको कभी चार्ट न देखना पड़े।</p>
                     <div class="hero-note">फ़ाउंडर प्री-ऑर्डर — सार्वजनिक लॉन्च से पहले आजीवन क़ीमत लॉक करें</div>
                     <div class="cta-row">
@@ -3473,7 +3473,7 @@ HOMEPAGE_HTML_BN = """
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/bn">
     <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — প্রাতিষ্ঠানিক আয়, স্বয়ংক্রিয়।">
+    <meta property="og:title" content="ai PassiveAutotrades — প্রাতিষ্ঠানিক-মানের ট্রেডিং, স্বয়ংক্রিয়।">
     <meta property="og:description" content="চার্ট না দেখে স্বয়ংক্রিয় Z-Score কোয়ান্ট কৌশল। লঞ্চের আগে প্রতিষ্ঠাতা অ্যাক্সেস প্রি-অর্ডার করুন।">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:locale" content="bn_BD">
@@ -3505,7 +3505,7 @@ HOMEPAGE_HTML_BN = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>স্বয়ংক্রিয় Z-SCORE কোয়ান্ট ইঞ্জিন</div>
-                    <h1>প্রাতিষ্ঠানিক আয়,<br><span class="grad">স্বয়ংক্রিয়।</span></h1>
+                    <h1>প্রাতিষ্ঠানিক-মানের ট্রেডিং,<br><span class="grad">স্বয়ংক্রিয়।</span></h1>
                     <p class="hero-sub">Z-Score মিন রিভার্সনের উপর নির্মিত সম্পূর্ণ স্বয়ংক্রিয় ট্রেডিং ইঞ্জিন — কোয়ান্ট ডেস্কগুলি যে পরিসংখ্যানগত পদ্ধতি ব্যবহার করে সেটিই — চব্বিশ ঘণ্টা চলে যাতে আপনাকে আর কখনও চার্ট দেখতে না হয়।</p>
                     <div class="hero-note">প্রতিষ্ঠাতা প্রি-অর্ডার — পাবলিক লঞ্চের আগে আজীবন মূল্য লক করুন</div>
                     <div class="cta-row">
@@ -3783,7 +3783,7 @@ HOMEPAGE_HTML_TA = """
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/ta">
     <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — நிறுவன வருமானம், தானியங்கி.">
+    <meta property="og:title" content="ai PassiveAutotrades — நிறுவன தரத்திலான டிரேடிங், தானியங்கி.">
     <meta property="og:description" content="வரைபடங்களைப் பார்க்காமல் தானியங்கி Z-Score குவாண்ட் உத்திகள். வெளியீட்டுக்கு முன் நிறுவனர் அணுகலை முன்பதிவு செய்யுங்கள்.">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:locale" content="ta_IN">
@@ -3815,7 +3815,7 @@ HOMEPAGE_HTML_TA = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>தானியங்கி Z-SCORE குவாண்ட் இன்ஜின்</div>
-                    <h1>நிறுவன வருமானம்,<br><span class="grad">தானியங்கி.</span></h1>
+                    <h1>நிறுவன தரத்திலான டிரேடிங்,<br><span class="grad">தானியங்கி.</span></h1>
                     <p class="hero-sub">Z-Score சராசரி மீட்சியில் கட்டப்பட்ட முழு தானியங்கி டிரேடிங் இன்ஜின் — குவாண்ட் டெஸ்க்குகள் பயன்படுத்தும் அதே புள்ளியியல் முறை — இரவு பகலாக இயங்குகிறது, நீங்கள் இனி வரைபடங்களைப் பார்க்கத் தேவையில்லை.</p>
                     <div class="hero-note">நிறுவனர் முன்பதிவு — பொது வெளியீட்டுக்கு முன் வாழ்நாள் விலையைப் பூட்டுங்கள்</div>
                     <div class="cta-row">
