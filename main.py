@@ -1068,7 +1068,7 @@ HOMEPAGE_HTML_ES = """
                 <div class="step">
                     <span class="num">01</span>
                     <h3>Asegura Tu Nivel</h3>
-                    <p>Reserva el nivel que mejor te encaje. El precio fundador queda fijado permanentemente en tu cuenta &mdash; no volver&aacute; a ofrecerse despu&eacute;s del lanzamiento.</p>
+                    <p>Reserva el nivel que mejor te encaje. El precio fundador queda fijado permanentemente en tu cuenta.</p>
                 </div>
                 <div class="step">
                     <span class="num">02</span>
@@ -1128,7 +1128,7 @@ HOMEPAGE_HTML_ES = """
             <div class="sec-head center">
                 <div class="sec-label">RESERVA FUNDADORA</div>
                 <h2>Asegura tu nivel antes del lanzamiento</h2>
-                <p>Cada nivel es una reserva a precio fundador. Al lanzarse el motor, los miembros fundadores entran primero &mdash; y estos precios se retiran permanentemente.</p>
+                <p>Cada nivel es una reserva a precio fundador. Al lanzarse el motor, los miembros fundadores entran primero.</p>
             </div>
             <div class="guarantee">
                 <div class="g-title">&#128737;&#65039; Garantía de reembolso del 100%</div>
@@ -1202,7 +1202,7 @@ HOMEPAGE_HTML_ES = """
                     <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">Reservar Anual</a>
                 </div>
             </div>
-            <p class="pricing-note">Pago seguro v&iacute;a Stripe &middot; Paga en USD, EUR, GBP, CAD o AUD &mdash; tu moneda se detecta autom&aacute;ticamente al pagar &middot; Los precios fundadores se retiran permanentemente en el lanzamiento p&uacute;blico</p>
+            <p class="pricing-note">Pago seguro v&iacute;a Stripe &middot; Paga en USD, EUR, GBP, CAD o AUD &mdash; tu moneda se detecta autom&aacute;ticamente al pagar</p>
         </div>
     </section>
 
@@ -1247,8 +1247,8 @@ HOMEPAGE_HTML_ES = """
 
     <section class="final">
         <div class="wrap">
-            <h2>El precio fundador termina en el lanzamiento.</h2>
-            <p>Reserva tu nivel ahora &mdash; cuando el motor sea p&uacute;blico, estos precios se retiran permanentemente.</p>
+            <h2>Reserva tu nivel fundador.</h2>
+            <p>Reserva tu nivel ahora.</p>
             <a href="#pricing" class="btn primary">Reservar Mi Nivel</a>
         </div>
     </section>
@@ -1378,7 +1378,7 @@ HOMEPAGE_HTML_FR = """
                 <div class="step">
                     <span class="num">01</span>
                     <h3>R&eacute;servez Votre Offre</h3>
-                    <p>Pr&eacute;commandez l'offre qui vous convient. Le tarif fondateur est verrouill&eacute; d&eacute;finitivement sur votre compte &mdash; il ne sera plus jamais propos&eacute; apr&egrave;s le lancement.</p>
+                    <p>Pr&eacute;commandez l'offre qui vous convient. Le tarif fondateur est verrouill&eacute; d&eacute;finitivement sur votre compte.</p>
                 </div>
                 <div class="step">
                     <span class="num">02</span>
@@ -1438,7 +1438,7 @@ HOMEPAGE_HTML_FR = """
             <div class="sec-head center">
                 <div class="sec-label">PR&Eacute;COMMANDE FONDATRICE</div>
                 <h2>Verrouillez votre offre avant le lancement</h2>
-                <p>Chaque offre est une pr&eacute;commande au tarif fondateur. Au lancement du moteur, les membres fondateurs sont int&eacute;gr&eacute;s en premier &mdash; et ces tarifs sont d&eacute;finitivement retir&eacute;s.</p>
+                <p>Chaque offre est une pr&eacute;commande au tarif fondateur. Au lancement du moteur, les membres fondateurs sont int&eacute;gr&eacute;s en premier.</p>
             </div>
             <div class="guarantee">
                 <div class="g-title">&#128737;&#65039; Garantie satisfait ou remboursé à 100 %</div>
@@ -1512,7 +1512,7 @@ HOMEPAGE_HTML_FR = """
                     <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">R&eacute;server Annuel</a>
                 </div>
             </div>
-            <p class="pricing-note">Paiement s&eacute;curis&eacute; via Stripe &middot; Payez en USD, EUR, GBP, CAD ou AUD &mdash; votre devise est d&eacute;tect&eacute;e automatiquement au paiement &middot; Les tarifs fondateurs sont d&eacute;finitivement retir&eacute;s au lancement public</p>
+            <p class="pricing-note">Paiement s&eacute;curis&eacute; via Stripe &middot; Payez en USD, EUR, GBP, CAD ou AUD &mdash; votre devise est d&eacute;tect&eacute;e automatiquement au paiement</p>
         </div>
     </section>
 
@@ -1557,8 +1557,8 @@ HOMEPAGE_HTML_FR = """
 
     <section class="final">
         <div class="wrap">
-            <h2>Le tarif fondateur prend fin au lancement.</h2>
-            <p>R&eacute;servez votre offre maintenant &mdash; quand le moteur sera public, ces tarifs seront d&eacute;finitivement retir&eacute;s.</p>
+            <h2>R&eacute;servez votre offre fondatrice.</h2>
+            <p>R&eacute;servez votre offre maintenant.</p>
             <a href="#pricing" class="btn primary">Pr&eacute;commander Mon Offre</a>
         </div>
     </section>
@@ -1688,7 +1688,7 @@ HOMEPAGE_HTML_DE = """
                 <div class="step">
                     <span class="num">01</span>
                     <h3>Stufe sichern</h3>
-                    <p>Bestellen Sie die passende Stufe vor. Der Gründerpreis wird dauerhaft an Ihr Konto gebunden — nach dem Launch wird er nie wieder angeboten.</p>
+                    <p>Bestellen Sie die passende Stufe vor. Der Gründerpreis wird dauerhaft an Ihr Konto gebunden.</p>
                 </div>
                 <div class="step">
                     <span class="num">02</span>
@@ -1748,7 +1748,7 @@ HOMEPAGE_HTML_DE = """
             <div class="sec-head center">
                 <div class="sec-label">GRÜNDER-VORBESTELLUNG</div>
                 <h2>Sichern Sie Ihre Stufe vor dem Launch</h2>
-                <p>Jede Stufe ist eine Vorbestellung zum Gründerpreis. Beim Launch werden Gründungsmitglieder zuerst aufgenommen — und diese Preise dauerhaft eingestellt.</p>
+                <p>Jede Stufe ist eine Vorbestellung zum Gründerpreis. Beim Launch werden Gründungsmitglieder zuerst aufgenommen.</p>
             </div>
             <div class="guarantee">
                 <div class="g-title">&#128737;&#65039; 100 % Geld-zurück-Garantie</div>
@@ -1822,7 +1822,7 @@ HOMEPAGE_HTML_DE = """
                     <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">Jährlich sichern</a>
                 </div>
             </div>
-            <p class="pricing-note">Sichere Zahlung über Stripe · Zahlen Sie in USD, EUR, GBP, CAD oder AUD — Ihre Währung wird beim Checkout automatisch erkannt · Gründerpreise werden zum öffentlichen Launch dauerhaft eingestellt</p>
+            <p class="pricing-note">Sichere Zahlung über Stripe · Zahlen Sie in USD, EUR, GBP, CAD oder AUD — Ihre Währung wird beim Checkout automatisch erkannt</p>
         </div>
     </section>
 
@@ -1867,8 +1867,8 @@ HOMEPAGE_HTML_DE = """
 
     <section class="final">
         <div class="wrap">
-            <h2>Der Gründerpreis endet mit dem Launch.</h2>
-            <p>Reservieren Sie Ihre Stufe jetzt — sobald die Engine öffentlich ist, werden diese Preise dauerhaft eingestellt.</p>
+            <h2>Sichern Sie sich Ihre Gründerstufe.</h2>
+            <p>Reservieren Sie Ihre Stufe jetzt.</p>
             <a href="#pricing" class="btn primary">Meine Stufe vorbestellen</a>
         </div>
     </section>
@@ -1998,7 +1998,7 @@ HOMEPAGE_HTML_PT = """
                 <div class="step">
                     <span class="num">01</span>
                     <h3>Garanta Seu Nível</h3>
-                    <p>Reserve o nível que combina com você. O preço fundador fica travado permanentemente na sua conta — nunca mais será oferecido após o lançamento.</p>
+                    <p>Reserve o nível que combina com você. O preço fundador fica travado permanentemente na sua conta.</p>
                 </div>
                 <div class="step">
                     <span class="num">02</span>
@@ -2058,7 +2058,7 @@ HOMEPAGE_HTML_PT = """
             <div class="sec-head center">
                 <div class="sec-label">PRÉ-VENDA FUNDADORA</div>
                 <h2>Trave seu nível antes do lançamento</h2>
-                <p>Cada nível é uma pré-venda a preço fundador. Quando o motor for lançado, os membros fundadores entram primeiro — e esses preços são aposentados permanentemente.</p>
+                <p>Cada nível é uma pré-venda a preço fundador. Quando o motor for lançado, os membros fundadores entram primeiro.</p>
             </div>
             <div class="guarantee">
                 <div class="g-title">&#128737;&#65039; Garantia de reembolso de 100%</div>
@@ -2132,7 +2132,7 @@ HOMEPAGE_HTML_PT = """
                     <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">Garantir Anual</a>
                 </div>
             </div>
-            <p class="pricing-note">Pagamento seguro via Stripe · Pague em USD, EUR, GBP, CAD ou AUD — sua moeda é detectada automaticamente no checkout · Os preços fundadores são aposentados permanentemente no lançamento público</p>
+            <p class="pricing-note">Pagamento seguro via Stripe · Pague em USD, EUR, GBP, CAD ou AUD — sua moeda é detectada automaticamente no checkout</p>
         </div>
     </section>
 
@@ -2177,8 +2177,8 @@ HOMEPAGE_HTML_PT = """
 
     <section class="final">
         <div class="wrap">
-            <h2>O preço fundador termina no lançamento.</h2>
-            <p>Reserve seu nível agora — quando o motor for público, esses preços serão aposentados permanentemente.</p>
+            <h2>Reserve seu nível fundador.</h2>
+            <p>Reserve seu nível agora.</p>
             <a href="#pricing" class="btn primary">Reservar Meu Nível</a>
         </div>
     </section>
@@ -2321,7 +2321,7 @@ HOMEPAGE_HTML_AR = """
                 <div class="step">
                     <span class="num">01</span>
                     <h3>احجز باقتك</h3>
-                    <p>احجز الباقة المناسبة لك مسبقاً. سعر المؤسسين يُثبَّت في حسابك بشكل دائم — ولن يُعرض مجدداً بعد الإطلاق.</p>
+                    <p>احجز الباقة المناسبة لك مسبقاً. سعر المؤسسين يُثبَّت في حسابك بشكل دائم.</p>
                 </div>
                 <div class="step">
                     <span class="num">02</span>
@@ -2381,7 +2381,7 @@ HOMEPAGE_HTML_AR = """
             <div class="sec-head center">
                 <div class="sec-label">حجز المؤسسين المسبق</div>
                 <h2>ثبّت باقتك قبل الإطلاق</h2>
-                <p>كل باقة هي حجز مسبق بسعر المؤسسين. عند إطلاق المحرك، ينضم الأعضاء المؤسسون أولاً — وتُسحب هذه الأسعار نهائياً.</p>
+                <p>كل باقة هي حجز مسبق بسعر المؤسسين. عند إطلاق المحرك، ينضم الأعضاء المؤسسون أولاً.</p>
             </div>
             <div class="guarantee">
                 <div class="g-title">&#128737;&#65039; ضمان استرداد الأموال 100%</div>
@@ -2455,7 +2455,7 @@ HOMEPAGE_HTML_AR = """
                     <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">احجز سنوياً</a>
                 </div>
             </div>
-            <p class="pricing-note">دفع آمن عبر Stripe · ادفع بالدولار الأمريكي أو اليورو أو الجنيه الإسترليني أو الدولار الكندي أو الأسترالي — تُكتشف عملتك تلقائياً عند الدفع · تُسحب أسعار المؤسسين نهائياً عند الإطلاق العام</p>
+            <p class="pricing-note">دفع آمن عبر Stripe · ادفع بالدولار الأمريكي أو اليورو أو الجنيه الإسترليني أو الدولار الكندي أو الأسترالي — تُكتشف عملتك تلقائياً عند الدفع</p>
         </div>
     </section>
 
@@ -2500,8 +2500,8 @@ HOMEPAGE_HTML_AR = """
 
     <section class="final">
         <div class="wrap">
-            <h2>سعر المؤسسين ينتهي عند الإطلاق.</h2>
-            <p>احجز باقتك الآن — عندما يصبح المحرك عاماً، تُسحب هذه الأسعار نهائياً.</p>
+            <h2>احجز باقتك التأسيسية.</h2>
+            <p>احجز باقتك الآن.</p>
             <a href="#pricing" class="btn primary">احجز باقتي</a>
         </div>
     </section>
@@ -2631,7 +2631,7 @@ HOMEPAGE_HTML_FA = """
                 <div class="step">
                     <span class="num">01</span>
                     <h3>پلن خود را رزرو کنید</h3>
-                    <p>پلن مناسب خود را پیش‌خرید کنید. قیمت بنیان‌گذاران برای همیشه روی حساب شما قفل می‌شود — پس از عرضه دیگر هرگز ارائه نخواهد شد.</p>
+                    <p>پلن مناسب خود را پیش‌خرید کنید. قیمت بنیان‌گذاران برای همیشه روی حساب شما قفل می‌شود.</p>
                 </div>
                 <div class="step">
                     <span class="num">02</span>
@@ -2691,7 +2691,7 @@ HOMEPAGE_HTML_FA = """
             <div class="sec-head center">
                 <div class="sec-label">پیش‌خرید بنیان‌گذاران</div>
                 <h2>پلن خود را پیش از عرضه قفل کنید</h2>
-                <p>هر پلن یک پیش‌خرید با قیمت بنیان‌گذاران است. هنگام عرضه موتور، اعضای بنیان‌گذار اول وارد می‌شوند — و این قیمت‌ها برای همیشه بازنشسته می‌شوند.</p>
+                <p>هر پلن یک پیش‌خرید با قیمت بنیان‌گذاران است. هنگام عرضه موتور، اعضای بنیان‌گذار اول وارد می‌شوند.</p>
             </div>
             <div class="guarantee">
                 <div class="g-title">&#128737;&#65039; ضمانت بازگشت ۱۰۰٪ وجه</div>
@@ -2765,7 +2765,7 @@ HOMEPAGE_HTML_FA = """
                     <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">رزرو سالانه</a>
                 </div>
             </div>
-            <p class="pricing-note">پرداخت امن با Stripe · با دلار آمریکا، یورو، پوند، دلار کانادا یا استرالیا بپردازید — ارز شما هنگام پرداخت خودکار تشخیص داده می‌شود · قیمت‌های بنیان‌گذاران با عرضه عمومی برای همیشه حذف می‌شوند</p>
+            <p class="pricing-note">پرداخت امن با Stripe · با دلار آمریکا، یورو، پوند، دلار کانادا یا استرالیا بپردازید — ارز شما هنگام پرداخت خودکار تشخیص داده می‌شود</p>
         </div>
     </section>
 
@@ -2810,8 +2810,8 @@ HOMEPAGE_HTML_FA = """
 
     <section class="final">
         <div class="wrap">
-            <h2>قیمت بنیان‌گذاران با عرضه پایان می‌یابد.</h2>
-            <p>همین حالا پلن خود را رزرو کنید — وقتی موتور عمومی شود، این قیمت‌ها برای همیشه حذف می‌شوند.</p>
+            <h2>پلن بنیان‌گذاری خود را رزرو کنید.</h2>
+            <p>همین حالا پلن خود را رزرو کنید.</p>
             <a href="#pricing" class="btn primary">رزرو پلن من</a>
         </div>
     </section>
@@ -2941,7 +2941,7 @@ HOMEPAGE_HTML_UR = """
                 <div class="step">
                     <span class="num">01</span>
                     <h3>اپنا پلان محفوظ کریں</h3>
-                    <p>اپنے لیے موزوں پلان پری آرڈر کریں۔ فاؤنڈر قیمت مستقل طور پر آپ کے اکاؤنٹ سے منسلک ہو جاتی ہے — لانچ کے بعد یہ دوبارہ کبھی پیش نہیں ہوگی۔</p>
+                    <p>اپنے لیے موزوں پلان پری آرڈر کریں۔ فاؤنڈر قیمت مستقل طور پر آپ کے اکاؤنٹ سے منسلک ہو جاتی ہے۔</p>
                 </div>
                 <div class="step">
                     <span class="num">02</span>
@@ -3001,7 +3001,7 @@ HOMEPAGE_HTML_UR = """
             <div class="sec-head center">
                 <div class="sec-label">فاؤنڈر پری آرڈر</div>
                 <h2>لانچ سے پہلے اپنا پلان مقفل کریں</h2>
-                <p>ہر پلان فاؤنڈر قیمت پر پری آرڈر ہے۔ انجن لانچ ہونے پر فاؤنڈنگ ممبر پہلے شامل ہوتے ہیں — اور یہ قیمتیں مستقل طور پر ختم کر دی جاتی ہیں۔</p>
+                <p>ہر پلان فاؤنڈر قیمت پر پری آرڈر ہے۔ انجن لانچ ہونے پر فاؤنڈنگ ممبر پہلے شامل ہوتے ہیں۔</p>
             </div>
             <div class="guarantee">
                 <div class="g-title">&#128737;&#65039; 100% رقم واپسی کی ضمانت</div>
@@ -3075,7 +3075,7 @@ HOMEPAGE_HTML_UR = """
                     <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">سالانہ محفوظ کریں</a>
                 </div>
             </div>
-            <p class="pricing-note">Stripe کے ذریعے محفوظ ادائیگی · USD، EUR، GBP، CAD یا AUD میں ادا کریں — چیک آؤٹ پر آپ کی کرنسی خودکار پہچانی جاتی ہے · فاؤنڈر قیمتیں عوامی لانچ پر مستقل ختم ہو جاتی ہیں</p>
+            <p class="pricing-note">Stripe کے ذریعے محفوظ ادائیگی · USD، EUR، GBP، CAD یا AUD میں ادا کریں — چیک آؤٹ پر آپ کی کرنسی خودکار پہچانی جاتی ہے</p>
         </div>
     </section>
 
@@ -3120,8 +3120,8 @@ HOMEPAGE_HTML_UR = """
 
     <section class="final">
         <div class="wrap">
-            <h2>فاؤنڈر قیمت لانچ پر ختم ہو جاتی ہے۔</h2>
-            <p>اپنا پلان ابھی محفوظ کریں — انجن عوامی ہوتے ہی یہ قیمتیں مستقل ختم ہو جائیں گی۔</p>
+            <h2>اپنا بانی پلان محفوظ کریں۔</h2>
+            <p>اپنا پلان ابھی محفوظ کریں۔</p>
             <a href="#pricing" class="btn primary">میرا پلان پری آرڈر کریں</a>
         </div>
     </section>
@@ -3251,7 +3251,7 @@ HOMEPAGE_HTML_HI = """
                 <div class="step">
                     <span class="num">01</span>
                     <h3>अपना प्लान सुरक्षित करें</h3>
-                    <p>अपने लिए सही प्लान प्री-ऑर्डर करें। फ़ाउंडर क़ीमत स्थायी रूप से आपके खाते से जुड़ जाती है — लॉन्च के बाद यह दोबारा कभी नहीं मिलेगी।</p>
+                    <p>अपने लिए सही प्लान प्री-ऑर्डर करें। फ़ाउंडर क़ीमत स्थायी रूप से आपके खाते से जुड़ जाती है।</p>
                 </div>
                 <div class="step">
                     <span class="num">02</span>
@@ -3311,7 +3311,7 @@ HOMEPAGE_HTML_HI = """
             <div class="sec-head center">
                 <div class="sec-label">फ़ाउंडर प्री-ऑर्डर</div>
                 <h2>लॉन्च से पहले अपना प्लान लॉक करें</h2>
-                <p>हर प्लान फ़ाउंडर क़ीमत पर प्री-ऑर्डर है। इंजन लॉन्च होते ही फ़ाउंडिंग सदस्य सबसे पहले शामिल होते हैं — और ये क़ीमतें स्थायी रूप से हट जाती हैं।</p>
+                <p>हर प्लान फ़ाउंडर क़ीमत पर प्री-ऑर्डर है। इंजन लॉन्च होते ही फ़ाउंडिंग सदस्य सबसे पहले शामिल होते हैं।</p>
             </div>
             <div class="guarantee">
                 <div class="g-title">&#128737;&#65039; 100% मनी-बैक गारंटी</div>
@@ -3385,7 +3385,7 @@ HOMEPAGE_HTML_HI = """
                     <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">वार्षिक सुरक्षित करें</a>
                 </div>
             </div>
-            <p class="pricing-note">Stripe से सुरक्षित भुगतान · USD, EUR, GBP, CAD या AUD में भुगतान करें — चेकआउट पर आपकी मुद्रा स्वतः पहचानी जाती है · फ़ाउंडर क़ीमतें सार्वजनिक लॉन्च पर स्थायी रूप से हट जाती हैं</p>
+            <p class="pricing-note">Stripe से सुरक्षित भुगतान · USD, EUR, GBP, CAD या AUD में भुगतान करें — चेकआउट पर आपकी मुद्रा स्वतः पहचानी जाती है</p>
         </div>
     </section>
 
@@ -3430,8 +3430,8 @@ HOMEPAGE_HTML_HI = """
 
     <section class="final">
         <div class="wrap">
-            <h2>फ़ाउंडर क़ीमत लॉन्च पर समाप्त हो जाती है।</h2>
-            <p>अपना प्लान अभी आरक्षित करें — इंजन सार्वजनिक होते ही ये क़ीमतें स्थायी रूप से हट जाएँगी।</p>
+            <h2>अपना फ़ाउंडर प्लान आरक्षित करें।</h2>
+            <p>अपना प्लान अभी आरक्षित करें।</p>
             <a href="#pricing" class="btn primary">मेरा प्लान प्री-ऑर्डर करें</a>
         </div>
     </section>
@@ -3561,7 +3561,7 @@ HOMEPAGE_HTML_BN = """
                 <div class="step">
                     <span class="num">01</span>
                     <h3>আপনার প্ল্যান নিশ্চিত করুন</h3>
-                    <p>আপনার উপযুক্ত প্ল্যানটি প্রি-অর্ডার করুন। প্রতিষ্ঠাতা মূল্য স্থায়ীভাবে আপনার অ্যাকাউন্টে লক হয়ে যায় — লঞ্চের পরে এটি আর কখনও দেওয়া হবে না।</p>
+                    <p>আপনার উপযুক্ত প্ল্যানটি প্রি-অর্ডার করুন। প্রতিষ্ঠাতা মূল্য স্থায়ীভাবে আপনার অ্যাকাউন্টে লক হয়ে যায়।</p>
                 </div>
                 <div class="step">
                     <span class="num">02</span>
@@ -3621,7 +3621,7 @@ HOMEPAGE_HTML_BN = """
             <div class="sec-head center">
                 <div class="sec-label">প্রতিষ্ঠাতা প্রি-অর্ডার</div>
                 <h2>লঞ্চের আগে আপনার প্ল্যান লক করুন</h2>
-                <p>প্রতিটি প্ল্যান প্রতিষ্ঠাতা মূল্যে প্রি-অর্ডার। ইঞ্জিন লঞ্চ হলে প্রতিষ্ঠাতা সদস্যরা আগে যুক্ত হন — এবং এই মূল্যগুলি স্থায়ীভাবে তুলে নেওয়া হয়।</p>
+                <p>প্রতিটি প্ল্যান প্রতিষ্ঠাতা মূল্যে প্রি-অর্ডার। ইঞ্জিন লঞ্চ হলে প্রতিষ্ঠাতা সদস্যরা আগে যুক্ত হন।</p>
             </div>
             <div class="guarantee">
                 <div class="g-title">&#128737;&#65039; ১০০% মানি-ব্যাক গ্যারান্টি</div>
@@ -3695,7 +3695,7 @@ HOMEPAGE_HTML_BN = """
                     <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">বার্ষিক নিশ্চিত করুন</a>
                 </div>
             </div>
-            <p class="pricing-note">Stripe-এর মাধ্যমে নিরাপদ পেমেন্ট · USD, EUR, GBP, CAD বা AUD-তে পরিশোধ করুন — চেকআউটে আপনার মুদ্রা স্বয়ংক্রিয়ভাবে শনাক্ত হয় · পাবলিক লঞ্চে প্রতিষ্ঠাতা মূল্য স্থায়ীভাবে তুলে নেওয়া হয়</p>
+            <p class="pricing-note">Stripe-এর মাধ্যমে নিরাপদ পেমেন্ট · USD, EUR, GBP, CAD বা AUD-তে পরিশোধ করুন — চেকআউটে আপনার মুদ্রা স্বয়ংক্রিয়ভাবে শনাক্ত হয়</p>
         </div>
     </section>
 
@@ -3740,8 +3740,8 @@ HOMEPAGE_HTML_BN = """
 
     <section class="final">
         <div class="wrap">
-            <h2>প্রতিষ্ঠাতা মূল্য লঞ্চেই শেষ।</h2>
-            <p>এখনই আপনার প্ল্যান সংরক্ষণ করুন — ইঞ্জিন পাবলিক হলে এই মূল্যগুলি স্থায়ীভাবে তুলে নেওয়া হবে।</p>
+            <h2>আপনার প্রতিষ্ঠাতা প্ল্যান সংরক্ষণ করুন।</h2>
+            <p>এখনই আপনার প্ল্যান সংরক্ষণ করুন।</p>
             <a href="#pricing" class="btn primary">আমার প্ল্যান প্রি-অর্ডার করুন</a>
         </div>
     </section>
@@ -3871,7 +3871,7 @@ HOMEPAGE_HTML_TA = """
                 <div class="step">
                     <span class="num">01</span>
                     <h3>உங்கள் திட்டத்தை உறுதி செய்யுங்கள்</h3>
-                    <p>உங்களுக்கு ஏற்ற திட்டத்தை முன்பதிவு செய்யுங்கள். நிறுவனர் விலை உங்கள் கணக்கில் நிரந்தரமாகப் பூட்டப்படும் — வெளியீட்டுக்குப் பிறகு அது மீண்டும் வழங்கப்படாது.</p>
+                    <p>உங்களுக்கு ஏற்ற திட்டத்தை முன்பதிவு செய்யுங்கள். நிறுவனர் விலை உங்கள் கணக்கில் நிரந்தரமாகப் பூட்டப்படும்.</p>
                 </div>
                 <div class="step">
                     <span class="num">02</span>
@@ -3931,7 +3931,7 @@ HOMEPAGE_HTML_TA = """
             <div class="sec-head center">
                 <div class="sec-label">நிறுவனர் முன்பதிவு</div>
                 <h2>வெளியீட்டுக்கு முன் உங்கள் திட்டத்தைப் பூட்டுங்கள்</h2>
-                <p>ஒவ்வொரு திட்டமும் நிறுவனர் விலையிலான முன்பதிவு. இன்ஜின் வெளியாகும்போது நிறுவனர் உறுப்பினர்கள் முதலில் இணைவார்கள் — இந்த விலைகள் நிரந்தரமாக விலக்கப்படும்.</p>
+                <p>ஒவ்வொரு திட்டமும் நிறுவனர் விலையிலான முன்பதிவு. இன்ஜின் வெளியாகும்போது நிறுவனர் உறுப்பினர்கள் முதலில் இணைவார்கள்.</p>
             </div>
             <div class="guarantee">
                 <div class="g-title">&#128737;&#65039; 100% பணத்-திரும்ப உத்தரவாதம்</div>
@@ -4005,7 +4005,7 @@ HOMEPAGE_HTML_TA = """
                     <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">ஆண்டுத் திட்டத்தை உறுதி செய்</a>
                 </div>
             </div>
-            <p class="pricing-note">Stripe மூலம் பாதுகாப்பான கட்டணம் · USD, EUR, GBP, CAD அல்லது AUD-இல் செலுத்துங்கள் — செக்அவுட்டில் உங்கள் நாணயம் தானாகக் கண்டறியப்படும் · பொது வெளியீட்டில் நிறுவனர் விலைகள் நிரந்தரமாக விலக்கப்படும்</p>
+            <p class="pricing-note">Stripe மூலம் பாதுகாப்பான கட்டணம் · USD, EUR, GBP, CAD அல்லது AUD-இல் செலுத்துங்கள் — செக்அவுட்டில் உங்கள் நாணயம் தானாகக் கண்டறியப்படும்</p>
         </div>
     </section>
 
@@ -4050,8 +4050,8 @@ HOMEPAGE_HTML_TA = """
 
     <section class="final">
         <div class="wrap">
-            <h2>நிறுவனர் விலை வெளியீட்டோடு முடிவடைகிறது.</h2>
-            <p>இப்போதே உங்கள் திட்டத்தை முன்பதிவு செய்யுங்கள் — இன்ஜின் பொதுவானதும் இந்த விலைகள் நிரந்தரமாக விலக்கப்படும்.</p>
+            <h2>உங்கள் நிறுவனர் திட்டத்தை முன்பதிவு செய்யுங்கள்.</h2>
+            <p>இப்போதே உங்கள் திட்டத்தை முன்பதிவு செய்யுங்கள்.</p>
             <a href="#pricing" class="btn primary">என் திட்டத்தை முன்பதிவு செய்</a>
         </div>
     </section>
