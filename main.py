@@ -156,7 +156,7 @@ CHAT_WIDGET = """
             if (!panel.classList.contains('open') && !seen) {
                 try { sessionStorage.setItem('paChatAuto', '1'); } catch (err) {}
                 panel.classList.add('open');
-                greet('Founding prices retire permanently at launch. Want me to match you to the right tier in 30 seconds?');
+                greet('Every pre-order is refundable before launch. Want me to match you to the right tier in 30 seconds?');
             }
         }, 12000);
 
@@ -738,7 +738,7 @@ HOMEPAGE_HTML = """
                 <div class="step">
                     <span class="num">01</span>
                     <h3>Secure Your Tier</h3>
-                    <p>Pre-order the tier that fits you. Founding pricing is locked permanently to your account &mdash; it will never be offered again after launch.</p>
+                    <p>Pre-order the tier that fits you. Your founding price is locked to your account.</p>
                 </div>
                 <div class="step">
                     <span class="num">02</span>
@@ -798,7 +798,7 @@ HOMEPAGE_HTML = """
             <div class="sec-head center">
                 <div class="sec-label">FOUNDING PRE-ORDER</div>
                 <h2>Lock your tier before launch</h2>
-                <p>Every tier is a pre-order at founding pricing. When the engine launches, founding members onboard first &mdash; and these prices are permanently retired.</p>
+                <p>Every tier is a pre-order at founding pricing. When the engine launches, founding members onboard first.</p>
             </div>
             <div class="guarantee">
                 <div class="g-title">&#128737;&#65039; 100% Money-Back Guarantee</div>
@@ -872,7 +872,7 @@ HOMEPAGE_HTML = """
                     <a href="https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07" class="btn primary">Claim Annual</a>
                 </div>
             </div>
-            <p class="pricing-note">Secure checkout via Stripe &middot; Pay in USD, EUR, GBP, CAD or AUD &mdash; your currency is detected automatically at checkout &middot; Founding prices retire permanently at public launch</p>
+            <p class="pricing-note">Secure checkout via Stripe &middot; Pay in USD, EUR, GBP, CAD or AUD &mdash; your currency is detected automatically at checkout</p>
         </div>
     </section>
 
@@ -917,8 +917,8 @@ HOMEPAGE_HTML = """
 
     <section class="final">
         <div class="wrap">
-            <h2>Founding pricing ends at launch.</h2>
-            <p>Reserve your tier now &mdash; when the engine goes public, these prices are permanently retired.</p>
+            <h2>Reserve your founding tier.</h2>
+            <p>Reserve your founding tier now &mdash; founding members onboard first when the engine goes public.</p>
             <a href="#pricing" class="btn primary">Pre-Order Your Tier</a>
         </div>
     </section>
@@ -4384,13 +4384,13 @@ YOUR SALES PROCESS (follow in order, one step per message):
 4. OBJECTIONS: answer honestly from the playbook below, then re-close ONCE. If they clearly decline twice, exit warmly and point to the FAQ. Never badger.
 
 OBJECTION PLAYBOOK:
-- "Too expensive": Founding Alpha is one-time $399.99 for lifetime access - less than one month of a typical trading-signal subscription. Early Access is $99.99/month, cancel anytime. Founding prices are permanently retired at launch (true scarcity - use it).
+- "Too expensive": Founding Alpha is one-time $399.99 for lifetime access - less than one month of a typical trading-signal subscription. Early Access is $99.99/month, cancel anytime. Every pre-order is refundable before launch, so there is no risk in reserving now.
 - "Is this a scam / can I trust you": the engine is non-custodial - it connects to THEIR exchange account via API keys THEY control and can revoke anytime; withdrawal permissions are never required; money never moves to us. Plus full refundability before launch. Checkout is Stripe.
 - "Does it actually make money": be straight - no one can guarantee trading profits and you never will. What's real: a rule-based statistical strategy (Z-score mean reversion, the same class used on institutional desks), executed without emotion, with position sizing and exposure limits enforced on every trade. The honest framing wins trust; use it.
-- "Why buy before launch": founding prices retire permanently at launch; founding members onboard first; refundable until launch so there is zero downside to reserving.
+- "Why buy before launch": founding members onboard first; refundable until launch so there is zero downside to reserving.
 
 FACTS (your only source of truth):
-- Every tier is a PRE-ORDER at founding pricing. Engine access is delivered at launch; founding members onboard first; these prices are permanently retired at public launch. Launch timeline updates are sent by email after purchase.
+- Every tier is a PRE-ORDER at founding pricing. Engine access is delivered at launch; founding members onboard first. Launch timeline updates are sent by email after purchase.
 - Tiers:
   1. Prototype - $159.99 one-time. Entry access to the prototype engine, core Z-score strategy, one market, email support. Checkout: https://buy.stripe.com/eVq7sK4Lv0xO4jbc3Md3i04
   2. Founding Alpha - $399.99 one-time, LIFETIME full-engine access, all markets and updates forever, no recurring fees, priority onboarding. Checkout: https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05
@@ -4442,7 +4442,7 @@ def offline_reply(text):
     if has("refund", "money back", "money-back", "guarantee", "chargeback"):
         return "Every pre-order is 100% refundable any time before launch - no questions asked. And the subscription tiers don't charge until the engine actually launches, so you're never paying for something you can't use yet."
     if has("discount", "promo", "coupon", "code", "cheaper", "deal", "sale"):
-        return "Use code LAUNCH50 at checkout for 50% off any tier - just enter it in the promo field on the payment page. Founding prices retire at launch, so this is the lowest it will ever be."
+        return "Use code LAUNCH50 at checkout for 50% off any tier - just enter it in the promo field on the payment page. Every pre-order is refundable before launch, so there's no risk locking in your founding price now."
     if has("prototype"):
         return "Prototype - $159.99 one-time, launches Sep 11, 2026. Entry access to the engine, the core Z-score strategy on one market, standard risk controls, and email support. It's the best starting point. Code LAUNCH50 takes 50% off. " + CHECKOUT_LINKS["prototype"]
     if has("founding", "alpha", "lifetime"):
