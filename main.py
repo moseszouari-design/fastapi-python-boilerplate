@@ -343,6 +343,44 @@ CHAT_WIDGET = """
         });
     })();
     </script>
+    <style>
+        #pa-sticky { display: none; }
+        @media (max-width: 640px) {
+            #pa-sticky { display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 45;
+                         background: #0c0f14; border-top: 1px solid #1c2230; padding: 10px 14px;
+                         align-items: center; justify-content: space-between; gap: 10px; }
+            #pa-sticky .pa-sk-label { color: #9fb0c8; font-size: 0.82rem; font-weight: 600; }
+            #pa-sticky a { background: #4f8ff7; color: #04070d; text-decoration: none; font-weight: 700;
+                           font-size: 0.85rem; padding: 11px 18px; border-radius: 9px; white-space: nowrap; }
+            #pa-chat-btn { bottom: 84px; }
+            body { padding-bottom: 62px; }
+        }
+    </style>
+    <script>
+    (function () {
+        var T = {
+            en: ['Founding pre-order', 'Reserve'], es: ['Reserva fundadora', 'Reservar'],
+            fr: ['Précommande fondatrice', 'Réserver'], de: ['Gründer-Vorbestellung', 'Sichern'],
+            pt: ['Pré-venda fundadora', 'Reservar'], ar: ['حجز المؤسسين', 'احجز'],
+            fa: ['پیش‌خرید بنیان‌گذاران', 'رزرو'], ur: ['بانی پری آرڈر', 'محفوظ کریں'],
+            hi: ['फ़ाउंडर प्री-ऑर्डर', 'रिज़र्व'], bn: ['প্রতিষ্ঠাতা প্রি-অর্ডার', 'সংরক্ষণ'],
+            ta: ['நிறுவனர் முன்பதிவு', 'முன்பதிவு']
+        };
+        var lang = (document.documentElement.lang || 'en').slice(0, 2).toLowerCase();
+        var t = T[lang] || T.en;
+        var bar = document.createElement('div');
+        bar.id = 'pa-sticky';
+        var label = document.createElement('span');
+        label.className = 'pa-sk-label';
+        label.textContent = t[0];
+        var link = document.createElement('a');
+        link.href = '#pricing';
+        link.textContent = t[1];
+        bar.appendChild(label);
+        bar.appendChild(link);
+        document.body.appendChild(bar);
+    })();
+    </script>
 """
 
 # Rendered once at import time; served from Vercel's edge cache via the
