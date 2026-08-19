@@ -4330,6 +4330,35 @@ NOT_FOUND_HTML = """
 """
 
 
+THANKS_HTML = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank you | ai PassiveAutotrades</title>
+    <meta name="robots" content="noindex">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+""" + LEGAL_STYLE + """
+</head>
+<body>
+    <div class="page" style="max-width:640px; text-align:center; padding-top:96px;">
+        <h1>You're in.</h1>
+        <p style="margin: 16px 0 8px; font-size:1.05rem;">Your founding pre-order is confirmed &mdash; thank you for reserving your spot.</p>
+        <p style="margin: 0 0 24px; color:#9fb0c8;">Here's what happens next:</p>
+        <ul style="text-align:left; display:inline-block; margin:0 auto 28px; line-height:1.9; color:#c7d2e2;">
+            <li>Launch updates go to the email you used at checkout.</li>
+            <li>Your founding price is locked to your account.</li>
+            <li>Every pre-order is fully refundable before launch &mdash; just reply to your receipt.</li>
+        </ul>
+        <p style="margin: 0 0 32px; color:#9fb0c8;">Prototype launches Sep 11, 2026 &middot; the full engine in early 2027.</p>
+        <a href="/" style="display:inline-block; background:#4f8ff7; color:#04070d; padding:14px 28px; border-radius:9px; font-weight:700;">Back to ai PassiveAutotrades</a>
+    </div>
+</body>
+</html>
+"""
+
+
 @app.get("/", response_class=HTMLResponse)
 def read_root():
     # s-maxage lets Vercel's global CDN serve the page without invoking this
@@ -4396,6 +4425,11 @@ def terms():
 @app.get("/privacy", response_class=HTMLResponse)
 def privacy():
     return HTMLResponse(content=PRIVACY_HTML, headers=CACHE_HEADERS)
+
+
+@app.get("/thanks", response_class=HTMLResponse)
+def thanks():
+    return HTMLResponse(content=THANKS_HTML, headers=CACHE_HEADERS)
 
 
 @app.get("/robots.txt", response_class=PlainTextResponse)
