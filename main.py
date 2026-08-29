@@ -44,31 +44,31 @@ def get_item(item_id: int):
 CHAT_WIDGET = """
     <style>
         #pa-chat-btn { position: fixed; bottom: 22px; right: 22px; z-index: 50; width: 58px; height: 58px;
-                       border-radius: 50%; background: #4f8ff7; color: #04070d; border: none; cursor: pointer;
+                       border-radius: 50%; background: #29d6d6; color: #04070d; border: none; cursor: pointer;
                        font-size: 1.5rem; font-weight: 700; box-shadow: 0 8px 24px rgba(0,0,0,0.45); }
         #pa-chat { position: fixed; bottom: 92px; right: 22px; z-index: 50; width: 330px; max-width: calc(100vw - 44px);
-                   height: 440px; max-height: calc(100vh - 130px); background: #0c0f14; border: 1px solid #1c2230;
+                   height: 440px; max-height: calc(100vh - 130px); background: #0b1a20; border: 1px solid #1a3640;
                    border-radius: 14px; display: none; flex-direction: column; overflow: hidden;
                    font-family: 'Inter', sans-serif; box-shadow: 0 24px 60px rgba(0,0,0,0.55); }
         #pa-chat.open { display: flex; }
-        #pa-chat-head { padding: 14px 16px; border-bottom: 1px solid #1c2230; background: #10141b;
+        #pa-chat-head { padding: 14px 16px; border-bottom: 1px solid #1a3640; background: #0f2229;
                         font-weight: 700; font-size: 0.9rem; color: #eef2f8; }
-        #pa-chat-head span { color: #4f8ff7; }
+        #pa-chat-head span { color: #29d6d6; }
         #pa-chat-msgs { flex: 1; overflow-y: auto; padding: 14px; display: flex; flex-direction: column; gap: 10px; }
         .pa-msg { max-width: 85%; padding: 9px 13px; border-radius: 12px; font-size: 0.85rem; line-height: 1.5;
                   white-space: pre-wrap; word-wrap: break-word; }
-        .pa-msg.user { align-self: flex-end; background: #4f8ff7; color: #04070d; }
-        .pa-msg.bot { align-self: flex-start; background: #161b26; color: #eef2f8; }
-        .pa-msg.bot a { color: #7db0ff; text-decoration: underline; }
+        .pa-msg.user { align-self: flex-end; background: #29d6d6; color: #04070d; }
+        .pa-msg.bot { align-self: flex-start; background: #123039; color: #eef2f8; }
+        .pa-msg.bot a { color: #7ceaea; text-decoration: underline; }
         .pa-chips { display: flex; flex-wrap: wrap; gap: 6px; }
-        .pa-chip { background: transparent; border: 1px solid #2a3450; color: #7db0ff; border-radius: 999px;
+        .pa-chip { background: transparent; border: 1px solid #245660; color: #7ceaea; border-radius: 999px;
                    padding: 6px 12px; font-size: 0.75rem; cursor: pointer; font-family: inherit; }
-        .pa-chip:hover { border-color: #4f8ff7; }
-        #pa-chat-form { display: flex; gap: 8px; padding: 12px; border-top: 1px solid #1c2230; background: #10141b; }
-        #pa-chat-in { flex: 1; background: #0c0f14; border: 1px solid #1c2230; border-radius: 8px; color: #eef2f8;
+        .pa-chip:hover { border-color: #29d6d6; }
+        #pa-chat-form { display: flex; gap: 8px; padding: 12px; border-top: 1px solid #1a3640; background: #0f2229; }
+        #pa-chat-in { flex: 1; background: #0b1a20; border: 1px solid #1a3640; border-radius: 8px; color: #eef2f8;
                       padding: 10px 12px; font-size: 0.85rem; font-family: inherit; }
-        #pa-chat-in:focus { outline: none; border-color: #4f8ff7; }
-        #pa-chat-send { background: #4f8ff7; color: #04070d; border: none; border-radius: 8px; padding: 0 16px;
+        #pa-chat-in:focus { outline: none; border-color: #29d6d6; }
+        #pa-chat-send { background: #29d6d6; color: #04070d; border: none; border-radius: 8px; padding: 0 16px;
                         font-weight: 700; cursor: pointer; font-size: 0.85rem; }
     </style>
     <button id="pa-chat-btn" aria-label="Chat with us">&#128172;</button>
@@ -193,11 +193,11 @@ CHAT_WIDGET = """
     })();
     </script>
     <style>
-        #pa-cd { background: #10141b; border: 1px solid #1c2230; border-radius: 12px; padding: 16px 18px;
+        #pa-cd { background: #0f2229; border: 1px solid #1a3640; border-radius: 12px; padding: 16px 18px;
                  margin: 0 0 26px; text-align: center; color: #eef2f8; }
         #pa-cd .pa-cd-lead { font-size: 0.9rem; color: #9fb0c8; margin-bottom: 10px; }
         #pa-cd .pa-cd-clock { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
-        #pa-cd .pa-cd-num { font-size: 1.7rem; font-weight: 800; color: #4f8ff7; font-variant-numeric: tabular-nums; line-height: 1.1; }
+        #pa-cd .pa-cd-num { font-size: 1.7rem; font-weight: 800; color: #29d6d6; font-variant-numeric: tabular-nums; line-height: 1.1; }
         #pa-cd .pa-cd-lab { font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.08em; color: #7d8aa0; }
     </style>
     <script>
@@ -265,15 +265,15 @@ CHAT_WIDGET = """
     </script>
     <style>
         #pa-cap-sec { padding: 8px 20px 64px; }
-        #pa-cap { max-width: 720px; margin: 0 auto; background: #10141b; border: 1px solid #1c2230;
+        #pa-cap { max-width: 720px; margin: 0 auto; background: #0f2229; border: 1px solid #1a3640;
                   border-radius: 14px; padding: 28px 24px; text-align: center; }
         #pa-cap h3 { color: #eef2f8; font-size: 1.2rem; font-weight: 800; margin: 0 0 6px; }
         #pa-cap p { color: #9fb0c8; font-size: 0.9rem; line-height: 1.5; margin: 0 0 18px; }
         #pa-cap form { display: flex; gap: 10px; max-width: 460px; margin: 0 auto; flex-wrap: wrap; justify-content: center; }
-        #pa-cap input { flex: 1; min-width: 200px; background: #0c0f14; border: 1px solid #1c2230; border-radius: 9px;
+        #pa-cap input { flex: 1; min-width: 200px; background: #0b1a20; border: 1px solid #1a3640; border-radius: 9px;
                         color: #eef2f8; padding: 12px 14px; font-size: 0.9rem; font-family: inherit; }
-        #pa-cap input:focus { outline: none; border-color: #4f8ff7; }
-        #pa-cap button { background: #4f8ff7; color: #04070d; border: none; border-radius: 9px; padding: 12px 22px;
+        #pa-cap input:focus { outline: none; border-color: #29d6d6; }
+        #pa-cap button { background: #29d6d6; color: #04070d; border: none; border-radius: 9px; padding: 12px 22px;
                          font-weight: 700; font-size: 0.9rem; cursor: pointer; font-family: inherit; }
         #pa-cap .pa-cap-ok { color: #46b876; font-weight: 700; font-size: 0.98rem; }
     </style>
@@ -347,10 +347,10 @@ CHAT_WIDGET = """
         #pa-sticky { display: none; }
         @media (max-width: 640px) {
             #pa-sticky { display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 45;
-                         background: #0c0f14; border-top: 1px solid #1c2230; padding: 10px 14px;
+                         background: #0b1a20; border-top: 1px solid #1a3640; padding: 10px 14px;
                          align-items: center; justify-content: space-between; gap: 10px; }
             #pa-sticky .pa-sk-label { color: #9fb0c8; font-size: 0.82rem; font-weight: 600; }
-            #pa-sticky a { background: #4f8ff7; color: #04070d; text-decoration: none; font-weight: 700;
+            #pa-sticky a { background: #29d6d6; color: #04070d; text-decoration: none; font-weight: 700;
                            font-size: 0.85rem; padding: 11px 18px; border-radius: 9px; white-space: nowrap; }
             #pa-chat-btn { bottom: 84px; }
             body { padding-bottom: 62px; }
@@ -407,7 +407,7 @@ HOMEPAGE_HTML = """
     <link rel="alternate" hreflang="ta" href="https://aipassiveautotrades.vercel.app/ta">
     <link rel="alternate" hreflang="x-default" href="https://aipassiveautotrades.vercel.app/">
     <meta name="robots" content="index, follow, max-image-preview:large">
-    <meta name="theme-color" content="#050608">
+    <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/">
     <meta property="og:site_name" content="ai PassiveAutotrades">
@@ -499,9 +499,9 @@ HOMEPAGE_HTML = """
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg: #050608; --panel: #0c0f14; --panel-2: #10141b; --line: #1c2230; --line-soft: #141924;
+            --bg: #071619; --panel: #0b1a20; --panel-2: #0f2229; --line: #1a3640; --line-soft: #13272e;
             --text: #eef2f8; --muted: #97a1b3; --faint: #5b6474;
-            --accent: #4f8ff7; --accent-soft: rgba(79,143,247,0.12); --amber: #d9a13b; --green: #46b876;
+            --accent: #29d6d6; --accent-soft: rgba(41,214,214,0.12); --amber: #d9a13b; --green: #46b876;
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         html { scroll-padding-top: 84px; }
@@ -512,7 +512,7 @@ HOMEPAGE_HTML = """
         .wrap { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
 
         /* ---------- nav ---------- */
-        nav { position: sticky; top: 0; z-index: 20; background: rgba(5,6,8,0.97); border-bottom: 1px solid var(--line-soft); }
+        nav { position: sticky; top: 0; z-index: 20; background: rgba(7,22,25,0.97); border-bottom: 1px solid var(--line-soft); }
         .nav-inner { max-width: 1160px; margin: 0 auto; padding: 0 24px; height: 68px; display: flex; align-items: center; gap: 36px; }
         .logo { font-weight: 800; font-size: 1rem; letter-spacing: 0.2px; white-space: nowrap; }
         .logo em { font-style: normal; color: var(--accent); }
@@ -528,14 +528,14 @@ HOMEPAGE_HTML = """
 
         /* ---------- hero ---------- */
         .hero { border-bottom: 1px solid var(--line-soft);
-                background: radial-gradient(ellipse 1000px 480px at 70% -120px, rgba(79,143,247,0.13), transparent 65%); }
+                background: radial-gradient(ellipse 1000px 480px at 70% -120px, rgba(41,214,214,0.13), transparent 65%); }
         .hero-grid { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 60px; align-items: center; padding: 96px 0 88px; }
         .eyebrow { display: inline-flex; align-items: center; gap: 8px; font-size: 0.72rem; font-weight: 700; letter-spacing: 2.2px;
-                   color: var(--accent); border: 1px solid rgba(79,143,247,0.35); background: var(--accent-soft);
+                   color: var(--accent); border: 1px solid rgba(41,214,214,0.35); background: var(--accent-soft);
                    padding: 6px 14px; border-radius: 999px; margin-bottom: 26px; }
         .eyebrow .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
         h1 { font-size: clamp(2.3rem, 4.6vw, 3.6rem); font-weight: 800; line-height: 1.08; letter-spacing: -0.02em; margin-bottom: 20px; }
-        h1 .grad { background: linear-gradient(90deg, #7db0ff, #4f8ff7); -webkit-background-clip: text;
+        h1 .grad { background: linear-gradient(90deg, #ff5ae0, #9a6cff, #29d6d6); -webkit-background-clip: text;
                    background-clip: text; -webkit-text-fill-color: transparent; }
         .hero-sub { color: var(--muted); font-size: 1.08rem; max-width: 480px; margin-bottom: 18px; }
         .hero-note { display: inline-block; font-size: 0.8rem; font-weight: 600; color: var(--amber);
@@ -565,7 +565,7 @@ HOMEPAGE_HTML = """
         .crow .pair { color: var(--text); font-weight: 600; }
         .crow .z { color: var(--muted); }
         .crow .sig { font-weight: 600; font-size: 0.72rem; letter-spacing: 0.5px; padding: 3px 10px; border-radius: 999px; }
-        .sig.armed { color: var(--accent); background: var(--accent-soft); border: 1px solid rgba(79,143,247,0.3); }
+        .sig.armed { color: var(--accent); background: var(--accent-soft); border: 1px solid rgba(41,214,214,0.3); }
         .sig.idle { color: var(--faint); background: rgba(92,100,117,0.1); border: 1px solid var(--line-soft); }
         .console-foot { padding: 12px 20px; border-top: 1px solid var(--line-soft); background: var(--panel-2);
                         color: var(--faint); font-size: 0.7rem; display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
@@ -607,18 +607,18 @@ HOMEPAGE_HTML = """
 
         .grid-6 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
         .cell { background: var(--panel); border: 1px solid var(--line); border-radius: 13px; padding: 26px; }
-        .cell:hover { border-color: #2a3450; }
+        .cell:hover { border-color: #245660; }
         .cell h3 { font-size: 0.98rem; margin-bottom: 8px; }
         .cell p { color: var(--muted); font-size: 0.87rem; }
         .cell .ic { display: inline-flex; width: 38px; height: 38px; align-items: center; justify-content: center;
-                    background: var(--accent-soft); border: 1px solid rgba(79,143,247,0.25); border-radius: 9px;
+                    background: var(--accent-soft); border: 1px solid rgba(41,214,214,0.25); border-radius: 9px;
                     margin-bottom: 16px; font-size: 1rem; }
 
         /* ---------- pricing ---------- */
         .tiers { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; align-items: stretch; }
         .tier { background: var(--panel); border: 1px solid var(--line); border-radius: 15px; padding: 30px 26px;
                 display: flex; flex-direction: column; }
-        .tier:hover { border-color: #2a3450; }
+        .tier:hover { border-color: #245660; }
         .tier.featured { border-color: var(--accent); position: relative; }
         .tier.featured .flag { position: absolute; top: -11px; left: 50%; transform: translateX(-50%);
                                background: var(--accent); color: #04070d; font-size: 0.66rem; font-weight: 800;
@@ -655,7 +655,7 @@ HOMEPAGE_HTML = """
         /* ---------- faq ---------- */
         .faq { max-width: 760px; margin: 0 auto; display: grid; gap: 12px; }
         details { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 0 24px; }
-        details[open] { border-color: #2a3450; }
+        details[open] { border-color: #245660; }
         summary { cursor: pointer; list-style: none; font-weight: 600; font-size: 0.96rem; padding: 20px 0;
                   display: flex; justify-content: space-between; align-items: center; gap: 16px; }
         summary::-webkit-details-marker { display: none; }
@@ -665,7 +665,7 @@ HOMEPAGE_HTML = """
 
         /* ---------- final cta ---------- */
         .final { text-align: center; border-top: 1px solid var(--line-soft);
-                 background: radial-gradient(ellipse 800px 400px at 50% 120%, rgba(79,143,247,0.12), transparent 65%); }
+                 background: radial-gradient(ellipse 800px 400px at 50% 120%, rgba(41,214,214,0.12), transparent 65%); }
         .final h2 { margin-bottom: 12px; }
         .final p { color: var(--muted); max-width: 480px; margin: 0 auto 32px; }
 
@@ -1014,7 +1014,7 @@ HOMEPAGE_HTML_ES = """
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/es">
 """ + HREFLANG_LINKS + """
     <meta name="robots" content="index, follow, max-image-preview:large">
-    <meta name="theme-color" content="#050608">
+    <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/es">
     <meta property="og:site_name" content="ai PassiveAutotrades">
@@ -1324,7 +1324,7 @@ HOMEPAGE_HTML_FR = """
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/fr">
 """ + HREFLANG_LINKS + """
     <meta name="robots" content="index, follow, max-image-preview:large">
-    <meta name="theme-color" content="#050608">
+    <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/fr">
     <meta property="og:site_name" content="ai PassiveAutotrades">
@@ -1634,7 +1634,7 @@ HOMEPAGE_HTML_DE = """
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/de">
 """ + HREFLANG_LINKS + """
     <meta name="robots" content="index, follow, max-image-preview:large">
-    <meta name="theme-color" content="#050608">
+    <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/de">
     <meta property="og:site_name" content="ai PassiveAutotrades">
@@ -1944,7 +1944,7 @@ HOMEPAGE_HTML_PT = """
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/pt">
 """ + HREFLANG_LINKS + """
     <meta name="robots" content="index, follow, max-image-preview:large">
-    <meta name="theme-color" content="#050608">
+    <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/pt">
     <meta property="og:site_name" content="ai PassiveAutotrades">
@@ -2267,7 +2267,7 @@ HOMEPAGE_HTML_AR = """
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/ar">
 """ + HREFLANG_LINKS + """
     <meta name="robots" content="index, follow, max-image-preview:large">
-    <meta name="theme-color" content="#050608">
+    <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/ar">
     <meta property="og:site_name" content="ai PassiveAutotrades">
@@ -2577,7 +2577,7 @@ HOMEPAGE_HTML_FA = """
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/fa">
 """ + HREFLANG_LINKS + """
     <meta name="robots" content="index, follow, max-image-preview:large">
-    <meta name="theme-color" content="#050608">
+    <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/fa">
     <meta property="og:site_name" content="ai PassiveAutotrades">
@@ -2887,7 +2887,7 @@ HOMEPAGE_HTML_UR = """
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/ur">
 """ + HREFLANG_LINKS + """
     <meta name="robots" content="index, follow, max-image-preview:large">
-    <meta name="theme-color" content="#050608">
+    <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/ur">
     <meta property="og:site_name" content="ai PassiveAutotrades">
@@ -3197,7 +3197,7 @@ HOMEPAGE_HTML_HI = """
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/hi">
 """ + HREFLANG_LINKS + """
     <meta name="robots" content="index, follow, max-image-preview:large">
-    <meta name="theme-color" content="#050608">
+    <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/hi">
     <meta property="og:site_name" content="ai PassiveAutotrades">
@@ -3507,7 +3507,7 @@ HOMEPAGE_HTML_BN = """
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/bn">
 """ + HREFLANG_LINKS + """
     <meta name="robots" content="index, follow, max-image-preview:large">
-    <meta name="theme-color" content="#050608">
+    <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/bn">
     <meta property="og:site_name" content="ai PassiveAutotrades">
@@ -3817,7 +3817,7 @@ HOMEPAGE_HTML_TA = """
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/ta">
 """ + HREFLANG_LINKS + """
     <meta name="robots" content="index, follow, max-image-preview:large">
-    <meta name="theme-color" content="#050608">
+    <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/ta">
     <meta property="og:site_name" content="ai PassiveAutotrades">
@@ -4119,8 +4119,8 @@ HOMEPAGE_HTML_TA = """
 LEGAL_STYLE = """
 <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { background: #050608; color: #eef2f8; font-family: 'Inter', -apple-system, sans-serif; line-height: 1.7; }
-    a { color: #4f8ff7; text-decoration: none; }
+    body { background: #071619; color: #eef2f8; font-family: 'Inter', -apple-system, sans-serif; line-height: 1.7; }
+    a { color: #29d6d6; text-decoration: none; }
     .page { max-width: 760px; margin: 0 auto; padding: 64px 24px 96px; }
     .back { display: inline-block; color: #97a1b3; font-size: 0.85rem; margin-bottom: 40px; }
     h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 8px; }
@@ -4323,7 +4323,7 @@ NOT_FOUND_HTML = """
     <div class="page" style="text-align:center; padding-top:120px;">
         <h1>404 &mdash; page not found</h1>
         <p style="margin: 16px 0 32px;">That page doesn't exist. The engine, however, does.</p>
-        <a href="/" style="display:inline-block; background:#4f8ff7; color:#04070d; padding:14px 28px; border-radius:9px; font-weight:700;">Back to ai PassiveAutotrades</a>
+        <a href="/" style="display:inline-block; background:#29d6d6; color:#04070d; padding:14px 28px; border-radius:9px; font-weight:700;">Back to ai PassiveAutotrades</a>
     </div>
 </body>
 </html>
@@ -4352,7 +4352,7 @@ THANKS_HTML = """
             <li>Every pre-order is fully refundable before launch &mdash; just reply to your receipt.</li>
         </ul>
         <p style="margin: 0 0 32px; color:#9fb0c8;">Prototype launches Sep 11, 2026 &middot; the full engine in early 2027.</p>
-        <a href="/" style="display:inline-block; background:#4f8ff7; color:#04070d; padding:14px 28px; border-radius:9px; font-weight:700;">Back to ai PassiveAutotrades</a>
+        <a href="/" style="display:inline-block; background:#29d6d6; color:#04070d; padding:14px 28px; border-radius:9px; font-weight:700;">Back to ai PassiveAutotrades</a>
     </div>
 </body>
 </html>
