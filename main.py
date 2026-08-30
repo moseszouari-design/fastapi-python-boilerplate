@@ -719,9 +719,9 @@ HOMEPAGE_HTML = """
         <div class="wrap">
             <div class="hero-grid">
                 <div>
-                    <div class="eyebrow"><span class="dot"></span>AUTOMATED Z-SCORE QUANT ENGINE</div>
+                    <div class="eyebrow"><span class="dot"></span>AN AUTOMATED CRYPTO TRADING ENGINE</div>
                     <h1>Institutional-Grade Trading,<br><span class="grad">Automated.</span></h1>
-                    <p class="hero-sub">A fully automated trading engine built on Z-score mean reversion &mdash; the same statistical methodology quant desks run &mdash; executing around the clock so you never watch a chart.</p>
+                    <p class="hero-sub">Most people lose in crypto because they trade on fear and greed. This engine feels neither. It follows one simple rule, works day and night, and never touches your money &mdash; it stays in your own account. You never have to watch a chart again.</p>
                     <div class="hero-note">Founding pre-order &mdash; lock lifetime pricing before public launch</div>
                     <div class="cta-row">
                         <a href="#pricing" class="btn primary">View Pre-Order Tiers</a>
@@ -769,24 +769,24 @@ HOMEPAGE_HTML = """
         <div class="wrap">
             <div class="sec-label">HOW IT WORKS</div>
             <div class="sec-head">
-                <h2>Three steps. Then the engine takes over.</h2>
-                <p>No signal groups, no screen time, no discretionary decisions. Once configured, every entry and exit is systematic.</p>
+                <h2>Three steps. Then it runs itself.</h2>
+                <p>No chat groups. No staring at screens. No guessing. You set it up once, and it does the rest.</p>
             </div>
             <div class="steps">
                 <div class="step">
                     <span class="num">01</span>
                     <h3>Secure Your Tier</h3>
-                    <p>Pre-order the tier that fits you. Your founding price is locked to your account.</p>
+                    <p>Pick the plan that fits you. Your low founding price is saved just for your account.</p>
                 </div>
                 <div class="step">
                     <span class="num">02</span>
                     <h3>Connect &amp; Configure</h3>
-                    <p>At launch, link the engine to your exchange account and set your risk parameters once. Your funds stay in your own account at all times.</p>
+                    <p>When it launches, connect it to your crypto account and choose how much risk you want &mdash; once. Your money stays in your own account the whole time.</p>
                 </div>
                 <div class="step">
                     <span class="num">03</span>
                     <h3>The Engine Executes</h3>
-                    <p>The Z-score core monitors statistical deviation around the clock and executes entries, exits, and position sizing automatically.</p>
+                    <p>The engine watches the market around the clock. When its rule says buy or sell, it does it for you &mdash; no clicking, no waiting up.</p>
                 </div>
             </div>
         </div>
@@ -797,8 +797,8 @@ HOMEPAGE_HTML = """
             <div class="split">
                 <div class="sec-head">
                     <div class="sec-label">THE STRATEGY</div>
-                    <h2>Why Z-score mean reversion?</h2>
-                    <p>Markets overreact. Prices stretch away from their statistical average, and stretched prices tend to snap back. A Z-score measures exactly how stretched a price is &mdash; in standard deviations &mdash; turning &ldquo;this looks overextended&rdquo; into a precise, testable number.</p>
+                    <h2>Why does the rule work?</h2>
+                    <p>Prices get emotional. When a coin shoots up or drops way too far, it usually bounces back toward normal. The engine measures how far a price has stretched, then trades that bounce. It's not a hunch &mdash; it's a number, the same kind of math big trading desks use every day.</p>
                     <ul class="checklist">
                         <li>Trades a defined statistical edge &mdash; not indicators, hunches, or hype</li>
                         <li>Every position is entered and exited by rule, with risk sized before the trade is placed</li>
@@ -818,15 +818,15 @@ HOMEPAGE_HTML = """
         <div class="wrap">
             <div class="sec-label">WHAT YOU GET</div>
             <div class="sec-head">
-                <h2>Engineered like a desk. Delivered like a product.</h2>
+                <h2>Built like a pro tool. Simple to use.</h2>
             </div>
             <div class="grid-6">
-                <div class="cell"><span class="ic">&#128202;</span><h3>Z-Score Signal Core</h3><p>Rolling-window statistical deviation drives every signal &mdash; transparent, testable, and consistent.</p></div>
-                <div class="cell"><span class="ic">&#9889;</span><h3>Millisecond Execution</h3><p>Signals fire algorithmically the moment thresholds are crossed &mdash; day, night, weekends.</p></div>
-                <div class="cell"><span class="ic">&#128737;&#65039;</span><h3>Hard Risk Limits</h3><p>Per-trade sizing, exposure caps, and automated exits are enforced on every single position.</p></div>
-                <div class="cell"><span class="ic">&#128273;</span><h3>Your Funds, Your Account</h3><p>The engine connects to your own exchange account. Capital never moves to us.</p></div>
-                <div class="cell"><span class="ic">&#128295;</span><h3>Set-Once Configuration</h3><p>Choose risk level and markets a single time. No ongoing maintenance or babysitting.</p></div>
-                <div class="cell"><span class="ic">&#128225;</span><h3>API Access <span style="color:var(--faint);font-weight:400;font-size:0.75rem">(VIP)</span></h3><p>Full programmatic access to the engine for custom integrations and monitoring.</p></div>
+                <div class="cell"><span class="ic">&#128202;</span><h3>One Clear Rule</h3><p>Every trade follows the same simple math rule. No hype, no hunches &mdash; and you can check the logic yourself.</p></div>
+                <div class="cell"><span class="ic">&#9889;</span><h3>Trades in a Flash</h3><p>The second the rule says go, it trades &mdash; day, night, or weekend. You don't have to be awake.</p></div>
+                <div class="cell"><span class="ic">&#128737;&#65039;</span><h3>Built-In Safety Limits</h3><p>It caps how much goes into any trade and closes losers on its own. Your risk is controlled on every trade.</p></div>
+                <div class="cell"><span class="ic">&#128273;</span><h3>Your Money Stays Yours</h3><p>Most bots hold your money. This one never does. It plugs into your own account &mdash; your cash never comes to us.</p></div>
+                <div class="cell"><span class="ic">&#128295;</span><h3>Set It Once</h3><p>Pick your risk and your coins one time. After that, there's nothing to manage or babysit.</p></div>
+                <div class="cell"><span class="ic">&#128225;</span><h3>Developer Access <span style="color:var(--faint);font-weight:400;font-size:0.75rem">(VIP)</span></h3><p>Plug the engine into your own tools and dashboards. For advanced users who want more control.</p></div>
             </div>
         </div>
     </section>
@@ -836,7 +836,7 @@ HOMEPAGE_HTML = """
             <div class="sec-head center">
                 <div class="sec-label">FOUNDING PRE-ORDER</div>
                 <h2>Lock your tier before launch</h2>
-                <p>Every tier is a pre-order at founding pricing. When the engine launches, founding members onboard first.</p>
+                <p>Every plan is a pre-order at the low founding price. Buy now, and you're first in line when it launches.</p>
             </div>
             <div class="guarantee">
                 <div class="g-title">&#128737;&#65039; 100% Money-Back Guarantee</div>
@@ -956,7 +956,7 @@ HOMEPAGE_HTML = """
     <section class="final">
         <div class="wrap">
             <h2>Reserve your founding tier.</h2>
-            <p>Reserve your founding tier now &mdash; founding members onboard first when the engine goes public.</p>
+            <p>Get your spot now. Founding members are first in line when it goes live.</p>
             <a href="#pricing" class="btn primary">Pre-Order Your Tier</a>
         </div>
     </section>
