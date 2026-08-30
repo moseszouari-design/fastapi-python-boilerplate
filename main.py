@@ -535,7 +535,7 @@ HOMEPAGE_HTML = """
                    padding: 6px 14px; border-radius: 999px; margin-bottom: 26px; }
         .eyebrow .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
         h1 { font-size: clamp(2.3rem, 4.6vw, 3.6rem); font-weight: 800; line-height: 1.08; letter-spacing: -0.02em; margin-bottom: 20px; }
-        h1 .grad { background: linear-gradient(90deg, #ff5ae0, #9a6cff, #29d6d6); -webkit-background-clip: text;
+        .grad { background: linear-gradient(90deg, #ff4dd8, #d94bff, #a15cff); -webkit-background-clip: text;
                    background-clip: text; -webkit-text-fill-color: transparent; }
         .hero-sub { color: var(--muted); font-size: 1.08rem; max-width: 480px; margin-bottom: 18px; }
         .hero-note { display: inline-block; font-size: 0.8rem; font-weight: 600; color: var(--amber);
@@ -720,7 +720,7 @@ HOMEPAGE_HTML = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>AN AUTOMATED CRYPTO TRADING ENGINE</div>
-                    <h1>Institutional-Grade Trading,<br><span class="grad">Automated.</span></h1>
+                    <h1>Crypto Trading That<br><span class="grad">Runs Itself.</span></h1>
                     <p class="hero-sub">Most people lose in crypto because they trade on fear and greed. This engine feels neither. It follows one simple rule, works day and night, and never touches your money &mdash; it stays in your own account. You never have to watch a chart again.</p>
                     <div class="hero-note">Founding pre-order &mdash; lock lifetime pricing before public launch</div>
                     <div class="cta-row">
@@ -769,7 +769,7 @@ HOMEPAGE_HTML = """
         <div class="wrap">
             <div class="sec-label">HOW IT WORKS</div>
             <div class="sec-head">
-                <h2>Three steps. Then it runs itself.</h2>
+                <h2>Three steps. Then it <span class="grad">runs itself.</span></h2>
                 <p>No chat groups. No staring at screens. No guessing. You set it up once, and it does the rest.</p>
             </div>
             <div class="steps">
@@ -797,7 +797,7 @@ HOMEPAGE_HTML = """
             <div class="split">
                 <div class="sec-head">
                     <div class="sec-label">THE STRATEGY</div>
-                    <h2>Why does the rule work?</h2>
+                    <h2>Why does the <span class="grad">rule work?</span></h2>
                     <p>Prices get emotional. When a coin shoots up or drops way too far, it usually bounces back toward normal. The engine measures how far a price has stretched, then trades that bounce. It's not a hunch &mdash; it's a number, the same kind of math big trading desks use every day.</p>
                     <ul class="checklist">
                         <li>Trades a defined statistical edge &mdash; not indicators, hunches, or hype</li>
@@ -818,7 +818,7 @@ HOMEPAGE_HTML = """
         <div class="wrap">
             <div class="sec-label">WHAT YOU GET</div>
             <div class="sec-head">
-                <h2>Built like a pro tool. Simple to use.</h2>
+                <h2>Built like a pro tool. <span class="grad">Simple to use.</span></h2>
             </div>
             <div class="grid-6">
                 <div class="cell"><span class="ic">&#128202;</span><h3>One Clear Rule</h3><p>Every trade follows the same simple math rule. No hype, no hunches &mdash; and you can check the logic yourself.</p></div>
@@ -835,7 +835,7 @@ HOMEPAGE_HTML = """
         <div class="wrap">
             <div class="sec-head center">
                 <div class="sec-label">FOUNDING PRE-ORDER</div>
-                <h2>Lock your tier before launch</h2>
+                <h2>Lock your tier <span class="grad">before launch</span></h2>
                 <p>Every plan is a pre-order at the low founding price. Buy now, and you're first in line when it launches.</p>
             </div>
             <div class="guarantee">
@@ -918,7 +918,7 @@ HOMEPAGE_HTML = """
         <div class="wrap">
             <div class="sec-head center">
                 <div class="sec-label">QUESTIONS</div>
-                <h2>Asked before buying</h2>
+                <h2>Asked <span class="grad">before buying</span></h2>
             </div>
             <div class="faq">
                 <details>
@@ -955,7 +955,7 @@ HOMEPAGE_HTML = """
 
     <section class="final">
         <div class="wrap">
-            <h2>Reserve your founding tier.</h2>
+            <h2>Reserve your <span class="grad">founding tier.</span></h2>
             <p>Get your spot now. Founding members are first in line when it goes live.</p>
             <a href="#pricing" class="btn primary">Pre-Order Your Tier</a>
         </div>
@@ -1050,7 +1050,7 @@ HOMEPAGE_HTML_ES = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>MOTOR CUANTITATIVO Z-SCORE AUTOMATIZADO</div>
-                    <h1>Trading de Grado Institucional,<br><span class="grad">Automatizado.</span></h1>
+                    <h1>Trading cripto que<br><span class="grad">se opera solo.</span></h1>
                     <p class="hero-sub">Un motor de trading totalmente automatizado basado en reversión a la media Z-score &mdash; la misma metodología estadística que usan las mesas cuantitativas &mdash; ejecutando las 24 horas para que nunca mires un gráfico.</p>
                     <div class="hero-note">Reserva fundadora &mdash; asegura el precio de por vida antes del lanzamiento público</div>
                     <div class="cta-row">
@@ -1360,7 +1360,7 @@ HOMEPAGE_HTML_FR = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>MOTEUR QUANTITATIF Z-SCORE AUTOMATIS&Eacute;</div>
-                    <h1>Un Trading de Niveau Institutionnel,<br><span class="grad">Automatis&eacute;.</span></h1>
+                    <h1>Le trading crypto qui<br><span class="grad">se g&egrave;re tout seul.</span></h1>
                     <p class="hero-sub">Un moteur de trading enti&egrave;rement automatis&eacute; fond&eacute; sur le retour &agrave; la moyenne Z-score &mdash; la m&ecirc;me m&eacute;thodologie statistique que les desks quantitatifs &mdash; ex&eacute;cutant 24h/24 pour que vous ne regardiez plus jamais un graphique.</p>
                     <div class="hero-note">Pr&eacute;commande fondatrice &mdash; verrouillez le tarif &agrave; vie avant le lancement public</div>
                     <div class="cta-row">
@@ -1670,7 +1670,7 @@ HOMEPAGE_HTML_DE = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>AUTOMATISIERTE Z-SCORE QUANT-ENGINE</div>
-                    <h1>Trading auf institutionellem Niveau,<br><span class="grad">Automatisiert.</span></h1>
+                    <h1>Krypto-Trading, das<br><span class="grad">sich selbst erledigt.</span></h1>
                     <p class="hero-sub">Eine vollautomatisierte Trading-Engine auf Basis von Z-Score Mean Reversion — derselben statistischen Methodik, die Quant-Desks einsetzen — rund um die Uhr aktiv, damit Sie nie wieder auf Charts starren.</p>
                     <div class="hero-note">Gründer-Vorbestellung — sichern Sie sich den Lifetime-Preis vor dem öffentlichen Launch</div>
                     <div class="cta-row">
@@ -1980,7 +1980,7 @@ HOMEPAGE_HTML_PT = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>MOTOR QUANTITATIVO Z-SCORE AUTOMATIZADO</div>
-                    <h1>Trading de Nível Institucional,<br><span class="grad">Automatizado.</span></h1>
+                    <h1>Trading de cripto que<br><span class="grad">funciona sozinho.</span></h1>
                     <p class="hero-sub">Um motor de trading totalmente automatizado baseado em reversão à média Z-score — a mesma metodologia estatística usada pelas mesas quantitativas — executando 24 horas por dia para você nunca mais olhar um gráfico.</p>
                     <div class="hero-note">Pré-venda fundadora — garanta o preço vitalício antes do lançamento público</div>
                     <div class="cta-row">
@@ -2303,7 +2303,7 @@ HOMEPAGE_HTML_AR = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>محرك كمي آلي بمؤشر Z-SCORE</div>
-                    <h1>تداول بمستوى مؤسسي،<br><span class="grad">مؤتمت.</span></h1>
+                    <h1>تداول كريبتو<br><span class="grad">يعمل من تلقاء نفسه.</span></h1>
                     <p class="hero-sub">محرك تداول آلي بالكامل مبني على استراتيجية العودة إلى المتوسط بمؤشر Z-Score — المنهجية الإحصائية ذاتها التي تعتمدها مكاتب التداول الكمي — يعمل على مدار الساعة حتى لا تراقب الرسوم البيانية مجدداً.</p>
                     <div class="hero-note">حجز مسبق للمؤسسين — ثبّت سعراً مدى الحياة قبل الإطلاق العام</div>
                     <div class="cta-row">
@@ -2613,7 +2613,7 @@ HOMEPAGE_HTML_FA = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>موتور کمّی خودکار Z-SCORE</div>
-                    <h1>معاملات در سطح نهادی،<br><span class="grad">خودکار.</span></h1>
+                    <h1>معاملات کریپتو که<br><span class="grad">خودش کار می‌کند.</span></h1>
                     <p class="hero-sub">یک موتور معاملاتی کاملاً خودکار بر پایه بازگشت به میانگین Z-Score — همان روش‌شناسی آماری میزهای معاملات کمّی — که شبانه‌روز اجرا می‌کند تا شما دیگر هرگز به نمودار خیره نشوید.</p>
                     <div class="hero-note">پیش‌خرید بنیان‌گذاران — قیمت مادام‌العمر را پیش از عرضه عمومی قفل کنید</div>
                     <div class="cta-row">
@@ -2923,7 +2923,7 @@ HOMEPAGE_HTML_UR = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>خودکار Z-SCORE کوانٹ انجن</div>
-                    <h1>ادارہ جاتی سطح کی ٹریڈنگ،<br><span class="grad">خودکار۔</span></h1>
+                    <h1>کرپٹو ٹریڈنگ جو<br><span class="grad">خود چلتی ہے۔</span></h1>
                     <p class="hero-sub">Z-Score مین ریورژن پر مبنی ایک مکمل خودکار ٹریڈنگ انجن — وہی شماریاتی طریقہ کار جو کوانٹ ڈیسک استعمال کرتے ہیں — چوبیس گھنٹے چلتا ہے تاکہ آپ کبھی چارٹ نہ دیکھیں۔</p>
                     <div class="hero-note">فاؤنڈر پری آرڈر — عوامی لانچ سے پہلے تاحیات قیمت مقفل کریں</div>
                     <div class="cta-row">
@@ -3233,7 +3233,7 @@ HOMEPAGE_HTML_HI = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>स्वचालित Z-SCORE क्वांट इंजन</div>
-                    <h1>संस्थागत-स्तर की ट्रेडिंग,<br><span class="grad">स्वचालित।</span></h1>
+                    <h1>क्रिप्टो ट्रेडिंग जो<br><span class="grad">खुद चलती है।</span></h1>
                     <p class="hero-sub">Z-Score मीन रिवर्ज़न पर बना पूर्णतः स्वचालित ट्रेडिंग इंजन — वही सांख्यिकीय पद्धति जो क्वांट डेस्क अपनाते हैं — चौबीसों घंटे चलता है ताकि आपको कभी चार्ट न देखना पड़े।</p>
                     <div class="hero-note">फ़ाउंडर प्री-ऑर्डर — सार्वजनिक लॉन्च से पहले आजीवन क़ीमत लॉक करें</div>
                     <div class="cta-row">
@@ -3543,7 +3543,7 @@ HOMEPAGE_HTML_BN = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>স্বয়ংক্রিয় Z-SCORE কোয়ান্ট ইঞ্জিন</div>
-                    <h1>প্রাতিষ্ঠানিক-মানের ট্রেডিং,<br><span class="grad">স্বয়ংক্রিয়।</span></h1>
+                    <h1>ক্রিপ্টো ট্রেডিং যা<br><span class="grad">নিজে থেকেই চলে।</span></h1>
                     <p class="hero-sub">Z-Score মিন রিভার্সনের উপর নির্মিত সম্পূর্ণ স্বয়ংক্রিয় ট্রেডিং ইঞ্জিন — কোয়ান্ট ডেস্কগুলি যে পরিসংখ্যানগত পদ্ধতি ব্যবহার করে সেটিই — চব্বিশ ঘণ্টা চলে যাতে আপনাকে আর কখনও চার্ট দেখতে না হয়।</p>
                     <div class="hero-note">প্রতিষ্ঠাতা প্রি-অর্ডার — পাবলিক লঞ্চের আগে আজীবন মূল্য লক করুন</div>
                     <div class="cta-row">
@@ -3853,7 +3853,7 @@ HOMEPAGE_HTML_TA = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>தானியங்கி Z-SCORE குவாண்ட் இன்ஜின்</div>
-                    <h1>நிறுவன தரத்திலான டிரேடிங்,<br><span class="grad">தானியங்கி.</span></h1>
+                    <h1>தானாக இயங்கும்<br><span class="grad">கிரிப்டோ ட்ரேடிங்.</span></h1>
                     <p class="hero-sub">Z-Score சராசரி மீட்சியில் கட்டப்பட்ட முழு தானியங்கி டிரேடிங் இன்ஜின் — குவாண்ட் டெஸ்க்குகள் பயன்படுத்தும் அதே புள்ளியியல் முறை — இரவு பகலாக இயங்குகிறது, நீங்கள் இனி வரைபடங்களைப் பார்க்கத் தேவையில்லை.</p>
                     <div class="hero-note">நிறுவனர் முன்பதிவு — பொது வெளியீட்டுக்கு முன் வாழ்நாள் விலையைப் பூட்டுங்கள்</div>
                     <div class="cta-row">
