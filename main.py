@@ -501,7 +501,7 @@ HOMEPAGE_HTML = """
         :root {
             --bg: #071619; --panel: #0b1a20; --panel-2: #0f2229; --line: #1a3640; --line-soft: #13272e;
             --text: #eef2f8; --muted: #97a1b3; --faint: #5b6474;
-            --accent: #29d6d6; --accent-soft: rgba(41,214,214,0.12); --amber: #d9a13b; --green: #46b876;
+            --accent: #29d6d6; --accent-soft: rgba(41,214,214,0.12); --amber: #f558c8; --green: #46b876;
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         html { scroll-padding-top: 84px; }
@@ -539,7 +539,7 @@ HOMEPAGE_HTML = """
                    background-clip: text; -webkit-text-fill-color: transparent; }
         .hero-sub { color: var(--muted); font-size: 1.08rem; max-width: 480px; margin-bottom: 18px; }
         .hero-note { display: inline-block; font-size: 0.8rem; font-weight: 600; color: var(--amber);
-                     border: 1px solid rgba(217,161,59,0.35); background: rgba(217,161,59,0.07);
+                     border: 1px solid rgba(245,88,200,0.35); background: rgba(245,88,200,0.07);
                      padding: 7px 14px; border-radius: 8px; margin-bottom: 30px; }
         .cta-row { display: flex; gap: 12px; flex-wrap: wrap; }
         .btn { display: inline-block; padding: 14px 28px; border-radius: 9px; font-weight: 700; font-size: 0.95rem; }
@@ -624,15 +624,15 @@ HOMEPAGE_HTML = """
                                background: var(--accent); color: #04070d; font-size: 0.66rem; font-weight: 800;
                                letter-spacing: 1.2px; padding: 4px 12px; border-radius: 999px; white-space: nowrap; }
         .badge { align-self: flex-start; font-size: 0.64rem; font-weight: 700; letter-spacing: 1.4px; padding: 5px 12px;
-                 border-radius: 999px; margin-bottom: 18px; color: var(--amber); border: 1px solid rgba(217,161,59,0.45);
-                 background: rgba(217,161,59,0.07); }
+                 border-radius: 999px; margin-bottom: 18px; color: var(--amber); border: 1px solid rgba(245,88,200,0.45);
+                 background: rgba(245,88,200,0.07); }
         .tier h3 { font-size: 1.02rem; margin-bottom: 4px; }
         .tier .who { color: var(--faint); font-size: 0.78rem; margin-bottom: 18px; }
         .tier .price { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; }
         .tier .per { color: var(--faint); font-size: 0.78rem; margin-bottom: 14px; }
         .tier .cap { display: inline-flex; align-items: center; gap: 7px; font-size: 0.72rem; font-weight: 700;
-                     letter-spacing: 0.4px; color: var(--amber); background: rgba(217,161,59,0.08);
-                     border: 1px solid rgba(217,161,59,0.3); border-radius: 999px; padding: 5px 12px;
+                     letter-spacing: 0.4px; color: var(--amber); background: rgba(245,88,200,0.08);
+                     border: 1px solid rgba(245,88,200,0.3); border-radius: 999px; padding: 5px 12px;
                      align-self: flex-start; margin-bottom: 20px; }
         .tier .cap::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--amber); }
         .tier .ship { display: inline-flex; align-items: center; gap: 6px; font-size: 0.72rem; font-weight: 700;
@@ -721,7 +721,7 @@ HOMEPAGE_HTML = """
                 <div>
                     <div class="eyebrow"><span class="dot"></span>AN AUTOMATED CRYPTO TRADING ENGINE</div>
                     <h1>Crypto Trading That<br><span class="grad">Runs Itself.</span></h1>
-                    <p class="hero-sub">Most people lose in crypto because they trade on fear and greed. This engine feels neither. It follows one simple rule, works day and night, and never touches your money &mdash; it stays in your own account. You never have to watch a chart again.</p>
+                    <p class="hero-sub">This engine trades crypto for you using one simple rule. It runs day and night and stays steady when the market doesn't. Your money stays in your own account &mdash; it never comes to us &mdash; and you don't have to watch a chart.</p>
                     <div class="hero-note">Founding pre-order &mdash; lock lifetime pricing before public launch</div>
                     <div class="cta-row">
                         <a href="#pricing" class="btn primary">View Pre-Order Tiers</a>
@@ -822,9 +822,9 @@ HOMEPAGE_HTML = """
             </div>
             <div class="grid-6">
                 <div class="cell"><span class="ic">&#128202;</span><h3>One Clear Rule</h3><p>Every trade follows the same simple math rule. No hype, no hunches &mdash; and you can check the logic yourself.</p></div>
-                <div class="cell"><span class="ic">&#9889;</span><h3>Trades in a Flash</h3><p>The second the rule says go, it trades &mdash; day, night, or weekend. You don't have to be awake.</p></div>
+                <div class="cell"><span class="ic">&#9889;</span><h3>Runs Day and Night</h3><p>When the rule says buy or sell, it acts right away &mdash; day, night, or weekend. You don't have to be awake.</p></div>
                 <div class="cell"><span class="ic">&#128737;&#65039;</span><h3>Built-In Safety Limits</h3><p>It caps how much goes into any trade and closes losers on its own. Your risk is controlled on every trade.</p></div>
-                <div class="cell"><span class="ic">&#128273;</span><h3>Your Money Stays Yours</h3><p>Most bots hold your money. This one never does. It plugs into your own account &mdash; your cash never comes to us.</p></div>
+                <div class="cell"><span class="ic">&#128273;</span><h3>Your Money Stays Yours</h3><p>The engine connects to your own account. Your money stays there the whole time and never comes to us.</p></div>
                 <div class="cell"><span class="ic">&#128295;</span><h3>Set It Once</h3><p>Pick your risk and your coins one time. After that, there's nothing to manage or babysit.</p></div>
                 <div class="cell"><span class="ic">&#128225;</span><h3>Developer Access <span style="color:var(--faint);font-weight:400;font-size:0.75rem">(VIP)</span></h3><p>Plug the engine into your own tools and dashboards. For advanced users who want more control.</p></div>
             </div>
