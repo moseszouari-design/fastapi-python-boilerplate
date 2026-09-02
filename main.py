@@ -914,6 +914,26 @@ HOMEPAGE_HTML = """
         </div>
     </section>
 
+    <section id="club" class="alt">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">MEMBERSHIP</div>
+                <h2>Join the <span class="grad">Insider Club</span></h2>
+                <p>Get the member price on everything, plus first access when the engine goes live.</p>
+            </div>
+            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
+                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / month</span></div>
+                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:left;display:inline-block;">
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-right:8px;">&#10003;</span>25% off any tier, every time you buy</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-right:8px;">&#10003;</span>Priority access &amp; execution queue at launch</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-right:8px;">&#10003;</span>Members-only build updates &amp; early news</li>
+                </ul>
+                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">Join the Insider Club</a></div>
+                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">Cancel anytime. Your 25% member code is emailed the moment you join.</div>
+            </div>
+        </div>
+    </section>
+
     <section id="faq">
         <div class="wrap">
             <div class="sec-head center">
