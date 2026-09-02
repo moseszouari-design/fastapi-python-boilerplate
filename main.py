@@ -951,7 +951,7 @@ HOMEPAGE_HTML = """
                     <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;">
                         <li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-right:8px;">&#10003;</span>Everything in Pro</li>
                         <li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-right:8px;">&#10003;</span>Priority execution queue at launch</li>
-                        <li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-right:8px;">&#10003;</span>Full API access</li>
+                        <li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-right:8px;">&#10003;</span>Request custom features &amp; get instant feedback on your ideas</li>
                     </ul>
                     <a href="https://buy.stripe.com/aFaaEW2DneoE9Dvc3Md3i0a" class="btn ghost" style="text-align:center;">Join Elite</a>
                 </div>
@@ -1295,18 +1295,33 @@ HOMEPAGE_HTML_ES = """
             <div class="sec-head center">
                 <div class="sec-label">MEMBRESÍA</div>
                 <h2>Únete al <span class="grad">Insider Club</span></h2>
-                <p>Consigue el precio de socio en todo, y acceso primero cuando el motor se lance.</p>
+                <p>Los socios reciben un descuento fijo en cada plan, con ventajas que crecen con su membresía.</p>
             </div>
-            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
-                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / mes</span></div>
-                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:start;display:inline-block;">
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>25% de descuento en cualquier plan, cada compra</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Acceso prioritario y cola de ejecución en el lanzamiento</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Novedades de desarrollo y noticias anticipadas solo para socios</li>
-                </ul>
-                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">Únete al Insider Club</a></div>
-                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">Cancela cuando quieras. Tu código de socio del 25% se envía por email al instante.</div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;max-width:980px;margin:0 auto;align-items:stretch;">
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / mes</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">25% de descuento en cualquier plan</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Acceso prioritario en el lanzamiento</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Novedades solo para socios</li></ul>
+                    <a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn ghost" style="text-align:center;">Únete a Insider</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--accent);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;position:relative;">
+                    <span style="position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--accent);color:#04141a;font-size:0.68rem;font-weight:800;letter-spacing:0.06em;padding:4px 12px;border-radius:999px;">MÁS POPULAR</span>
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Pro</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$129.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / mes</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">30% de descuento en cualquier plan</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Todo lo de Insider</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Soporte prioritario por email</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Adelantos de nuevas funciones</li></ul>
+                    <a href="https://buy.stripe.com/eVqbJ04Lv4O44jb2tcd3i09" class="btn primary" style="text-align:center;">Únete a Pro</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Elite</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$249.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / mes</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">40% de descuento en cualquier plan</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Todo lo de Pro</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Cola de ejecución prioritaria en el lanzamiento</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Pide funciones personalizadas y recibe feedback al instante sobre tus ideas</li></ul>
+                    <a href="https://buy.stripe.com/aFaaEW2DneoE9Dvc3Md3i0a" class="btn ghost" style="text-align:center;">Únete a Elite</a>
+                </div>
             </div>
+            <div style="text-align:center;color:var(--faint);font-size:0.78rem;margin-top:22px;">Cancela cuando quieras. Tu código de socio se envía por email al instante.</div>
         </div>
     </section>
 
@@ -1625,18 +1640,33 @@ HOMEPAGE_HTML_FR = """
             <div class="sec-head center">
                 <div class="sec-label">ADHÉSION</div>
                 <h2>Rejoignez le <span class="grad">Insider Club</span></h2>
-                <p>Obtenez le prix membre sur tout, et un accès prioritaire au lancement du moteur.</p>
+                <p>Les membres bénéficient d'une remise permanente sur chaque plan, avec des avantages qui grandissent avec l'adhésion.</p>
             </div>
-            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
-                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / mois</span></div>
-                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:start;display:inline-block;">
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>25% de réduction sur tous les plans, à chaque achat</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Accès prioritaire et file d'exécution au lancement</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Mises à jour de développement et actus en avant-première réservées aux membres</li>
-                </ul>
-                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">Rejoindre l'Insider Club</a></div>
-                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">Annulez à tout moment. Votre code membre de 25% est envoyé par e-mail dès l'inscription.</div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;max-width:980px;margin:0 auto;align-items:stretch;">
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / mois</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">25% de réduction sur tous les plans</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Accès prioritaire au lancement</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Actus réservées aux membres</li></ul>
+                    <a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn ghost" style="text-align:center;">Rejoindre Insider</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--accent);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;position:relative;">
+                    <span style="position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--accent);color:#04141a;font-size:0.68rem;font-weight:800;letter-spacing:0.06em;padding:4px 12px;border-radius:999px;">LE PLUS POPULAIRE</span>
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Pro</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$129.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / mois</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">30% de réduction sur tous les plans</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Tout Insider</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Support prioritaire par e-mail</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Aperçus des nouvelles fonctionnalités</li></ul>
+                    <a href="https://buy.stripe.com/eVqbJ04Lv4O44jb2tcd3i09" class="btn primary" style="text-align:center;">Rejoindre Pro</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Elite</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$249.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / mois</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">40% de réduction sur tous les plans</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Tout Pro</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>File d'exécution prioritaire au lancement</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Demandez des fonctionnalités sur mesure et un retour instantané sur vos idées</li></ul>
+                    <a href="https://buy.stripe.com/aFaaEW2DneoE9Dvc3Md3i0a" class="btn ghost" style="text-align:center;">Rejoindre Elite</a>
+                </div>
             </div>
+            <div style="text-align:center;color:var(--faint);font-size:0.78rem;margin-top:22px;">Annulez à tout moment. Votre code membre est envoyé par e-mail immédiatement.</div>
         </div>
     </section>
 
@@ -1955,18 +1985,33 @@ HOMEPAGE_HTML_DE = """
             <div class="sec-head center">
                 <div class="sec-label">MITGLIEDSCHAFT</div>
                 <h2>Werde Mitglied im <span class="grad">Insider Club</span></h2>
-                <p>Sichere dir den Mitgliederpreis auf alles und Erstzugang beim Start der Engine.</p>
+                <p>Mitglieder erhalten einen festen Rabatt auf jede Stufe, mit Vorteilen, die mit der Mitgliedschaft wachsen.</p>
             </div>
-            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
-                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / Monat</span></div>
-                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:start;display:inline-block;">
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>25% Rabatt auf jede Stufe, bei jedem Kauf</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Prioritätszugang & Ausführungswarteschlange beim Start</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Nur-für-Mitglieder Entwicklungs-Updates & frühe News</li>
-                </ul>
-                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">Insider Club beitreten</a></div>
-                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">Jederzeit kündbar. Dein 25%-Mitgliedscode kommt sofort per E-Mail.</div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;max-width:980px;margin:0 auto;align-items:stretch;">
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / Monat</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">25% Rabatt auf jede Stufe</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Prioritätszugang beim Start</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Updates nur für Mitglieder</li></ul>
+                    <a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn ghost" style="text-align:center;">Insider beitreten</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--accent);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;position:relative;">
+                    <span style="position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--accent);color:#04141a;font-size:0.68rem;font-weight:800;letter-spacing:0.06em;padding:4px 12px;border-radius:999px;">AM BELIEBTESTEN</span>
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Pro</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$129.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / Monat</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">30% Rabatt auf jede Stufe</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Alles aus Insider</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Prioritäts-Support per E-Mail</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Frühe Feature-Vorschauen</li></ul>
+                    <a href="https://buy.stripe.com/eVqbJ04Lv4O44jb2tcd3i09" class="btn primary" style="text-align:center;">Pro beitreten</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Elite</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$249.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / Monat</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">40% Rabatt auf jede Stufe</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Alles aus Pro</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Prioritäts-Ausführungswarteschlange beim Start</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Eigene Funktionen anfragen und sofortiges Feedback zu deinen Ideen erhalten</li></ul>
+                    <a href="https://buy.stripe.com/aFaaEW2DneoE9Dvc3Md3i0a" class="btn ghost" style="text-align:center;">Elite beitreten</a>
+                </div>
             </div>
+            <div style="text-align:center;color:var(--faint);font-size:0.78rem;margin-top:22px;">Jederzeit kündbar. Dein Mitgliedscode kommt sofort per E-Mail.</div>
         </div>
     </section>
 
@@ -2285,18 +2330,33 @@ HOMEPAGE_HTML_PT = """
             <div class="sec-head center">
                 <div class="sec-label">ASSINATURA</div>
                 <h2>Entre no <span class="grad">Insider Club</span></h2>
-                <p>Tenha o preço de membro em tudo e acesso primeiro quando o motor for lançado.</p>
+                <p>Membros recebem um desconto fixo em cada plano, com vantagens que crescem com a assinatura.</p>
             </div>
-            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
-                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / mês</span></div>
-                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:start;display:inline-block;">
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>25% de desconto em qualquer plano, toda compra</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Acesso prioritário e fila de execução no lançamento</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Atualizações de desenvolvimento e novidades antecipadas só para membros</li>
-                </ul>
-                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">Entrar no Insider Club</a></div>
-                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">Cancele quando quiser. Seu código de membro de 25% é enviado por e-mail na hora.</div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;max-width:980px;margin:0 auto;align-items:stretch;">
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / mês</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">25% de desconto em qualquer plano</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Acesso prioritário no lançamento</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Novidades só para membros</li></ul>
+                    <a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn ghost" style="text-align:center;">Entrar no Insider</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--accent);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;position:relative;">
+                    <span style="position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--accent);color:#04141a;font-size:0.68rem;font-weight:800;letter-spacing:0.06em;padding:4px 12px;border-radius:999px;">MAIS POPULAR</span>
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Pro</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$129.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / mês</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">30% de desconto em qualquer plano</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Tudo do Insider</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Suporte prioritário por e-mail</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Prévias de novos recursos</li></ul>
+                    <a href="https://buy.stripe.com/eVqbJ04Lv4O44jb2tcd3i09" class="btn primary" style="text-align:center;">Entrar no Pro</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Elite</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$249.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / mês</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">40% de desconto em qualquer plano</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Tudo do Pro</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Fila de execução prioritária no lançamento</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Peça recursos personalizados e receba feedback instantâneo sobre suas ideias</li></ul>
+                    <a href="https://buy.stripe.com/aFaaEW2DneoE9Dvc3Md3i0a" class="btn ghost" style="text-align:center;">Entrar no Elite</a>
+                </div>
             </div>
+            <div style="text-align:center;color:var(--faint);font-size:0.78rem;margin-top:22px;">Cancele quando quiser. Seu código de membro é enviado por e-mail na hora.</div>
         </div>
     </section>
 
@@ -2628,18 +2688,33 @@ HOMEPAGE_HTML_AR = """
             <div class="sec-head center">
                 <div class="sec-label">العضوية</div>
                 <h2>انضم إلى <span class="grad">Insider Club</span></h2>
-                <p>احصل على سعر الأعضاء على كل شيء، مع وصول أول عند إطلاق المحرك.</p>
+                <p>يحصل الأعضاء على خصم ثابت على كل باقة، مع مزايا تكبر مع عضويتك.</p>
             </div>
-            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
-                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / شهر</span></div>
-                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:start;display:inline-block;">
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>خصم 25% على أي باقة، في كل عملية شراء</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>وصول ذو أولوية وطابور تنفيذ عند الإطلاق</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>تحديثات التطوير وأخبار مبكرة للأعضاء فقط</li>
-                </ul>
-                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">انضم إلى Insider Club</a></div>
-                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">ألغِ في أي وقت. يُرسَل كود عضويتك بخصم 25% عبر البريد فوراً.</div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;max-width:980px;margin:0 auto;align-items:stretch;">
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / شهر</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">خصم 25% على أي باقة</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>وصول ذو أولوية عند الإطلاق</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>تحديثات للأعضاء فقط</li></ul>
+                    <a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn ghost" style="text-align:center;">انضم إلى Insider</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--accent);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;position:relative;">
+                    <span style="position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--accent);color:#04141a;font-size:0.68rem;font-weight:800;letter-spacing:0.06em;padding:4px 12px;border-radius:999px;">الأكثر شيوعاً</span>
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Pro</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$129.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / شهر</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">خصم 30% على أي باقة</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>كل مزايا Insider</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>دعم ذو أولوية عبر البريد</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>معاينات مبكرة للميزات</li></ul>
+                    <a href="https://buy.stripe.com/eVqbJ04Lv4O44jb2tcd3i09" class="btn primary" style="text-align:center;">انضم إلى Pro</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Elite</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$249.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / شهر</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">خصم 40% على أي باقة</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>كل مزايا Pro</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>طابور تنفيذ ذو أولوية عند الإطلاق</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>اطلب ميزات مخصصة واحصل على ردود فورية على أفكارك</li></ul>
+                    <a href="https://buy.stripe.com/aFaaEW2DneoE9Dvc3Md3i0a" class="btn ghost" style="text-align:center;">انضم إلى Elite</a>
+                </div>
             </div>
+            <div style="text-align:center;color:var(--faint);font-size:0.78rem;margin-top:22px;">ألغِ في أي وقت. يُرسَل كود عضويتك عبر البريد فوراً.</div>
         </div>
     </section>
 
@@ -2958,18 +3033,33 @@ HOMEPAGE_HTML_FA = """
             <div class="sec-head center">
                 <div class="sec-label">عضویت</div>
                 <h2>به <span class="grad">Insider Club</span> بپیوندید</h2>
-                <p>قیمت اعضا را روی همه‌چیز بگیرید و هنگام عرضه موتور، اول دسترسی داشته باشید.</p>
+                <p>اعضا روی هر پلن تخفیف ثابت می‌گیرند، با مزایایی که با عضویت شما بیشتر می‌شود.</p>
             </div>
-            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
-                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / ماه</span></div>
-                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:start;display:inline-block;">
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>۲۵٪ تخفیف روی هر پلن، در هر خرید</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>دسترسی با اولویت و صف اجرا هنگام عرضه</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>به‌روزرسانی‌های ساخت و اخبار زودهنگام ویژه اعضا</li>
-                </ul>
-                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">عضویت در Insider Club</a></div>
-                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">هر زمان لغو کنید. کد ۲۵٪ اعضای شما بلافاصله ایمیل می‌شود.</div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;max-width:980px;margin:0 auto;align-items:stretch;">
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / ماه</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">۲۵٪ تخفیف روی هر پلن</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>دسترسی با اولویت هنگام عرضه</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>به‌روزرسانی‌های ویژه اعضا</li></ul>
+                    <a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn ghost" style="text-align:center;">عضویت در Insider</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--accent);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;position:relative;">
+                    <span style="position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--accent);color:#04141a;font-size:0.68rem;font-weight:800;letter-spacing:0.06em;padding:4px 12px;border-radius:999px;">محبوب‌ترین</span>
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Pro</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$129.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / ماه</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">۳۰٪ تخفیف روی هر پلن</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>همه‌ی مزایای Insider</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>پشتیبانی با اولویت از طریق ایمیل</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>پیش‌نمایش زودهنگام ویژگی‌ها</li></ul>
+                    <a href="https://buy.stripe.com/eVqbJ04Lv4O44jb2tcd3i09" class="btn primary" style="text-align:center;">عضویت در Pro</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Elite</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$249.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / ماه</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">۴۰٪ تخفیف روی هر پلن</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>همه‌ی مزایای Pro</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>صف اجرای با اولویت هنگام عرضه</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>درخواست ویژگی‌های سفارشی و دریافت بازخورد فوری روی ایده‌هایتان</li></ul>
+                    <a href="https://buy.stripe.com/aFaaEW2DneoE9Dvc3Md3i0a" class="btn ghost" style="text-align:center;">عضویت در Elite</a>
+                </div>
             </div>
+            <div style="text-align:center;color:var(--faint);font-size:0.78rem;margin-top:22px;">هر زمان لغو کنید. کد عضویت شما بلافاصله ایمیل می‌شود.</div>
         </div>
     </section>
 
@@ -3288,18 +3378,33 @@ HOMEPAGE_HTML_UR = """
             <div class="sec-head center">
                 <div class="sec-label">ممبرشپ</div>
                 <h2><span class="grad">Insider Club</span> میں شامل ہوں</h2>
-                <p>ہر چیز پر ممبر قیمت حاصل کریں، اور انجن لانچ ہونے پر پہلے رسائی پائیں۔</p>
+                <p>ممبرز کو ہر پلان پر مستقل رعایت ملتی ہے، ایسی مراعات کے ساتھ جو آپ کی ممبرشپ کے ساتھ بڑھتی ہیں۔</p>
             </div>
-            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
-                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / ماہ</span></div>
-                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:start;display:inline-block;">
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>کسی بھی پلان پر 25% رعایت، ہر خریداری پر</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>ترجیحی رسائی اور لانچ پر ایگزیکیوشن قطار</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>صرف ممبرز کے لیے ڈیولپمنٹ اپڈیٹس اور جلد خبریں</li>
-                </ul>
-                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">Insider Club میں شامل ہوں</a></div>
-                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">کسی بھی وقت منسوخ کریں۔ آپ کا 25% ممبر کوڈ فوراً ای میل ہو جاتا ہے۔</div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;max-width:980px;margin:0 auto;align-items:stretch;">
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / ماہ</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">کسی بھی پلان پر 25% رعایت</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>لانچ پر ترجیحی رسائی</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>صرف ممبرز کے لیے اپڈیٹس</li></ul>
+                    <a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn ghost" style="text-align:center;">Insider میں شامل ہوں</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--accent);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;position:relative;">
+                    <span style="position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--accent);color:#04141a;font-size:0.68rem;font-weight:800;letter-spacing:0.06em;padding:4px 12px;border-radius:999px;">سب سے مقبول</span>
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Pro</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$129.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / ماہ</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">کسی بھی پلان پر 30% رعایت</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Insider کی تمام سہولیات</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>ای میل پر ترجیحی سپورٹ</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>نئی خصوصیات کی جلد جھلک</li></ul>
+                    <a href="https://buy.stripe.com/eVqbJ04Lv4O44jb2tcd3i09" class="btn primary" style="text-align:center;">Pro میں شامل ہوں</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Elite</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$249.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / ماہ</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">کسی بھی پلان پر 40% رعایت</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Pro کی تمام سہولیات</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>لانچ پر ترجیحی ایگزیکیوشن قطار</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>اپنی مرضی کی خصوصیات کی درخواست کریں اور اپنے آئیڈیاز پر فوری فیڈبیک حاصل کریں</li></ul>
+                    <a href="https://buy.stripe.com/aFaaEW2DneoE9Dvc3Md3i0a" class="btn ghost" style="text-align:center;">Elite میں شامل ہوں</a>
+                </div>
             </div>
+            <div style="text-align:center;color:var(--faint);font-size:0.78rem;margin-top:22px;">کسی بھی وقت منسوخ کریں۔ آپ کا ممبر کوڈ فوراً ای میل ہو جاتا ہے۔</div>
         </div>
     </section>
 
@@ -3618,18 +3723,33 @@ HOMEPAGE_HTML_HI = """
             <div class="sec-head center">
                 <div class="sec-label">मेंबरशिप</div>
                 <h2><span class="grad">Insider Club</span> से जुड़ें</h2>
-                <p>हर चीज़ पर मेंबर क़ीमत पाएं, और इंजन लॉन्च होने पर पहले पहुँच पाएं।</p>
+                <p>सदस्यों को हर प्लान पर एक तय छूट मिलती है, और ऐसी सुविधाएँ जो आपकी मेंबरशिप के साथ बढ़ती हैं।</p>
             </div>
-            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
-                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / माह</span></div>
-                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:start;display:inline-block;">
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>किसी भी प्लान पर 25% छूट, हर खरीद पर</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>प्राथमिकता पहुँच और लॉन्च पर एग्ज़िक्यूशन क़तार</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>केवल सदस्यों के लिए डेवलपमेंट अपडेट और जल्दी ख़बरें</li>
-                </ul>
-                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">Insider Club से जुड़ें</a></div>
-                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">कभी भी रद्द करें। आपका 25% मेंबर कोड तुरंत ईमेल किया जाता है।</div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;max-width:980px;margin:0 auto;align-items:stretch;">
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / माह</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">किसी भी प्लान पर 25% छूट</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>लॉन्च पर प्राथमिकता पहुँच</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>केवल सदस्यों के लिए अपडेट</li></ul>
+                    <a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn ghost" style="text-align:center;">Insider से जुड़ें</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--accent);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;position:relative;">
+                    <span style="position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--accent);color:#04141a;font-size:0.68rem;font-weight:800;letter-spacing:0.06em;padding:4px 12px;border-radius:999px;">सबसे लोकप्रिय</span>
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Pro</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$129.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / माह</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">किसी भी प्लान पर 30% छूट</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Insider की सभी सुविधाएँ</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>ईमेल पर प्राथमिकता सपोर्ट</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>नई सुविधाओं की जल्दी झलक</li></ul>
+                    <a href="https://buy.stripe.com/eVqbJ04Lv4O44jb2tcd3i09" class="btn primary" style="text-align:center;">Pro से जुड़ें</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Elite</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$249.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / माह</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">किसी भी प्लान पर 40% छूट</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Pro की सभी सुविधाएँ</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>लॉन्च पर प्राथमिकता एग्ज़िक्यूशन क़तार</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>कस्टम फ़ीचर का अनुरोध करें और अपने आइडिया पर तुरंत फ़ीडबैक पाएं</li></ul>
+                    <a href="https://buy.stripe.com/aFaaEW2DneoE9Dvc3Md3i0a" class="btn ghost" style="text-align:center;">Elite से जुड़ें</a>
+                </div>
             </div>
+            <div style="text-align:center;color:var(--faint);font-size:0.78rem;margin-top:22px;">कभी भी रद्द करें। आपका मेंबर कोड तुरंत ईमेल किया जाता है।</div>
         </div>
     </section>
 
@@ -3948,18 +4068,33 @@ HOMEPAGE_HTML_BN = """
             <div class="sec-head center">
                 <div class="sec-label">মেম্বারশিপ</div>
                 <h2><span class="grad">Insider Club</span>-এ যোগ দিন</h2>
-                <p>সবকিছুতে মেম্বার মূল্য পান, আর ইঞ্জিন চালু হলে প্রথম অ্যাক্সেস পান।</p>
+                <p>মেম্বাররা প্রতিটি প্ল্যানে একটি স্থায়ী ছাড় পান, আর সুবিধা যা আপনার মেম্বারশিপের সাথে বাড়ে।</p>
             </div>
-            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
-                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / মাস</span></div>
-                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:start;display:inline-block;">
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>যেকোনো প্ল্যানে 25% ছাড়, প্রতিবার কেনাকাটায়</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>অগ্রাধিকার অ্যাক্সেস ও লঞ্চে এক্সিকিউশন সারি</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>শুধু মেম্বারদের জন্য ডেভেলপমেন্ট আপডেট ও আগাম খবর</li>
-                </ul>
-                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">Insider Club-এ যোগ দিন</a></div>
-                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">যেকোনো সময় বাতিল করুন। আপনার 25% মেম্বার কোড সঙ্গে সঙ্গে ইমেল করা হয়।</div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;max-width:980px;margin:0 auto;align-items:stretch;">
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / মাস</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">যেকোনো প্ল্যানে 25% ছাড়</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>লঞ্চে অগ্রাধিকার অ্যাক্সেস</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>শুধু মেম্বারদের জন্য আপডেট</li></ul>
+                    <a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn ghost" style="text-align:center;">Insider-এ যোগ দিন</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--accent);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;position:relative;">
+                    <span style="position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--accent);color:#04141a;font-size:0.68rem;font-weight:800;letter-spacing:0.06em;padding:4px 12px;border-radius:999px;">সবচেয়ে জনপ্রিয়</span>
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Pro</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$129.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / মাস</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">যেকোনো প্ল্যানে 30% ছাড়</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Insider-এর সব কিছু</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>ইমেলে অগ্রাধিকার সাপোর্ট</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>নতুন ফিচারের আগাম ঝলক</li></ul>
+                    <a href="https://buy.stripe.com/eVqbJ04Lv4O44jb2tcd3i09" class="btn primary" style="text-align:center;">Pro-এ যোগ দিন</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Elite</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$249.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / মাস</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">যেকোনো প্ল্যানে 40% ছাড়</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Pro-এর সব কিছু</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>লঞ্চে অগ্রাধিকার এক্সিকিউশন সারি</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>কাস্টম ফিচারের অনুরোধ করুন এবং আপনার আইডিয়ায় সঙ্গে সঙ্গে ফিডব্যাক পান</li></ul>
+                    <a href="https://buy.stripe.com/aFaaEW2DneoE9Dvc3Md3i0a" class="btn ghost" style="text-align:center;">Elite-এ যোগ দিন</a>
+                </div>
             </div>
+            <div style="text-align:center;color:var(--faint);font-size:0.78rem;margin-top:22px;">যেকোনো সময় বাতিল করুন। আপনার মেম্বার কোড সঙ্গে সঙ্গে ইমেল করা হয়।</div>
         </div>
     </section>
 
@@ -4278,18 +4413,33 @@ HOMEPAGE_HTML_TA = """
             <div class="sec-head center">
                 <div class="sec-label">உறுப்பினர்</div>
                 <h2><span class="grad">Insider Club</span> இல் இணையுங்கள்</h2>
-                <p>எல்லாவற்றிலும் உறுப்பினர் விலை பெறுங்கள், இன்ஜின் வெளியாகும்போது முதல் அணுகல் பெறுங்கள்.</p>
+                <p>உறுப்பினர்கள் ஒவ்வொரு திட்டத்திலும் நிலையான தள்ளுபடி பெறுகிறார்கள், உங்கள் உறுப்பினர் நிலைக்கு ஏற்ப வளரும் சலுகைகளுடன்.</p>
             </div>
-            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
-                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / மாதம்</span></div>
-                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:start;display:inline-block;">
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>எந்த திட்டத்திலும் 25% தள்ளுபடி, ஒவ்வொரு வாங்குதலிலும்</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>முன்னுரிமை அணுகல் மற்றும் வெளியீட்டில் செயலாக்க வரிசை</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>உறுப்பினர்களுக்கு மட்டும் உருவாக்க புதுப்பிப்புகள் & முன்கூட்டிய செய்திகள்</li>
-                </ul>
-                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">Insider Club இல் இணையுங்கள்</a></div>
-                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">எப்போது வேண்டுமானாலும் ரத்து செய்யலாம். உங்கள் 25% உறுப்பினர் குறியீடு உடனே மின்னஞ்சல் செய்யப்படும்.</div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;max-width:980px;margin:0 auto;align-items:stretch;">
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / மாதம்</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">எந்த திட்டத்திலும் 25% தள்ளுபடி</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>வெளியீட்டில் முன்னுரிமை அணுகல்</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>உறுப்பினர்களுக்கு மட்டும் புதுப்பிப்புகள்</li></ul>
+                    <a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn ghost" style="text-align:center;">Insider இல் இணையுங்கள்</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--accent);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;position:relative;">
+                    <span style="position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--accent);color:#04141a;font-size:0.68rem;font-weight:800;letter-spacing:0.06em;padding:4px 12px;border-radius:999px;">மிகவும் பிரபலம்</span>
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Pro</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$129.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / மாதம்</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">எந்த திட்டத்திலும் 30% தள்ளுபடி</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Insider இல் உள்ள அனைத்தும்</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>மின்னஞ்சலில் முன்னுரிமை ஆதரவு</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>புதிய அம்சங்களின் முன்னோட்டம்</li></ul>
+                    <a href="https://buy.stripe.com/eVqbJ04Lv4O44jb2tcd3i09" class="btn primary" style="text-align:center;">Pro இல் இணையுங்கள்</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Elite</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$249.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / மாதம்</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">எந்த திட்டத்திலும் 40% தள்ளுபடி</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;"><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Pro இல் உள்ள அனைத்தும்</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>வெளியீட்டில் முன்னுரிமை செயலாக்க வரிசை</li><li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>தனிப்பயன் அம்சங்களைக் கோருங்கள், உங்கள் யோசனைகளுக்கு உடனடி கருத்து பெறுங்கள்</li></ul>
+                    <a href="https://buy.stripe.com/aFaaEW2DneoE9Dvc3Md3i0a" class="btn ghost" style="text-align:center;">Elite இல் இணையுங்கள்</a>
+                </div>
             </div>
+            <div style="text-align:center;color:var(--faint);font-size:0.78rem;margin-top:22px;">எப்போது வேண்டுமானாலும் ரத்து செய்யலாம். உங்கள் உறுப்பினர் குறியீடு உடனே மின்னஞ்சல் செய்யப்படும்.</div>
         </div>
     </section>
 
