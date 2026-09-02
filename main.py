@@ -1264,6 +1264,26 @@ HOMEPAGE_HTML_ES = """
         </div>
     </section>
 
+    <section id="club" class="alt">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">MEMBRESÍA</div>
+                <h2>Únete al <span class="grad">Insider Club</span></h2>
+                <p>Consigue el precio de socio en todo, y acceso primero cuando el motor se lance.</p>
+            </div>
+            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
+                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / mes</span></div>
+                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:start;display:inline-block;">
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>25% de descuento en cualquier plan, cada compra</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Acceso prioritario y cola de ejecución en el lanzamiento</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Novedades de desarrollo y noticias anticipadas solo para socios</li>
+                </ul>
+                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">Únete al Insider Club</a></div>
+                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">Cancela cuando quieras. Tu código de socio del 25% se envía por email al instante.</div>
+            </div>
+        </div>
+    </section>
+
     <section id="faq">
         <div class="wrap">
             <div class="sec-head center">
@@ -1571,6 +1591,26 @@ HOMEPAGE_HTML_FR = """
                 </div>
             </div>
             <p class="pricing-note">Paiement s&eacute;curis&eacute; via Stripe &middot; Payez en USD, EUR, GBP, CAD ou AUD &mdash; votre devise est d&eacute;tect&eacute;e automatiquement au paiement</p>
+        </div>
+    </section>
+
+    <section id="club" class="alt">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">ADHÉSION</div>
+                <h2>Rejoignez le <span class="grad">Insider Club</span></h2>
+                <p>Obtenez le prix membre sur tout, et un accès prioritaire au lancement du moteur.</p>
+            </div>
+            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
+                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / mois</span></div>
+                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:start;display:inline-block;">
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>25% de réduction sur tous les plans, à chaque achat</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Accès prioritaire et file d'exécution au lancement</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Mises à jour de développement et actus en avant-première réservées aux membres</li>
+                </ul>
+                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">Rejoindre l'Insider Club</a></div>
+                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">Annulez à tout moment. Votre code membre de 25% est envoyé par e-mail dès l'inscription.</div>
+            </div>
         </div>
     </section>
 
@@ -1884,6 +1924,26 @@ HOMEPAGE_HTML_DE = """
         </div>
     </section>
 
+    <section id="club" class="alt">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">MITGLIEDSCHAFT</div>
+                <h2>Werde Mitglied im <span class="grad">Insider Club</span></h2>
+                <p>Sichere dir den Mitgliederpreis auf alles und Erstzugang beim Start der Engine.</p>
+            </div>
+            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
+                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / Monat</span></div>
+                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:start;display:inline-block;">
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>25% Rabatt auf jede Stufe, bei jedem Kauf</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Prioritätszugang & Ausführungswarteschlange beim Start</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Nur-für-Mitglieder Entwicklungs-Updates & frühe News</li>
+                </ul>
+                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">Insider Club beitreten</a></div>
+                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">Jederzeit kündbar. Dein 25%-Mitgliedscode kommt sofort per E-Mail.</div>
+            </div>
+        </div>
+    </section>
+
     <section id="faq">
         <div class="wrap">
             <div class="sec-head center">
@@ -2191,6 +2251,26 @@ HOMEPAGE_HTML_PT = """
                 </div>
             </div>
             <p class="pricing-note">Pagamento seguro via Stripe · Pague em USD, EUR, GBP, CAD ou AUD — sua moeda é detectada automaticamente no checkout</p>
+        </div>
+    </section>
+
+    <section id="club" class="alt">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">ASSINATURA</div>
+                <h2>Entre no <span class="grad">Insider Club</span></h2>
+                <p>Tenha o preço de membro em tudo e acesso primeiro quando o motor for lançado.</p>
+            </div>
+            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
+                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / mês</span></div>
+                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:start;display:inline-block;">
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>25% de desconto em qualquer plano, toda compra</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Acesso prioritário e fila de execução no lançamento</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>Atualizações de desenvolvimento e novidades antecipadas só para membros</li>
+                </ul>
+                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">Entrar no Insider Club</a></div>
+                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">Cancele quando quiser. Seu código de membro de 25% é enviado por e-mail na hora.</div>
+            </div>
         </div>
     </section>
 
@@ -2517,6 +2597,26 @@ HOMEPAGE_HTML_AR = """
         </div>
     </section>
 
+    <section id="club" class="alt">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">العضوية</div>
+                <h2>انضم إلى <span class="grad">Insider Club</span></h2>
+                <p>احصل على سعر الأعضاء على كل شيء، مع وصول أول عند إطلاق المحرك.</p>
+            </div>
+            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
+                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / شهر</span></div>
+                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:start;display:inline-block;">
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>خصم 25% على أي باقة، في كل عملية شراء</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>وصول ذو أولوية وطابور تنفيذ عند الإطلاق</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>تحديثات التطوير وأخبار مبكرة للأعضاء فقط</li>
+                </ul>
+                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">انضم إلى Insider Club</a></div>
+                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">ألغِ في أي وقت. يُرسَل كود عضويتك بخصم 25% عبر البريد فوراً.</div>
+            </div>
+        </div>
+    </section>
+
     <section id="faq">
         <div class="wrap">
             <div class="sec-head center">
@@ -2824,6 +2924,26 @@ HOMEPAGE_HTML_FA = """
                 </div>
             </div>
             <p class="pricing-note">پرداخت امن با Stripe · با دلار آمریکا، یورو، پوند، دلار کانادا یا استرالیا بپردازید — ارز شما هنگام پرداخت خودکار تشخیص داده می‌شود</p>
+        </div>
+    </section>
+
+    <section id="club" class="alt">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">عضویت</div>
+                <h2>به <span class="grad">Insider Club</span> بپیوندید</h2>
+                <p>قیمت اعضا را روی همه‌چیز بگیرید و هنگام عرضه موتور، اول دسترسی داشته باشید.</p>
+            </div>
+            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
+                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / ماه</span></div>
+                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:start;display:inline-block;">
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>۲۵٪ تخفیف روی هر پلن، در هر خرید</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>دسترسی با اولویت و صف اجرا هنگام عرضه</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>به‌روزرسانی‌های ساخت و اخبار زودهنگام ویژه اعضا</li>
+                </ul>
+                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">عضویت در Insider Club</a></div>
+                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">هر زمان لغو کنید. کد ۲۵٪ اعضای شما بلافاصله ایمیل می‌شود.</div>
+            </div>
         </div>
     </section>
 
@@ -3137,6 +3257,26 @@ HOMEPAGE_HTML_UR = """
         </div>
     </section>
 
+    <section id="club" class="alt">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">ممبرشپ</div>
+                <h2><span class="grad">Insider Club</span> میں شامل ہوں</h2>
+                <p>ہر چیز پر ممبر قیمت حاصل کریں، اور انجن لانچ ہونے پر پہلے رسائی پائیں۔</p>
+            </div>
+            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
+                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / ماہ</span></div>
+                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:start;display:inline-block;">
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>کسی بھی پلان پر 25% رعایت، ہر خریداری پر</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>ترجیحی رسائی اور لانچ پر ایگزیکیوشن قطار</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>صرف ممبرز کے لیے ڈیولپمنٹ اپڈیٹس اور جلد خبریں</li>
+                </ul>
+                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">Insider Club میں شامل ہوں</a></div>
+                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">کسی بھی وقت منسوخ کریں۔ آپ کا 25% ممبر کوڈ فوراً ای میل ہو جاتا ہے۔</div>
+            </div>
+        </div>
+    </section>
+
     <section id="faq">
         <div class="wrap">
             <div class="sec-head center">
@@ -3444,6 +3584,26 @@ HOMEPAGE_HTML_HI = """
                 </div>
             </div>
             <p class="pricing-note">Stripe से सुरक्षित भुगतान · USD, EUR, GBP, CAD या AUD में भुगतान करें — चेकआउट पर आपकी मुद्रा स्वतः पहचानी जाती है</p>
+        </div>
+    </section>
+
+    <section id="club" class="alt">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">मेंबरशिप</div>
+                <h2><span class="grad">Insider Club</span> से जुड़ें</h2>
+                <p>हर चीज़ पर मेंबर क़ीमत पाएं, और इंजन लॉन्च होने पर पहले पहुँच पाएं।</p>
+            </div>
+            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
+                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / माह</span></div>
+                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:start;display:inline-block;">
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>किसी भी प्लान पर 25% छूट, हर खरीद पर</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>प्राथमिकता पहुँच और लॉन्च पर एग्ज़िक्यूशन क़तार</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>केवल सदस्यों के लिए डेवलपमेंट अपडेट और जल्दी ख़बरें</li>
+                </ul>
+                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">Insider Club से जुड़ें</a></div>
+                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">कभी भी रद्द करें। आपका 25% मेंबर कोड तुरंत ईमेल किया जाता है।</div>
+            </div>
         </div>
     </section>
 
@@ -3757,6 +3917,26 @@ HOMEPAGE_HTML_BN = """
         </div>
     </section>
 
+    <section id="club" class="alt">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">মেম্বারশিপ</div>
+                <h2><span class="grad">Insider Club</span>-এ যোগ দিন</h2>
+                <p>সবকিছুতে মেম্বার মূল্য পান, আর ইঞ্জিন চালু হলে প্রথম অ্যাক্সেস পান।</p>
+            </div>
+            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
+                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / মাস</span></div>
+                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:start;display:inline-block;">
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>যেকোনো প্ল্যানে 25% ছাড়, প্রতিবার কেনাকাটায়</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>অগ্রাধিকার অ্যাক্সেস ও লঞ্চে এক্সিকিউশন সারি</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>শুধু মেম্বারদের জন্য ডেভেলপমেন্ট আপডেট ও আগাম খবর</li>
+                </ul>
+                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">Insider Club-এ যোগ দিন</a></div>
+                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">যেকোনো সময় বাতিল করুন। আপনার 25% মেম্বার কোড সঙ্গে সঙ্গে ইমেল করা হয়।</div>
+            </div>
+        </div>
+    </section>
+
     <section id="faq">
         <div class="wrap">
             <div class="sec-head center">
@@ -4064,6 +4244,26 @@ HOMEPAGE_HTML_TA = """
                 </div>
             </div>
             <p class="pricing-note">Stripe மூலம் பாதுகாப்பான கட்டணம் · USD, EUR, GBP, CAD அல்லது AUD-இல் செலுத்துங்கள் — செக்அவுட்டில் உங்கள் நாணயம் தானாகக் கண்டறியப்படும்</p>
+        </div>
+    </section>
+
+    <section id="club" class="alt">
+        <div class="wrap">
+            <div class="sec-head center">
+                <div class="sec-label">உறுப்பினர்</div>
+                <h2><span class="grad">Insider Club</span> இல் இணையுங்கள்</h2>
+                <p>எல்லாவற்றிலும் உறுப்பினர் விலை பெறுங்கள், இன்ஜின் வெளியாகும்போது முதல் அணுகல் பெறுங்கள்.</p>
+            </div>
+            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
+                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / மாதம்</span></div>
+                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:start;display:inline-block;">
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>எந்த திட்டத்திலும் 25% தள்ளுபடி, ஒவ்வொரு வாங்குதலிலும்</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>முன்னுரிமை அணுகல் மற்றும் வெளியீட்டில் செயலாக்க வரிசை</li>
+                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-inline-end:8px;">&#10003;</span>உறுப்பினர்களுக்கு மட்டும் உருவாக்க புதுப்பிப்புகள் & முன்கூட்டிய செய்திகள்</li>
+                </ul>
+                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">Insider Club இல் இணையுங்கள்</a></div>
+                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">எப்போது வேண்டுமானாலும் ரத்து செய்யலாம். உங்கள் 25% உறுப்பினர் குறியீடு உடனே மின்னஞ்சல் செய்யப்படும்.</div>
+            </div>
         </div>
     </section>
 
@@ -4534,17 +4734,17 @@ def offline_reply(text):
     if has("refund", "money back", "money-back", "guarantee", "chargeback"):
         return "Every pre-order is 100% refundable any time before launch - no questions asked. And the subscription tiers don't charge until the engine actually launches, so you're never paying for something you can't use yet."
     if has("discount", "promo", "coupon", "code", "cheaper", "deal", "sale"):
-        return "Use code LAUNCH50 at checkout for 50% off any tier - just enter it in the promo field on the payment page. Every pre-order is refundable before launch, so there's no risk locking in your founding price now."
+        return "The best way to save is the Insider Club - $79.99/month gets you 25% off any tier, plus priority access and members-only updates. You can join it in the pricing section, and your discount code is emailed the moment you join. Every pre-order is also fully refundable before launch."
     if has("prototype"):
-        return "Prototype - $159.99 one-time, launches Sep 11, 2026. Entry access to the engine, the core Z-score strategy on one market, standard risk controls, and email support. It's the best starting point. Code LAUNCH50 takes 50% off. " + CHECKOUT_LINKS["prototype"]
+        return "Prototype - $159.99 one-time, launches Sep 11, 2026. Entry access to the engine, the core Z-score strategy on one market, standard risk controls, and email support. It's the best starting point. Insider Club members get 25% off. " + CHECKOUT_LINKS["prototype"]
     if has("founding", "alpha", "lifetime"):
-        return "Founding Alpha - $399.99 one-time for full-engine access: all markets and updates, no recurring fees. Best long-term value. Code LAUNCH50 takes 50% off. " + CHECKOUT_LINKS["founding"]
+        return "Founding Alpha - $399.99 one-time for full-engine access: all markets and updates, no recurring fees. Best long-term value. Insider Club members get 25% off. " + CHECKOUT_LINKS["founding"]
     if has("early access", "monthly", "per month"):
-        return "Early Access - $99.99/month, full engine, all markets, cancel anytime. You are not billed until the engine launches. Code LAUNCH50 takes 50% off. " + CHECKOUT_LINKS["early"]
+        return "Early Access - $99.99/month, full engine, all markets, cancel anytime. You are not billed until the engine launches. Insider Club members get 25% off. " + CHECKOUT_LINKS["early"]
     if has("vip", "annual", "yearly", "per year"):
-        return "VIP Annual - $999.99/year, everything in Early Access plus priority execution and full API access. Not billed until launch. Code LAUNCH50 takes 50% off. " + CHECKOUT_LINKS["vip"]
+        return "VIP Annual - $999.99/year, everything in Early Access plus priority execution and full API access. Not billed until launch. Insider Club members get 25% off. " + CHECKOUT_LINKS["vip"]
     if has("price", "cost", "how much", "expensive", "afford", "pricing"):
-        return "Founding prices: Prototype $159.99 one-time, Founding Alpha $399.99 one-time, Early Access $99.99/mo, VIP Annual $999.99/yr. Use code LAUNCH50 for 50% off, and the subscriptions don't bill until launch. Want the link for a specific tier?"
+        return "Founding prices: Prototype $159.99 one-time, Founding Alpha $399.99 one-time, Early Access $99.99/mo, VIP Annual $999.99/yr. Insider Club members ($79.99/mo) get 25% off any tier, and the subscriptions don't bill until launch. Want the link for a specific tier?"
     if has("which", "recommend", "best", "should i", "fit", "beginner", "new", "start with"):
         return "If you're just getting started, go with the Prototype ($159.99 one-time) - lowest-risk way in, and you can upgrade later. If you want the full engine forever with no recurring fees, Founding Alpha ($399.99 one-time) is the best value. Want the link for either?"
     if has("when", "launch", "release", "ready", "date", "live", "available", "timeline"):
@@ -4552,8 +4752,8 @@ def offline_reply(text):
     if has("what", "how", "work", "z-score", "zscore", "mean reversion", "strategy", "engine", "explain", "bot"):
         return "It's a fully automated trading engine built on Z-score mean reversion - a statistical strategy that trades when a price moves unusually far from its average and tends to snap back. It runs around the clock so you never watch a chart, and it's non-custodial, so your funds stay in your own account."
     if has("buy", "purchase", "sign up", "signup", "get started", "order", "checkout"):
-        return "Great - the Prototype is the best place to start at $159.99 one-time (use LAUNCH50 for 50% off): " + CHECKOUT_LINKS["prototype"] + " Want a different tier instead?"
-    return "I can help with that. The engine is an automated, non-custodial Z-score trading system, sold as a fully refundable founding pre-order. Ask me about a specific tier, pricing (code LAUNCH50 = 50% off), whether your funds are safe, or launch dates."
+        return "Great - the Prototype is the best place to start at $159.99 one-time: " + CHECKOUT_LINKS["prototype"] + " Insider Club members get 25% off any tier. Want a different tier instead?"
+    return "I can help with that. The engine is an automated, non-custodial Z-score trading system, sold as a fully refundable founding pre-order. Ask me about a specific tier, pricing (Insider Club members get 25% off), whether your funds are safe, or launch dates."
 
 
 @app.post("/api/chat")
