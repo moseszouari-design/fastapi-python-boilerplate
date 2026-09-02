@@ -919,18 +919,44 @@ HOMEPAGE_HTML = """
             <div class="sec-head center">
                 <div class="sec-label">MEMBERSHIP</div>
                 <h2>Join the <span class="grad">Insider Club</span></h2>
-                <p>Get the member price on everything, plus first access when the engine goes live.</p>
+                <p>Members get a standing discount on every tier, plus perks that grow with your plan.</p>
             </div>
-            <div style="max-width:520px;margin:0 auto;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:34px 28px;text-align:center;">
-                <div style="font-size:2.5rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:1rem;color:var(--faint);font-weight:600;"> / month</span></div>
-                <ul style="list-style:none;padding:0;margin:24px 0 28px;text-align:left;display:inline-block;">
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-right:8px;">&#10003;</span>25% off any tier, every time you buy</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-right:8px;">&#10003;</span>Priority access &amp; execution queue at launch</li>
-                    <li style="color:var(--muted);font-size:0.92rem;padding:8px 0;"><span style="color:var(--green);font-weight:700;margin-right:8px;">&#10003;</span>Members-only build updates &amp; early news</li>
-                </ul>
-                <div><a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn primary" style="display:inline-block;">Join the Insider Club</a></div>
-                <div style="color:var(--faint);font-size:0.78rem;margin-top:16px;">Cancel anytime. Your 25% member code is emailed the moment you join.</div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;max-width:980px;margin:0 auto;align-items:stretch;">
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$79.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / mo</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">25% off any tier</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;">
+                        <li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-right:8px;">&#10003;</span>Priority access at launch</li>
+                        <li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-right:8px;">&#10003;</span>Members-only updates</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/28E00i4LvfsI8zraZId3i08" class="btn ghost" style="text-align:center;">Join Insider</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--accent);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;position:relative;">
+                    <span style="position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--accent);color:#04141a;font-size:0.68rem;font-weight:800;letter-spacing:0.06em;padding:4px 12px;border-radius:999px;">MOST POPULAR</span>
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Pro</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$129.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / mo</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">30% off any tier</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;">
+                        <li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-right:8px;">&#10003;</span>Everything in Insider</li>
+                        <li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-right:8px;">&#10003;</span>Priority email support</li>
+                        <li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-right:8px;">&#10003;</span>Early feature previews</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/eVqbJ04Lv4O44jb2tcd3i09" class="btn primary" style="text-align:center;">Join Pro</a>
+                </div>
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;">
+                    <h3 style="color:var(--text);font-size:1.15rem;margin:0 0 6px;">Insider Elite</h3>
+                    <div style="font-size:1.9rem;font-weight:800;color:var(--text);line-height:1;">$249.99<span style="font-size:0.85rem;color:var(--faint);font-weight:600;"> / mo</span></div>
+                    <div style="color:var(--accent);font-weight:700;font-size:1rem;margin:12px 0 16px;">40% off any tier</div>
+                    <ul style="list-style:none;padding:0;margin:0 0 22px;flex:1;">
+                        <li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-right:8px;">&#10003;</span>Everything in Pro</li>
+                        <li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-right:8px;">&#10003;</span>Priority execution queue at launch</li>
+                        <li style="color:var(--muted);font-size:0.9rem;padding:6px 0;"><span style="color:var(--green);font-weight:700;margin-right:8px;">&#10003;</span>Full API access</li>
+                    </ul>
+                    <a href="https://buy.stripe.com/aFaaEW2DneoE9Dvc3Md3i0a" class="btn ghost" style="text-align:center;">Join Elite</a>
+                </div>
             </div>
+            <div style="text-align:center;color:var(--faint);font-size:0.78rem;margin-top:22px;">Cancel anytime. Your member discount code is emailed the moment you join.</div>
         </div>
     </section>
 
