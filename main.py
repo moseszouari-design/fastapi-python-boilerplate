@@ -443,7 +443,7 @@ HOMEPAGE_HTML = """
           "url": "https://aipassiveautotrades.vercel.app/",
           "offers": [
             { "@type": "Offer", "name": "Prototype (Pre-Order)", "price": "159.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder", "url": "https://aipassiveautotrades.vercel.app/#pricing" },
-            { "@type": "Offer", "name": "Founding Alpha — Lifetime (Pre-Order)", "price": "399.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder", "url": "https://aipassiveautotrades.vercel.app/#pricing" },
+            { "@type": "Offer", "name": "Founding Alpha (Pre-Order)", "price": "399.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder", "url": "https://aipassiveautotrades.vercel.app/#pricing" },
             { "@type": "Offer", "name": "Early Access Pass — Monthly (Pre-Order)", "price": "99.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder", "url": "https://aipassiveautotrades.vercel.app/#pricing" },
             { "@type": "Offer", "name": "VIP Annual Pass (Pre-Order)", "price": "999.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder", "url": "https://aipassiveautotrades.vercel.app/#pricing" }
           ]
@@ -475,7 +475,7 @@ HOMEPAGE_HTML = """
             {
               "@type": "Question",
               "name": "What's the difference between the tiers?",
-              "acceptedAnswer": { "@type": "Answer", "text": "Prototype is single-market entry access to the prototype engine. Founding Alpha is full lifetime access with no recurring fees. Early Access is the same full engine billed monthly with cancel-anytime flexibility. VIP Annual adds priority execution, full API access, and priority support." }
+              "acceptedAnswer": { "@type": "Answer", "text": "Prototype is single-market entry access to the prototype engine. Founding Alpha is full one-time access with no recurring fees. Early Access is the same full engine billed monthly with cancel-anytime flexibility. VIP Annual adds priority execution, full API access, and priority support." }
             },
             {
               "@type": "Question",
@@ -722,7 +722,7 @@ HOMEPAGE_HTML = """
                     <div class="eyebrow"><span class="dot"></span>AN AUTOMATED CRYPTO TRADING ENGINE</div>
                     <h1>Crypto Trading That<br><span class="grad">Runs Itself.</span></h1>
                     <p class="hero-sub">This engine trades crypto for you using one simple rule. It runs day and night and stays steady when the market doesn't. Your money stays in your own account &mdash; it never comes to us &mdash; and you don't have to watch a chart.</p>
-                    <div class="hero-note">Founding pre-order &mdash; lock lifetime pricing before public launch</div>
+                    <div class="hero-note">Founding pre-order &mdash; before public launch</div>
                     <div class="cta-row">
                         <a href="#pricing" class="btn primary">View Pre-Order Tiers</a>
                         <a href="#how" class="btn ghost">See How It Works</a>
@@ -865,16 +865,16 @@ HOMEPAGE_HTML = """
                     <h3>Founding Alpha</h3>
                     <div class="who">For long-term believers</div>
                     <div class="price">$399.99</div>
-                    <div class="per">one-time &middot; lifetime</div>
+                    <div class="per">one-time</div>
                     <div class="ship">&#128197; Launches early 2027</div>
                     <div class="cap">Limited to 1,400 founding spots</div>
                     <ul>
-                        <li>Lifetime full-engine access</li>
+                        <li>Full-engine access, one payment</li>
                         <li>All markets &amp; strategy updates, forever</li>
                         <li>No recurring fees, ever</li>
                         <li>Priority onboarding at launch</li>
                     </ul>
-                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">Claim Lifetime</a>
+                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">Claim Founding Alpha</a>
                 </div>
                 <div class="tier">
                     <span class="badge">PRE-ORDER</span>
@@ -939,7 +939,7 @@ HOMEPAGE_HTML = """
                 </details>
                 <details>
                     <summary>What's the difference between the tiers?</summary>
-                    <div class="a">Prototype is single-market entry access to the prototype engine. Founding Alpha is full lifetime access with no recurring fees. Early Access is the same full engine billed monthly with cancel-anytime flexibility. VIP Annual adds priority execution, full API access, and priority support.</div>
+                    <div class="a">Prototype is single-market entry access to the prototype engine. Founding Alpha is full one-time access with no recurring fees. Early Access is the same full engine billed monthly with cancel-anytime flexibility. VIP Annual adds priority execution, full API access, and priority support.</div>
                 </details>
                 <details>
                     <summary>What happens after I pre-order?</summary>
@@ -1052,7 +1052,7 @@ HOMEPAGE_HTML_ES = """
                     <div class="eyebrow"><span class="dot"></span>MOTOR CUANTITATIVO Z-SCORE AUTOMATIZADO</div>
                     <h1>Trading cripto que<br><span class="grad">se opera solo.</span></h1>
                     <p class="hero-sub">Un motor de trading totalmente automatizado basado en reversión a la media Z-score &mdash; la misma metodología estadística que usan las mesas cuantitativas &mdash; ejecutando las 24 horas para que nunca mires un gráfico.</p>
-                    <div class="hero-note">Reserva fundadora &mdash; asegura el precio de por vida antes del lanzamiento público</div>
+                    <div class="hero-note">Reserva fundadora &mdash; antes del lanzamiento público</div>
                     <div class="cta-row">
                         <a href="#pricing" class="btn primary">Ver Niveles de Reserva</a>
                         <a href="#how" class="btn ghost">Cómo Funciona</a>
@@ -1195,11 +1195,11 @@ HOMEPAGE_HTML_ES = """
                     <h3>Founding Alpha</h3>
                     <div class="who">Para creyentes a largo plazo</div>
                     <div class="price">$399.99</div>
-                    <div class="per">pago &uacute;nico &middot; de por vida (USD)</div>
+                    <div class="per">pago &uacute;nico (USD)</div>
                     <div class="ship">&#128197; Se lanza a principios de 2027</div>
                     <div class="cap">Limitado a 1,400 plazas fundadoras</div>
                     <ul>
-                        <li>Acceso completo de por vida</li>
+                        <li>Acceso completo, pago único</li>
                         <li>Todos los mercados y actualizaciones, para siempre</li>
                         <li>Sin cuotas recurrentes, nunca</li>
                         <li>Incorporaci&oacute;n prioritaria en el lanzamiento</li>
@@ -1269,7 +1269,7 @@ HOMEPAGE_HTML_ES = """
                 </details>
                 <details>
                     <summary>&iquest;Cu&aacute;l es la diferencia entre los niveles?</summary>
-                    <div class="a">Prototype es acceso inicial de un solo mercado al motor prototipo. Founding Alpha es acceso completo de por vida sin cuotas recurrentes. Early Access es el mismo motor completo facturado mensualmente con cancelaci&oacute;n libre. VIP Annual a&ntilde;ade ejecuci&oacute;n prioritaria, acceso API completo y soporte prioritario.</div>
+                    <div class="a">Prototype es acceso inicial de un solo mercado al motor prototipo. Founding Alpha es acceso completo con un solo pago, sin cuotas recurrentes. Early Access es el mismo motor completo facturado mensualmente con cancelaci&oacute;n libre. VIP Annual a&ntilde;ade ejecuci&oacute;n prioritaria, acceso API completo y soporte prioritario.</div>
                 </details>
                 <details>
                     <summary>&iquest;Qu&eacute; pasa despu&eacute;s de reservar?</summary>
@@ -1362,7 +1362,7 @@ HOMEPAGE_HTML_FR = """
                     <div class="eyebrow"><span class="dot"></span>MOTEUR QUANTITATIF Z-SCORE AUTOMATIS&Eacute;</div>
                     <h1>Le trading crypto qui<br><span class="grad">se g&egrave;re tout seul.</span></h1>
                     <p class="hero-sub">Un moteur de trading enti&egrave;rement automatis&eacute; fond&eacute; sur le retour &agrave; la moyenne Z-score &mdash; la m&ecirc;me m&eacute;thodologie statistique que les desks quantitatifs &mdash; ex&eacute;cutant 24h/24 pour que vous ne regardiez plus jamais un graphique.</p>
-                    <div class="hero-note">Pr&eacute;commande fondatrice &mdash; verrouillez le tarif &agrave; vie avant le lancement public</div>
+                    <div class="hero-note">Pr&eacute;commande fondatrice &mdash; avant le lancement public</div>
                     <div class="cta-row">
                         <a href="#pricing" class="btn primary">Voir les Offres</a>
                         <a href="#how" class="btn ghost">Comment &ccedil;a Marche</a>
@@ -1505,11 +1505,11 @@ HOMEPAGE_HTML_FR = """
                     <h3>Founding Alpha</h3>
                     <div class="who">Pour les convaincus de long terme</div>
                     <div class="price">$399.99</div>
-                    <div class="per">paiement unique &middot; &agrave; vie (USD)</div>
+                    <div class="per">paiement unique (USD)</div>
                     <div class="ship">&#128197; Sortie début 2027</div>
                     <div class="cap">Limité à 1,400 places fondatrices</div>
                     <ul>
-                        <li>Acc&egrave;s complet &agrave; vie au moteur</li>
+                        <li>Acc&egrave;s complet au moteur, paiement unique</li>
                         <li>Tous les march&eacute;s et mises &agrave; jour, pour toujours</li>
                         <li>Aucun frais r&eacute;current, jamais</li>
                         <li>Int&eacute;gration prioritaire au lancement</li>
@@ -1579,7 +1579,7 @@ HOMEPAGE_HTML_FR = """
                 </details>
                 <details>
                     <summary>Quelle diff&eacute;rence entre les offres&nbsp;?</summary>
-                    <div class="a">Prototype est un acc&egrave;s d'entr&eacute;e mono-march&eacute; au moteur prototype. Founding Alpha est l'acc&egrave;s complet &agrave; vie sans frais r&eacute;currents. Early Access est le m&ecirc;me moteur complet factur&eacute; mensuellement, r&eacute;siliable &agrave; tout moment. VIP Annual ajoute l'ex&eacute;cution prioritaire, l'acc&egrave;s API complet et le support prioritaire.</div>
+                    <div class="a">Prototype est un acc&egrave;s d'entr&eacute;e mono-march&eacute; au moteur prototype. Founding Alpha est l'acc&egrave;s complet en un seul paiement, sans frais r&eacute;currents. Early Access est le m&ecirc;me moteur complet factur&eacute; mensuellement, r&eacute;siliable &agrave; tout moment. VIP Annual ajoute l'ex&eacute;cution prioritaire, l'acc&egrave;s API complet et le support prioritaire.</div>
                 </details>
                 <details>
                     <summary>Que se passe-t-il apr&egrave;s ma pr&eacute;commande&nbsp;?</summary>
@@ -1672,7 +1672,7 @@ HOMEPAGE_HTML_DE = """
                     <div class="eyebrow"><span class="dot"></span>AUTOMATISIERTE Z-SCORE QUANT-ENGINE</div>
                     <h1>Krypto-Trading, das<br><span class="grad">sich selbst erledigt.</span></h1>
                     <p class="hero-sub">Eine vollautomatisierte Trading-Engine auf Basis von Z-Score Mean Reversion — derselben statistischen Methodik, die Quant-Desks einsetzen — rund um die Uhr aktiv, damit Sie nie wieder auf Charts starren.</p>
-                    <div class="hero-note">Gründer-Vorbestellung — sichern Sie sich den Lifetime-Preis vor dem öffentlichen Launch</div>
+                    <div class="hero-note">Gründer-Vorbestellung — vor dem öffentlichen Launch</div>
                     <div class="cta-row">
                         <a href="#pricing" class="btn primary">Vorbestell-Stufen ansehen</a>
                         <a href="#how" class="btn ghost">So funktioniert's</a>
@@ -1815,7 +1815,7 @@ HOMEPAGE_HTML_DE = """
                     <h3>Founding Alpha</h3>
                     <div class="who">Für langfristig Überzeugte</div>
                     <div class="price">$399.99</div>
-                    <div class="per">einmalig · lebenslang (USD)</div>
+                    <div class="per">einmalig (USD)</div>
                     <div class="ship">&#128197; Erscheint Anfang 2027</div>
                     <div class="cap">Begrenzt auf 1,400 Gründerplätze</div>
                     <ul>
@@ -1824,7 +1824,7 @@ HOMEPAGE_HTML_DE = """
                         <li>Nie wiederkehrende Gebühren</li>
                         <li>Bevorzugtes Onboarding zum Launch</li>
                     </ul>
-                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">Lifetime sichern</a>
+                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">Founding Alpha sichern</a>
                 </div>
                 <div class="tier">
                     <span class="badge">VORBESTELLUNG</span>
@@ -1889,7 +1889,7 @@ HOMEPAGE_HTML_DE = """
                 </details>
                 <details>
                     <summary>Was unterscheidet die Stufen?</summary>
-                    <div class="a">Prototype ist der Einstiegszugang zur Prototyp-Engine mit einem Markt. Founding Alpha ist lebenslanger Vollzugang ohne wiederkehrende Gebühren. Early Access ist dieselbe Voll-Engine mit monatlicher Abrechnung und jederzeitiger Kündigung. VIP Annual ergänzt priorisierte Ausführung, vollen API-Zugang und priorisierten Support.</div>
+                    <div class="a">Prototype ist der Einstiegszugang zur Prototyp-Engine mit einem Markt. Founding Alpha ist einmalig bezahlter Vollzugang ohne wiederkehrende Gebühren. Early Access ist dieselbe Voll-Engine mit monatlicher Abrechnung und jederzeitiger Kündigung. VIP Annual ergänzt priorisierte Ausführung, vollen API-Zugang und priorisierten Support.</div>
                 </details>
                 <details>
                     <summary>Was passiert nach meiner Vorbestellung?</summary>
@@ -1982,7 +1982,7 @@ HOMEPAGE_HTML_PT = """
                     <div class="eyebrow"><span class="dot"></span>MOTOR QUANTITATIVO Z-SCORE AUTOMATIZADO</div>
                     <h1>Trading de cripto que<br><span class="grad">funciona sozinho.</span></h1>
                     <p class="hero-sub">Um motor de trading totalmente automatizado baseado em reversão à média Z-score — a mesma metodologia estatística usada pelas mesas quantitativas — executando 24 horas por dia para você nunca mais olhar um gráfico.</p>
-                    <div class="hero-note">Pré-venda fundadora — garanta o preço vitalício antes do lançamento público</div>
+                    <div class="hero-note">Pré-venda fundadora — antes do lançamento público</div>
                     <div class="cta-row">
                         <a href="#pricing" class="btn primary">Ver Níveis de Pré-venda</a>
                         <a href="#how" class="btn ghost">Como Funciona</a>
@@ -2125,11 +2125,11 @@ HOMEPAGE_HTML_PT = """
                     <h3>Founding Alpha</h3>
                     <div class="who">Para quem acredita no longo prazo</div>
                     <div class="price">$399.99</div>
-                    <div class="per">pagamento único · vitalício (USD)</div>
+                    <div class="per">pagamento único (USD)</div>
                     <div class="ship">&#128197; Lançamento no início de 2027</div>
                     <div class="cap">Limitado a 1,400 vagas fundadoras</div>
                     <ul>
-                        <li>Acesso completo vitalício ao motor</li>
+                        <li>Acesso completo ao motor, pagamento único</li>
                         <li>Todos os mercados e atualizações, para sempre</li>
                         <li>Sem taxas recorrentes, nunca</li>
                         <li>Onboarding prioritário no lançamento</li>
@@ -2199,7 +2199,7 @@ HOMEPAGE_HTML_PT = """
                 </details>
                 <details>
                     <summary>Qual a diferença entre os níveis?</summary>
-                    <div class="a">Prototype é acesso inicial de mercado único ao motor protótipo. Founding Alpha é acesso completo vitalício sem taxas recorrentes. Early Access é o mesmo motor completo cobrado mensalmente com cancelamento livre. VIP Annual adiciona execução prioritária, acesso API completo e suporte prioritário.</div>
+                    <div class="a">Prototype é acesso inicial de mercado único ao motor protótipo. Founding Alpha é acesso completo com pagamento único, sem taxas recorrentes. Early Access é o mesmo motor completo cobrado mensalmente com cancelamento livre. VIP Annual adiciona execução prioritária, acesso API completo e suporte prioritário.</div>
                 </details>
                 <details>
                     <summary>O que acontece depois da pré-venda?</summary>
@@ -2305,7 +2305,7 @@ HOMEPAGE_HTML_AR = """
                     <div class="eyebrow"><span class="dot"></span>محرك كمي آلي بمؤشر Z-SCORE</div>
                     <h1>تداول كريبتو<br><span class="grad">يعمل من تلقاء نفسه.</span></h1>
                     <p class="hero-sub">محرك تداول آلي بالكامل مبني على استراتيجية العودة إلى المتوسط بمؤشر Z-Score — المنهجية الإحصائية ذاتها التي تعتمدها مكاتب التداول الكمي — يعمل على مدار الساعة حتى لا تراقب الرسوم البيانية مجدداً.</p>
-                    <div class="hero-note">حجز مسبق للمؤسسين — ثبّت سعراً مدى الحياة قبل الإطلاق العام</div>
+                    <div class="hero-note">حجز مسبق للمؤسسين — قبل الإطلاق العام</div>
                     <div class="cta-row">
                         <a href="#pricing" class="btn primary">عرض باقات الحجز المسبق</a>
                         <a href="#how" class="btn ghost">كيف يعمل</a>
@@ -2448,16 +2448,16 @@ HOMEPAGE_HTML_AR = """
                     <h3>Founding Alpha</h3>
                     <div class="who">للمؤمنين بالمدى الطويل</div>
                     <div class="price">$399.99</div>
-                    <div class="per">دفعة واحدة · مدى الحياة (دولار أمريكي)</div>
+                    <div class="per">دفعة واحدة (دولار أمريكي)</div>
                     <div class="ship">&#128197; يُطلق أوائل 2027</div>
                     <div class="cap">مقتصر على 1,400 مقعد تأسيسي</div>
                     <ul>
-                        <li>وصول كامل مدى الحياة إلى المحرك</li>
+                        <li>وصول كامل إلى المحرك بدفعة واحدة</li>
                         <li>جميع الأسواق وتحديثات الاستراتيجية، للأبد</li>
                         <li>لا رسوم متكررة، أبداً</li>
                         <li>انضمام ذو أولوية عند الإطلاق</li>
                     </ul>
-                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">احجز مدى الحياة</a>
+                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">احجز Founding Alpha</a>
                 </div>
                 <div class="tier">
                     <span class="badge">حجز مسبق</span>
@@ -2522,7 +2522,7 @@ HOMEPAGE_HTML_AR = """
                 </details>
                 <details>
                     <summary>ما الفرق بين الباقات؟</summary>
-                    <div class="a">Prototype وصول مبدئي بسوق واحد إلى محرك النموذج الأولي. Founding Alpha وصول كامل مدى الحياة دون رسوم متكررة. Early Access هو المحرك الكامل ذاته بفوترة شهرية مع إلغاء حر. VIP Annual يضيف أولوية التنفيذ ووصول API الكامل والدعم ذا الأولوية.</div>
+                    <div class="a">Prototype وصول مبدئي بسوق واحد إلى محرك النموذج الأولي. Founding Alpha وصول كامل بدفعة واحدة دون رسوم متكررة. Early Access هو المحرك الكامل ذاته بفوترة شهرية مع إلغاء حر. VIP Annual يضيف أولوية التنفيذ ووصول API الكامل والدعم ذا الأولوية.</div>
                 </details>
                 <details>
                     <summary>ماذا يحدث بعد الحجز المسبق؟</summary>
@@ -2615,7 +2615,7 @@ HOMEPAGE_HTML_FA = """
                     <div class="eyebrow"><span class="dot"></span>موتور کمّی خودکار Z-SCORE</div>
                     <h1>معاملات کریپتو که<br><span class="grad">خودش کار می‌کند.</span></h1>
                     <p class="hero-sub">یک موتور معاملاتی کاملاً خودکار بر پایه بازگشت به میانگین Z-Score — همان روش‌شناسی آماری میزهای معاملات کمّی — که شبانه‌روز اجرا می‌کند تا شما دیگر هرگز به نمودار خیره نشوید.</p>
-                    <div class="hero-note">پیش‌خرید بنیان‌گذاران — قیمت مادام‌العمر را پیش از عرضه عمومی قفل کنید</div>
+                    <div class="hero-note">پیش‌خرید بنیان‌گذاران — پیش از عرضه عمومی</div>
                     <div class="cta-row">
                         <a href="#pricing" class="btn primary">مشاهده پلن‌های پیش‌خرید</a>
                         <a href="#how" class="btn ghost">نحوه کار</a>
@@ -2758,16 +2758,16 @@ HOMEPAGE_HTML_FA = """
                     <h3>Founding Alpha</h3>
                     <div class="who">برای باورمندان بلندمدت</div>
                     <div class="price">$399.99</div>
-                    <div class="per">پرداخت یک‌باره · مادام‌العمر (دلار آمریکا)</div>
+                    <div class="per">پرداخت یک‌باره (دلار آمریکا)</div>
                     <div class="ship">&#128197; عرضه در اوایل ۲۰۲۷</div>
                     <div class="cap">محدود به 1,400 جایگاه بنیان‌گذاری</div>
                     <ul>
-                        <li>دسترسی کامل مادام‌العمر به موتور</li>
+                        <li>دسترسی کامل به موتور با یک پرداخت</li>
                         <li>همه بازارها و به‌روزرسانی‌ها، برای همیشه</li>
                         <li>بدون هزینه تکرارشونده، هرگز</li>
                         <li>ورود با اولویت هنگام عرضه</li>
                     </ul>
-                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">رزرو مادام‌العمر</a>
+                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">رزرو Founding Alpha</a>
                 </div>
                 <div class="tier">
                     <span class="badge">پیش‌خرید</span>
@@ -2832,7 +2832,7 @@ HOMEPAGE_HTML_FA = """
                 </details>
                 <details>
                     <summary>تفاوت پلن‌ها چیست؟</summary>
-                    <div class="a">Prototype دسترسی اولیه تک‌بازاره به موتور نمونه است. Founding Alpha دسترسی کامل مادام‌العمر بدون هزینه تکرارشونده است. Early Access همان موتور کامل با پرداخت ماهانه و لغو آزاد است. VIP Annual اجرای با اولویت، دسترسی کامل API و پشتیبانی با اولویت را اضافه می‌کند.</div>
+                    <div class="a">Prototype دسترسی اولیه تک‌بازاره به موتور نمونه است. Founding Alpha دسترسی کامل با یک پرداخت بدون هزینه تکرارشونده است. Early Access همان موتور کامل با پرداخت ماهانه و لغو آزاد است. VIP Annual اجرای با اولویت، دسترسی کامل API و پشتیبانی با اولویت را اضافه می‌کند.</div>
                 </details>
                 <details>
                     <summary>بعد از پیش‌خرید چه می‌شود؟</summary>
@@ -2925,7 +2925,7 @@ HOMEPAGE_HTML_UR = """
                     <div class="eyebrow"><span class="dot"></span>خودکار Z-SCORE کوانٹ انجن</div>
                     <h1>کرپٹو ٹریڈنگ جو<br><span class="grad">خود چلتی ہے۔</span></h1>
                     <p class="hero-sub">Z-Score مین ریورژن پر مبنی ایک مکمل خودکار ٹریڈنگ انجن — وہی شماریاتی طریقہ کار جو کوانٹ ڈیسک استعمال کرتے ہیں — چوبیس گھنٹے چلتا ہے تاکہ آپ کبھی چارٹ نہ دیکھیں۔</p>
-                    <div class="hero-note">فاؤنڈر پری آرڈر — عوامی لانچ سے پہلے تاحیات قیمت مقفل کریں</div>
+                    <div class="hero-note">فاؤنڈر پری آرڈر — عوامی لانچ سے پہلے</div>
                     <div class="cta-row">
                         <a href="#pricing" class="btn primary">پری آرڈر پلان دیکھیں</a>
                         <a href="#how" class="btn ghost">طریقہ کار</a>
@@ -3068,16 +3068,16 @@ HOMEPAGE_HTML_UR = """
                     <h3>Founding Alpha</h3>
                     <div class="who">طویل مدتی یقین رکھنے والوں کے لیے</div>
                     <div class="price">$399.99</div>
-                    <div class="per">یکمشت · تاحیات (امریکی ڈالر)</div>
+                    <div class="per">یکمشت (امریکی ڈالر)</div>
                     <div class="ship">&#128197; 2027 کے اوائل میں ریلیز</div>
                     <div class="cap">صرف 1,400 بانی نشستیں</div>
                     <ul>
-                        <li>انجن تک تاحیات مکمل رسائی</li>
+                        <li>انجن تک مکمل رسائی، ایک بار ادائیگی</li>
                         <li>تمام مارکیٹیں اور اپڈیٹس، ہمیشہ کے لیے</li>
                         <li>کوئی بار بار فیس نہیں، کبھی نہیں</li>
                         <li>لانچ پر ترجیحی آن بورڈنگ</li>
                     </ul>
-                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">تاحیات محفوظ کریں</a>
+                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">Founding Alpha محفوظ کریں</a>
                 </div>
                 <div class="tier">
                     <span class="badge">پری آرڈر</span>
@@ -3142,7 +3142,7 @@ HOMEPAGE_HTML_UR = """
                 </details>
                 <details>
                     <summary>پلانز میں کیا فرق ہے؟</summary>
-                    <div class="a">Prototype پروٹوٹائپ انجن تک ایک مارکیٹ کی ابتدائی رسائی ہے۔ Founding Alpha بغیر بار بار فیس کے تاحیات مکمل رسائی ہے۔ Early Access وہی مکمل انجن ماہانہ بلنگ اور آزاد منسوخی کے ساتھ ہے۔ VIP Annual میں ترجیحی ایگزیکیوشن، مکمل API رسائی اور ترجیحی سپورٹ شامل ہیں۔</div>
+                    <div class="a">Prototype پروٹوٹائپ انجن تک ایک مارکیٹ کی ابتدائی رسائی ہے۔ Founding Alpha ایک بار کی ادائیگی میں مکمل رسائی ہے، بغیر بار بار فیس کے۔ Early Access وہی مکمل انجن ماہانہ بلنگ اور آزاد منسوخی کے ساتھ ہے۔ VIP Annual میں ترجیحی ایگزیکیوشن، مکمل API رسائی اور ترجیحی سپورٹ شامل ہیں۔</div>
                 </details>
                 <details>
                     <summary>پری آرڈر کے بعد کیا ہوتا ہے؟</summary>
@@ -3235,7 +3235,7 @@ HOMEPAGE_HTML_HI = """
                     <div class="eyebrow"><span class="dot"></span>स्वचालित Z-SCORE क्वांट इंजन</div>
                     <h1>क्रिप्टो ट्रेडिंग जो<br><span class="grad">खुद चलती है।</span></h1>
                     <p class="hero-sub">Z-Score मीन रिवर्ज़न पर बना पूर्णतः स्वचालित ट्रेडिंग इंजन — वही सांख्यिकीय पद्धति जो क्वांट डेस्क अपनाते हैं — चौबीसों घंटे चलता है ताकि आपको कभी चार्ट न देखना पड़े।</p>
-                    <div class="hero-note">फ़ाउंडर प्री-ऑर्डर — सार्वजनिक लॉन्च से पहले आजीवन क़ीमत लॉक करें</div>
+                    <div class="hero-note">फ़ाउंडर प्री-ऑर्डर — सार्वजनिक लॉन्च से पहले</div>
                     <div class="cta-row">
                         <a href="#pricing" class="btn primary">प्री-ऑर्डर प्लान देखें</a>
                         <a href="#how" class="btn ghost">कैसे काम करता है</a>
@@ -3378,16 +3378,16 @@ HOMEPAGE_HTML_HI = """
                     <h3>Founding Alpha</h3>
                     <div class="who">दीर्घकालिक विश्वास रखने वालों के लिए</div>
                     <div class="price">$399.99</div>
-                    <div class="per">एकमुश्त · आजीवन (US डॉलर)</div>
+                    <div class="per">एकमुश्त (US डॉलर)</div>
                     <div class="ship">&#128197; 2027 की शुरुआत में रिलीज़</div>
                     <div class="cap">केवल 1,400 फ़ाउंडर स्थान</div>
                     <ul>
-                        <li>इंजन तक आजीवन पूर्ण पहुँच</li>
+                        <li>इंजन तक पूर्ण पहुँच, एक बार भुगतान</li>
                         <li>सभी बाज़ार और अपडेट, हमेशा के लिए</li>
                         <li>कोई आवर्ती शुल्क नहीं, कभी नहीं</li>
                         <li>लॉन्च पर प्राथमिकता ऑनबोर्डिंग</li>
                     </ul>
-                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">आजीवन सुरक्षित करें</a>
+                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">Founding Alpha सुरक्षित करें</a>
                 </div>
                 <div class="tier">
                     <span class="badge">प्री-ऑर्डर</span>
@@ -3452,7 +3452,7 @@ HOMEPAGE_HTML_HI = """
                 </details>
                 <details>
                     <summary>प्लानों में क्या अंतर है?</summary>
-                    <div class="a">Prototype प्रोटोटाइप इंजन तक एक-बाज़ार की शुरुआती पहुँच है। Founding Alpha बिना आवर्ती शुल्क के आजीवन पूर्ण पहुँच है। Early Access वही पूर्ण इंजन मासिक बिलिंग और मुक्त रद्दीकरण के साथ है। VIP Annual में प्राथमिकता निष्पादन, पूर्ण API एक्सेस और प्राथमिकता सपोर्ट जुड़ते हैं।</div>
+                    <div class="a">Prototype प्रोटोटाइप इंजन तक एक-बाज़ार की शुरुआती पहुँच है। Founding Alpha एक बार के भुगतान में पूर्ण पहुँच है, बिना आवर्ती शुल्क के। Early Access वही पूर्ण इंजन मासिक बिलिंग और मुक्त रद्दीकरण के साथ है। VIP Annual में प्राथमिकता निष्पादन, पूर्ण API एक्सेस और प्राथमिकता सपोर्ट जुड़ते हैं।</div>
                 </details>
                 <details>
                     <summary>प्री-ऑर्डर के बाद क्या होता है?</summary>
@@ -3545,7 +3545,7 @@ HOMEPAGE_HTML_BN = """
                     <div class="eyebrow"><span class="dot"></span>স্বয়ংক্রিয় Z-SCORE কোয়ান্ট ইঞ্জিন</div>
                     <h1>ক্রিপ্টো ট্রেডিং যা<br><span class="grad">নিজে থেকেই চলে।</span></h1>
                     <p class="hero-sub">Z-Score মিন রিভার্সনের উপর নির্মিত সম্পূর্ণ স্বয়ংক্রিয় ট্রেডিং ইঞ্জিন — কোয়ান্ট ডেস্কগুলি যে পরিসংখ্যানগত পদ্ধতি ব্যবহার করে সেটিই — চব্বিশ ঘণ্টা চলে যাতে আপনাকে আর কখনও চার্ট দেখতে না হয়।</p>
-                    <div class="hero-note">প্রতিষ্ঠাতা প্রি-অর্ডার — পাবলিক লঞ্চের আগে আজীবন মূল্য লক করুন</div>
+                    <div class="hero-note">প্রতিষ্ঠাতা প্রি-অর্ডার — পাবলিক লঞ্চের আগে</div>
                     <div class="cta-row">
                         <a href="#pricing" class="btn primary">প্রি-অর্ডার প্ল্যান দেখুন</a>
                         <a href="#how" class="btn ghost">কীভাবে কাজ করে</a>
@@ -3688,16 +3688,16 @@ HOMEPAGE_HTML_BN = """
                     <h3>Founding Alpha</h3>
                     <div class="who">দীর্ঘমেয়াদে বিশ্বাসীদের জন্য</div>
                     <div class="price">$399.99</div>
-                    <div class="per">এককালীন · আজীবন (মার্কিন ডলার)</div>
+                    <div class="per">এককালীন (মার্কিন ডলার)</div>
                     <div class="ship">&#128197; ২০২৭-এর শুরুতে প্রকাশ</div>
                     <div class="cap">মাত্র 1,400 প্রতিষ্ঠাতা স্থান</div>
                     <ul>
-                        <li>ইঞ্জিনে আজীবন সম্পূর্ণ অ্যাক্সেস</li>
+                        <li>ইঞ্জিনে সম্পূর্ণ অ্যাক্সেস, একবার পেমেন্ট</li>
                         <li>সব বাজার ও কৌশল আপডেট, চিরকাল</li>
                         <li>কোনো পুনরাবৃত্ত ফি নেই, কখনও না</li>
                         <li>লঞ্চে অগ্রাধিকার অনবোর্ডিং</li>
                     </ul>
-                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">আজীবন নিশ্চিত করুন</a>
+                    <a href="https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05" class="btn primary">Founding Alpha নিশ্চিত করুন</a>
                 </div>
                 <div class="tier">
                     <span class="badge">প্রি-অর্ডার</span>
@@ -3762,7 +3762,7 @@ HOMEPAGE_HTML_BN = """
                 </details>
                 <details>
                     <summary>প্ল্যানগুলির মধ্যে পার্থক্য কী?</summary>
-                    <div class="a">Prototype হলো প্রোটোটাইপ ইঞ্জিনে এক-বাজারের প্রাথমিক অ্যাক্সেস। Founding Alpha হলো পুনরাবৃত্ত ফি ছাড়া আজীবন সম্পূর্ণ অ্যাক্সেস। Early Access একই সম্পূর্ণ ইঞ্জিন, মাসিক বিলিং ও স্বাধীন বাতিলসহ। VIP Annual যোগ করে অগ্রাধিকার এক্সিকিউশন, সম্পূর্ণ API অ্যাক্সেস ও অগ্রাধিকার সাপোর্ট।</div>
+                    <div class="a">Prototype হলো প্রোটোটাইপ ইঞ্জিনে এক-বাজারের প্রাথমিক অ্যাক্সেস। Founding Alpha হলো একবার পেমেন্টে সম্পূর্ণ অ্যাক্সেস, পুনরাবৃত্ত ফি ছাড়া। Early Access একই সম্পূর্ণ ইঞ্জিন, মাসিক বিলিং ও স্বাধীন বাতিলসহ। VIP Annual যোগ করে অগ্রাধিকার এক্সিকিউশন, সম্পূর্ণ API অ্যাক্সেস ও অগ্রাধিকার সাপোর্ট।</div>
                 </details>
                 <details>
                     <summary>প্রি-অর্ডারের পরে কী হয়?</summary>
@@ -3855,7 +3855,7 @@ HOMEPAGE_HTML_TA = """
                     <div class="eyebrow"><span class="dot"></span>தானியங்கி Z-SCORE குவாண்ட் இன்ஜின்</div>
                     <h1>தானாக இயங்கும்<br><span class="grad">கிரிப்டோ ட்ரேடிங்.</span></h1>
                     <p class="hero-sub">Z-Score சராசரி மீட்சியில் கட்டப்பட்ட முழு தானியங்கி டிரேடிங் இன்ஜின் — குவாண்ட் டெஸ்க்குகள் பயன்படுத்தும் அதே புள்ளியியல் முறை — இரவு பகலாக இயங்குகிறது, நீங்கள் இனி வரைபடங்களைப் பார்க்கத் தேவையில்லை.</p>
-                    <div class="hero-note">நிறுவனர் முன்பதிவு — பொது வெளியீட்டுக்கு முன் வாழ்நாள் விலையைப் பூட்டுங்கள்</div>
+                    <div class="hero-note">நிறுவனர் முன்பதிவு — பொது வெளியீட்டுக்கு முன்</div>
                     <div class="cta-row">
                         <a href="#pricing" class="btn primary">முன்பதிவுத் திட்டங்களைக் காண</a>
                         <a href="#how" class="btn ghost">எப்படி வேலை செய்கிறது</a>
@@ -3998,11 +3998,11 @@ HOMEPAGE_HTML_TA = """
                     <h3>Founding Alpha</h3>
                     <div class="who">நீண்டகால நம்பிக்கையாளர்களுக்கு</div>
                     <div class="price">$399.99</div>
-                    <div class="per">ஒருமுறை · வாழ்நாள் (அமெரிக்க டாலர்)</div>
+                    <div class="per">ஒருமுறை (அமெரிக்க டாலர்)</div>
                     <div class="ship">&#128197; 2027 தொடக்கத்தில் வெளியீடு</div>
                     <div class="cap">1,400 நிறுவனர் இடங்கள் மட்டுமே</div>
                     <ul>
-                        <li>இன்ஜினுக்கு வாழ்நாள் முழு அணுகல்</li>
+                        <li>இன்ஜினுக்கு முழு அணுகல், ஒரே கட்டணம்</li>
                         <li>அனைத்து சந்தைகளும் மேம்பாடுகளும், என்றென்றும்</li>
                         <li>தொடர் கட்டணங்கள் இல்லவே இல்லை</li>
                         <li>வெளியீட்டில் முன்னுரிமை இணைப்பு</li>
@@ -4072,7 +4072,7 @@ HOMEPAGE_HTML_TA = """
                 </details>
                 <details>
                     <summary>திட்டங்களுக்கு இடையிலான வேறுபாடு என்ன?</summary>
-                    <div class="a">Prototype — ப்ரோட்டோடைப் இன்ஜினுக்கு ஒற்றைச் சந்தை ஆரம்ப அணுகல். Founding Alpha — தொடர் கட்டணமின்றி வாழ்நாள் முழு அணுகல். Early Access — அதே முழு இன்ஜின், மாதாந்திரக் கட்டணம், சுதந்திரமான ரத்து. VIP Annual — முன்னுரிமை செயலாக்கம், முழு API அணுகல், முன்னுரிமை ஆதரவு கூடுதல்.</div>
+                    <div class="a">Prototype — ப்ரோட்டோடைப் இன்ஜினுக்கு ஒற்றைச் சந்தை ஆரம்ப அணுகல். Founding Alpha — தொடர் கட்டணமின்றி ஒரே கட்டணத்தில் முழு அணுகல். Early Access — அதே முழு இன்ஜின், மாதாந்திரக் கட்டணம், சுதந்திரமான ரத்து. VIP Annual — முன்னுரிமை செயலாக்கம், முழு API அணுகல், முன்னுரிமை ஆதரவு கூடுதல்.</div>
                 </details>
                 <details>
                     <summary>முன்பதிவுக்குப் பிறகு என்ன நடக்கும்?</summary>
@@ -4452,11 +4452,11 @@ SALES_ASSISTANT_PROMPT = """You are an elite high-ticket sales closer working th
 YOUR SALES PROCESS (follow in order, one step per message):
 1. DISCOVER: open with one short question to learn what they want (e.g. are they new to automated trading or experienced; do they prefer one-time or monthly).
 2. QUALIFY and MATCH: from their answer, recommend exactly ONE tier and frame it around what they told you. New/curious -> Prototype. Long-term believer / hates subscriptions -> Founding Alpha. Wants flexibility -> Early Access. Serious operator / wants API + priority -> VIP Annual.
-3. CLOSE: give the checkout link with a risk-reversal: pre-orders are fully refundable any time before launch, so reserving the founding price costs them nothing if they change their mind. Where natural, offer an alternative-choice close ("lifetime or annual?") rather than yes/no.
+3. CLOSE: give the checkout link with a risk-reversal: pre-orders are fully refundable any time before launch, so reserving the founding price costs them nothing if they change their mind. Where natural, offer an alternative-choice close ("one-time or annual?") rather than yes/no.
 4. OBJECTIONS: answer honestly from the playbook below, then re-close ONCE. If they clearly decline twice, exit warmly and point to the FAQ. Never badger.
 
 OBJECTION PLAYBOOK:
-- "Too expensive": Founding Alpha is one-time $399.99 for lifetime access - less than one month of a typical trading-signal subscription. Early Access is $99.99/month, cancel anytime. Every pre-order is refundable before launch, so there is no risk in reserving now.
+- "Too expensive": Founding Alpha is one-time $399.99 for full access - less than one month of a typical trading-signal subscription. Early Access is $99.99/month, cancel anytime. Every pre-order is refundable before launch, so there is no risk in reserving now.
 - "Is this a scam / can I trust you": the engine is non-custodial - it connects to THEIR exchange account via API keys THEY control and can revoke anytime; withdrawal permissions are never required; money never moves to us. Plus full refundability before launch. Checkout is Stripe.
 - "Does it actually make money": be straight - no one can guarantee trading profits and you never will. What's real: a rule-based statistical strategy (Z-score mean reversion, the same class used on institutional desks), executed without emotion, with position sizing and exposure limits enforced on every trade. The honest framing wins trust; use it.
 - "Why buy before launch": founding members onboard first; refundable until launch so there is zero downside to reserving.
@@ -4465,7 +4465,7 @@ FACTS (your only source of truth):
 - Every tier is a PRE-ORDER at founding pricing. Engine access is delivered at launch; founding members onboard first. Launch timeline updates are sent by email after purchase.
 - Tiers:
   1. Prototype - $159.99 one-time. Entry access to the prototype engine, core Z-score strategy, one market, email support. Checkout: https://buy.stripe.com/eVq7sK4Lv0xO4jbc3Md3i04
-  2. Founding Alpha - $399.99 one-time, LIFETIME full-engine access, all markets and updates forever, no recurring fees, priority onboarding. Checkout: https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05
+  2. Founding Alpha - $399.99 one-time, full-engine access, all markets and updates, no recurring fees, priority onboarding. Checkout: https://buy.stripe.com/6oU4gy4Lv1BS02V3xgd3i05
   3. Early Access Pass - $99.99/month, full engine, all markets, cancel anytime. Checkout: https://buy.stripe.com/dRm9AS5Pz80g6rj9VEd3i06
   4. VIP Annual Pass - $999.99/year, everything in Early Access plus priority execution queue, full API access, priority support. Best value. Checkout: https://buy.stripe.com/28E00i4LvbcsaHz4Bkd3i07
 - Payment is via Stripe; the buyer's local currency (USD, EUR, GBP, CAD, AUD) is detected automatically at checkout.
@@ -4518,15 +4518,15 @@ def offline_reply(text):
     if has("prototype"):
         return "Prototype - $159.99 one-time, launches Sep 11, 2026. Entry access to the engine, the core Z-score strategy on one market, standard risk controls, and email support. It's the best starting point. Code LAUNCH50 takes 50% off. " + CHECKOUT_LINKS["prototype"]
     if has("founding", "alpha", "lifetime"):
-        return "Founding Alpha - $399.99 one-time for lifetime full-engine access: all markets and updates forever, no recurring fees. Best long-term value. Code LAUNCH50 takes 50% off. " + CHECKOUT_LINKS["founding"]
+        return "Founding Alpha - $399.99 one-time for full-engine access: all markets and updates, no recurring fees. Best long-term value. Code LAUNCH50 takes 50% off. " + CHECKOUT_LINKS["founding"]
     if has("early access", "monthly", "per month"):
         return "Early Access - $99.99/month, full engine, all markets, cancel anytime. You are not billed until the engine launches. Code LAUNCH50 takes 50% off. " + CHECKOUT_LINKS["early"]
     if has("vip", "annual", "yearly", "per year"):
         return "VIP Annual - $999.99/year, everything in Early Access plus priority execution and full API access. Not billed until launch. Code LAUNCH50 takes 50% off. " + CHECKOUT_LINKS["vip"]
     if has("price", "cost", "how much", "expensive", "afford", "pricing"):
-        return "Founding prices: Prototype $159.99 one-time, Founding Alpha $399.99 one-time (lifetime), Early Access $99.99/mo, VIP Annual $999.99/yr. Use code LAUNCH50 for 50% off, and the subscriptions don't bill until launch. Want the link for a specific tier?"
+        return "Founding prices: Prototype $159.99 one-time, Founding Alpha $399.99 one-time, Early Access $99.99/mo, VIP Annual $999.99/yr. Use code LAUNCH50 for 50% off, and the subscriptions don't bill until launch. Want the link for a specific tier?"
     if has("which", "recommend", "best", "should i", "fit", "beginner", "new", "start with"):
-        return "If you're just getting started, go with the Prototype ($159.99 one-time) - lowest-risk way in, and you can upgrade later. If you want the full engine forever with no recurring fees, Founding Alpha ($399.99 lifetime) is the best value. Want the link for either?"
+        return "If you're just getting started, go with the Prototype ($159.99 one-time) - lowest-risk way in, and you can upgrade later. If you want the full engine forever with no recurring fees, Founding Alpha ($399.99 one-time) is the best value. Want the link for either?"
     if has("when", "launch", "release", "ready", "date", "live", "available", "timeline"):
         return "The Prototype launches Sep 11, 2026. The full engine (Founding Alpha, Early Access, VIP) launches early 2027. The subscription tiers don't charge until then - you're just locking your founding price now."
     if has("what", "how", "work", "z-score", "zscore", "mean reversion", "strategy", "engine", "explain", "bot"):
