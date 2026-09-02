@@ -5,7 +5,7 @@ from fastapi.responses import HTMLResponse, JSONResponse, PlainTextResponse, Res
 
 
 app = FastAPI(
-    title="ai PassiveAutotrades",
+    title="APA-TAC",
     description="Institutional Alpha",
     version="1.1.0",
     docs_url=None,
@@ -73,7 +73,7 @@ CHAT_WIDGET = """
     </style>
     <button id="pa-chat-btn" aria-label="Chat with us">&#128172;</button>
     <div id="pa-chat">
-        <div id="pa-chat-head">ai <span>PassiveAutotrades</span> &middot; Assistant</div>
+        <div id="pa-chat-head"><span>APA</span>-TAC &middot; Assistant</div>
         <div id="pa-chat-msgs"></div>
         <form id="pa-chat-form">
             <input id="pa-chat-in" type="text" maxlength="1000" placeholder="Ask anything..." autocomplete="off">
@@ -391,7 +391,7 @@ HOMEPAGE_HTML = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ai PassiveAutotrades — Automated Z-Score Quant Trading Engine</title>
+    <title>APA-TAC — Automated Z-Score Quant Trading Engine</title>
     <meta name="description" content="Fully automated Z-score mean-reversion trading engine. Hands-free execution, built-in risk controls, and your funds never leave your own exchange account. Pre-order founding access.">
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/">
     <link rel="alternate" hreflang="en" href="https://aipassiveautotrades.vercel.app/">
@@ -410,15 +410,15 @@ HOMEPAGE_HTML = """
     <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/">
-    <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — Institutional-Grade Trading, Automated.">
+    <meta property="og:site_name" content="APA-TAC">
+    <meta property="og:title" content="APA-TAC — Institutional-Grade Trading, Automated.">
     <meta property="og:description" content="Automated Z-score quant strategies without watching charts. Pre-order founding access before launch.">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:locale" content="en_US">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ai PassiveAutotrades — Institutional-Grade Trading, Automated.">
+    <meta name="twitter:title" content="APA-TAC — Institutional-Grade Trading, Automated.">
     <meta name="twitter:description" content="Automated Z-score quant strategies without watching charts. Pre-order founding access before launch.">
     <meta name="twitter:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <script defer src="/_vercel/insights/script.js"></script>
@@ -430,15 +430,15 @@ HOMEPAGE_HTML = """
           "@type": "WebSite",
           "@id": "https://aipassiveautotrades.vercel.app/#website",
           "url": "https://aipassiveautotrades.vercel.app/",
-          "name": "ai PassiveAutotrades",
+          "name": "APA-TAC",
           "description": "Automated Z-score mean-reversion trading engine with hands-free execution and built-in risk controls."
         },
         {
           "@type": "Product",
           "@id": "https://aipassiveautotrades.vercel.app/#product",
-          "name": "ai PassiveAutotrades",
+          "name": "APA-TAC",
           "description": "A fully automated trading engine built on Z-score mean reversion, executing around the clock with enforced position sizing and exposure limits. All tiers are founding pre-orders; access is delivered at launch.",
-          "brand": { "@type": "Brand", "name": "ai PassiveAutotrades" },
+          "brand": { "@type": "Brand", "name": "APA-TAC" },
           "image": "https://aipassiveautotrades.vercel.app/og.png",
           "url": "https://aipassiveautotrades.vercel.app/",
           "offers": [
@@ -703,7 +703,7 @@ HOMEPAGE_HTML = """
 <body>
     <nav>
         <div class="nav-inner">
-            <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+            <a href="#" class="logo"><em>APA</em>-TAC</a>
             <div class="nav-links">
                 <a href="#how">How It Works</a>
                 <a href="#strategy">Strategy</a>
@@ -808,7 +808,7 @@ HOMEPAGE_HTML = """
                 </div>
                 <div class="quote-box">
                     <div class="big">&ldquo;When price deviates beyond &plusmn;2 standard deviations from its rolling mean, the engine arms a reversion position &mdash; and manages it to completion without human input.&rdquo;</div>
-                    <div class="src">&mdash; The core rule inside ai PassiveAutotrades, stated plainly. No black box, no mystery signals.</div>
+                    <div class="src">&mdash; The core rule inside APA-TAC, stated plainly. No black box, no mystery signals.</div>
                 </div>
             </div>
         </div>
@@ -1010,7 +1010,7 @@ HOMEPAGE_HTML = """
     <footer>
         <div class="wrap">
             <div class="foot-top">
-                <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+                <a href="#" class="logo"><em>APA</em>-TAC</a>
                 <div class="foot-links">
                     <a href="#how">How It Works</a>
                     <a href="#strategy">Strategy</a>
@@ -1020,8 +1020,8 @@ HOMEPAGE_HTML = """
                     <a href="/privacy">Privacy</a>
                 </div>
             </div>
-            <p class="disclaimer">Risk disclosure: Trading involves substantial risk of loss and is not suitable for every investor. Algorithmic and automated strategies can and do lose money; past or simulated performance does not guarantee future results. ai PassiveAutotrades is a software tool &mdash; it is not an investment adviser, broker-dealer, or fiduciary, and nothing on this site constitutes financial advice or a solicitation to trade. Pre-order purchases grant software access at launch as described above. Only trade with capital you can afford to lose.</p>
-            <p class="copyright">&copy; 2026 ai PassiveAutotrades. All rights reserved.</p>
+            <p class="disclaimer">Risk disclosure: Trading involves substantial risk of loss and is not suitable for every investor. Algorithmic and automated strategies can and do lose money; past or simulated performance does not guarantee future results. APA-TAC is a software tool &mdash; it is not an investment adviser, broker-dealer, or fiduciary, and nothing on this site constitutes financial advice or a solicitation to trade. Pre-order purchases grant software access at launch as described above. Only trade with capital you can afford to lose.</p>
+            <p class="copyright">&copy; 2026 APA-TAC. All rights reserved.</p>
         </div>
     </footer>
 """ + CHAT_WIDGET + """
@@ -1055,7 +1055,7 @@ HOMEPAGE_HTML_ES = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ai PassiveAutotrades — Motor de Trading Cuantitativo Z-Score Automatizado</title>
+    <title>APA-TAC — Motor de Trading Cuantitativo Z-Score Automatizado</title>
     <meta name="description" content="Motor de trading automatizado basado en reversión a la media Z-score. Ejecución sin intervención, controles de riesgo integrados y tus fondos nunca salen de tu propia cuenta. Reserva tu acceso fundador.">
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/es">
 """ + HREFLANG_LINKS + """
@@ -1063,8 +1063,8 @@ HOMEPAGE_HTML_ES = """
     <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/es">
-    <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — Trading de Grado Institucional, Automatizado.">
+    <meta property="og:site_name" content="APA-TAC">
+    <meta property="og:title" content="APA-TAC — Trading de Grado Institucional, Automatizado.">
     <meta property="og:description" content="Estrategias cuantitativas Z-score automatizadas sin mirar gráficos. Reserva tu acceso fundador antes del lanzamiento.">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:locale" content="es_ES">
@@ -1079,7 +1079,7 @@ HOMEPAGE_HTML_ES = """
 <body>
     <nav>
         <div class="nav-inner">
-            <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+            <a href="#" class="logo"><em>APA</em>-TAC</a>
             <div class="nav-links">
                 <a href="#how">Cómo Funciona</a>
                 <a href="#strategy">Estrategia</a>
@@ -1184,7 +1184,7 @@ HOMEPAGE_HTML_ES = """
                 </div>
                 <div class="quote-box">
                     <div class="big">&laquo;Cuando el precio se desv&iacute;a m&aacute;s de &plusmn;2 desviaciones est&aacute;ndar de su media m&oacute;vil, el motor arma una posici&oacute;n de reversi&oacute;n &mdash; y la gestiona hasta el final sin intervenci&oacute;n humana.&raquo;</div>
-                    <div class="src">&mdash; La regla central de ai PassiveAutotrades, explicada claramente. Sin caja negra, sin se&ntilde;ales misteriosas.</div>
+                    <div class="src">&mdash; La regla central de APA-TAC, explicada claramente. Sin caja negra, sin se&ntilde;ales misteriosas.</div>
                 </div>
             </div>
         </div>
@@ -1375,7 +1375,7 @@ HOMEPAGE_HTML_ES = """
     <footer>
         <div class="wrap">
             <div class="foot-top">
-                <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+                <a href="#" class="logo"><em>APA</em>-TAC</a>
                 <div class="foot-links">
                     <a href="#how">C&oacute;mo Funciona</a>
                     <a href="#strategy">Estrategia</a>
@@ -1385,8 +1385,8 @@ HOMEPAGE_HTML_ES = """
                     <a href="/privacy">Privacidad</a>
                 </div>
             </div>
-            <p class="disclaimer">Aviso de riesgo: El trading conlleva un riesgo sustancial de p&eacute;rdida y no es adecuado para todos los inversores. Las estrategias algor&iacute;tmicas y automatizadas pueden perder dinero y lo hacen; el rendimiento pasado o simulado no garantiza resultados futuros. ai PassiveAutotrades es una herramienta de software &mdash; no es un asesor de inversiones, broker-dealer ni fiduciario, y nada en este sitio constituye asesoramiento financiero ni una solicitud para operar. Las compras de reserva otorgan acceso al software en el lanzamiento seg&uacute;n lo descrito. Opera solo con capital que puedas permitirte perder.</p>
-            <p class="copyright">&copy; 2026 ai PassiveAutotrades. Todos los derechos reservados.</p>
+            <p class="disclaimer">Aviso de riesgo: El trading conlleva un riesgo sustancial de p&eacute;rdida y no es adecuado para todos los inversores. Las estrategias algor&iacute;tmicas y automatizadas pueden perder dinero y lo hacen; el rendimiento pasado o simulado no garantiza resultados futuros. APA-TAC es una herramienta de software &mdash; no es un asesor de inversiones, broker-dealer ni fiduciario, y nada en este sitio constituye asesoramiento financiero ni una solicitud para operar. Las compras de reserva otorgan acceso al software en el lanzamiento seg&uacute;n lo descrito. Opera solo con capital que puedas permitirte perder.</p>
+            <p class="copyright">&copy; 2026 APA-TAC. Todos los derechos reservados.</p>
         </div>
     </footer>
 """ + CHAT_WIDGET + """
@@ -1400,7 +1400,7 @@ HOMEPAGE_HTML_FR = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ai PassiveAutotrades — Moteur de Trading Quantitatif Z-Score Automatisé</title>
+    <title>APA-TAC — Moteur de Trading Quantitatif Z-Score Automatisé</title>
     <meta name="description" content="Moteur de trading automatisé basé sur le retour à la moyenne Z-score. Exécution sans intervention, contrôles de risque intégrés et vos fonds ne quittent jamais votre propre compte. Précommandez votre accès fondateur.">
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/fr">
 """ + HREFLANG_LINKS + """
@@ -1408,8 +1408,8 @@ HOMEPAGE_HTML_FR = """
     <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/fr">
-    <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — Un Trading de Niveau Institutionnel, Automatisé.">
+    <meta property="og:site_name" content="APA-TAC">
+    <meta property="og:title" content="APA-TAC — Un Trading de Niveau Institutionnel, Automatisé.">
     <meta property="og:description" content="Stratégies quantitatives Z-score automatisées sans surveiller les graphiques. Précommandez votre accès fondateur avant le lancement.">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:locale" content="fr_FR">
@@ -1424,7 +1424,7 @@ HOMEPAGE_HTML_FR = """
 <body>
     <nav>
         <div class="nav-inner">
-            <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+            <a href="#" class="logo"><em>APA</em>-TAC</a>
             <div class="nav-links">
                 <a href="#how">Fonctionnement</a>
                 <a href="#strategy">Strat&eacute;gie</a>
@@ -1529,7 +1529,7 @@ HOMEPAGE_HTML_FR = """
                 </div>
                 <div class="quote-box">
                     <div class="big">&laquo;&nbsp;Quand le prix d&eacute;vie au-del&agrave; de &plusmn;2 &eacute;carts-types de sa moyenne glissante, le moteur arme une position de retour &agrave; la moyenne &mdash; et la g&egrave;re jusqu'au bout sans intervention humaine.&nbsp;&raquo;</div>
-                    <div class="src">&mdash; La r&egrave;gle centrale d'ai PassiveAutotrades, &eacute;nonc&eacute;e clairement. Pas de bo&icirc;te noire, pas de signaux myst&egrave;res.</div>
+                    <div class="src">&mdash; La r&egrave;gle centrale d'APA-TAC, &eacute;nonc&eacute;e clairement. Pas de bo&icirc;te noire, pas de signaux myst&egrave;res.</div>
                 </div>
             </div>
         </div>
@@ -1720,7 +1720,7 @@ HOMEPAGE_HTML_FR = """
     <footer>
         <div class="wrap">
             <div class="foot-top">
-                <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+                <a href="#" class="logo"><em>APA</em>-TAC</a>
                 <div class="foot-links">
                     <a href="#how">Fonctionnement</a>
                     <a href="#strategy">Strat&eacute;gie</a>
@@ -1730,8 +1730,8 @@ HOMEPAGE_HTML_FR = """
                     <a href="/privacy">Confidentialit&eacute;</a>
                 </div>
             </div>
-            <p class="disclaimer">Avertissement sur les risques&nbsp;: Le trading comporte un risque substantiel de perte et ne convient pas &agrave; tous les investisseurs. Les strat&eacute;gies algorithmiques et automatis&eacute;es peuvent perdre de l'argent et en perdent&nbsp;; les performances pass&eacute;es ou simul&eacute;es ne garantissent pas les r&eacute;sultats futurs. ai PassiveAutotrades est un outil logiciel &mdash; ce n'est ni un conseiller en investissement, ni un courtier, ni un fiduciaire, et rien sur ce site ne constitue un conseil financier ou une sollicitation &agrave; trader. Les pr&eacute;commandes donnent acc&egrave;s au logiciel au lancement comme d&eacute;crit ci-dessus. Ne tradez qu'avec un capital que vous pouvez vous permettre de perdre.</p>
-            <p class="copyright">&copy; 2026 ai PassiveAutotrades. Tous droits r&eacute;serv&eacute;s.</p>
+            <p class="disclaimer">Avertissement sur les risques&nbsp;: Le trading comporte un risque substantiel de perte et ne convient pas &agrave; tous les investisseurs. Les strat&eacute;gies algorithmiques et automatis&eacute;es peuvent perdre de l'argent et en perdent&nbsp;; les performances pass&eacute;es ou simul&eacute;es ne garantissent pas les r&eacute;sultats futurs. APA-TAC est un outil logiciel &mdash; ce n'est ni un conseiller en investissement, ni un courtier, ni un fiduciaire, et rien sur ce site ne constitue un conseil financier ou une sollicitation &agrave; trader. Les pr&eacute;commandes donnent acc&egrave;s au logiciel au lancement comme d&eacute;crit ci-dessus. Ne tradez qu'avec un capital que vous pouvez vous permettre de perdre.</p>
+            <p class="copyright">&copy; 2026 APA-TAC. Tous droits r&eacute;serv&eacute;s.</p>
         </div>
     </footer>
 """ + CHAT_WIDGET + """
@@ -1745,7 +1745,7 @@ HOMEPAGE_HTML_DE = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ai PassiveAutotrades — Automatisierte Z-Score Quant-Trading-Engine</title>
+    <title>APA-TAC — Automatisierte Z-Score Quant-Trading-Engine</title>
     <meta name="description" content="Vollautomatisierte Trading-Engine auf Basis von Z-Score Mean Reversion. Ausführung ohne Ihr Zutun, integrierte Risikokontrollen, Ihre Gelder verlassen nie Ihr eigenes Konto. Jetzt Gründerzugang vorbestellen.">
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/de">
 """ + HREFLANG_LINKS + """
@@ -1753,8 +1753,8 @@ HOMEPAGE_HTML_DE = """
     <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/de">
-    <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — Trading auf institutionellem Niveau, Automatisiert.">
+    <meta property="og:site_name" content="APA-TAC">
+    <meta property="og:title" content="APA-TAC — Trading auf institutionellem Niveau, Automatisiert.">
     <meta property="og:description" content="Automatisierte Z-Score-Quant-Strategien ohne Chart-Beobachtung. Gründerzugang vor dem Launch vorbestellen.">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:locale" content="de_DE">
@@ -1769,7 +1769,7 @@ HOMEPAGE_HTML_DE = """
 <body>
     <nav>
         <div class="nav-inner">
-            <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+            <a href="#" class="logo"><em>APA</em>-TAC</a>
             <div class="nav-links">
                 <a href="#how">So funktioniert's</a>
                 <a href="#strategy">Strategie</a>
@@ -1874,7 +1874,7 @@ HOMEPAGE_HTML_DE = """
                 </div>
                 <div class="quote-box">
                     <div class="big">„Weicht der Preis mehr als ±2 Standardabweichungen von seinem gleitenden Mittel ab, armiert die Engine eine Reversionsposition — und managt sie bis zum Abschluss ohne menschliches Zutun."</div>
-                    <div class="src">— Die Kernregel von ai PassiveAutotrades, klar formuliert. Keine Blackbox, keine Mysterien-Signale.</div>
+                    <div class="src">— Die Kernregel von APA-TAC, klar formuliert. Keine Blackbox, keine Mysterien-Signale.</div>
                 </div>
             </div>
         </div>
@@ -2065,7 +2065,7 @@ HOMEPAGE_HTML_DE = """
     <footer>
         <div class="wrap">
             <div class="foot-top">
-                <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+                <a href="#" class="logo"><em>APA</em>-TAC</a>
                 <div class="foot-links">
                     <a href="#how">So funktioniert's</a>
                     <a href="#strategy">Strategie</a>
@@ -2075,8 +2075,8 @@ HOMEPAGE_HTML_DE = """
                     <a href="/privacy">Datenschutz</a>
                 </div>
             </div>
-            <p class="disclaimer">Risikohinweis: Trading birgt ein erhebliches Verlustrisiko und ist nicht für jeden Anleger geeignet. Algorithmische und automatisierte Strategien können Geld verlieren und tun es auch; vergangene oder simulierte Ergebnisse garantieren keine zukünftigen Resultate. ai PassiveAutotrades ist ein Software-Werkzeug — kein Anlageberater, Broker-Dealer oder Treuhänder, und nichts auf dieser Website stellt Finanzberatung oder eine Handelsaufforderung dar. Vorbestellungen gewähren Software-Zugang zum Launch wie oben beschrieben. Handeln Sie nur mit Kapital, dessen Verlust Sie sich leisten können.</p>
-            <p class="copyright">&copy; 2026 ai PassiveAutotrades. Alle Rechte vorbehalten.</p>
+            <p class="disclaimer">Risikohinweis: Trading birgt ein erhebliches Verlustrisiko und ist nicht für jeden Anleger geeignet. Algorithmische und automatisierte Strategien können Geld verlieren und tun es auch; vergangene oder simulierte Ergebnisse garantieren keine zukünftigen Resultate. APA-TAC ist ein Software-Werkzeug — kein Anlageberater, Broker-Dealer oder Treuhänder, und nichts auf dieser Website stellt Finanzberatung oder eine Handelsaufforderung dar. Vorbestellungen gewähren Software-Zugang zum Launch wie oben beschrieben. Handeln Sie nur mit Kapital, dessen Verlust Sie sich leisten können.</p>
+            <p class="copyright">&copy; 2026 APA-TAC. Alle Rechte vorbehalten.</p>
         </div>
     </footer>
 """ + CHAT_WIDGET + """
@@ -2090,7 +2090,7 @@ HOMEPAGE_HTML_PT = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ai PassiveAutotrades — Motor de Trading Quantitativo Z-Score Automatizado</title>
+    <title>APA-TAC — Motor de Trading Quantitativo Z-Score Automatizado</title>
     <meta name="description" content="Motor de trading totalmente automatizado baseado em reversão à média Z-score. Execução sem intervenção, controles de risco integrados e seus fundos nunca saem da sua própria conta. Reserve seu acesso fundador.">
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/pt">
 """ + HREFLANG_LINKS + """
@@ -2098,8 +2098,8 @@ HOMEPAGE_HTML_PT = """
     <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/pt">
-    <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — Trading de Nível Institucional, Automatizado.">
+    <meta property="og:site_name" content="APA-TAC">
+    <meta property="og:title" content="APA-TAC — Trading de Nível Institucional, Automatizado.">
     <meta property="og:description" content="Estratégias quantitativas Z-score automatizadas sem olhar gráficos. Reserve seu acesso fundador antes do lançamento.">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:locale" content="pt_BR">
@@ -2114,7 +2114,7 @@ HOMEPAGE_HTML_PT = """
 <body>
     <nav>
         <div class="nav-inner">
-            <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+            <a href="#" class="logo"><em>APA</em>-TAC</a>
             <div class="nav-links">
                 <a href="#how">Como Funciona</a>
                 <a href="#strategy">Estratégia</a>
@@ -2219,7 +2219,7 @@ HOMEPAGE_HTML_PT = """
                 </div>
                 <div class="quote-box">
                     <div class="big">"Quando o preço desvia além de ±2 desvios-padrão da sua média móvel, o motor arma uma posição de reversão — e a gerencia até o fim sem intervenção humana."</div>
-                    <div class="src">— A regra central do ai PassiveAutotrades, dita com clareza. Sem caixa-preta, sem sinais misteriosos.</div>
+                    <div class="src">— A regra central do APA-TAC, dita com clareza. Sem caixa-preta, sem sinais misteriosos.</div>
                 </div>
             </div>
         </div>
@@ -2410,7 +2410,7 @@ HOMEPAGE_HTML_PT = """
     <footer>
         <div class="wrap">
             <div class="foot-top">
-                <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+                <a href="#" class="logo"><em>APA</em>-TAC</a>
                 <div class="foot-links">
                     <a href="#how">Como Funciona</a>
                     <a href="#strategy">Estratégia</a>
@@ -2420,8 +2420,8 @@ HOMEPAGE_HTML_PT = """
                     <a href="/privacy">Privacidade</a>
                 </div>
             </div>
-            <p class="disclaimer">Aviso de risco: Trading envolve risco substancial de perda e não é adequado para todo investidor. Estratégias algorítmicas e automatizadas podem perder dinheiro e perdem; desempenho passado ou simulado não garante resultados futuros. O ai PassiveAutotrades é uma ferramenta de software — não é consultor de investimentos, corretora nem fiduciário, e nada neste site constitui aconselhamento financeiro ou solicitação para operar. As compras de pré-venda concedem acesso ao software no lançamento conforme descrito acima. Opere apenas com capital que você pode perder.</p>
-            <p class="copyright">&copy; 2026 ai PassiveAutotrades. Todos os direitos reservados.</p>
+            <p class="disclaimer">Aviso de risco: Trading envolve risco substancial de perda e não é adequado para todo investidor. Estratégias algorítmicas e automatizadas podem perder dinheiro e perdem; desempenho passado ou simulado não garante resultados futuros. O APA-TAC é uma ferramenta de software — não é consultor de investimentos, corretora nem fiduciário, e nada neste site constitui aconselhamento financeiro ou solicitação para operar. As compras de pré-venda concedem acesso ao software no lançamento conforme descrito acima. Opere apenas com capital que você pode perder.</p>
+            <p class="copyright">&copy; 2026 APA-TAC. Todos os direitos reservados.</p>
         </div>
     </footer>
 """ + CHAT_WIDGET + """
@@ -2448,7 +2448,7 @@ HOMEPAGE_HTML_AR = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ai PassiveAutotrades — محرك تداول كمي آلي بمؤشر Z-Score</title>
+    <title>APA-TAC — محرك تداول كمي آلي بمؤشر Z-Score</title>
     <meta name="description" content="محرك تداول آلي بالكامل يعتمد على استراتيجية العودة إلى المتوسط بمؤشر Z-Score. تنفيذ دون تدخل، ضوابط مخاطر مدمجة، وأموالك لا تغادر حسابك الخاص أبداً. احجز وصول المؤسسين الآن.">
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/ar">
 """ + HREFLANG_LINKS + """
@@ -2456,8 +2456,8 @@ HOMEPAGE_HTML_AR = """
     <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/ar">
-    <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — تداول بمستوى مؤسسي، مؤتمت.">
+    <meta property="og:site_name" content="APA-TAC">
+    <meta property="og:title" content="APA-TAC — تداول بمستوى مؤسسي، مؤتمت.">
     <meta property="og:description" content="استراتيجيات كمية آلية بمؤشر Z-Score دون مراقبة الرسوم البيانية. احجز وصول المؤسسين قبل الإطلاق.">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:locale" content="ar_AR">
@@ -2472,7 +2472,7 @@ HOMEPAGE_HTML_AR = """
 <body>
     <nav>
         <div class="nav-inner">
-            <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+            <a href="#" class="logo"><em>APA</em>-TAC</a>
             <div class="nav-links">
                 <a href="#how">كيف يعمل</a>
                 <a href="#strategy">الاستراتيجية</a>
@@ -2577,7 +2577,7 @@ HOMEPAGE_HTML_AR = """
                 </div>
                 <div class="quote-box">
                     <div class="big">«عندما ينحرف السعر أكثر من ±2 انحراف معياري عن متوسطه المتحرك، يسلّح المحرك مركز عودة إلى المتوسط — ويديره حتى النهاية دون تدخل بشري.»</div>
-                    <div class="src">— القاعدة الأساسية داخل ai PassiveAutotrades، معلنة بوضوح. لا صندوق أسود، ولا إشارات غامضة.</div>
+                    <div class="src">— القاعدة الأساسية داخل APA-TAC، معلنة بوضوح. لا صندوق أسود، ولا إشارات غامضة.</div>
                 </div>
             </div>
         </div>
@@ -2768,7 +2768,7 @@ HOMEPAGE_HTML_AR = """
     <footer>
         <div class="wrap">
             <div class="foot-top">
-                <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+                <a href="#" class="logo"><em>APA</em>-TAC</a>
                 <div class="foot-links">
                     <a href="#how">كيف يعمل</a>
                     <a href="#strategy">الاستراتيجية</a>
@@ -2778,8 +2778,8 @@ HOMEPAGE_HTML_AR = """
                     <a href="/privacy">الخصوصية</a>
                 </div>
             </div>
-            <p class="disclaimer">إفصاح عن المخاطر: ينطوي التداول على خطر خسارة كبير وهو غير مناسب لكل مستثمر. الاستراتيجيات الخوارزمية والآلية يمكن أن تخسر المال وهي تخسره فعلاً؛ الأداء السابق أو المحاكى لا يضمن النتائج المستقبلية. ai PassiveAutotrades أداة برمجية — ليست مستشاراً استثمارياً ولا وسيطاً مالياً ولا جهة ائتمانية، ولا شيء في هذا الموقع يشكل نصيحة مالية أو دعوة للتداول. مشتريات الحجز المسبق تمنح الوصول إلى البرنامج عند الإطلاق كما هو موضح أعلاه. تداول فقط برأس مال يمكنك تحمّل خسارته.</p>
-            <p class="copyright">&copy; 2026 ai PassiveAutotrades. جميع الحقوق محفوظة.</p>
+            <p class="disclaimer">إفصاح عن المخاطر: ينطوي التداول على خطر خسارة كبير وهو غير مناسب لكل مستثمر. الاستراتيجيات الخوارزمية والآلية يمكن أن تخسر المال وهي تخسره فعلاً؛ الأداء السابق أو المحاكى لا يضمن النتائج المستقبلية. APA-TAC أداة برمجية — ليست مستشاراً استثمارياً ولا وسيطاً مالياً ولا جهة ائتمانية، ولا شيء في هذا الموقع يشكل نصيحة مالية أو دعوة للتداول. مشتريات الحجز المسبق تمنح الوصول إلى البرنامج عند الإطلاق كما هو موضح أعلاه. تداول فقط برأس مال يمكنك تحمّل خسارته.</p>
+            <p class="copyright">&copy; 2026 APA-TAC. جميع الحقوق محفوظة.</p>
         </div>
     </footer>
 """ + CHAT_WIDGET + """
@@ -2793,7 +2793,7 @@ HOMEPAGE_HTML_FA = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ai PassiveAutotrades — موتور معاملات کمّی خودکار Z-Score</title>
+    <title>APA-TAC — موتور معاملات کمّی خودکار Z-Score</title>
     <meta name="description" content="موتور معاملاتی کاملاً خودکار مبتنی بر بازگشت به میانگین Z-Score. اجرای بدون دخالت، کنترل ریسک داخلی، و سرمایه شما هرگز از حساب خودتان خارج نمی‌شود. دسترسی بنیان‌گذاران را پیش‌خرید کنید.">
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/fa">
 """ + HREFLANG_LINKS + """
@@ -2801,8 +2801,8 @@ HOMEPAGE_HTML_FA = """
     <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/fa">
-    <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — معاملات در سطح نهادی، خودکار.">
+    <meta property="og:site_name" content="APA-TAC">
+    <meta property="og:title" content="APA-TAC — معاملات در سطح نهادی، خودکار.">
     <meta property="og:description" content="استراتژی‌های کمّی Z-Score خودکار بدون تماشای نمودار. دسترسی بنیان‌گذاران را پیش از عرضه پیش‌خرید کنید.">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:locale" content="fa_IR">
@@ -2817,7 +2817,7 @@ HOMEPAGE_HTML_FA = """
 <body>
     <nav>
         <div class="nav-inner">
-            <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+            <a href="#" class="logo"><em>APA</em>-TAC</a>
             <div class="nav-links">
                 <a href="#how">نحوه کار</a>
                 <a href="#strategy">استراتژی</a>
@@ -2922,7 +2922,7 @@ HOMEPAGE_HTML_FA = """
                 </div>
                 <div class="quote-box">
                     <div class="big">«وقتی قیمت بیش از ±۲ انحراف معیار از میانگین متحرک خود فاصله بگیرد، موتور یک پوزیشن بازگشتی مسلح می‌کند — و آن را تا پایان بدون دخالت انسانی مدیریت می‌کند.»</div>
-                    <div class="src">— قاعده اصلی ai PassiveAutotrades، بیان‌شده به‌روشنی. نه جعبه سیاه، نه سیگنال‌های مرموز.</div>
+                    <div class="src">— قاعده اصلی APA-TAC، بیان‌شده به‌روشنی. نه جعبه سیاه، نه سیگنال‌های مرموز.</div>
                 </div>
             </div>
         </div>
@@ -3113,7 +3113,7 @@ HOMEPAGE_HTML_FA = """
     <footer>
         <div class="wrap">
             <div class="foot-top">
-                <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+                <a href="#" class="logo"><em>APA</em>-TAC</a>
                 <div class="foot-links">
                     <a href="#how">نحوه کار</a>
                     <a href="#strategy">استراتژی</a>
@@ -3123,8 +3123,8 @@ HOMEPAGE_HTML_FA = """
                     <a href="/privacy">حریم خصوصی</a>
                 </div>
             </div>
-            <p class="disclaimer">افشای ریسک: معامله‌گری ریسک زیان قابل‌توجهی دارد و برای هر سرمایه‌گذاری مناسب نیست. استراتژی‌های الگوریتمی و خودکار می‌توانند ضرر کنند و ضرر هم می‌کنند؛ عملکرد گذشته یا شبیه‌سازی‌شده تضمینی برای نتایج آینده نیست. ai PassiveAutotrades یک ابزار نرم‌افزاری است — نه مشاور سرمایه‌گذاری، نه کارگزار و نه امین، و هیچ‌چیز در این وب‌سایت توصیه مالی یا دعوت به معامله نیست. خرید پیش‌فروش، دسترسی به نرم‌افزار را هنگام عرضه مطابق توضیحات بالا فراهم می‌کند. تنها با سرمایه‌ای معامله کنید که توان از دست دادنش را دارید.</p>
-            <p class="copyright">&copy; 2026 ai PassiveAutotrades. تمامی حقوق محفوظ است.</p>
+            <p class="disclaimer">افشای ریسک: معامله‌گری ریسک زیان قابل‌توجهی دارد و برای هر سرمایه‌گذاری مناسب نیست. استراتژی‌های الگوریتمی و خودکار می‌توانند ضرر کنند و ضرر هم می‌کنند؛ عملکرد گذشته یا شبیه‌سازی‌شده تضمینی برای نتایج آینده نیست. APA-TAC یک ابزار نرم‌افزاری است — نه مشاور سرمایه‌گذاری، نه کارگزار و نه امین، و هیچ‌چیز در این وب‌سایت توصیه مالی یا دعوت به معامله نیست. خرید پیش‌فروش، دسترسی به نرم‌افزار را هنگام عرضه مطابق توضیحات بالا فراهم می‌کند. تنها با سرمایه‌ای معامله کنید که توان از دست دادنش را دارید.</p>
+            <p class="copyright">&copy; 2026 APA-TAC. تمامی حقوق محفوظ است.</p>
         </div>
     </footer>
 """ + CHAT_WIDGET + """
@@ -3138,7 +3138,7 @@ HOMEPAGE_HTML_UR = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ai PassiveAutotrades — خودکار Z-Score کوانٹ ٹریڈنگ انجن</title>
+    <title>APA-TAC — خودکار Z-Score کوانٹ ٹریڈنگ انجن</title>
     <meta name="description" content="Z-Score مین ریورژن پر مبنی مکمل خودکار ٹریڈنگ انجن۔ بغیر مداخلت ایگزیکیوشن، بلٹ اِن رسک کنٹرول، اور آپ کے فنڈز کبھی آپ کے اپنے اکاؤنٹ سے باہر نہیں جاتے۔ فاؤنڈر رسائی ابھی پری آرڈر کریں۔">
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/ur">
 """ + HREFLANG_LINKS + """
@@ -3146,8 +3146,8 @@ HOMEPAGE_HTML_UR = """
     <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/ur">
-    <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — ادارہ جاتی سطح کی ٹریڈنگ، خودکار۔">
+    <meta property="og:site_name" content="APA-TAC">
+    <meta property="og:title" content="APA-TAC — ادارہ جاتی سطح کی ٹریڈنگ، خودکار۔">
     <meta property="og:description" content="چارٹ دیکھے بغیر خودکار Z-Score کوانٹ حکمتِ عملیاں۔ لانچ سے پہلے فاؤنڈر رسائی پری آرڈر کریں۔">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:locale" content="ur_PK">
@@ -3162,7 +3162,7 @@ HOMEPAGE_HTML_UR = """
 <body>
     <nav>
         <div class="nav-inner">
-            <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+            <a href="#" class="logo"><em>APA</em>-TAC</a>
             <div class="nav-links">
                 <a href="#how">طریقہ کار</a>
                 <a href="#strategy">حکمتِ عملی</a>
@@ -3267,7 +3267,7 @@ HOMEPAGE_HTML_UR = """
                 </div>
                 <div class="quote-box">
                     <div class="big">«جب قیمت اپنے رولنگ اوسط سے ±2 معیاری انحراف سے آگے نکل جائے تو انجن ایک ریورژن پوزیشن تیار کرتا ہے — اور اسے بغیر انسانی مداخلت کے انجام تک پہنچاتا ہے۔»</div>
-                    <div class="src">— ai PassiveAutotrades کا بنیادی اصول، صاف لفظوں میں۔ نہ بلیک باکس، نہ پراسرار سگنل۔</div>
+                    <div class="src">— APA-TAC کا بنیادی اصول، صاف لفظوں میں۔ نہ بلیک باکس، نہ پراسرار سگنل۔</div>
                 </div>
             </div>
         </div>
@@ -3458,7 +3458,7 @@ HOMEPAGE_HTML_UR = """
     <footer>
         <div class="wrap">
             <div class="foot-top">
-                <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+                <a href="#" class="logo"><em>APA</em>-TAC</a>
                 <div class="foot-links">
                     <a href="#how">طریقہ کار</a>
                     <a href="#strategy">حکمتِ عملی</a>
@@ -3468,8 +3468,8 @@ HOMEPAGE_HTML_UR = """
                     <a href="/privacy">پرائیویسی</a>
                 </div>
             </div>
-            <p class="disclaimer">رسک ڈسکلوژر: ٹریڈنگ میں نقصان کا نمایاں خطرہ ہے اور یہ ہر سرمایہ کار کے لیے موزوں نہیں۔ الگورتھمک اور خودکار حکمتِ عملیاں پیسہ کھو سکتی ہیں اور کھوتی ہیں؛ ماضی یا سمولیٹڈ کارکردگی مستقبل کے نتائج کی ضمانت نہیں۔ ai PassiveAutotrades ایک سافٹ ویئر ٹول ہے — نہ سرمایہ کاری مشیر، نہ بروکر ڈیلر، نہ امین، اور اس ویب سائٹ پر کچھ بھی مالی مشورہ یا ٹریڈ کی دعوت نہیں۔ پری آرڈر خریداری اوپر بیان کردہ طریقے سے لانچ پر سافٹ ویئر رسائی دیتی ہے۔ صرف اتنا سرمایہ لگائیں جس کا نقصان آپ برداشت کر سکیں۔</p>
-            <p class="copyright">&copy; 2026 ai PassiveAutotrades۔ جملہ حقوق محفوظ ہیں۔</p>
+            <p class="disclaimer">رسک ڈسکلوژر: ٹریڈنگ میں نقصان کا نمایاں خطرہ ہے اور یہ ہر سرمایہ کار کے لیے موزوں نہیں۔ الگورتھمک اور خودکار حکمتِ عملیاں پیسہ کھو سکتی ہیں اور کھوتی ہیں؛ ماضی یا سمولیٹڈ کارکردگی مستقبل کے نتائج کی ضمانت نہیں۔ APA-TAC ایک سافٹ ویئر ٹول ہے — نہ سرمایہ کاری مشیر، نہ بروکر ڈیلر، نہ امین، اور اس ویب سائٹ پر کچھ بھی مالی مشورہ یا ٹریڈ کی دعوت نہیں۔ پری آرڈر خریداری اوپر بیان کردہ طریقے سے لانچ پر سافٹ ویئر رسائی دیتی ہے۔ صرف اتنا سرمایہ لگائیں جس کا نقصان آپ برداشت کر سکیں۔</p>
+            <p class="copyright">&copy; 2026 APA-TAC۔ جملہ حقوق محفوظ ہیں۔</p>
         </div>
     </footer>
 """ + CHAT_WIDGET + """
@@ -3483,7 +3483,7 @@ HOMEPAGE_HTML_HI = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ai PassiveAutotrades — स्वचालित Z-Score क्वांट ट्रेडिंग इंजन</title>
+    <title>APA-TAC — स्वचालित Z-Score क्वांट ट्रेडिंग इंजन</title>
     <meta name="description" content="Z-Score मीन रिवर्ज़न पर आधारित पूर्णतः स्वचालित ट्रेडिंग इंजन। बिना हस्तक्षेप निष्पादन, बिल्ट-इन रिस्क कंट्रोल, और आपके फ़ंड कभी आपके अपने खाते से बाहर नहीं जाते। फ़ाउंडर एक्सेस अभी प्री-ऑर्डर करें।">
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/hi">
 """ + HREFLANG_LINKS + """
@@ -3491,8 +3491,8 @@ HOMEPAGE_HTML_HI = """
     <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/hi">
-    <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — संस्थागत-स्तर की ट्रेडिंग, स्वचालित।">
+    <meta property="og:site_name" content="APA-TAC">
+    <meta property="og:title" content="APA-TAC — संस्थागत-स्तर की ट्रेडिंग, स्वचालित।">
     <meta property="og:description" content="चार्ट देखे बिना स्वचालित Z-Score क्वांट रणनीतियाँ। लॉन्च से पहले फ़ाउंडर एक्सेस प्री-ऑर्डर करें।">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:locale" content="hi_IN">
@@ -3507,7 +3507,7 @@ HOMEPAGE_HTML_HI = """
 <body>
     <nav>
         <div class="nav-inner">
-            <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+            <a href="#" class="logo"><em>APA</em>-TAC</a>
             <div class="nav-links">
                 <a href="#how">कैसे काम करता है</a>
                 <a href="#strategy">रणनीति</a>
@@ -3612,7 +3612,7 @@ HOMEPAGE_HTML_HI = """
                 </div>
                 <div class="quote-box">
                     <div class="big">"जब क़ीमत अपने रोलिंग औसत से ±2 मानक विचलन से आगे निकल जाती है, इंजन एक रिवर्ज़न पोज़िशन तैयार करता है — और उसे बिना मानवीय हस्तक्षेप के अंजाम तक पहुँचाता है।"</div>
-                    <div class="src">— ai PassiveAutotrades का मूल नियम, साफ़ शब्दों में। न ब्लैक बॉक्स, न रहस्यमय सिग्नल।</div>
+                    <div class="src">— APA-TAC का मूल नियम, साफ़ शब्दों में। न ब्लैक बॉक्स, न रहस्यमय सिग्नल।</div>
                 </div>
             </div>
         </div>
@@ -3803,7 +3803,7 @@ HOMEPAGE_HTML_HI = """
     <footer>
         <div class="wrap">
             <div class="foot-top">
-                <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+                <a href="#" class="logo"><em>APA</em>-TAC</a>
                 <div class="foot-links">
                     <a href="#how">कैसे काम करता है</a>
                     <a href="#strategy">रणनीति</a>
@@ -3813,8 +3813,8 @@ HOMEPAGE_HTML_HI = """
                     <a href="/privacy">गोपनीयता</a>
                 </div>
             </div>
-            <p class="disclaimer">जोखिम प्रकटीकरण: ट्रेडिंग में नुक़सान का पर्याप्त जोखिम है और यह हर निवेशक के लिए उपयुक्त नहीं है। एल्गोरिथमिक और स्वचालित रणनीतियाँ पैसा गँवा सकती हैं और गँवाती हैं; अतीत या सिम्युलेटेड प्रदर्शन भविष्य के परिणामों की गारंटी नहीं है। ai PassiveAutotrades एक सॉफ़्टवेयर टूल है — यह निवेश सलाहकार, ब्रोकर-डीलर या न्यासी नहीं है, और इस साइट पर कुछ भी वित्तीय सलाह या ट्रेड का आग्रह नहीं है। प्री-ऑर्डर ख़रीद ऊपर वर्णित अनुसार लॉन्च पर सॉफ़्टवेयर पहुँच देती है। केवल उतनी पूँजी से ट्रेड करें जिसे खोना आप सह सकें।</p>
-            <p class="copyright">&copy; 2026 ai PassiveAutotrades. सर्वाधिकार सुरक्षित।</p>
+            <p class="disclaimer">जोखिम प्रकटीकरण: ट्रेडिंग में नुक़सान का पर्याप्त जोखिम है और यह हर निवेशक के लिए उपयुक्त नहीं है। एल्गोरिथमिक और स्वचालित रणनीतियाँ पैसा गँवा सकती हैं और गँवाती हैं; अतीत या सिम्युलेटेड प्रदर्शन भविष्य के परिणामों की गारंटी नहीं है। APA-TAC एक सॉफ़्टवेयर टूल है — यह निवेश सलाहकार, ब्रोकर-डीलर या न्यासी नहीं है, और इस साइट पर कुछ भी वित्तीय सलाह या ट्रेड का आग्रह नहीं है। प्री-ऑर्डर ख़रीद ऊपर वर्णित अनुसार लॉन्च पर सॉफ़्टवेयर पहुँच देती है। केवल उतनी पूँजी से ट्रेड करें जिसे खोना आप सह सकें।</p>
+            <p class="copyright">&copy; 2026 APA-TAC. सर्वाधिकार सुरक्षित।</p>
         </div>
     </footer>
 """ + CHAT_WIDGET + """
@@ -3828,7 +3828,7 @@ HOMEPAGE_HTML_BN = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ai PassiveAutotrades — স্বয়ংক্রিয় Z-Score কোয়ান্ট ট্রেডিং ইঞ্জিন</title>
+    <title>APA-TAC — স্বয়ংক্রিয় Z-Score কোয়ান্ট ট্রেডিং ইঞ্জিন</title>
     <meta name="description" content="Z-Score মিন রিভার্সনের উপর ভিত্তি করে সম্পূর্ণ স্বয়ংক্রিয় ট্রেডিং ইঞ্জিন। হস্তক্ষেপ ছাড়া এক্সিকিউশন, বিল্ট-ইন রিস্ক কন্ট্রোল, এবং আপনার ফান্ড কখনও আপনার নিজের অ্যাকাউন্ট ছেড়ে যায় না। প্রতিষ্ঠাতা অ্যাক্সেস এখনই প্রি-অর্ডার করুন।">
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/bn">
 """ + HREFLANG_LINKS + """
@@ -3836,8 +3836,8 @@ HOMEPAGE_HTML_BN = """
     <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/bn">
-    <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — প্রাতিষ্ঠানিক-মানের ট্রেডিং, স্বয়ংক্রিয়।">
+    <meta property="og:site_name" content="APA-TAC">
+    <meta property="og:title" content="APA-TAC — প্রাতিষ্ঠানিক-মানের ট্রেডিং, স্বয়ংক্রিয়।">
     <meta property="og:description" content="চার্ট না দেখে স্বয়ংক্রিয় Z-Score কোয়ান্ট কৌশল। লঞ্চের আগে প্রতিষ্ঠাতা অ্যাক্সেস প্রি-অর্ডার করুন।">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:locale" content="bn_BD">
@@ -3852,7 +3852,7 @@ HOMEPAGE_HTML_BN = """
 <body>
     <nav>
         <div class="nav-inner">
-            <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+            <a href="#" class="logo"><em>APA</em>-TAC</a>
             <div class="nav-links">
                 <a href="#how">কীভাবে কাজ করে</a>
                 <a href="#strategy">কৌশল</a>
@@ -3957,7 +3957,7 @@ HOMEPAGE_HTML_BN = """
                 </div>
                 <div class="quote-box">
                     <div class="big">"দাম যখন তার রোলিং গড় থেকে ±২ স্ট্যান্ডার্ড ডেভিয়েশনের বেশি সরে যায়, ইঞ্জিন একটি রিভার্সন পজিশন প্রস্তুত করে — এবং মানুষের হস্তক্ষেপ ছাড়াই তা শেষ পর্যন্ত পরিচালনা করে।"</div>
-                    <div class="src">— ai PassiveAutotrades-এর মূল নিয়ম, সরল ভাষায়। কোনো ব্ল্যাক বক্স নেই, রহস্যময় সিগন্যাল নেই।</div>
+                    <div class="src">— APA-TAC-এর মূল নিয়ম, সরল ভাষায়। কোনো ব্ল্যাক বক্স নেই, রহস্যময় সিগন্যাল নেই।</div>
                 </div>
             </div>
         </div>
@@ -4148,7 +4148,7 @@ HOMEPAGE_HTML_BN = """
     <footer>
         <div class="wrap">
             <div class="foot-top">
-                <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+                <a href="#" class="logo"><em>APA</em>-TAC</a>
                 <div class="foot-links">
                     <a href="#how">কীভাবে কাজ করে</a>
                     <a href="#strategy">কৌশল</a>
@@ -4158,8 +4158,8 @@ HOMEPAGE_HTML_BN = """
                     <a href="/privacy">গোপনীয়তা</a>
                 </div>
             </div>
-            <p class="disclaimer">ঝুঁকি প্রকাশ: ট্রেডিংয়ে উল্লেখযোগ্য ক্ষতির ঝুঁকি রয়েছে এবং এটি সব বিনিয়োগকারীর জন্য উপযুক্ত নয়। অ্যালগরিদমিক ও স্বয়ংক্রিয় কৌশল অর্থ হারাতে পারে এবং হারায়ও; অতীত বা সিমুলেটেড পারফরম্যান্স ভবিষ্যৎ ফলাফলের নিশ্চয়তা দেয় না। ai PassiveAutotrades একটি সফটওয়্যার টুল — এটি বিনিয়োগ উপদেষ্টা, ব্রোকার-ডিলার বা ট্রাস্টি নয়, এবং এই সাইটের কিছুই আর্থিক পরামর্শ বা ট্রেডের আমন্ত্রণ নয়। প্রি-অর্ডার ক্রয় উপরে বর্ণিত অনুযায়ী লঞ্চে সফটওয়্যার অ্যাক্সেস দেয়। শুধু সেই মূলধন দিয়ে ট্রেড করুন যা হারানোর সামর্থ্য আপনার আছে।</p>
-            <p class="copyright">&copy; 2026 ai PassiveAutotrades. সর্বস্বত্ব সংরক্ষিত।</p>
+            <p class="disclaimer">ঝুঁকি প্রকাশ: ট্রেডিংয়ে উল্লেখযোগ্য ক্ষতির ঝুঁকি রয়েছে এবং এটি সব বিনিয়োগকারীর জন্য উপযুক্ত নয়। অ্যালগরিদমিক ও স্বয়ংক্রিয় কৌশল অর্থ হারাতে পারে এবং হারায়ও; অতীত বা সিমুলেটেড পারফরম্যান্স ভবিষ্যৎ ফলাফলের নিশ্চয়তা দেয় না। APA-TAC একটি সফটওয়্যার টুল — এটি বিনিয়োগ উপদেষ্টা, ব্রোকার-ডিলার বা ট্রাস্টি নয়, এবং এই সাইটের কিছুই আর্থিক পরামর্শ বা ট্রেডের আমন্ত্রণ নয়। প্রি-অর্ডার ক্রয় উপরে বর্ণিত অনুযায়ী লঞ্চে সফটওয়্যার অ্যাক্সেস দেয়। শুধু সেই মূলধন দিয়ে ট্রেড করুন যা হারানোর সামর্থ্য আপনার আছে।</p>
+            <p class="copyright">&copy; 2026 APA-TAC. সর্বস্বত্ব সংরক্ষিত।</p>
         </div>
     </footer>
 """ + CHAT_WIDGET + """
@@ -4173,7 +4173,7 @@ HOMEPAGE_HTML_TA = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ai PassiveAutotrades — தானியங்கி Z-Score குவாண்ட் டிரேடிங் இன்ஜின்</title>
+    <title>APA-TAC — தானியங்கி Z-Score குவாண்ட் டிரேடிங் இன்ஜின்</title>
     <meta name="description" content="Z-Score சராசரி மீட்சியை அடிப்படையாகக் கொண்ட முழு தானியங்கி டிரேடிங் இன்ஜின். தலையீடின்றி செயலாக்கம், உள்ளமைந்த ரிஸ்க் கட்டுப்பாடுகள், உங்கள் நிதி உங்கள் சொந்தக் கணக்கை விட்டு வெளியேறாது. நிறுவனர் அணுகலை இப்போதே முன்பதிவு செய்யுங்கள்.">
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/ta">
 """ + HREFLANG_LINKS + """
@@ -4181,8 +4181,8 @@ HOMEPAGE_HTML_TA = """
     <meta name="theme-color" content="#071619">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aipassiveautotrades.vercel.app/ta">
-    <meta property="og:site_name" content="ai PassiveAutotrades">
-    <meta property="og:title" content="ai PassiveAutotrades — நிறுவன தரத்திலான டிரேடிங், தானியங்கி.">
+    <meta property="og:site_name" content="APA-TAC">
+    <meta property="og:title" content="APA-TAC — நிறுவன தரத்திலான டிரேடிங், தானியங்கி.">
     <meta property="og:description" content="வரைபடங்களைப் பார்க்காமல் தானியங்கி Z-Score குவாண்ட் உத்திகள். வெளியீட்டுக்கு முன் நிறுவனர் அணுகலை முன்பதிவு செய்யுங்கள்.">
     <meta property="og:image" content="https://aipassiveautotrades.vercel.app/og.png">
     <meta property="og:locale" content="ta_IN">
@@ -4197,7 +4197,7 @@ HOMEPAGE_HTML_TA = """
 <body>
     <nav>
         <div class="nav-inner">
-            <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+            <a href="#" class="logo"><em>APA</em>-TAC</a>
             <div class="nav-links">
                 <a href="#how">எப்படி வேலை செய்கிறது</a>
                 <a href="#strategy">உத்தி</a>
@@ -4302,7 +4302,7 @@ HOMEPAGE_HTML_TA = """
                 </div>
                 <div class="quote-box">
                     <div class="big">"விலை தனது நகரும் சராசரியிலிருந்து ±2 நியம விலகல்களுக்கு மேல் விலகும்போது, இன்ஜின் ஒரு மீட்சி பொசிஷனைத் தயார்படுத்துகிறது — மனிதத் தலையீடின்றி இறுதிவரை நிர்வகிக்கிறது."</div>
-                    <div class="src">— ai PassiveAutotrades-இன் மையவிதி, தெளிவாகச் சொல்லப்பட்டது. கறுப்புப் பெட்டி இல்லை, மர்மச் சிக்னல்கள் இல்லை.</div>
+                    <div class="src">— APA-TAC-இன் மையவிதி, தெளிவாகச் சொல்லப்பட்டது. கறுப்புப் பெட்டி இல்லை, மர்மச் சிக்னல்கள் இல்லை.</div>
                 </div>
             </div>
         </div>
@@ -4493,7 +4493,7 @@ HOMEPAGE_HTML_TA = """
     <footer>
         <div class="wrap">
             <div class="foot-top">
-                <a href="#" class="logo">ai <em>PassiveAutotrades</em></a>
+                <a href="#" class="logo"><em>APA</em>-TAC</a>
                 <div class="foot-links">
                     <a href="#how">எப்படி வேலை செய்கிறது</a>
                     <a href="#strategy">உத்தி</a>
@@ -4503,8 +4503,8 @@ HOMEPAGE_HTML_TA = """
                     <a href="/privacy">தனியுரிமை</a>
                 </div>
             </div>
-            <p class="disclaimer">அபாய வெளிப்படுத்தல்: வர்த்தகத்தில் கணிசமான இழப்பு அபாயம் உள்ளது; இது ஒவ்வொரு முதலீட்டாளருக்கும் ஏற்றதல்ல. அல்காரிதம் மற்றும் தானியங்கி உத்திகள் பணத்தை இழக்கக்கூடும், இழக்கின்றன; கடந்தகால அல்லது உருவகப்படுத்தப்பட்ட செயல்திறன் எதிர்கால முடிவுகளுக்கு உத்தரவாதம் அல்ல. ai PassiveAutotrades ஒரு மென்பொருள் கருவி — முதலீட்டு ஆலோசகரோ, தரகர்-வியாபாரியோ, நம்பிக்கைப் பொறுப்பாளரோ அல்ல; இந்தத் தளத்தில் எதுவும் நிதி ஆலோசனையோ வர்த்தக அழைப்போ அல்ல. முன்பதிவு வாங்கல்கள் மேலே விவரித்தபடி வெளியீட்டில் மென்பொருள் அணுகலை வழங்கும். இழக்கச் சகிக்கக்கூடிய மூலதனத்தில் மட்டுமே வர்த்தகம் செய்யுங்கள்.</p>
-            <p class="copyright">&copy; 2026 ai PassiveAutotrades. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.</p>
+            <p class="disclaimer">அபாய வெளிப்படுத்தல்: வர்த்தகத்தில் கணிசமான இழப்பு அபாயம் உள்ளது; இது ஒவ்வொரு முதலீட்டாளருக்கும் ஏற்றதல்ல. அல்காரிதம் மற்றும் தானியங்கி உத்திகள் பணத்தை இழக்கக்கூடும், இழக்கின்றன; கடந்தகால அல்லது உருவகப்படுத்தப்பட்ட செயல்திறன் எதிர்கால முடிவுகளுக்கு உத்தரவாதம் அல்ல. APA-TAC ஒரு மென்பொருள் கருவி — முதலீட்டு ஆலோசகரோ, தரகர்-வியாபாரியோ, நம்பிக்கைப் பொறுப்பாளரோ அல்ல; இந்தத் தளத்தில் எதுவும் நிதி ஆலோசனையோ வர்த்தக அழைப்போ அல்ல. முன்பதிவு வாங்கல்கள் மேலே விவரித்தபடி வெளியீட்டில் மென்பொருள் அணுகலை வழங்கும். இழக்கச் சகிக்கக்கூடிய மூலதனத்தில் மட்டுமே வர்த்தகம் செய்யுங்கள்.</p>
+            <p class="copyright">&copy; 2026 APA-TAC. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.</p>
         </div>
     </footer>
 """ + CHAT_WIDGET + """
@@ -4533,7 +4533,7 @@ TERMS_HTML = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms of Service | ai PassiveAutotrades</title>
+    <title>Terms of Service | APA-TAC</title>
     <meta name="robots" content="index, follow">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/terms">
@@ -4541,12 +4541,12 @@ TERMS_HTML = """
 </head>
 <body>
     <div class="page">
-        <a href="/" class="back">&larr; Back to ai PassiveAutotrades</a>
+        <a href="/" class="back">&larr; Back to APA-TAC</a>
         <h1>Terms of Service</h1>
         <p class="updated">Last updated: July 16, 2026</p>
 
         <h2>1. What we provide</h2>
-        <p>ai PassiveAutotrades ("the Service") sells pre-order access to automated trading software (the "Engine"). A pre-order reserves your access tier at founding pricing; the Engine itself is delivered when it launches. The Service is a software tool only &mdash; it is not an investment adviser, broker-dealer, or fiduciary, and nothing on this site is financial advice.</p>
+        <p>APA-TAC ("the Service") sells pre-order access to automated trading software (the "Engine"). A pre-order reserves your access tier at founding pricing; the Engine itself is delivered when it launches. The Service is a software tool only &mdash; it is not an investment adviser, broker-dealer, or fiduciary, and nothing on this site is financial advice.</p>
 
         <h2>2. Pre-orders and delivery</h2>
         <p>Purchasing a pre-order tier grants you the access described on the pricing page, delivered at launch. Founding members are onboarded before public availability. Launch timing will be communicated by email to the address used at checkout.</p>
@@ -4582,7 +4582,7 @@ PRIVACY_HTML = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy | ai PassiveAutotrades</title>
+    <title>Privacy Policy | APA-TAC</title>
     <meta name="robots" content="index, follow">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="canonical" href="https://aipassiveautotrades.vercel.app/privacy">
@@ -4590,7 +4590,7 @@ PRIVACY_HTML = """
 </head>
 <body>
     <div class="page">
-        <a href="/" class="back">&larr; Back to ai PassiveAutotrades</a>
+        <a href="/" class="back">&larr; Back to APA-TAC</a>
         <h1>Privacy Policy</h1>
         <p class="updated">Last updated: July 16, 2026</p>
 
@@ -4710,7 +4710,7 @@ NOT_FOUND_HTML = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page not found | ai PassiveAutotrades</title>
+    <title>Page not found | APA-TAC</title>
     <meta name="robots" content="noindex">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 """ + LEGAL_STYLE + """
@@ -4719,7 +4719,7 @@ NOT_FOUND_HTML = """
     <div class="page" style="text-align:center; padding-top:120px;">
         <h1>404 &mdash; page not found</h1>
         <p style="margin: 16px 0 32px;">That page doesn't exist. The engine, however, does.</p>
-        <a href="/" style="display:inline-block; background:#29d6d6; color:#04070d; padding:14px 28px; border-radius:9px; font-weight:700;">Back to ai PassiveAutotrades</a>
+        <a href="/" style="display:inline-block; background:#29d6d6; color:#04070d; padding:14px 28px; border-radius:9px; font-weight:700;">Back to APA-TAC</a>
     </div>
 </body>
 </html>
@@ -4732,7 +4732,7 @@ THANKS_HTML = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank you | ai PassiveAutotrades</title>
+    <title>Thank you | APA-TAC</title>
     <meta name="robots" content="noindex">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 """ + LEGAL_STYLE + """
@@ -4748,7 +4748,7 @@ THANKS_HTML = """
             <li>Every pre-order is fully refundable before launch &mdash; just reply to your receipt.</li>
         </ul>
         <p style="margin: 0 0 32px; color:#9fb0c8;">Prototype launches Sep 11, 2026 &middot; the full engine in early 2027.</p>
-        <a href="/" style="display:inline-block; background:#29d6d6; color:#04070d; padding:14px 28px; border-radius:9px; font-weight:700;">Back to ai PassiveAutotrades</a>
+        <a href="/" style="display:inline-block; background:#29d6d6; color:#04070d; padding:14px 28px; border-radius:9px; font-weight:700;">Back to APA-TAC</a>
     </div>
 </body>
 </html>
@@ -4843,7 +4843,7 @@ async def not_found(request, exc):
     return HTMLResponse(content=NOT_FOUND_HTML, status_code=404)
 
 
-SALES_ASSISTANT_PROMPT = """You are an elite high-ticket sales closer working the website aipassiveautotrades.vercel.app for ai PassiveAutotrades: a pre-order automated crypto trading engine built on Z-score mean reversion. You sell the way top closers do: discovery first, one tailored recommendation, risk-reversal close. Never a pushy script.
+SALES_ASSISTANT_PROMPT = """You are an elite high-ticket sales closer working the website aipassiveautotrades.vercel.app for APA-TAC: a pre-order automated crypto trading engine built on Z-score mean reversion. You sell the way top closers do: discovery first, one tailored recommendation, risk-reversal close. Never a pushy script.
 
 YOUR SALES PROCESS (follow in order, one step per message):
 1. DISCOVER: open with one short question to learn what they want (e.g. are they new to automated trading or experienced; do they prefer one-time or monthly).
