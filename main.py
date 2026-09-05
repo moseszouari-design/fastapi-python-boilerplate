@@ -845,11 +845,11 @@ HOMEPAGE_HTML = """
             </div>
             <div class="tiers">
                 <div class="tier">
-                    <span class="badge">FREE</span>
+                    <span class="badge">PRE-ORDER</span>
                     <h3>Prototype</h3>
-                    <div class="who">The app, free to start</div>
-                    <div class="price">Free</div>
-                    <div class="per">just the app &middot; at launch</div>
+                    <div class="who">For first-time algo users</div>
+                    <div class="price">$159.99</div>
+                    <div class="per">one-time</div>
                     <div class="ship">&#128197; Launches Sep 11, 2026</div>
                     <div class="cap">Limited to 8,750 founding spots</div>
                     <ul>
@@ -858,7 +858,7 @@ HOMEPAGE_HTML = """
                         <li>Standard risk controls</li>
                         <li>Email support</li>
                     </ul>
-                    <a href="#pa-cap-sec" class="btn primary">Get it free</a>
+                    <a href="https://buy.stripe.com/eVq7sK4Lv0xO4jbc3Md3i04" class="btn primary">Get Prototype</a>
                 </div>
                 <div class="tier">
                     <span class="badge">PRE-ORDER</span>
