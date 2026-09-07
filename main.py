@@ -720,7 +720,7 @@ HOMEPAGE_HTML = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>AN AUTOMATED CRYPTO TRADING ENGINE</div>
-                    <h1>Crypto Trading That<br><span class="grad">Runs Itself.</span></h1>
+                    <h1>The Method Behind Elite Trading,<br><span class="grad">Run by AI for You.</span></h1>
                     <p class="hero-sub">This engine trades crypto for you using one simple rule. It runs day and night and stays steady when the market doesn't. Your money stays in your own account &mdash; it never comes to us &mdash; and you don't have to watch a chart.</p>
                     <div class="hero-note">Founding pre-order &mdash; before public launch</div>
                     <div class="cta-row">
@@ -1096,7 +1096,7 @@ HOMEPAGE_HTML_ES = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>MOTOR CUANTITATIVO Z-SCORE AUTOMATIZADO</div>
-                    <h1>Trading cripto que<br><span class="grad">se opera solo.</span></h1>
+                    <h1>El método detrás del trading de élite,<br><span class="grad">gestionado por IA para ti.</span></h1>
                     <p class="hero-sub">Un motor de trading totalmente automatizado basado en reversión a la media Z-score &mdash; la misma metodología estadística que usan las mesas cuantitativas &mdash; ejecutando las 24 horas para que nunca mires un gráfico.</p>
                     <div class="hero-note">Reserva fundadora &mdash; antes del lanzamiento público</div>
                     <div class="cta-row">
@@ -1441,7 +1441,7 @@ HOMEPAGE_HTML_FR = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>MOTEUR QUANTITATIF Z-SCORE AUTOMATIS&Eacute;</div>
-                    <h1>Le trading crypto qui<br><span class="grad">se g&egrave;re tout seul.</span></h1>
+                    <h1>La méthode du trading d'élite,<br><span class="grad">pilotée par l'IA pour vous.</span></h1>
                     <p class="hero-sub">Un moteur de trading enti&egrave;rement automatis&eacute; fond&eacute; sur le retour &agrave; la moyenne Z-score &mdash; la m&ecirc;me m&eacute;thodologie statistique que les desks quantitatifs &mdash; ex&eacute;cutant 24h/24 pour que vous ne regardiez plus jamais un graphique.</p>
                     <div class="hero-note">Pr&eacute;commande fondatrice &mdash; avant le lancement public</div>
                     <div class="cta-row">
@@ -1786,7 +1786,7 @@ HOMEPAGE_HTML_DE = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>AUTOMATISIERTE Z-SCORE QUANT-ENGINE</div>
-                    <h1>Krypto-Trading, das<br><span class="grad">sich selbst erledigt.</span></h1>
+                    <h1>Die Methode hinter Elite-Trading,<br><span class="grad">von KI für dich gesteuert.</span></h1>
                     <p class="hero-sub">Eine vollautomatisierte Trading-Engine auf Basis von Z-Score Mean Reversion — derselben statistischen Methodik, die Quant-Desks einsetzen — rund um die Uhr aktiv, damit Sie nie wieder auf Charts starren.</p>
                     <div class="hero-note">Gründer-Vorbestellung — vor dem öffentlichen Launch</div>
                     <div class="cta-row">
@@ -2131,7 +2131,7 @@ HOMEPAGE_HTML_PT = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>MOTOR QUANTITATIVO Z-SCORE AUTOMATIZADO</div>
-                    <h1>Trading de cripto que<br><span class="grad">funciona sozinho.</span></h1>
+                    <h1>O método por trás do trading de elite,<br><span class="grad">operado por IA para você.</span></h1>
                     <p class="hero-sub">Um motor de trading totalmente automatizado baseado em reversão à média Z-score — a mesma metodologia estatística usada pelas mesas quantitativas — executando 24 horas por dia para você nunca mais olhar um gráfico.</p>
                     <div class="hero-note">Pré-venda fundadora — antes do lançamento público</div>
                     <div class="cta-row">
@@ -2489,7 +2489,7 @@ HOMEPAGE_HTML_AR = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>محرك كمي آلي بمؤشر Z-SCORE</div>
-                    <h1>تداول كريبتو<br><span class="grad">يعمل من تلقاء نفسه.</span></h1>
+                    <h1>الأسلوب وراء تداول النخبة،<br><span class="grad">يديره الذكاء الاصطناعي من أجلك.</span></h1>
                     <p class="hero-sub">محرك تداول آلي بالكامل مبني على استراتيجية العودة إلى المتوسط بمؤشر Z-Score — المنهجية الإحصائية ذاتها التي تعتمدها مكاتب التداول الكمي — يعمل على مدار الساعة حتى لا تراقب الرسوم البيانية مجدداً.</p>
                     <div class="hero-note">حجز مسبق للمؤسسين — قبل الإطلاق العام</div>
                     <div class="cta-row">
@@ -2834,7 +2834,7 @@ HOMEPAGE_HTML_FA = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>موتور کمّی خودکار Z-SCORE</div>
-                    <h1>معاملات کریپتو که<br><span class="grad">خودش کار می‌کند.</span></h1>
+                    <h1>روشی که پشت معاملات نخبگان است،<br><span class="grad">با هوش مصنوعی برای شما.</span></h1>
                     <p class="hero-sub">یک موتور معاملاتی کاملاً خودکار بر پایه بازگشت به میانگین Z-Score — همان روش‌شناسی آماری میزهای معاملات کمّی — که شبانه‌روز اجرا می‌کند تا شما دیگر هرگز به نمودار خیره نشوید.</p>
                     <div class="hero-note">پیش‌خرید بنیان‌گذاران — پیش از عرضه عمومی</div>
                     <div class="cta-row">
@@ -3179,7 +3179,7 @@ HOMEPAGE_HTML_UR = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>خودکار Z-SCORE کوانٹ انجن</div>
-                    <h1>کرپٹو ٹریڈنگ جو<br><span class="grad">خود چلتی ہے۔</span></h1>
+                    <h1>ایلیٹ ٹریڈنگ کے پیچھے کا طریقہ،<br><span class="grad">آپ کے لیے AI سے چلایا جاتا ہے۔</span></h1>
                     <p class="hero-sub">Z-Score مین ریورژن پر مبنی ایک مکمل خودکار ٹریڈنگ انجن — وہی شماریاتی طریقہ کار جو کوانٹ ڈیسک استعمال کرتے ہیں — چوبیس گھنٹے چلتا ہے تاکہ آپ کبھی چارٹ نہ دیکھیں۔</p>
                     <div class="hero-note">فاؤنڈر پری آرڈر — عوامی لانچ سے پہلے</div>
                     <div class="cta-row">
@@ -3524,7 +3524,7 @@ HOMEPAGE_HTML_HI = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>स्वचालित Z-SCORE क्वांट इंजन</div>
-                    <h1>क्रिप्टो ट्रेडिंग जो<br><span class="grad">खुद चलती है।</span></h1>
+                    <h1>एलीट ट्रेडिंग के पीछे का तरीका,<br><span class="grad">आपके लिए AI द्वारा संचालित।</span></h1>
                     <p class="hero-sub">Z-Score मीन रिवर्ज़न पर बना पूर्णतः स्वचालित ट्रेडिंग इंजन — वही सांख्यिकीय पद्धति जो क्वांट डेस्क अपनाते हैं — चौबीसों घंटे चलता है ताकि आपको कभी चार्ट न देखना पड़े।</p>
                     <div class="hero-note">फ़ाउंडर प्री-ऑर्डर — सार्वजनिक लॉन्च से पहले</div>
                     <div class="cta-row">
@@ -3869,7 +3869,7 @@ HOMEPAGE_HTML_BN = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>স্বয়ংক্রিয় Z-SCORE কোয়ান্ট ইঞ্জিন</div>
-                    <h1>ক্রিপ্টো ট্রেডিং যা<br><span class="grad">নিজে থেকেই চলে।</span></h1>
+                    <h1>এলিট ট্রেডিংয়ের পেছনের পদ্ধতি,<br><span class="grad">আপনার জন্য AI দ্বারা পরিচালিত।</span></h1>
                     <p class="hero-sub">Z-Score মিন রিভার্সনের উপর নির্মিত সম্পূর্ণ স্বয়ংক্রিয় ট্রেডিং ইঞ্জিন — কোয়ান্ট ডেস্কগুলি যে পরিসংখ্যানগত পদ্ধতি ব্যবহার করে সেটিই — চব্বিশ ঘণ্টা চলে যাতে আপনাকে আর কখনও চার্ট দেখতে না হয়।</p>
                     <div class="hero-note">প্রতিষ্ঠাতা প্রি-অর্ডার — পাবলিক লঞ্চের আগে</div>
                     <div class="cta-row">
@@ -4214,7 +4214,7 @@ HOMEPAGE_HTML_TA = """
             <div class="hero-grid">
                 <div>
                     <div class="eyebrow"><span class="dot"></span>தானியங்கி Z-SCORE குவாண்ட் இன்ஜின்</div>
-                    <h1>தானாக இயங்கும்<br><span class="grad">கிரிப்டோ ட்ரேடிங்.</span></h1>
+                    <h1>எலைட் ட்ரேடிங்கின் பின்னணி முறை,<br><span class="grad">உங்களுக்காக AI இயக்கும்.</span></h1>
                     <p class="hero-sub">Z-Score சராசரி மீட்சியில் கட்டப்பட்ட முழு தானியங்கி டிரேடிங் இன்ஜின் — குவாண்ட் டெஸ்க்குகள் பயன்படுத்தும் அதே புள்ளியியல் முறை — இரவு பகலாக இயங்குகிறது, நீங்கள் இனி வரைபடங்களைப் பார்க்கத் தேவையில்லை.</p>
                     <div class="hero-note">நிறுவனர் முன்பதிவு — பொது வெளியீட்டுக்கு முன்</div>
                     <div class="cta-row">
